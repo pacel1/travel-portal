@@ -1,0 +1,362 @@
+[
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "january",
+    "score": 71,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "february",
+    "score": 75,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "march",
+    "score": 72,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "april",
+    "score": 66,
+    "crowdLevel": "high",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "may",
+    "score": 65,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "june",
+    "score": 60,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "july",
+    "score": 56,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "august",
+    "score": 65,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "september",
+    "score": 59,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "october",
+    "score": 62,
+    "crowdLevel": "high",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "november",
+    "score": 72,
+    "crowdLevel": "medium",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "rome",
+    "cityName": "Rome",
+    "country": "Italy",
+    "citySlug": "rome",
+    "month": "december",
+    "score": 57,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "january",
+    "score": 46,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "february",
+    "score": 53,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "march",
+    "score": 66,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "april",
+    "score": 68,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "may",
+    "score": 70,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "june",
+    "score": 68,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "july",
+    "score": 56,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "august",
+    "score": 58,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "september",
+    "score": 73,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "october",
+    "score": 66,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "november",
+    "score": 61,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "country": "Poland",
+    "citySlug": "krakow",
+    "month": "december",
+    "score": 31,
+    "crowdLevel": "high",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "january",
+    "score": 62,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "february",
+    "score": 67,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "march",
+    "score": 63,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "april",
+    "score": 65,
+    "crowdLevel": "high",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "may",
+    "score": 67,
+    "crowdLevel": "high",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "june",
+    "score": 63,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "july",
+    "score": 63,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "august",
+    "score": 72,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "september",
+    "score": 69,
+    "crowdLevel": "high",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "october",
+    "score": 71,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "november",
+    "score": 64,
+    "crowdLevel": "medium",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "paris",
+    "cityName": "Paris",
+    "country": "France",
+    "citySlug": "paris",
+    "month": "december",
+    "score": 37,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  }
+]

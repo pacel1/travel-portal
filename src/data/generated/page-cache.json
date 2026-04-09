@@ -1,0 +1,4752 @@
+[
+  {
+    "slug": "rome-in-january",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "january",
+    "summary": "Rome in January is a very good pick, with mild 13C days, some rain interruptions, and low crowds. Expect 4.2 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.868Z",
+    "score": 71,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 13,
+      "avgTempNight": 4,
+      "rainfallMm": 80,
+      "rainyDays": 8,
+      "humidity": 75,
+      "sunshineHours": 4.2
+    },
+    "verdict": {
+      "heading": "Rome in January is best for travelers who want a well-balanced city break.",
+      "pros": [
+        "Queues and popular viewpoints are easier to handle than peak season.",
+        "Accommodation pricing is more forgiving than the summer peak."
+      ],
+      "cons": [
+        "A flexible plan helps because rain interruptions are fairly common."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "low",
+      "priceLevel": "low"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-january",
+          "label": "Paris in January",
+          "score": 62
+        },
+        {
+          "slug": "krakow-in-january",
+          "label": "Krakow in January",
+          "score": 46
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-february",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "february",
+    "summary": "Rome in February is a very good pick, with mild 14C days, some rain interruptions, and low crowds. Expect 5.0 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.869Z",
+    "score": 75,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 14,
+      "avgTempNight": 5,
+      "rainfallMm": 73,
+      "rainyDays": 7,
+      "humidity": 73,
+      "sunshineHours": 5
+    },
+    "verdict": {
+      "heading": "Rome in February is best for travelers who want a well-balanced city break.",
+      "pros": [
+        "Queues and popular viewpoints are easier to handle than peak season.",
+        "Accommodation pricing is more forgiving than the summer peak."
+      ],
+      "cons": []
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "low",
+      "priceLevel": "low"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-january",
+          "label": "Rome in January",
+          "score": 71
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-february",
+          "label": "Paris in February",
+          "score": 67
+        },
+        {
+          "slug": "krakow-in-february",
+          "label": "Krakow in February",
+          "score": 53
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-march",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "march",
+    "summary": "Rome in March is a very good pick, with mild 17C days, some rain interruptions, and medium crowds. Expect 6.0 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.869Z",
+    "score": 72,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 17,
+      "avgTempNight": 7,
+      "rainfallMm": 65,
+      "rainyDays": 7,
+      "humidity": 70,
+      "sunshineHours": 6
+    },
+    "verdict": {
+      "heading": "Rome in March is best for travelers who want a well-balanced city break.",
+      "pros": [],
+      "cons": []
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-january",
+          "label": "Rome in January",
+          "score": 71
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "krakow-in-march",
+          "label": "Krakow in March",
+          "score": 66
+        },
+        {
+          "slug": "paris-in-march",
+          "label": "Paris in March",
+          "score": 63
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-april",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "april",
+    "summary": "Rome in April is a solid pick, with warm 20C days, some rain interruptions, and high crowds. Expect 7.0 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.869Z",
+    "score": 66,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 20,
+      "avgTempNight": 10,
+      "rainfallMm": 72,
+      "rainyDays": 8,
+      "humidity": 68,
+      "sunshineHours": 7
+    },
+    "verdict": {
+      "heading": "Rome in April is best for travelers who want a more situational city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Rome easy.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "Top sights need early starts or advance booking to avoid long waits."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Use early mornings and late afternoons for the most photogenic light.",
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        },
+        {
+          "slug": "paris-in-april",
+          "label": "Paris in April",
+          "score": 65
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-may",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "may",
+    "summary": "Rome in May is a solid pick, with warm 24C days, limited rain risk, and high crowds. Expect 9.0 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.869Z",
+    "score": 65,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 24,
+      "avgTempNight": 14,
+      "rainfallMm": 53,
+      "rainyDays": 6,
+      "humidity": 65,
+      "sunshineHours": 9
+    },
+    "verdict": {
+      "heading": "Rome in May is best for travelers who want a more situational city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Rome easy.",
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "Top sights need early starts or advance booking to avoid long waits.",
+        "Flights and central hotels are usually priced above shoulder-season levels."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Prioritize landmark-heavy walking routes and open-air viewpoints.",
+      "Use early mornings and late afternoons for the most photogenic light."
+    ],
+    "tips": [
+      "Pack breathable layers, water, and one shaded lunch stop each day.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "high"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "paris-in-may",
+          "label": "Paris in May",
+          "score": 67
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-june",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "june",
+    "summary": "Rome in June is a solid pick, with warm 29C days, limited rain risk, and high crowds. Expect 10.5 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.869Z",
+    "score": 60,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 29,
+      "avgTempNight": 18,
+      "rainfallMm": 34,
+      "rainyDays": 4,
+      "humidity": 60,
+      "sunshineHours": 10.5
+    },
+    "verdict": {
+      "heading": "Rome in June is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "Top sights need early starts or advance booking to avoid long waits.",
+        "Flights and central hotels are usually priced above shoulder-season levels."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Prioritize landmark-heavy walking routes and open-air viewpoints.",
+      "Use early mornings and late afternoons for the most photogenic light."
+    ],
+    "tips": [
+      "Pack breathable layers, water, and one shaded lunch stop each day.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "high"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "krakow-in-june",
+          "label": "Krakow in June",
+          "score": 68
+        },
+        {
+          "slug": "paris-in-june",
+          "label": "Paris in June",
+          "score": 63
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-july",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "july",
+    "summary": "Rome in July is a solid pick, with warm 32C days, limited rain risk, and high crowds. Expect 11.3 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.869Z",
+    "score": 56,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 32,
+      "avgTempNight": 21,
+      "rainfallMm": 19,
+      "rainyDays": 2,
+      "humidity": 56,
+      "sunshineHours": 11.3
+    },
+    "verdict": {
+      "heading": "Rome in July is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "Midday sightseeing can feel draining, especially on exposed routes.",
+        "Top sights need early starts or advance booking to avoid long waits.",
+        "Flights and central hotels are usually priced above shoulder-season levels."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Prioritize landmark-heavy walking routes and open-air viewpoints.",
+      "Use early mornings and late afternoons for the most photogenic light."
+    ],
+    "tips": [
+      "Pack breathable layers, water, and one shaded lunch stop each day.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "high"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-july",
+          "label": "Paris in July",
+          "score": 63
+        },
+        {
+          "slug": "krakow-in-july",
+          "label": "Krakow in July",
+          "score": 56
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-august",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "august",
+    "summary": "Rome in August is a solid pick, with warm 32C days, limited rain risk, and medium crowds. Expect 10.2 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.869Z",
+    "score": 65,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 32,
+      "avgTempNight": 21,
+      "rainfallMm": 32,
+      "rainyDays": 3,
+      "humidity": 58,
+      "sunshineHours": 10.2
+    },
+    "verdict": {
+      "heading": "Rome in August is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "Midday sightseeing can feel draining, especially on exposed routes."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Prioritize landmark-heavy walking routes and open-air viewpoints.",
+      "Use early mornings and late afternoons for the most photogenic light."
+    ],
+    "tips": [
+      "Pack breathable layers, water, and one shaded lunch stop each day.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "krakow-in-august",
+          "label": "Krakow in August",
+          "score": 58
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-september",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "september",
+    "summary": "Rome in September is a solid pick, with warm 27C days, some rain interruptions, and high crowds. Expect 8.0 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 59,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 27,
+      "avgTempNight": 18,
+      "rainfallMm": 75,
+      "rainyDays": 6,
+      "humidity": 66,
+      "sunshineHours": 8
+    },
+    "verdict": {
+      "heading": "Rome in September is best for travelers who want a more situational city break.",
+      "pros": [
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "Top sights need early starts or advance booking to avoid long waits.",
+        "Flights and central hotels are usually priced above shoulder-season levels."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Use early mornings and late afternoons for the most photogenic light.",
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Pack breathable layers, water, and one shaded lunch stop each day.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "high"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-october",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "october",
+    "summary": "Rome in October is a solid pick, with warm 22C days, noticeably wetter conditions, and high crowds. Expect 6.3 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 62,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 22,
+      "avgTempNight": 14,
+      "rainfallMm": 106,
+      "rainyDays": 8,
+      "humidity": 72,
+      "sunshineHours": 6.3
+    },
+    "verdict": {
+      "heading": "Rome in October is best for travelers who want a more situational city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Rome easy."
+      ],
+      "cons": [
+        "A flexible plan helps because rain interruptions are fairly common.",
+        "Top sights need early starts or advance booking to avoid long waits."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "krakow-in-october",
+          "label": "Krakow in October",
+          "score": 66
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-november",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "november",
+    "summary": "Rome in November is a very good pick, with mild 17C days, noticeably wetter conditions, and medium crowds. Expect 4.6 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 72,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 17,
+      "avgTempNight": 9,
+      "rainfallMm": 115,
+      "rainyDays": 9,
+      "humidity": 76,
+      "sunshineHours": 4.6
+    },
+    "verdict": {
+      "heading": "Rome in November is best for travelers who want a well-balanced city break.",
+      "pros": [
+        "Accommodation pricing is more forgiving than the summer peak."
+      ],
+      "cons": [
+        "A flexible plan helps because rain interruptions are fairly common."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "low"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-january",
+          "label": "Rome in January",
+          "score": 71
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-november",
+          "label": "Paris in November",
+          "score": 64
+        },
+        {
+          "slug": "krakow-in-november",
+          "label": "Krakow in November",
+          "score": 61
+        }
+      ]
+    }
+  },
+  {
+    "slug": "rome-in-december",
+    "cityId": "rome",
+    "cityName": "Rome",
+    "citySlug": "rome",
+    "country": "Italy",
+    "month": "december",
+    "summary": "Rome in December is a solid pick, with mild 13C days, noticeably wetter conditions, and medium crowds. Expect 4.0 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 57,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 13,
+      "avgTempNight": 6,
+      "rainfallMm": 96,
+      "rainyDays": 9,
+      "humidity": 78,
+      "sunshineHours": 4
+    },
+    "verdict": {
+      "heading": "Rome in December is best for travelers who want a more situational city break.",
+      "pros": [],
+      "cons": [
+        "A flexible plan helps because rain interruptions are fairly common."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "rome-colosseum",
+          "cityId": "rome",
+          "name": "Colosseum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 98,
+          "lat": 41.8902,
+          "lon": 12.4922
+        },
+        {
+          "id": "rome-forum",
+          "cityId": "rome",
+          "name": "Roman Forum",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 93,
+          "lat": 41.8925,
+          "lon": 12.4853
+        },
+        {
+          "id": "rome-villa-borghese",
+          "cityId": "rome",
+          "name": "Villa Borghese Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 84,
+          "lat": 41.9146,
+          "lon": 12.4922
+        }
+      ],
+      "indoor": [
+        {
+          "id": "rome-vatican",
+          "cityId": "rome",
+          "name": "Vatican Museums",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 97,
+          "lat": 41.9065,
+          "lon": 12.4536
+        },
+        {
+          "id": "rome-borghese",
+          "cityId": "rome",
+          "name": "Galleria Borghese",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 89,
+          "lat": 41.9142,
+          "lon": 12.4923
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-december",
+          "label": "Paris in December",
+          "score": 37
+        },
+        {
+          "slug": "krakow-in-december",
+          "label": "Krakow in December",
+          "score": 31
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-january",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "january",
+    "summary": "Krakow in January is a mixed pick, with cool 1C days, limited rain risk, and low crowds. Expect 1.6 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 46,
+    "scoreLabel": "Mixed",
+    "climate": {
+      "avgTempDay": 1,
+      "avgTempNight": -4,
+      "rainfallMm": 37,
+      "rainyDays": 12,
+      "humidity": 86,
+      "sunshineHours": 1.6
+    },
+    "verdict": {
+      "heading": "Krakow in January is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Queues and popular viewpoints are easier to handle than peak season.",
+        "Accommodation pricing is more forgiving than the summer peak."
+      ],
+      "cons": [
+        "Cold spells can shorten outdoor time in Krakow.",
+        "A flexible plan helps because rain interruptions are fairly common."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons.",
+      "Lean into shorter outdoor loops with cafe or museum breaks between them."
+    ],
+    "tips": [
+      "Bring insulated layers, comfortable boots, and gloves for morning starts.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "low",
+      "priceLevel": "low"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-january",
+          "label": "Rome in January",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-january",
+          "label": "Paris in January",
+          "score": 62
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-february",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "february",
+    "summary": "Krakow in February is a mixed pick, with cool 3C days, limited rain risk, and low crowds. Expect 2.4 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 53,
+    "scoreLabel": "Mixed",
+    "climate": {
+      "avgTempDay": 3,
+      "avgTempNight": -3,
+      "rainfallMm": 32,
+      "rainyDays": 10,
+      "humidity": 82,
+      "sunshineHours": 2.4
+    },
+    "verdict": {
+      "heading": "Krakow in February is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Queues and popular viewpoints are easier to handle than peak season.",
+        "Accommodation pricing is more forgiving than the summer peak."
+      ],
+      "cons": [
+        "Cold spells can shorten outdoor time in Krakow.",
+        "A flexible plan helps because rain interruptions are fairly common."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons.",
+      "Lean into shorter outdoor loops with cafe or museum breaks between them."
+    ],
+    "tips": [
+      "Bring insulated layers, comfortable boots, and gloves for morning starts.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "low",
+      "priceLevel": "low"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "paris-in-february",
+          "label": "Paris in February",
+          "score": 67
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-march",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "march",
+    "summary": "Krakow in March is a solid pick, with cool 9C days, limited rain risk, and low crowds. Expect 4.0 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 66,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 9,
+      "avgTempNight": 0,
+      "rainfallMm": 40,
+      "rainyDays": 10,
+      "humidity": 74,
+      "sunshineHours": 4
+    },
+    "verdict": {
+      "heading": "Krakow in March is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Queues and popular viewpoints are easier to handle than peak season.",
+        "Accommodation pricing is more forgiving than the summer peak."
+      ],
+      "cons": [
+        "Cold spells can shorten outdoor time in Krakow.",
+        "A flexible plan helps because rain interruptions are fairly common."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons.",
+      "Lean into shorter outdoor loops with cafe or museum breaks between them."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "low",
+      "priceLevel": "low"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-march",
+          "label": "Paris in March",
+          "score": 63
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-april",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "april",
+    "summary": "Krakow in April is a very good pick, with mild 15C days, limited rain risk, and medium crowds. Expect 5.6 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 68,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 15,
+      "avgTempNight": 4,
+      "rainfallMm": 44,
+      "rainyDays": 10,
+      "humidity": 68,
+      "sunshineHours": 5.6
+    },
+    "verdict": {
+      "heading": "Krakow in April is best for travelers who want a well-balanced city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries."
+      ],
+      "cons": [
+        "A flexible plan helps because rain interruptions are fairly common."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        },
+        {
+          "id": "krakow-planty",
+          "cityId": "krakow",
+          "name": "Planty Park",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 80,
+          "lat": 50.0608,
+          "lon": 19.9441
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-june",
+          "label": "Krakow in June",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-april",
+          "label": "Rome in April",
+          "score": 66
+        },
+        {
+          "slug": "paris-in-april",
+          "label": "Paris in April",
+          "score": 65
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-may",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "may",
+    "summary": "Krakow in May is a very good pick, with warm 20C days, some rain interruptions, and medium crowds. Expect 7.1 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 70,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 20,
+      "avgTempNight": 9,
+      "rainfallMm": 74,
+      "rainyDays": 11,
+      "humidity": 70,
+      "sunshineHours": 7.1
+    },
+    "verdict": {
+      "heading": "Krakow in May is best for travelers who want a well-balanced city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Krakow easy.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "A flexible plan helps because rain interruptions are fairly common."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        },
+        {
+          "id": "krakow-planty",
+          "cityId": "krakow",
+          "name": "Planty Park",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 80,
+          "lat": 50.0608,
+          "lon": 19.9441
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Use early mornings and late afternoons for the most photogenic light.",
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        },
+        {
+          "slug": "krakow-in-june",
+          "label": "Krakow in June",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-may",
+          "label": "Paris in May",
+          "score": 67
+        },
+        {
+          "slug": "rome-in-may",
+          "label": "Rome in May",
+          "score": 65
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-june",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "june",
+    "summary": "Krakow in June is a very good pick, with warm 23C days, noticeably wetter conditions, and medium crowds. Expect 7.5 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 68,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 23,
+      "avgTempNight": 12,
+      "rainfallMm": 90,
+      "rainyDays": 12,
+      "humidity": 72,
+      "sunshineHours": 7.5
+    },
+    "verdict": {
+      "heading": "Krakow in June is best for travelers who want a well-balanced city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Krakow easy.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "A flexible plan helps because rain interruptions are fairly common."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        },
+        {
+          "id": "krakow-planty",
+          "cityId": "krakow",
+          "name": "Planty Park",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 80,
+          "lat": 50.0608,
+          "lon": 19.9441
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Use early mornings and late afternoons for the most photogenic light.",
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-june",
+          "label": "Paris in June",
+          "score": 63
+        },
+        {
+          "slug": "rome-in-june",
+          "label": "Rome in June",
+          "score": 60
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-july",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "july",
+    "summary": "Krakow in July is a solid pick, with warm 25C days, noticeably wetter conditions, and high crowds. Expect 7.9 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 56,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 25,
+      "avgTempNight": 14,
+      "rainfallMm": 95,
+      "rainyDays": 11,
+      "humidity": 71,
+      "sunshineHours": 7.9
+    },
+    "verdict": {
+      "heading": "Krakow in July is best for travelers who want a more situational city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Krakow easy.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "A flexible plan helps because rain interruptions are fairly common.",
+        "Top sights need early starts or advance booking to avoid long waits.",
+        "Flights and central hotels are usually priced above shoulder-season levels."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        },
+        {
+          "id": "krakow-planty",
+          "cityId": "krakow",
+          "name": "Planty Park",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 80,
+          "lat": 50.0608,
+          "lon": 19.9441
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Use early mornings and late afternoons for the most photogenic light.",
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Pack breathable layers, water, and one shaded lunch stop each day.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "high"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-july",
+          "label": "Paris in July",
+          "score": 63
+        },
+        {
+          "slug": "rome-in-july",
+          "label": "Rome in July",
+          "score": 56
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-august",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "august",
+    "summary": "Krakow in August is a solid pick, with warm 25C days, noticeably wetter conditions, and high crowds. Expect 7.4 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 58,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 25,
+      "avgTempNight": 14,
+      "rainfallMm": 83,
+      "rainyDays": 10,
+      "humidity": 72,
+      "sunshineHours": 7.4
+    },
+    "verdict": {
+      "heading": "Krakow in August is best for travelers who want a more situational city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Krakow easy.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "A flexible plan helps because rain interruptions are fairly common.",
+        "Top sights need early starts or advance booking to avoid long waits.",
+        "Flights and central hotels are usually priced above shoulder-season levels."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        },
+        {
+          "id": "krakow-planty",
+          "cityId": "krakow",
+          "name": "Planty Park",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 80,
+          "lat": 50.0608,
+          "lon": 19.9441
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Use early mornings and late afternoons for the most photogenic light.",
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Pack breathable layers, water, and one shaded lunch stop each day.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "high"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "rome-in-august",
+          "label": "Rome in August",
+          "score": 65
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-september",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "september",
+    "summary": "Krakow in September is a very good pick, with warm 20C days, some rain interruptions, and medium crowds. Expect 5.7 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 73,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 20,
+      "avgTempNight": 10,
+      "rainfallMm": 65,
+      "rainyDays": 9,
+      "humidity": 78,
+      "sunshineHours": 5.7
+    },
+    "verdict": {
+      "heading": "Krakow in September is best for travelers who want a well-balanced city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Krakow easy."
+      ],
+      "cons": []
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        },
+        {
+          "id": "krakow-planty",
+          "cityId": "krakow",
+          "name": "Planty Park",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 80,
+          "lat": 50.0608,
+          "lon": 19.9441
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Prioritize landmark-heavy walking routes and open-air viewpoints.",
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        },
+        {
+          "slug": "krakow-in-june",
+          "label": "Krakow in June",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        },
+        {
+          "slug": "rome-in-september",
+          "label": "Rome in September",
+          "score": 59
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-october",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "october",
+    "summary": "Krakow in October is a solid pick, with mild 14C days, limited rain risk, and medium crowds. Expect 3.7 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 66,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 14,
+      "avgTempNight": 6,
+      "rainfallMm": 49,
+      "rainyDays": 8,
+      "humidity": 82,
+      "sunshineHours": 3.7
+    },
+    "verdict": {
+      "heading": "Krakow in October is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries."
+      ],
+      "cons": []
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        },
+        {
+          "id": "krakow-planty",
+          "cityId": "krakow",
+          "name": "Planty Park",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 80,
+          "lat": 50.0608,
+          "lon": 19.9441
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        }
+      ]
+    },
+    "recommendations": [],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "rome-in-october",
+          "label": "Rome in October",
+          "score": 62
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-november",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "november",
+    "summary": "Krakow in November is a solid pick, with cool 7C days, limited rain risk, and low crowds. Expect 1.9 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 61,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 7,
+      "avgTempNight": 2,
+      "rainfallMm": 42,
+      "rainyDays": 9,
+      "humidity": 86,
+      "sunshineHours": 1.9
+    },
+    "verdict": {
+      "heading": "Krakow in November is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Queues and popular viewpoints are easier to handle than peak season.",
+        "Accommodation pricing is more forgiving than the summer peak."
+      ],
+      "cons": [
+        "Cold spells can shorten outdoor time in Krakow."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons.",
+      "Lean into shorter outdoor loops with cafe or museum breaks between them."
+    ],
+    "tips": [
+      "Bring insulated layers, comfortable boots, and gloves for morning starts.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "low",
+      "priceLevel": "low"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-november",
+          "label": "Paris in November",
+          "score": 64
+        }
+      ]
+    }
+  },
+  {
+    "slug": "krakow-in-december",
+    "cityId": "krakow",
+    "cityName": "Krakow",
+    "citySlug": "krakow",
+    "country": "Poland",
+    "month": "december",
+    "summary": "Krakow in December is a only if the timing fits pick, with cool 2C days, limited rain risk, and high crowds. Expect 1.2 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 31,
+    "scoreLabel": "Only if the timing fits",
+    "climate": {
+      "avgTempDay": 2,
+      "avgTempNight": -2,
+      "rainfallMm": 37,
+      "rainyDays": 11,
+      "humidity": 88,
+      "sunshineHours": 1.2
+    },
+    "verdict": {
+      "heading": "Krakow in December is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries."
+      ],
+      "cons": [
+        "Cold spells can shorten outdoor time in Krakow.",
+        "A flexible plan helps because rain interruptions are fairly common.",
+        "Top sights need early starts or advance booking to avoid long waits."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "krakow-wawel",
+          "cityId": "krakow",
+          "name": "Wawel Castle",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 96,
+          "lat": 50.0541,
+          "lon": 19.9354
+        },
+        {
+          "id": "krakow-rynek",
+          "cityId": "krakow",
+          "name": "Rynek Glowny",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 94,
+          "lat": 50.0619,
+          "lon": 19.9374
+        }
+      ],
+      "indoor": [
+        {
+          "id": "krakow-schindler",
+          "cityId": "krakow",
+          "name": "Schindler's Factory",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 91,
+          "lat": 50.0477,
+          "lon": 19.9619
+        },
+        {
+          "id": "krakow-basilica",
+          "cityId": "krakow",
+          "name": "St. Mary's Basilica",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 88,
+          "lat": 50.0617,
+          "lon": 19.9392
+        },
+        {
+          "id": "krakow-national",
+          "cityId": "krakow",
+          "name": "National Museum in Krakow",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 82,
+          "lat": 50.0605,
+          "lon": 19.9234
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons.",
+      "Lean into shorter outdoor loops with cafe or museum breaks between them."
+    ],
+    "tips": [
+      "Bring insulated layers, comfortable boots, and gloves for morning starts.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-december",
+          "label": "Rome in December",
+          "score": 57
+        },
+        {
+          "slug": "paris-in-december",
+          "label": "Paris in December",
+          "score": 37
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-january",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "january",
+    "summary": "Paris in January is a solid pick, with cool 8C days, limited rain risk, and low crowds. Expect 2.5 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 62,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 8,
+      "avgTempNight": 3,
+      "rainfallMm": 53,
+      "rainyDays": 10,
+      "humidity": 83,
+      "sunshineHours": 2.5
+    },
+    "verdict": {
+      "heading": "Paris in January is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Queues and popular viewpoints are easier to handle than peak season.",
+        "Accommodation pricing is more forgiving than the summer peak."
+      ],
+      "cons": [
+        "Cold spells can shorten outdoor time in Paris.",
+        "A flexible plan helps because rain interruptions are fairly common."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        },
+        {
+          "id": "paris-sainte-chapelle",
+          "cityId": "paris",
+          "name": "Sainte-Chapelle",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 87,
+          "lat": 48.8554,
+          "lon": 2.345
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons.",
+      "Lean into shorter outdoor loops with cafe or museum breaks between them."
+    ],
+    "tips": [
+      "Bring insulated layers, comfortable boots, and gloves for morning starts.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "low",
+      "priceLevel": "low"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-january",
+          "label": "Rome in January",
+          "score": 71
+        },
+        {
+          "slug": "krakow-in-january",
+          "label": "Krakow in January",
+          "score": 46
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-february",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "february",
+    "summary": "Paris in February is a solid pick, with cool 9C days, limited rain risk, and low crowds. Expect 3.5 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 67,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 9,
+      "avgTempNight": 3,
+      "rainfallMm": 45,
+      "rainyDays": 8,
+      "humidity": 80,
+      "sunshineHours": 3.5
+    },
+    "verdict": {
+      "heading": "Paris in February is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Queues and popular viewpoints are easier to handle than peak season.",
+        "Accommodation pricing is more forgiving than the summer peak."
+      ],
+      "cons": [
+        "Cold spells can shorten outdoor time in Paris."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        }
+      ]
+    },
+    "recommendations": [
+      "Lean into shorter outdoor loops with cafe or museum breaks between them."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "low",
+      "priceLevel": "low"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-february",
+          "label": "Rome in February",
+          "score": 75
+        },
+        {
+          "slug": "krakow-in-february",
+          "label": "Krakow in February",
+          "score": 53
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-march",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "march",
+    "summary": "Paris in March is a solid pick, with mild 13C days, limited rain risk, and medium crowds. Expect 4.7 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 63,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 13,
+      "avgTempNight": 5,
+      "rainfallMm": 48,
+      "rainyDays": 9,
+      "humidity": 75,
+      "sunshineHours": 4.7
+    },
+    "verdict": {
+      "heading": "Paris in March is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries."
+      ],
+      "cons": []
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        },
+        {
+          "id": "paris-seine",
+          "cityId": "paris",
+          "name": "Seine River Cruise",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 85,
+          "lat": 48.8588,
+          "lon": 2.3201
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        },
+        {
+          "id": "paris-sainte-chapelle",
+          "cityId": "paris",
+          "name": "Sainte-Chapelle",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 87,
+          "lat": 48.8554,
+          "lon": 2.345
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-march",
+          "label": "Rome in March",
+          "score": 72
+        },
+        {
+          "slug": "krakow-in-march",
+          "label": "Krakow in March",
+          "score": 66
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-april",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "april",
+    "summary": "Paris in April is a solid pick, with mild 16C days, limited rain risk, and high crowds. Expect 6.0 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 65,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 16,
+      "avgTempNight": 7,
+      "rainfallMm": 46,
+      "rainyDays": 8,
+      "humidity": 70,
+      "sunshineHours": 6
+    },
+    "verdict": {
+      "heading": "Paris in April is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries."
+      ],
+      "cons": [
+        "Top sights need early starts or advance booking to avoid long waits."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        },
+        {
+          "id": "paris-seine",
+          "cityId": "paris",
+          "name": "Seine River Cruise",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 85,
+          "lat": 48.8588,
+          "lon": 2.3201
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        }
+      ]
+    },
+    "recommendations": [],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "krakow-in-april",
+          "label": "Krakow in April",
+          "score": 68
+        },
+        {
+          "slug": "rome-in-april",
+          "label": "Rome in April",
+          "score": 66
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-may",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "may",
+    "summary": "Paris in May is a solid pick, with warm 20C days, some rain interruptions, and high crowds. Expect 7.0 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 67,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 20,
+      "avgTempNight": 11,
+      "rainfallMm": 62,
+      "rainyDays": 9,
+      "humidity": 70,
+      "sunshineHours": 7
+    },
+    "verdict": {
+      "heading": "Paris in May is best for travelers who want a more situational city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Paris easy.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "Top sights need early starts or advance booking to avoid long waits."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        },
+        {
+          "id": "paris-seine",
+          "cityId": "paris",
+          "name": "Seine River Cruise",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 85,
+          "lat": 48.8588,
+          "lon": 2.3201
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        },
+        {
+          "id": "paris-sainte-chapelle",
+          "cityId": "paris",
+          "name": "Sainte-Chapelle",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 87,
+          "lat": 48.8554,
+          "lon": 2.345
+        }
+      ]
+    },
+    "recommendations": [
+      "Prioritize landmark-heavy walking routes and open-air viewpoints.",
+      "Use early mornings and late afternoons for the most photogenic light.",
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "krakow-in-may",
+          "label": "Krakow in May",
+          "score": 70
+        },
+        {
+          "slug": "rome-in-may",
+          "label": "Rome in May",
+          "score": 65
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-june",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "june",
+    "summary": "Paris in June is a solid pick, with warm 23C days, limited rain risk, and high crowds. Expect 7.5 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 63,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 23,
+      "avgTempNight": 14,
+      "rainfallMm": 54,
+      "rainyDays": 8,
+      "humidity": 68,
+      "sunshineHours": 7.5
+    },
+    "verdict": {
+      "heading": "Paris in June is best for travelers who want a more situational city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Paris easy.",
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "Top sights need early starts or advance booking to avoid long waits.",
+        "Flights and central hotels are usually priced above shoulder-season levels."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        },
+        {
+          "id": "paris-seine",
+          "cityId": "paris",
+          "name": "Seine River Cruise",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 85,
+          "lat": 48.8588,
+          "lon": 2.3201
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        }
+      ]
+    },
+    "recommendations": [
+      "Prioritize landmark-heavy walking routes and open-air viewpoints.",
+      "Use early mornings and late afternoons for the most photogenic light."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "high"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "krakow-in-june",
+          "label": "Krakow in June",
+          "score": 68
+        },
+        {
+          "slug": "rome-in-june",
+          "label": "Rome in June",
+          "score": 60
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-july",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "july",
+    "summary": "Paris in July is a solid pick, with warm 26C days, some rain interruptions, and high crowds. Expect 7.8 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 63,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 26,
+      "avgTempNight": 16,
+      "rainfallMm": 58,
+      "rainyDays": 7,
+      "humidity": 66,
+      "sunshineHours": 7.8
+    },
+    "verdict": {
+      "heading": "Paris in July is best for travelers who want a more situational city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Paris easy.",
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "Top sights need early starts or advance booking to avoid long waits.",
+        "Flights and central hotels are usually priced above shoulder-season levels."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        },
+        {
+          "id": "paris-seine",
+          "cityId": "paris",
+          "name": "Seine River Cruise",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 85,
+          "lat": 48.8588,
+          "lon": 2.3201
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        }
+      ]
+    },
+    "recommendations": [
+      "Prioritize landmark-heavy walking routes and open-air viewpoints.",
+      "Use early mornings and late afternoons for the most photogenic light."
+    ],
+    "tips": [
+      "Pack breathable layers, water, and one shaded lunch stop each day.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "high"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-july",
+          "label": "Rome in July",
+          "score": 56
+        },
+        {
+          "slug": "krakow-in-july",
+          "label": "Krakow in July",
+          "score": 56
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-august",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "august",
+    "summary": "Paris in August is a very good pick, with warm 25C days, limited rain risk, and medium crowds. Expect 7.2 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 72,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 25,
+      "avgTempNight": 16,
+      "rainfallMm": 44,
+      "rainyDays": 6,
+      "humidity": 67,
+      "sunshineHours": 7.2
+    },
+    "verdict": {
+      "heading": "Paris in August is best for travelers who want a well-balanced city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Paris easy.",
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Longer, brighter days make it easier to fit more into each visit."
+      ],
+      "cons": [
+        "Flights and central hotels are usually priced above shoulder-season levels."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        },
+        {
+          "id": "paris-seine",
+          "cityId": "paris",
+          "name": "Seine River Cruise",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 85,
+          "lat": 48.8588,
+          "lon": 2.3201
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        }
+      ]
+    },
+    "recommendations": [
+      "Prioritize landmark-heavy walking routes and open-air viewpoints.",
+      "Use early mornings and late afternoons for the most photogenic light."
+    ],
+    "tips": [
+      "Pack breathable layers, water, and one shaded lunch stop each day.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "high"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        },
+        {
+          "slug": "paris-in-february",
+          "label": "Paris in February",
+          "score": 67
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-august",
+          "label": "Rome in August",
+          "score": 65
+        },
+        {
+          "slug": "krakow-in-august",
+          "label": "Krakow in August",
+          "score": 58
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-september",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "september",
+    "summary": "Paris in September is a very good pick, with warm 22C days, limited rain risk, and high crowds. Expect 5.8 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 69,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 22,
+      "avgTempNight": 13,
+      "rainfallMm": 54,
+      "rainyDays": 8,
+      "humidity": 72,
+      "sunshineHours": 5.8
+    },
+    "verdict": {
+      "heading": "Paris in September is best for travelers who want a well-balanced city break.",
+      "pros": [
+        "Comfortable daytime temperatures make long walks around Paris easy.",
+        "Rainfall stays manageable for sightseeing-heavy itineraries."
+      ],
+      "cons": [
+        "Top sights need early starts or advance booking to avoid long waits."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        },
+        {
+          "id": "paris-seine",
+          "cityId": "paris",
+          "name": "Seine River Cruise",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 85,
+          "lat": 48.8588,
+          "lon": 2.3201
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        }
+      ]
+    },
+    "recommendations": [
+      "Prioritize landmark-heavy walking routes and open-air viewpoints."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "Comfortable walking shoes matter more than weather gear on most days.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-february",
+          "label": "Paris in February",
+          "score": 67
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "krakow-in-september",
+          "label": "Krakow in September",
+          "score": 73
+        },
+        {
+          "slug": "rome-in-september",
+          "label": "Rome in September",
+          "score": 59
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-october",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "october",
+    "summary": "Paris in October is a very good pick, with mild 17C days, some rain interruptions, and medium crowds. Expect 4.5 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 71,
+    "scoreLabel": "Very Good",
+    "climate": {
+      "avgTempDay": 17,
+      "avgTempNight": 10,
+      "rainfallMm": 59,
+      "rainyDays": 9,
+      "humidity": 78,
+      "sunshineHours": 4.5
+    },
+    "verdict": {
+      "heading": "Paris in October is best for travelers who want a well-balanced city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries."
+      ],
+      "cons": []
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        },
+        {
+          "id": "paris-seine",
+          "cityId": "paris",
+          "name": "Seine River Cruise",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 85,
+          "lat": 48.8588,
+          "lon": 2.3201
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        },
+        {
+          "id": "paris-sainte-chapelle",
+          "cityId": "paris",
+          "name": "Sainte-Chapelle",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 87,
+          "lat": 48.8554,
+          "lon": 2.345
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "medium"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        },
+        {
+          "slug": "paris-in-february",
+          "label": "Paris in February",
+          "score": 67
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "krakow-in-october",
+          "label": "Krakow in October",
+          "score": 66
+        },
+        {
+          "slug": "rome-in-october",
+          "label": "Rome in October",
+          "score": 62
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-november",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "november",
+    "summary": "Paris in November is a solid pick, with mild 11C days, limited rain risk, and medium crowds. Expect 2.8 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 64,
+    "scoreLabel": "Solid",
+    "climate": {
+      "avgTempDay": 11,
+      "avgTempNight": 6,
+      "rainfallMm": 51,
+      "rainyDays": 9,
+      "humidity": 84,
+      "sunshineHours": 2.8
+    },
+    "verdict": {
+      "heading": "Paris in November is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries.",
+        "Accommodation pricing is more forgiving than the summer peak."
+      ],
+      "cons": []
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        },
+        {
+          "id": "paris-seine",
+          "cityId": "paris",
+          "name": "Seine River Cruise",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 85,
+          "lat": 48.8588,
+          "lon": 2.3201
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        },
+        {
+          "id": "paris-sainte-chapelle",
+          "cityId": "paris",
+          "name": "Sainte-Chapelle",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 87,
+          "lat": 48.8554,
+          "lon": 2.345
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons."
+    ],
+    "tips": [
+      "Light layers work best because mornings and evenings still shift noticeably.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "You can usually keep the itinerary flexible and still fit in major highlights."
+    ],
+    "travelSignals": {
+      "crowdLevel": "medium",
+      "priceLevel": "low"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-november",
+          "label": "Rome in November",
+          "score": 72
+        },
+        {
+          "slug": "krakow-in-november",
+          "label": "Krakow in November",
+          "score": 61
+        }
+      ]
+    }
+  },
+  {
+    "slug": "paris-in-december",
+    "cityId": "paris",
+    "cityName": "Paris",
+    "citySlug": "paris",
+    "country": "France",
+    "month": "december",
+    "summary": "Paris in December is a only if the timing fits pick, with cool 8C days, some rain interruptions, and high crowds. Expect 2.1 daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.",
+    "generatedAt": "2026-04-09T07:14:13.870Z",
+    "score": 37,
+    "scoreLabel": "Only if the timing fits",
+    "climate": {
+      "avgTempDay": 8,
+      "avgTempNight": 4,
+      "rainfallMm": 58,
+      "rainyDays": 10,
+      "humidity": 86,
+      "sunshineHours": 2.1
+    },
+    "verdict": {
+      "heading": "Paris in December is best for travelers who want a more situational city break.",
+      "pros": [
+        "Rainfall stays manageable for sightseeing-heavy itineraries."
+      ],
+      "cons": [
+        "Cold spells can shorten outdoor time in Paris.",
+        "A flexible plan helps because rain interruptions are fairly common.",
+        "Top sights need early starts or advance booking to avoid long waits."
+      ]
+    },
+    "attractions": {
+      "outdoor": [
+        {
+          "id": "paris-eiffel",
+          "cityId": "paris",
+          "name": "Eiffel Tower",
+          "category": "landmark",
+          "indoor": false,
+          "popularityScore": 99,
+          "lat": 48.8584,
+          "lon": 2.2945
+        },
+        {
+          "id": "paris-luxembourg",
+          "cityId": "paris",
+          "name": "Luxembourg Gardens",
+          "category": "park",
+          "indoor": false,
+          "popularityScore": 86,
+          "lat": 48.8462,
+          "lon": 2.3371
+        }
+      ],
+      "indoor": [
+        {
+          "id": "paris-louvre",
+          "cityId": "paris",
+          "name": "Louvre Museum",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 98,
+          "lat": 48.8606,
+          "lon": 2.3376
+        },
+        {
+          "id": "paris-orsay",
+          "cityId": "paris",
+          "name": "Musee d'Orsay",
+          "category": "museum",
+          "indoor": true,
+          "popularityScore": 90,
+          "lat": 48.8599,
+          "lon": 2.3266
+        },
+        {
+          "id": "paris-sainte-chapelle",
+          "cityId": "paris",
+          "name": "Sainte-Chapelle",
+          "category": "landmark",
+          "indoor": true,
+          "popularityScore": 87,
+          "lat": 48.8554,
+          "lon": 2.345
+        }
+      ]
+    },
+    "recommendations": [
+      "Keep a museum-focused backup plan for wetter afternoons.",
+      "Lean into shorter outdoor loops with cafe or museum breaks between them."
+    ],
+    "tips": [
+      "Bring insulated layers, comfortable boots, and gloves for morning starts.",
+      "A compact umbrella matters more than a heavy rain jacket for city sightseeing.",
+      "Reserve the headline attraction first and build the rest of the day around that slot."
+    ],
+    "travelSignals": {
+      "crowdLevel": "high",
+      "priceLevel": "high"
+    },
+    "internalLinks": {
+      "sameCity": [
+        {
+          "slug": "paris-in-august",
+          "label": "Paris in August",
+          "score": 72
+        },
+        {
+          "slug": "paris-in-october",
+          "label": "Paris in October",
+          "score": 71
+        },
+        {
+          "slug": "paris-in-september",
+          "label": "Paris in September",
+          "score": 69
+        }
+      ],
+      "similarCities": [
+        {
+          "slug": "rome-in-december",
+          "label": "Rome in December",
+          "score": 57
+        },
+        {
+          "slug": "krakow-in-december",
+          "label": "Krakow in December",
+          "score": 31
+        }
+      ]
+    }
+  }
+]

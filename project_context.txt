@@ -1,0 +1,316 @@
+PROJECT: Travel Portal – City + Month (Programmatic SEO)
+
+GOAL:
+Build a scalable SEO portal generating pages like:
+- "rome in may"
+- "krakow in december"
+- "paris in october"
+
+The portal answers:
+→ Is it a good time to visit?
+→ What to expect?
+→ What to do?
+
+Monetization (later stage):
+- Booking affiliate
+- GetYourGuide / Viator
+- Display ads (AdSense)
+
+IMPORTANT:
+- NO thin content
+- NO generic AI articles
+- DATA-FIRST approach
+- AI only as supporting layer (short summaries, not content generation)
+
+--------------------------------------------------
+
+CORE IDEA:
+
+Each page is:
+CITY + MONTH
+
+Example:
+rome-in-may
+
+Each page contains:
+- Weather stats (calculated)
+- Travel score (calculated)
+- Attractions (data-driven)
+- Seasonal recommendations
+- Tips
+- Internal links
+
+--------------------------------------------------
+
+TECH STACK:
+
+Frontend:
+- Next.js (App Router)
+- Static generation (SSG / ISR)
+
+Backend:
+- PostgreSQL (Neon)
+
+Hosting:
+- Vercel Pro
+
+--------------------------------------------------
+
+ARCHITECTURE:
+
+1. DATA IMPORT (ETL)
+- Fetch data from external sources ONCE
+- Store locally
+- NEVER fetch external APIs at runtime
+
+2. DATABASE
+- Store normalized data
+- Precompute monthly stats
+
+3. PAGE GENERATION
+- Build static pages from DB
+- Use cached JSON payloads
+
+--------------------------------------------------
+
+DATABASE STRUCTURE:
+
+TABLE: cities
+- id
+- name
+- slug
+- country
+- latitude
+- longitude
+- population
+
+TABLE: monthly_climate
+- id
+- city_id
+- month
+- avg_temp_day
+- avg_temp_night
+- rainfall_mm
+- rainy_days
+- humidity
+- sunshine_hours
+
+TABLE: poi (points of interest)
+- id
+- city_id
+- name
+- category (museum, park, landmark)
+- indoor (boolean)
+- popularity_score
+- lat
+- lon
+
+TABLE: monthly_scores
+- id
+- city_id
+- month
+- score (0-100)
+- crowd_level (low/medium/high)
+- price_level (low/medium/high)
+
+TABLE: page_cache
+- id
+- city_id
+- month
+- payload_json
+- generated_at
+
+--------------------------------------------------
+
+DATA SOURCES STRATEGY:
+
+IMPORTANT:
+Minimize API costs → use batch import only
+
+Weather:
+- Open-Meteo (historical data)
+→ calculate averages per month
+
+POI:
+- OpenTripMap OR OpenStreetMap
+→ fetch once, store locally
+
+Geocoding:
+- Nominatim (once per city)
+
+Events (optional):
+- Ticketmaster API (batch, cached)
+
+Air Quality (optional):
+- OpenAQ
+
+--------------------------------------------------
+
+ETL PIPELINE:
+
+Step 1:
+Fetch raw data (API or dataset)
+
+Step 2:
+Normalize data
+
+Step 3:
+Calculate:
+- averages
+- derived metrics
+
+Step 4:
+Store in DB
+
+Step 5:
+Generate page payload
+
+IMPORTANT:
+Run ETL via:
+- cron job
+- manual script
+
+NEVER:
+- call API on user request
+
+--------------------------------------------------
+
+TRAVEL SCORE LOGIC:
+
+Score (0-100) based on:
+
+- temperature comfort (40%)
+- rainfall (20%)
+- crowd level (20%)
+- price level (20%)
+
+Example:
+
+IF temp 18-26°C → optimal
+IF rainfall low → higher score
+IF crowd high → lower score
+
+--------------------------------------------------
+
+PAGE STRUCTURE:
+
+Each page must include:
+
+1. HERO
+- title
+- score
+- quick summary
+
+2. WEATHER
+- table
+- key stats
+
+3. VERDICT
+- pros / cons
+
+4. ATTRACTIONS
+- outdoor (if good weather)
+- indoor (fallback)
+
+5. EVENTS (optional)
+
+6. TIPS
+- packing
+- crowds
+- timing
+
+7. INTERNAL LINKS
+- same city other months
+- similar cities
+
+--------------------------------------------------
+
+ANTI-THIN CONTENT RULES:
+
+DO NOT:
+- generate long AI articles
+- duplicate text
+
+DO:
+- use real data
+- generate unique values per page
+- keep text short (50–150 words)
+- focus on usefulness
+
+--------------------------------------------------
+
+SCALING PLAN:
+
+Phase 1:
+- 50–100 cities
+- 12 months
+→ 600–1200 pages
+
+Phase 2:
+- 200+ cities
+→ 2400+ pages
+
+Phase 3:
+- multi-language
+- variants:
+  - "is it worth visiting"
+  - "best time to visit"
+
+--------------------------------------------------
+
+MONETIZATION PLAN:
+
+Phase 1:
+- no monetization
+
+Phase 2:
+- AdSense
+- soft affiliate links
+
+Phase 3:
+- strong placement:
+  - "Check hotels"
+  - "See tours"
+
+--------------------------------------------------
+
+COST OPTIMIZATION:
+
+- No runtime API calls
+- Store all data locally
+- Use static pages
+- Use caching
+- Use Neon pooler
+
+--------------------------------------------------
+
+CODEX INSTRUCTIONS:
+
+When generating code:
+
+- Use clean architecture
+- Separate:
+  - data layer
+  - logic layer
+  - UI
+
+- Create:
+  - ETL scripts
+  - DB schema
+  - Next.js pages
+
+- Avoid:
+  - unnecessary dependencies
+  - runtime API calls
+
+--------------------------------------------------
+
+END GOAL:
+
+After 12 months:
+- 10k+ pages
+- 100k–500k monthly traffic
+- monetization:
+  - ads + affiliate
+
+--------------------------------------------------

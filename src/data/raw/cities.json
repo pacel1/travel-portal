@@ -1,0 +1,29 @@
+[
+  {
+    "id": "rome",
+    "name": "Rome",
+    "slug": "rome",
+    "country": "Italy",
+    "latitude": 41.9028,
+    "longitude": 12.4964,
+    "population": 2873000
+  },
+  {
+    "id": "krakow",
+    "name": "Krakow",
+    "slug": "krakow",
+    "country": "Poland",
+    "latitude": 50.0647,
+    "longitude": 19.945,
+    "population": 804200
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "slug": "paris",
+    "country": "France",
+    "latitude": 48.8566,
+    "longitude": 2.3522,
+    "population": 2103000
+  }
+]

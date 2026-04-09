@@ -1,0 +1,22 @@
+[
+  { "id": "rome-colosseum", "city_id": "rome", "name": "Colosseum", "category": "landmark", "indoor": false, "popularity_score": 98, "lat": 41.8902, "lon": 12.4922 },
+  { "id": "rome-forum", "city_id": "rome", "name": "Roman Forum", "category": "landmark", "indoor": false, "popularity_score": 93, "lat": 41.8925, "lon": 12.4853 },
+  { "id": "rome-vatican", "city_id": "rome", "name": "Vatican Museums", "category": "museum", "indoor": true, "popularity_score": 97, "lat": 41.9065, "lon": 12.4536 },
+  { "id": "rome-borghese", "city_id": "rome", "name": "Galleria Borghese", "category": "museum", "indoor": true, "popularity_score": 89, "lat": 41.9142, "lon": 12.4923 },
+  { "id": "rome-villa-borghese", "city_id": "rome", "name": "Villa Borghese Gardens", "category": "park", "indoor": false, "popularity_score": 84, "lat": 41.9146, "lon": 12.4922 },
+  { "id": "rome-trastevere", "city_id": "rome", "name": "Trastevere", "category": "landmark", "indoor": false, "popularity_score": 82, "lat": 41.8897, "lon": 12.4706 },
+
+  { "id": "krakow-wawel", "city_id": "krakow", "name": "Wawel Castle", "category": "landmark", "indoor": false, "popularity_score": 96, "lat": 50.0541, "lon": 19.9354 },
+  { "id": "krakow-rynek", "city_id": "krakow", "name": "Rynek Glowny", "category": "landmark", "indoor": false, "popularity_score": 94, "lat": 50.0619, "lon": 19.9374 },
+  { "id": "krakow-schindler", "city_id": "krakow", "name": "Schindler's Factory", "category": "museum", "indoor": true, "popularity_score": 91, "lat": 50.0477, "lon": 19.9619 },
+  { "id": "krakow-national", "city_id": "krakow", "name": "National Museum in Krakow", "category": "museum", "indoor": true, "popularity_score": 82, "lat": 50.0605, "lon": 19.9234 },
+  { "id": "krakow-planty", "city_id": "krakow", "name": "Planty Park", "category": "park", "indoor": false, "popularity_score": 80, "lat": 50.0608, "lon": 19.9441 },
+  { "id": "krakow-basilica", "city_id": "krakow", "name": "St. Mary's Basilica", "category": "landmark", "indoor": true, "popularity_score": 88, "lat": 50.0617, "lon": 19.9392 },
+
+  { "id": "paris-eiffel", "city_id": "paris", "name": "Eiffel Tower", "category": "landmark", "indoor": false, "popularity_score": 99, "lat": 48.8584, "lon": 2.2945 },
+  { "id": "paris-louvre", "city_id": "paris", "name": "Louvre Museum", "category": "museum", "indoor": true, "popularity_score": 98, "lat": 48.8606, "lon": 2.3376 },
+  { "id": "paris-orsay", "city_id": "paris", "name": "Musee d'Orsay", "category": "museum", "indoor": true, "popularity_score": 90, "lat": 48.8599, "lon": 2.3266 },
+  { "id": "paris-luxembourg", "city_id": "paris", "name": "Luxembourg Gardens", "category": "park", "indoor": false, "popularity_score": 86, "lat": 48.8462, "lon": 2.3371 },
+  { "id": "paris-seine", "city_id": "paris", "name": "Seine River Cruise", "category": "landmark", "indoor": false, "popularity_score": 85, "lat": 48.8588, "lon": 2.3201 },
+  { "id": "paris-sainte-chapelle", "city_id": "paris", "name": "Sainte-Chapelle", "category": "landmark", "indoor": true, "popularity_score": 87, "lat": 48.8554, "lon": 2.345 }
+]
