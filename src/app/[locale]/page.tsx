@@ -257,7 +257,6 @@ export function renderTravelMonthPage(
   const nextMonthPage = nextMonth
     ? allMonthsForCity.find((monthPage) => monthPage.month === nextMonth)
     : null;
-  const bookingAffiliateLinks = getBookingAffiliateLinks(page, cityName, locale, copy);
   const faqItems = buildMiniFaqItems(page, cityName, locale);
   const similarCitiesDescription = getSimilarCitiesDescription(page, locale);
   const bestForTitle = getBestForSectionTitle(page, locale);
@@ -442,9 +441,6 @@ export function renderTravelMonthPage(
                       <p className="mt-1 text-xs uppercase tracking-[0.16em] text-[var(--muted)]">
                         {formatPoiCategory(heroFeaturedAttraction.category, locale)}
                       </p>
-                      <p className="mt-2 text-sm leading-5 text-[var(--muted)]">
-                        {bookingRead}
-                      </p>
                     </div>
                   </div>
                 </div>
@@ -453,51 +449,7 @@ export function renderTravelMonthPage(
           </div>
         </section>
 
-        <section className="affiliate-stage rounded-[2rem] px-5 py-5 sm:px-7 sm:py-6">
-          <div className="grid gap-5 lg:grid-cols-[0.78fr_1.22fr] lg:items-center">
-            <div>
-              <p className="eyebrow text-[var(--accent-warm)]">{copy.bookingAffiliateEyebrow}</p>
-              <h2 className="mt-3 max-w-xl text-[1.9rem] font-semibold tracking-tight sm:text-[2.4rem]">
-                {copy.bookingAffiliateTitle}
-              </h2>
-              <p className="mt-3 max-w-xl text-sm leading-7 text-[var(--muted)] sm:text-base">
-                {copy.bookingAffiliateDescription}
-              </p>
-              <p className="mt-4 text-xs font-medium uppercase tracking-[0.14em] text-[var(--muted)]">
-                {copy.bookingAffiliateTrustNote}
-              </p>
-            </div>
 
-            <div className="grid gap-3 md:grid-cols-3">
-              {bookingAffiliateLinks.map((item, index) => (
-                <Link
-                  key={item.href}
-                  href={item.href}
-                  className={`affiliate-card lift rounded-[1.55rem] px-4 py-4 ${
-                    index === 0 ? "affiliate-card-primary" : ""
-                  }`}
-                >
-                  <div className="flex h-full flex-col">
-                    <div className="flex items-center justify-between gap-3">
-                      <span className="affiliate-brand rounded-full px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.16em]">
-                        Booking.com
-                      </span>
-                      <span className="affiliate-arrow text-lg font-semibold" aria-hidden="true">
-                        -&gt;
-                      </span>
-                    </div>
-                    <p className="mt-4 text-[1.05rem] font-semibold leading-6">
-                      {item.title}
-                    </p>
-                    <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-                      {item.note}
-                    </p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        </section>
 
         <section className="grid gap-5 xl:grid-cols-[1.2fr_0.8fr] xl:items-start">
           <div className="grid gap-5">
