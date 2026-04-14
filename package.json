@@ -3,6 +3,20 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "data:build-european-cities": "node scripts/build-european-city-catalog.mjs",
+    "db:generate-ai-copy": "node scripts/generate-ai-copy-neon.mjs",
+    "db:generate-rollout-ai-copy": "node scripts/generate-ai-copy-rollout-neon.mjs",
+    "db:import-poi-images": "node scripts/import-poi-images-wikimedia-neon.mjs",
+    "db:generate-poi-localizations": "node scripts/generate-poi-localizations-neon.mjs",
+    "db:import-live": "node scripts/import-live-neon.mjs",
+    "db:import-live-batch": "node scripts/import-live-batch-neon.mjs",
+    "db:repair-internal-links": "node scripts/repair-internal-links-neon.mjs",
+    "db:repair-rainfall-units": "node scripts/repair-rainfall-units-neon.mjs",
+    "db:run-country-import": "node scripts/import-country-runner-neon.mjs",
+    "db:set-locale-publication": "node scripts/set-locale-publication-neon.mjs",
+    "db:sync-localized-entities": "node scripts/sync-localized-entities-neon.mjs",
+    "db:sync-european-cities": "node scripts/sync-european-cities-neon.mjs",
+    "db:sync": "node scripts/sync-neon.mjs",
     "etl": "node scripts/build-page-cache.mjs",
     "prebuild": "npm run etl",
     "dev": "next dev",
@@ -11,7 +25,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "fflate": "^0.8.2",
+    "lucide-react": "^1.8.0",
     "next": "16.2.3",
+    "openai": "^6.2.0",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },

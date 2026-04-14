@@ -1,0 +1,973 @@
+{
+  "athens": {
+    "de": {
+      "name": "Athen",
+      "canonical": "athen",
+      "aliases": [
+        "athens",
+        "athina",
+        "ateny",
+        "atenas",
+        "athenes"
+      ]
+    },
+    "en": {
+      "name": "Athens",
+      "canonical": "athens",
+      "aliases": [
+        "athina",
+        "athen",
+        "ateny",
+        "atenas",
+        "athenes"
+      ]
+    },
+    "es": {
+      "name": "Atenas",
+      "canonical": "atenas",
+      "aliases": [
+        "athens",
+        "athina",
+        "athen",
+        "ateny",
+        "athenes"
+      ]
+    },
+    "fr": {
+      "name": "Athenes",
+      "canonical": "athenes",
+      "aliases": [
+        "athens",
+        "athina",
+        "athen",
+        "ateny",
+        "atenas"
+      ]
+    },
+    "pl": {
+      "name": "Ateny",
+      "canonical": "ateny",
+      "aliases": [
+        "athens",
+        "athina",
+        "athen",
+        "atenas",
+        "athenes"
+      ]
+    }
+  },
+  "brussels": {
+    "de": {
+      "name": "Bruessel",
+      "canonical": "bruessel",
+      "aliases": [
+        "brussels",
+        "bruxelles",
+        "brussel",
+        "bruksela"
+      ]
+    },
+    "en": {
+      "name": "Brussels",
+      "canonical": "brussels",
+      "aliases": [
+        "bruxelles",
+        "brussel",
+        "bruksela",
+        "bruselas"
+      ]
+    },
+    "es": {
+      "name": "Bruselas",
+      "canonical": "bruselas",
+      "aliases": [
+        "brussels",
+        "bruxelles",
+        "brussel",
+        "bruksela"
+      ]
+    },
+    "fr": {
+      "name": "Bruxelles",
+      "canonical": "bruxelles",
+      "aliases": [
+        "brussels",
+        "brussel",
+        "bruksela",
+        "bruselas"
+      ]
+    },
+    "pl": {
+      "name": "Bruksela",
+      "canonical": "bruksela",
+      "aliases": [
+        "brussels",
+        "bruxelles",
+        "brussel",
+        "bruselas"
+      ]
+    }
+  },
+  "bucharest": {
+    "de": {
+      "name": "Bukarest",
+      "canonical": "bukarest",
+      "aliases": [
+        "bucharest",
+        "bucuresti",
+        "bucarest",
+        "bukareszt"
+      ]
+    },
+    "en": {
+      "name": "Bucharest",
+      "canonical": "bucharest",
+      "aliases": [
+        "bucuresti",
+        "bukarest",
+        "bucarest",
+        "bukareszt"
+      ]
+    },
+    "es": {
+      "name": "Bucarest",
+      "canonical": "bucarest",
+      "aliases": [
+        "bucharest",
+        "bucuresti",
+        "bukarest",
+        "bukareszt"
+      ]
+    },
+    "fr": {
+      "name": "Bucarest",
+      "canonical": "bucarest",
+      "aliases": [
+        "bucharest",
+        "bucuresti",
+        "bukarest",
+        "bukareszt"
+      ]
+    },
+    "pl": {
+      "name": "Bukareszt",
+      "canonical": "bukareszt",
+      "aliases": [
+        "bucharest",
+        "bucuresti",
+        "bukarest",
+        "bucarest"
+      ]
+    }
+  },
+  "copenhagen": {
+    "de": {
+      "name": "Kopenhagen",
+      "canonical": "kopenhagen",
+      "aliases": [
+        "copenhagen",
+        "kobenhavn",
+        "copenhague",
+        "kopenhaga"
+      ]
+    },
+    "en": {
+      "name": "Copenhagen",
+      "canonical": "copenhagen",
+      "aliases": [
+        "kobenhavn",
+        "kopenhagen",
+        "copenhague",
+        "kopenhaga"
+      ]
+    },
+    "es": {
+      "name": "Copenhague",
+      "canonical": "copenhague",
+      "aliases": [
+        "copenhagen",
+        "kobenhavn",
+        "kopenhagen",
+        "kopenhaga"
+      ]
+    },
+    "fr": {
+      "name": "Copenhague",
+      "canonical": "copenhague",
+      "aliases": [
+        "copenhagen",
+        "kobenhavn",
+        "kopenhagen",
+        "kopenhaga"
+      ]
+    },
+    "pl": {
+      "name": "Kopenhaga",
+      "canonical": "kopenhaga",
+      "aliases": [
+        "copenhagen",
+        "kobenhavn",
+        "kopenhagen",
+        "copenhague"
+      ]
+    }
+  },
+  "dusseldorf": {
+    "de": {
+      "name": "Duesseldorf",
+      "canonical": "duesseldorf",
+      "aliases": [
+        "dusseldorf"
+      ]
+    },
+    "en": {
+      "name": "Dusseldorf",
+      "canonical": "dusseldorf",
+      "aliases": [
+        "duesseldorf"
+      ]
+    },
+    "es": {
+      "name": "Dusseldorf",
+      "canonical": "dusseldorf",
+      "aliases": [
+        "duesseldorf"
+      ]
+    },
+    "fr": {
+      "name": "Dusseldorf",
+      "canonical": "dusseldorf",
+      "aliases": [
+        "duesseldorf"
+      ]
+    },
+    "pl": {
+      "name": "Dusseldorf",
+      "canonical": "dusseldorf",
+      "aliases": [
+        "duesseldorf"
+      ]
+    }
+  },
+  "florence": {
+    "de": {
+      "name": "Florenz",
+      "canonical": "florenz",
+      "aliases": [
+        "florence",
+        "firenze",
+        "florencja",
+        "florencia"
+      ]
+    },
+    "en": {
+      "name": "Florence",
+      "canonical": "florence",
+      "aliases": [
+        "firenze",
+        "florenz",
+        "florencja",
+        "florencia"
+      ]
+    },
+    "es": {
+      "name": "Florencia",
+      "canonical": "florencia",
+      "aliases": [
+        "florence",
+        "firenze",
+        "florenz",
+        "florencja"
+      ]
+    },
+    "fr": {
+      "name": "Florence",
+      "canonical": "florence",
+      "aliases": [
+        "firenze",
+        "florenz",
+        "florencja",
+        "florencia"
+      ]
+    },
+    "pl": {
+      "name": "Florencja",
+      "canonical": "florencja",
+      "aliases": [
+        "florence",
+        "firenze",
+        "florenz",
+        "florencia"
+      ]
+    }
+  },
+  "gdansk": {
+    "de": {
+      "name": "Danzig",
+      "canonical": "danzig",
+      "aliases": [
+        "gdansk"
+      ]
+    },
+    "en": {
+      "name": "Gdansk",
+      "canonical": "gdansk",
+      "aliases": [
+        "danzig"
+      ]
+    },
+    "es": {
+      "name": "Gdansk",
+      "canonical": "gdansk",
+      "aliases": [
+        "danzig"
+      ]
+    },
+    "fr": {
+      "name": "Gdansk",
+      "canonical": "gdansk",
+      "aliases": [
+        "danzig"
+      ]
+    },
+    "pl": {
+      "name": "Gdansk",
+      "canonical": "gdansk",
+      "aliases": [
+        "danzig"
+      ]
+    }
+  },
+  "hannover": {
+    "de": {
+      "name": "Hannover",
+      "canonical": "hannover",
+      "aliases": [
+        "hanover"
+      ]
+    },
+    "en": {
+      "name": "Hanover",
+      "canonical": "hanover",
+      "aliases": [
+        "hannover"
+      ]
+    },
+    "es": {
+      "name": "Hanover",
+      "canonical": "hanover",
+      "aliases": [
+        "hannover"
+      ]
+    },
+    "fr": {
+      "name": "Hanovre",
+      "canonical": "hanovre",
+      "aliases": [
+        "hannover",
+        "hanover"
+      ]
+    },
+    "pl": {
+      "name": "Hanower",
+      "canonical": "hanower",
+      "aliases": [
+        "hannover",
+        "hanover"
+      ]
+    }
+  },
+  "koln": {
+    "de": {
+      "name": "Koeln",
+      "canonical": "koeln",
+      "aliases": [
+        "koln",
+        "cologne",
+        "kolonia"
+      ]
+    },
+    "en": {
+      "name": "Cologne",
+      "canonical": "cologne",
+      "aliases": [
+        "koln",
+        "koeln",
+        "kolonia"
+      ]
+    },
+    "es": {
+      "name": "Colonia",
+      "canonical": "colonia",
+      "aliases": [
+        "cologne",
+        "koln",
+        "koeln"
+      ]
+    },
+    "fr": {
+      "name": "Cologne",
+      "canonical": "cologne",
+      "aliases": [
+        "koln",
+        "koeln",
+        "colonia"
+      ]
+    },
+    "pl": {
+      "name": "Kolonia",
+      "canonical": "kolonia",
+      "aliases": [
+        "cologne",
+        "koln",
+        "koeln"
+      ]
+    }
+  },
+  "lisbon": {
+    "de": {
+      "name": "Lissabon",
+      "canonical": "lissabon",
+      "aliases": [
+        "lisbon",
+        "lisboa",
+        "lizbona"
+      ]
+    },
+    "en": {
+      "name": "Lisbon",
+      "canonical": "lisbon",
+      "aliases": [
+        "lisboa",
+        "lizbona"
+      ]
+    },
+    "es": {
+      "name": "Lisboa",
+      "canonical": "lisboa",
+      "aliases": [
+        "lisbon",
+        "lissabon",
+        "lizbona"
+      ]
+    },
+    "fr": {
+      "name": "Lisbonne",
+      "canonical": "lisbonne",
+      "aliases": [
+        "lisbon",
+        "lisboa",
+        "lizbona"
+      ]
+    },
+    "pl": {
+      "name": "Lizbona",
+      "canonical": "lizbona",
+      "aliases": [
+        "lisbon",
+        "lisboa",
+        "lissabon"
+      ]
+    }
+  },
+  "milan": {
+    "de": {
+      "name": "Mailand",
+      "canonical": "mailand",
+      "aliases": [
+        "milan",
+        "milano",
+        "mediolan"
+      ]
+    },
+    "en": {
+      "name": "Milan",
+      "canonical": "milan",
+      "aliases": [
+        "milano",
+        "mailand",
+        "mediolan"
+      ]
+    },
+    "es": {
+      "name": "Milan",
+      "canonical": "milan",
+      "aliases": [
+        "milano",
+        "mailand",
+        "mediolan"
+      ]
+    },
+    "fr": {
+      "name": "Milan",
+      "canonical": "milan",
+      "aliases": [
+        "milano",
+        "mailand",
+        "mediolan"
+      ]
+    },
+    "pl": {
+      "name": "Mediolan",
+      "canonical": "mediolan",
+      "aliases": [
+        "milan",
+        "milano",
+        "mailand"
+      ]
+    }
+  },
+  "munich": {
+    "de": {
+      "name": "Muenchen",
+      "canonical": "muenchen",
+      "aliases": [
+        "munchen",
+        "munich",
+        "monachium"
+      ]
+    },
+    "en": {
+      "name": "Munich",
+      "canonical": "munich",
+      "aliases": [
+        "munchen",
+        "muenchen",
+        "monachium"
+      ]
+    },
+    "es": {
+      "name": "Munich",
+      "canonical": "munich",
+      "aliases": [
+        "munchen",
+        "muenchen",
+        "monachium"
+      ]
+    },
+    "fr": {
+      "name": "Munich",
+      "canonical": "munich",
+      "aliases": [
+        "munchen",
+        "muenchen",
+        "monachium"
+      ]
+    },
+    "pl": {
+      "name": "Monachium",
+      "canonical": "monachium",
+      "aliases": [
+        "munich",
+        "munchen",
+        "muenchen"
+      ]
+    }
+  },
+  "munster": {
+    "de": {
+      "name": "Muenster",
+      "canonical": "muenster",
+      "aliases": [
+        "munster"
+      ]
+    },
+    "en": {
+      "name": "Munster",
+      "canonical": "munster",
+      "aliases": [
+        "muenster"
+      ]
+    },
+    "es": {
+      "name": "Munster",
+      "canonical": "munster",
+      "aliases": [
+        "muenster"
+      ]
+    },
+    "fr": {
+      "name": "Munster",
+      "canonical": "munster",
+      "aliases": [
+        "muenster"
+      ]
+    },
+    "pl": {
+      "name": "Muenster",
+      "canonical": "muenster",
+      "aliases": [
+        "munster"
+      ]
+    }
+  },
+  "naples": {
+    "de": {
+      "name": "Neapel",
+      "canonical": "neapel",
+      "aliases": [
+        "naples",
+        "napoli",
+        "neapol",
+        "napoles"
+      ]
+    },
+    "en": {
+      "name": "Naples",
+      "canonical": "naples",
+      "aliases": [
+        "napoli",
+        "neapel",
+        "neapol",
+        "napoles"
+      ]
+    },
+    "es": {
+      "name": "Napoles",
+      "canonical": "napoles",
+      "aliases": [
+        "naples",
+        "napoli",
+        "neapel",
+        "neapol"
+      ]
+    },
+    "fr": {
+      "name": "Naples",
+      "canonical": "naples",
+      "aliases": [
+        "napoli",
+        "neapel",
+        "neapol",
+        "napoles"
+      ]
+    },
+    "pl": {
+      "name": "Neapol",
+      "canonical": "neapol",
+      "aliases": [
+        "naples",
+        "napoli",
+        "neapel",
+        "napoles"
+      ]
+    }
+  },
+  "prague": {
+    "de": {
+      "name": "Prag",
+      "canonical": "prag",
+      "aliases": [
+        "prague",
+        "praha",
+        "praga"
+      ]
+    },
+    "en": {
+      "name": "Prague",
+      "canonical": "prague",
+      "aliases": [
+        "praha",
+        "prag",
+        "praga"
+      ]
+    },
+    "es": {
+      "name": "Praga",
+      "canonical": "praga",
+      "aliases": [
+        "prague",
+        "praha",
+        "prag"
+      ]
+    },
+    "fr": {
+      "name": "Prague",
+      "canonical": "prague",
+      "aliases": [
+        "praha",
+        "prag",
+        "praga"
+      ]
+    },
+    "pl": {
+      "name": "Praga",
+      "canonical": "praga",
+      "aliases": [
+        "prague",
+        "praha",
+        "prag"
+      ]
+    }
+  },
+  "saarbrucken": {
+    "de": {
+      "name": "Saarbruecken",
+      "canonical": "saarbruecken",
+      "aliases": [
+        "saarbrucken"
+      ]
+    },
+    "en": {
+      "name": "Saarbrucken",
+      "canonical": "saarbrucken",
+      "aliases": [
+        "saarbruecken"
+      ]
+    },
+    "es": {
+      "name": "Saarbrucken",
+      "canonical": "saarbrucken",
+      "aliases": [
+        "saarbruecken"
+      ]
+    },
+    "fr": {
+      "name": "Sarrebruck",
+      "canonical": "sarrebruck",
+      "aliases": [
+        "saarbrucken",
+        "saarbruecken"
+      ]
+    },
+    "pl": {
+      "name": "Saarbruecken",
+      "canonical": "saarbruecken",
+      "aliases": [
+        "saarbrucken"
+      ]
+    }
+  },
+  "sevilla": {
+    "de": {
+      "name": "Sevilla",
+      "canonical": "sevilla",
+      "aliases": [
+        "seville",
+        "sewilla"
+      ]
+    },
+    "en": {
+      "name": "Seville",
+      "canonical": "seville",
+      "aliases": [
+        "sevilla",
+        "sewilla"
+      ]
+    },
+    "es": {
+      "name": "Sevilla",
+      "canonical": "sevilla",
+      "aliases": [
+        "seville",
+        "sewilla"
+      ]
+    },
+    "fr": {
+      "name": "Seville",
+      "canonical": "seville",
+      "aliases": [
+        "sevilla",
+        "sewilla"
+      ]
+    },
+    "pl": {
+      "name": "Sewilla",
+      "canonical": "sewilla",
+      "aliases": [
+        "seville",
+        "sevilla"
+      ]
+    }
+  },
+  "turin": {
+    "de": {
+      "name": "Turin",
+      "canonical": "turin",
+      "aliases": [
+        "torino",
+        "turyn"
+      ]
+    },
+    "en": {
+      "name": "Turin",
+      "canonical": "turin",
+      "aliases": [
+        "torino",
+        "turyn"
+      ]
+    },
+    "es": {
+      "name": "Turin",
+      "canonical": "turin",
+      "aliases": [
+        "torino",
+        "turyn"
+      ]
+    },
+    "fr": {
+      "name": "Turin",
+      "canonical": "turin",
+      "aliases": [
+        "torino",
+        "turyn"
+      ]
+    },
+    "pl": {
+      "name": "Turyn",
+      "canonical": "turyn",
+      "aliases": [
+        "turin",
+        "torino"
+      ]
+    }
+  },
+  "venice": {
+    "de": {
+      "name": "Venedig",
+      "canonical": "venedig",
+      "aliases": [
+        "venice",
+        "venezia",
+        "wenecja",
+        "venecia",
+        "venise"
+      ]
+    },
+    "en": {
+      "name": "Venice",
+      "canonical": "venice",
+      "aliases": [
+        "venezia",
+        "venedig",
+        "wenecja",
+        "venecia",
+        "venise"
+      ]
+    },
+    "es": {
+      "name": "Venecia",
+      "canonical": "venecia",
+      "aliases": [
+        "venice",
+        "venezia",
+        "venedig",
+        "wenecja",
+        "venise"
+      ]
+    },
+    "fr": {
+      "name": "Venise",
+      "canonical": "venise",
+      "aliases": [
+        "venice",
+        "venezia",
+        "venedig",
+        "wenecja",
+        "venecia"
+      ]
+    },
+    "pl": {
+      "name": "Wenecja",
+      "canonical": "wenecja",
+      "aliases": [
+        "venice",
+        "venezia",
+        "venedig",
+        "venecia",
+        "venise"
+      ]
+    }
+  },
+  "vienna": {
+    "de": {
+      "name": "Wien",
+      "canonical": "wien",
+      "aliases": [
+        "vienna",
+        "wieden"
+      ]
+    },
+    "en": {
+      "name": "Vienna",
+      "canonical": "vienna",
+      "aliases": [
+        "wien",
+        "wieden"
+      ]
+    },
+    "es": {
+      "name": "Viena",
+      "canonical": "viena",
+      "aliases": [
+        "vienna",
+        "wien",
+        "wieden"
+      ]
+    },
+    "fr": {
+      "name": "Vienne",
+      "canonical": "vienne",
+      "aliases": [
+        "vienna",
+        "wien",
+        "wieden"
+      ]
+    },
+    "pl": {
+      "name": "Wieden",
+      "canonical": "wieden",
+      "aliases": [
+        "vienna",
+        "wien"
+      ]
+    }
+  },
+  "warsaw": {
+    "de": {
+      "name": "Warschau",
+      "canonical": "warschau",
+      "aliases": [
+        "warsaw",
+        "warszawa",
+        "varsovia"
+      ]
+    },
+    "en": {
+      "name": "Warsaw",
+      "canonical": "warsaw",
+      "aliases": [
+        "warszawa",
+        "warschau",
+        "varsovia"
+      ]
+    },
+    "es": {
+      "name": "Varsovia",
+      "canonical": "varsovia",
+      "aliases": [
+        "warsaw",
+        "warszawa",
+        "warschau"
+      ]
+    },
+    "fr": {
+      "name": "Varsovie",
+      "canonical": "varsovie",
+      "aliases": [
+        "warsaw",
+        "warszawa",
+        "warschau"
+      ]
+    },
+    "pl": {
+      "name": "Warszawa",
+      "canonical": "warszawa",
+      "aliases": [
+        "warsaw",
+        "warschau",
+        "varsovia"
+      ]
+    }
+  }
+}

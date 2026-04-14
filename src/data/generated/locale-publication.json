@@ -1,0 +1,32 @@
+{
+  "de": {
+    "label": "Deutsch",
+    "tier": "tier1",
+    "isDefault": false,
+    "published": false
+  },
+  "en": {
+    "label": "English",
+    "tier": "tier0",
+    "isDefault": true,
+    "published": true
+  },
+  "es": {
+    "label": "Español",
+    "tier": "tier1",
+    "isDefault": false,
+    "published": false
+  },
+  "fr": {
+    "label": "Français",
+    "tier": "tier2",
+    "isDefault": false,
+    "published": false
+  },
+  "pl": {
+    "label": "Polski",
+    "tier": "tier2",
+    "isDefault": false,
+    "published": true
+  }
+}

@@ -1,0 +1,8282 @@
+[
+  {
+    "id": "tirana",
+    "name": "Tirana",
+    "slug": "tirana",
+    "country": "Albania",
+    "latitude": 41.32744,
+    "longitude": 19.81866,
+    "population": 418495
+  },
+  {
+    "id": "durres",
+    "name": "Durrës",
+    "slug": "durres",
+    "country": "Albania",
+    "latitude": 41.32355,
+    "longitude": 19.45469,
+    "population": 195920
+  },
+  {
+    "id": "vlore",
+    "name": "Vlorë",
+    "slug": "vlore",
+    "country": "Albania",
+    "latitude": 40.4696,
+    "longitude": 19.48379,
+    "population": 115261
+  },
+  {
+    "id": "elbasan",
+    "name": "Elbasan",
+    "slug": "elbasan",
+    "country": "Albania",
+    "latitude": 41.11138,
+    "longitude": 20.08224,
+    "population": 100903
+  },
+  {
+    "id": "shkoder",
+    "name": "Shkodër",
+    "slug": "shkoder",
+    "country": "Albania",
+    "latitude": 42.06828,
+    "longitude": 19.51258,
+    "population": 95553
+  },
+  {
+    "id": "berat",
+    "name": "Berat",
+    "slug": "berat",
+    "country": "Albania",
+    "latitude": 40.70583,
+    "longitude": 19.95222,
+    "population": 62232
+  },
+  {
+    "id": "korce",
+    "name": "Korçë",
+    "slug": "korce",
+    "country": "Albania",
+    "latitude": 40.61861,
+    "longitude": 20.78083,
+    "population": 58259
+  },
+  {
+    "id": "fier",
+    "name": "Fier",
+    "slug": "fier",
+    "country": "Albania",
+    "latitude": 40.7251,
+    "longitude": 19.55823,
+    "population": 56297
+  },
+  {
+    "id": "kukes",
+    "name": "Kukës",
+    "slug": "kukes",
+    "country": "Albania",
+    "latitude": 42.07694,
+    "longitude": 20.42194,
+    "population": 36125
+  },
+  {
+    "id": "gjirokaster",
+    "name": "Gjirokastër",
+    "slug": "gjirokaster",
+    "country": "Albania",
+    "latitude": 40.07583,
+    "longitude": 20.13889,
+    "population": 23437
+  },
+  {
+    "id": "lezhe",
+    "name": "Lezhë",
+    "slug": "lezhe",
+    "country": "Albania",
+    "latitude": 41.78361,
+    "longitude": 19.64361,
+    "population": 18695
+  },
+  {
+    "id": "peshkopi",
+    "name": "Peshkopi",
+    "slug": "peshkopi",
+    "country": "Albania",
+    "latitude": 41.685,
+    "longitude": 20.42858,
+    "population": 14710
+  },
+  {
+    "id": "lushnje",
+    "name": "Lushnjë",
+    "slug": "lushnje",
+    "country": "Albania",
+    "latitude": 40.94194,
+    "longitude": 19.705,
+    "population": 63135
+  },
+  {
+    "id": "kruje",
+    "name": "Krujë",
+    "slug": "kruje",
+    "country": "Albania",
+    "latitude": 41.50917,
+    "longitude": 19.79278,
+    "population": 51191
+  },
+  {
+    "id": "pogradec",
+    "name": "Pogradec",
+    "slug": "pogradec",
+    "country": "Albania",
+    "latitude": 40.9025,
+    "longitude": 20.6525,
+    "population": 46070
+  },
+  {
+    "id": "kucove",
+    "name": "Kuçovë",
+    "slug": "kucove",
+    "country": "Albania",
+    "latitude": 40.80028,
+    "longitude": 19.91667,
+    "population": 31077
+  },
+  {
+    "id": "kavaje",
+    "name": "Kavajë",
+    "slug": "kavaje",
+    "country": "Albania",
+    "latitude": 41.18556,
+    "longitude": 19.55694,
+    "population": 30012
+  },
+  {
+    "id": "bulqize",
+    "name": "Bulqizë",
+    "slug": "bulqize",
+    "country": "Albania",
+    "latitude": 41.49167,
+    "longitude": 20.22194,
+    "population": 26826
+  },
+  {
+    "id": "librazhd",
+    "name": "Librazhd",
+    "slug": "librazhd",
+    "country": "Albania",
+    "latitude": 41.17944,
+    "longitude": 20.315,
+    "population": 23312
+  },
+  {
+    "id": "sarande",
+    "name": "Sarandë",
+    "slug": "sarande",
+    "country": "Albania",
+    "latitude": 39.87534,
+    "longitude": 20.00477,
+    "population": 22613
+  },
+  {
+    "id": "andorra-la-vella",
+    "name": "Andorra la Vella",
+    "slug": "andorra-la-vella",
+    "country": "Andorra",
+    "latitude": 42.50779,
+    "longitude": 1.52109,
+    "population": 20430
+  },
+  {
+    "id": "les-escaldes",
+    "name": "les Escaldes",
+    "slug": "les-escaldes",
+    "country": "Andorra",
+    "latitude": 42.50729,
+    "longitude": 1.53414,
+    "population": 15853
+  },
+  {
+    "id": "encamp",
+    "name": "Encamp",
+    "slug": "encamp",
+    "country": "Andorra",
+    "latitude": 42.53474,
+    "longitude": 1.58014,
+    "population": 11223
+  },
+  {
+    "id": "sant-julia-de-loria",
+    "name": "Sant Julià de Lòria",
+    "slug": "sant-julia-de-loria",
+    "country": "Andorra",
+    "latitude": 42.46372,
+    "longitude": 1.49129,
+    "population": 8022
+  },
+  {
+    "id": "la-massana",
+    "name": "la Massana",
+    "slug": "la-massana",
+    "country": "Andorra",
+    "latitude": 42.54499,
+    "longitude": 1.51483,
+    "population": 7211
+  },
+  {
+    "id": "canillo",
+    "name": "Canillo",
+    "slug": "canillo",
+    "country": "Andorra",
+    "latitude": 42.5676,
+    "longitude": 1.59756,
+    "population": 3292
+  },
+  {
+    "id": "ordino",
+    "name": "Ordino",
+    "slug": "ordino",
+    "country": "Andorra",
+    "latitude": 42.55623,
+    "longitude": 1.53319,
+    "population": 3066
+  },
+  {
+    "id": "santa-coloma",
+    "name": "Santa Coloma",
+    "slug": "santa-coloma",
+    "country": "Andorra",
+    "latitude": 42.49454,
+    "longitude": 1.49897,
+    "population": 3236
+  },
+  {
+    "id": "pas-de-la-casa",
+    "name": "Pas de la Casa",
+    "slug": "pas-de-la-casa",
+    "country": "Andorra",
+    "latitude": 42.54277,
+    "longitude": 1.73361,
+    "population": 2363
+  },
+  {
+    "id": "arinsal",
+    "name": "Arinsal",
+    "slug": "arinsal",
+    "country": "Andorra",
+    "latitude": 42.57205,
+    "longitude": 1.48453,
+    "population": 1419
+  },
+  {
+    "id": "vila",
+    "name": "Vila",
+    "slug": "vila",
+    "country": "Andorra",
+    "latitude": 42.53176,
+    "longitude": 1.56654,
+    "population": 1418
+  },
+  {
+    "id": "les-bons",
+    "name": "Les Bons",
+    "slug": "les-bons",
+    "country": "Andorra",
+    "latitude": 42.53873,
+    "longitude": 1.58649,
+    "population": 1114
+  },
+  {
+    "id": "el-tarter",
+    "name": "El Tarter",
+    "slug": "el-tarter",
+    "country": "Andorra",
+    "latitude": 42.57952,
+    "longitude": 1.65362,
+    "population": 1052
+  },
+  {
+    "id": "aixirivall",
+    "name": "Aixirivall",
+    "slug": "aixirivall",
+    "country": "Andorra",
+    "latitude": 42.46245,
+    "longitude": 1.50209,
+    "population": 1041
+  },
+  {
+    "id": "anyos",
+    "name": "Anyós",
+    "slug": "anyos",
+    "country": "Andorra",
+    "latitude": 42.53465,
+    "longitude": 1.5251,
+    "population": 1006
+  },
+  {
+    "id": "la-cortinada",
+    "name": "La Cortinada",
+    "slug": "la-cortinada",
+    "country": "Andorra",
+    "latitude": 42.57423,
+    "longitude": 1.51845,
+    "population": 931
+  },
+  {
+    "id": "sispony",
+    "name": "Sispony",
+    "slug": "sispony",
+    "country": "Andorra",
+    "latitude": 42.53368,
+    "longitude": 1.51613,
+    "population": 833
+  },
+  {
+    "id": "soldeu",
+    "name": "Soldeu",
+    "slug": "soldeu",
+    "country": "Andorra",
+    "latitude": 42.57688,
+    "longitude": 1.66769,
+    "population": 602
+  },
+  {
+    "id": "l-aldosa",
+    "name": "l'Aldosa",
+    "slug": "l-aldosa",
+    "country": "Andorra",
+    "latitude": 42.54391,
+    "longitude": 1.52289,
+    "population": 594
+  },
+  {
+    "id": "erts",
+    "name": "Erts",
+    "slug": "erts",
+    "country": "Andorra",
+    "latitude": 42.56218,
+    "longitude": 1.4968,
+    "population": 556
+  },
+  {
+    "id": "yerevan",
+    "name": "Yerevan",
+    "slug": "yerevan",
+    "country": "Armenia",
+    "latitude": 40.17765,
+    "longitude": 44.5126,
+    "population": 1144700
+  },
+  {
+    "id": "gyumri",
+    "name": "Gyumri",
+    "slug": "gyumri",
+    "country": "Armenia",
+    "latitude": 40.79305,
+    "longitude": 43.84635,
+    "population": 114667
+  },
+  {
+    "id": "vanadzor",
+    "name": "Vanadzor",
+    "slug": "vanadzor",
+    "country": "Armenia",
+    "latitude": 40.8074,
+    "longitude": 44.49704,
+    "population": 78100
+  },
+  {
+    "id": "hrazdan",
+    "name": "Hrazdan",
+    "slug": "hrazdan",
+    "country": "Armenia",
+    "latitude": 40.5169,
+    "longitude": 44.75591,
+    "population": 49500
+  },
+  {
+    "id": "kapan",
+    "name": "Kapan",
+    "slug": "kapan",
+    "country": "Armenia",
+    "latitude": 39.20762,
+    "longitude": 46.40678,
+    "population": 32900
+  },
+  {
+    "id": "armavir",
+    "name": "Armavir",
+    "slug": "armavir",
+    "country": "Armenia",
+    "latitude": 40.15553,
+    "longitude": 44.0388,
+    "population": 29700
+  },
+  {
+    "id": "artashat",
+    "name": "Artashat",
+    "slug": "artashat",
+    "country": "Armenia",
+    "latitude": 39.95484,
+    "longitude": 44.54874,
+    "population": 22800
+  },
+  {
+    "id": "ijevan",
+    "name": "Ijevan",
+    "slug": "ijevan",
+    "country": "Armenia",
+    "latitude": 40.88037,
+    "longitude": 45.14776,
+    "population": 19500
+  },
+  {
+    "id": "gavar",
+    "name": "Gavar",
+    "slug": "gavar",
+    "country": "Armenia",
+    "latitude": 40.35398,
+    "longitude": 45.12386,
+    "population": 18900
+  },
+  {
+    "id": "ashtarak",
+    "name": "Ashtarak",
+    "slug": "ashtarak",
+    "country": "Armenia",
+    "latitude": 40.2976,
+    "longitude": 44.36152,
+    "population": 17600
+  },
+  {
+    "id": "yeghegnadzor",
+    "name": "Yeghegnadzor",
+    "slug": "yeghegnadzor",
+    "country": "Armenia",
+    "latitude": 39.7644,
+    "longitude": 45.33268,
+    "population": 7300
+  },
+  {
+    "id": "abovyan",
+    "name": "Abovyan",
+    "slug": "abovyan",
+    "country": "Armenia",
+    "latitude": 40.2717,
+    "longitude": 44.63342,
+    "population": 50556
+  },
+  {
+    "id": "vagharshapat",
+    "name": "Vagharshapat",
+    "slug": "vagharshapat",
+    "country": "Armenia",
+    "latitude": 40.16557,
+    "longitude": 44.29462,
+    "population": 47989
+  },
+  {
+    "id": "sevan",
+    "name": "Sevan",
+    "slug": "sevan",
+    "country": "Armenia",
+    "latitude": 40.548,
+    "longitude": 44.95314,
+    "population": 19652
+  },
+  {
+    "id": "ararat",
+    "name": "Ararat",
+    "slug": "ararat",
+    "country": "Armenia",
+    "latitude": 39.85494,
+    "longitude": 44.6947,
+    "population": 17598
+  },
+  {
+    "id": "goris",
+    "name": "Goris",
+    "slug": "goris",
+    "country": "Armenia",
+    "latitude": 39.51111,
+    "longitude": 46.34168,
+    "population": 17592
+  },
+  {
+    "id": "spitak",
+    "name": "Spitak",
+    "slug": "spitak",
+    "country": "Armenia",
+    "latitude": 40.83131,
+    "longitude": 44.27019,
+    "population": 13574
+  },
+  {
+    "id": "yeghvard",
+    "name": "Yeghvard",
+    "slug": "yeghvard",
+    "country": "Armenia",
+    "latitude": 40.32293,
+    "longitude": 44.48418,
+    "population": 13238
+  },
+  {
+    "id": "sisian",
+    "name": "Sisian",
+    "slug": "sisian",
+    "country": "Armenia",
+    "latitude": 39.52191,
+    "longitude": 46.02696,
+    "population": 13176
+  },
+  {
+    "id": "vardenis",
+    "name": "Vardenis",
+    "slug": "vardenis",
+    "country": "Armenia",
+    "latitude": 40.1827,
+    "longitude": 45.73156,
+    "population": 12651
+  },
+  {
+    "id": "vienna",
+    "name": "Vienna",
+    "slug": "vienna",
+    "country": "Austria",
+    "latitude": 48.20849,
+    "longitude": 16.37208,
+    "population": 1691468
+  },
+  {
+    "id": "graz",
+    "name": "Graz",
+    "slug": "graz",
+    "country": "Austria",
+    "latitude": 47.06733,
+    "longitude": 15.44197,
+    "population": 303270
+  },
+  {
+    "id": "linz",
+    "name": "Linz",
+    "slug": "linz",
+    "country": "Austria",
+    "latitude": 48.30639,
+    "longitude": 14.28611,
+    "population": 204846
+  },
+  {
+    "id": "salzburg",
+    "name": "Salzburg",
+    "slug": "salzburg",
+    "country": "Austria",
+    "latitude": 47.79941,
+    "longitude": 13.04399,
+    "population": 157245
+  },
+  {
+    "id": "innsbruck",
+    "name": "Innsbruck",
+    "slug": "innsbruck",
+    "country": "Austria",
+    "latitude": 47.26266,
+    "longitude": 11.39454,
+    "population": 132493
+  },
+  {
+    "id": "klagenfurt-am-worthersee",
+    "name": "Klagenfurt am Wörthersee",
+    "slug": "klagenfurt-am-worthersee",
+    "country": "Austria",
+    "latitude": 46.62472,
+    "longitude": 14.30528,
+    "population": 100316
+  },
+  {
+    "id": "bregenz",
+    "name": "Bregenz",
+    "slug": "bregenz",
+    "country": "Austria",
+    "latitude": 47.50311,
+    "longitude": 9.7471,
+    "population": 29806
+  },
+  {
+    "id": "sankt-polten",
+    "name": "Sankt Pölten",
+    "slug": "sankt-polten",
+    "country": "Austria",
+    "latitude": 48.20762,
+    "longitude": 15.63725,
+    "population": 21911
+  },
+  {
+    "id": "eisenstadt",
+    "name": "Eisenstadt",
+    "slug": "eisenstadt",
+    "country": "Austria",
+    "latitude": 47.84565,
+    "longitude": 16.52327,
+    "population": 9217
+  },
+  {
+    "id": "villach",
+    "name": "Villach",
+    "slug": "villach",
+    "country": "Austria",
+    "latitude": 46.61028,
+    "longitude": 13.85583,
+    "population": 58882
+  },
+  {
+    "id": "feldkirch",
+    "name": "Feldkirch",
+    "slug": "feldkirch",
+    "country": "Austria",
+    "latitude": 47.23645,
+    "longitude": 9.59734,
+    "population": 33420
+  },
+  {
+    "id": "wels",
+    "name": "Wels",
+    "slug": "wels",
+    "country": "Austria",
+    "latitude": 48.16667,
+    "longitude": 14.03333,
+    "population": 16857
+  },
+  {
+    "id": "bludenz",
+    "name": "Bludenz",
+    "slug": "bludenz",
+    "country": "Austria",
+    "latitude": 47.15476,
+    "longitude": 9.82255,
+    "population": 15102
+  },
+  {
+    "id": "schwaz",
+    "name": "Schwaz",
+    "slug": "schwaz",
+    "country": "Austria",
+    "latitude": 47.35169,
+    "longitude": 11.71014,
+    "population": 13728
+  },
+  {
+    "id": "tulln",
+    "name": "Tulln",
+    "slug": "tulln",
+    "country": "Austria",
+    "latitude": 48.32829,
+    "longitude": 16.05858,
+    "population": 12421
+  },
+  {
+    "id": "sankt-veit-an-der-glan",
+    "name": "Sankt Veit an der Glan",
+    "slug": "sankt-veit-an-der-glan",
+    "country": "Austria",
+    "latitude": 46.76806,
+    "longitude": 14.36028,
+    "population": 10841
+  },
+  {
+    "id": "neusiedl-am-see",
+    "name": "Neusiedl am See",
+    "slug": "neusiedl-am-see",
+    "country": "Austria",
+    "latitude": 47.94901,
+    "longitude": 16.8417,
+    "population": 8235
+  },
+  {
+    "id": "mattersburg",
+    "name": "Mattersburg",
+    "slug": "mattersburg",
+    "country": "Austria",
+    "latitude": 47.73333,
+    "longitude": 16.4,
+    "population": 7349
+  },
+  {
+    "id": "oberwart",
+    "name": "Oberwart",
+    "slug": "oberwart",
+    "country": "Austria",
+    "latitude": 47.28971,
+    "longitude": 16.20595,
+    "population": 7288
+  },
+  {
+    "id": "perg",
+    "name": "Perg",
+    "slug": "perg",
+    "country": "Austria",
+    "latitude": 48.25,
+    "longitude": 14.63333,
+    "population": 5812
+  },
+  {
+    "id": "baku",
+    "name": "Baku",
+    "slug": "baku",
+    "country": "Azerbaijan",
+    "latitude": 40.37767,
+    "longitude": 49.89201,
+    "population": 2351300
+  },
+  {
+    "id": "sumqay-t",
+    "name": "Sumqayıt",
+    "slug": "sumqay-t",
+    "country": "Azerbaijan",
+    "latitude": 40.58972,
+    "longitude": 49.66861,
+    "population": 358675
+  },
+  {
+    "id": "ganja",
+    "name": "Ganja",
+    "slug": "ganja",
+    "country": "Azerbaijan",
+    "latitude": 40.68157,
+    "longitude": 46.36134,
+    "population": 335600
+  },
+  {
+    "id": "lankaran",
+    "name": "Lankaran",
+    "slug": "lankaran",
+    "country": "Azerbaijan",
+    "latitude": 38.75428,
+    "longitude": 48.85062,
+    "population": 240300
+  },
+  {
+    "id": "tovuz",
+    "name": "Tovuz",
+    "slug": "tovuz",
+    "country": "Azerbaijan",
+    "latitude": 40.99249,
+    "longitude": 45.62838,
+    "population": 177200
+  },
+  {
+    "id": "yevlakh",
+    "name": "Yevlakh",
+    "slug": "yevlakh",
+    "country": "Azerbaijan",
+    "latitude": 40.61832,
+    "longitude": 47.15014,
+    "population": 127400
+  },
+  {
+    "id": "mingachevir",
+    "name": "Mingachevir",
+    "slug": "mingachevir",
+    "country": "Azerbaijan",
+    "latitude": 40.76422,
+    "longitude": 47.06227,
+    "population": 106048
+  },
+  {
+    "id": "naxc-van",
+    "name": "Naxçıvan",
+    "slug": "naxc-van",
+    "country": "Azerbaijan",
+    "latitude": 39.20889,
+    "longitude": 45.41222,
+    "population": 97200
+  },
+  {
+    "id": "lerik",
+    "name": "Lerik",
+    "slug": "lerik",
+    "country": "Azerbaijan",
+    "latitude": 38.77388,
+    "longitude": 48.41497,
+    "population": 87000
+  },
+  {
+    "id": "saatl",
+    "name": "Saatlı",
+    "slug": "saatl",
+    "country": "Azerbaijan",
+    "latitude": 39.93214,
+    "longitude": 48.36892,
+    "population": 87000
+  },
+  {
+    "id": "sirvan",
+    "name": "Şirvan",
+    "slug": "sirvan",
+    "country": "Azerbaijan",
+    "latitude": 39.93778,
+    "longitude": 48.929,
+    "population": 70220
+  },
+  {
+    "id": "sheki",
+    "name": "Sheki",
+    "slug": "sheki",
+    "country": "Azerbaijan",
+    "latitude": 41.19194,
+    "longitude": 47.17056,
+    "population": 68400
+  },
+  {
+    "id": "agdzhabedy",
+    "name": "Agdzhabedy",
+    "slug": "agdzhabedy",
+    "country": "Azerbaijan",
+    "latitude": 40.05015,
+    "longitude": 47.45937,
+    "population": 43000
+  },
+  {
+    "id": "goycay",
+    "name": "Göyçay",
+    "slug": "goycay",
+    "country": "Azerbaijan",
+    "latitude": 40.65055,
+    "longitude": 47.74219,
+    "population": 42500
+  },
+  {
+    "id": "agdam",
+    "name": "Ağdam",
+    "slug": "agdam",
+    "country": "Azerbaijan",
+    "latitude": 39.99096,
+    "longitude": 46.92736,
+    "population": 39451
+  },
+  {
+    "id": "khirdalan",
+    "name": "Khirdalan",
+    "slug": "khirdalan",
+    "country": "Azerbaijan",
+    "latitude": 40.44808,
+    "longitude": 49.75502,
+    "population": 37949
+  },
+  {
+    "id": "barda",
+    "name": "Barda",
+    "slug": "barda",
+    "country": "Azerbaijan",
+    "latitude": 40.37577,
+    "longitude": 47.12619,
+    "population": 37372
+  },
+  {
+    "id": "xacmaz",
+    "name": "Xaçmaz",
+    "slug": "xacmaz",
+    "country": "Azerbaijan",
+    "latitude": 41.46426,
+    "longitude": 48.80565,
+    "population": 37175
+  },
+  {
+    "id": "salyan",
+    "name": "Salyan",
+    "slug": "salyan",
+    "country": "Azerbaijan",
+    "latitude": 39.59621,
+    "longitude": 48.98479,
+    "population": 36555
+  },
+  {
+    "id": "jalilabad",
+    "name": "Jalilabad",
+    "slug": "jalilabad",
+    "country": "Azerbaijan",
+    "latitude": 39.20963,
+    "longitude": 48.49186,
+    "population": 36259
+  },
+  {
+    "id": "minsk",
+    "name": "Minsk",
+    "slug": "minsk",
+    "country": "Belarus",
+    "latitude": 53.90019,
+    "longitude": 27.56653,
+    "population": 1742124
+  },
+  {
+    "id": "homyel",
+    "name": "Homyel'",
+    "slug": "homyel",
+    "country": "Belarus",
+    "latitude": 52.4345,
+    "longitude": 30.9754,
+    "population": 501102
+  },
+  {
+    "id": "hrodna",
+    "name": "Hrodna",
+    "slug": "hrodna",
+    "country": "Belarus",
+    "latitude": 53.6758,
+    "longitude": 23.82887,
+    "population": 361115
+  },
+  {
+    "id": "vitebsk",
+    "name": "Vitebsk",
+    "slug": "vitebsk",
+    "country": "Belarus",
+    "latitude": 55.1904,
+    "longitude": 30.2049,
+    "population": 358395
+  },
+  {
+    "id": "mahilyow",
+    "name": "Mahilyow",
+    "slug": "mahilyow",
+    "country": "Belarus",
+    "latitude": 53.90876,
+    "longitude": 30.34044,
+    "population": 353110
+  },
+  {
+    "id": "brest",
+    "name": "Brest",
+    "slug": "brest",
+    "country": "Belarus",
+    "latitude": 52.10894,
+    "longitude": 23.71749,
+    "population": 344470
+  },
+  {
+    "id": "bobruysk",
+    "name": "Bobruysk",
+    "slug": "bobruysk",
+    "country": "Belarus",
+    "latitude": 53.14636,
+    "longitude": 29.20552,
+    "population": 207351
+  },
+  {
+    "id": "baranovichi",
+    "name": "Baranovichi",
+    "slug": "baranovichi",
+    "country": "Belarus",
+    "latitude": 53.13253,
+    "longitude": 26.00774,
+    "population": 171361
+  },
+  {
+    "id": "barysaw",
+    "name": "Barysaw",
+    "slug": "barysaw",
+    "country": "Belarus",
+    "latitude": 54.2279,
+    "longitude": 28.505,
+    "population": 135696
+  },
+  {
+    "id": "pinsk",
+    "name": "Pinsk",
+    "slug": "pinsk",
+    "country": "Belarus",
+    "latitude": 52.12153,
+    "longitude": 26.06726,
+    "population": 124295
+  },
+  {
+    "id": "mazyr",
+    "name": "Mazyr",
+    "slug": "mazyr",
+    "country": "Belarus",
+    "latitude": 52.04162,
+    "longitude": 29.21631,
+    "population": 105152
+  },
+  {
+    "id": "lida",
+    "name": "Lida",
+    "slug": "lida",
+    "country": "Belarus",
+    "latitude": 53.88333,
+    "longitude": 25.29972,
+    "population": 103916
+  },
+  {
+    "id": "orsha",
+    "name": "Orsha",
+    "slug": "orsha",
+    "country": "Belarus",
+    "latitude": 54.51362,
+    "longitude": 30.40365,
+    "population": 102759
+  },
+  {
+    "id": "soligorsk",
+    "name": "Soligorsk",
+    "slug": "soligorsk",
+    "country": "Belarus",
+    "latitude": 52.78981,
+    "longitude": 27.53583,
+    "population": 97818
+  },
+  {
+    "id": "novopolotsk",
+    "name": "Novopolotsk",
+    "slug": "novopolotsk",
+    "country": "Belarus",
+    "latitude": 55.52618,
+    "longitude": 28.59308,
+    "population": 95717
+  },
+  {
+    "id": "maladziecna",
+    "name": "Maladziečna",
+    "slug": "maladziecna",
+    "country": "Belarus",
+    "latitude": 54.3167,
+    "longitude": 26.854,
+    "population": 89068
+  },
+  {
+    "id": "polotsk",
+    "name": "Polotsk",
+    "slug": "polotsk",
+    "country": "Belarus",
+    "latitude": 55.4879,
+    "longitude": 28.7856,
+    "population": 79579
+  },
+  {
+    "id": "zhlobin",
+    "name": "Zhlobin",
+    "slug": "zhlobin",
+    "country": "Belarus",
+    "latitude": 52.8926,
+    "longitude": 30.024,
+    "population": 76844
+  },
+  {
+    "id": "rechytsa",
+    "name": "Rechytsa",
+    "slug": "rechytsa",
+    "country": "Belarus",
+    "latitude": 52.3617,
+    "longitude": 30.3916,
+    "population": 65213
+  },
+  {
+    "id": "horad-zhodzina",
+    "name": "Horad Zhodzina",
+    "slug": "horad-zhodzina",
+    "country": "Belarus",
+    "latitude": 54.0985,
+    "longitude": 28.3331,
+    "population": 63744
+  },
+  {
+    "id": "brussels",
+    "name": "Brussels",
+    "slug": "brussels",
+    "country": "Belgium",
+    "latitude": 50.85045,
+    "longitude": 4.34878,
+    "population": 1019022
+  },
+  {
+    "id": "namur",
+    "name": "Namur",
+    "slug": "namur",
+    "country": "Belgium",
+    "latitude": 50.4669,
+    "longitude": 4.86746,
+    "population": 110939
+  },
+  {
+    "id": "tournai",
+    "name": "Tournai",
+    "slug": "tournai",
+    "country": "Belgium",
+    "latitude": 50.60715,
+    "longitude": 3.38932,
+    "population": 69554
+  },
+  {
+    "id": "ostend",
+    "name": "Ostend",
+    "slug": "ostend",
+    "country": "Belgium",
+    "latitude": 51.21551,
+    "longitude": 2.927,
+    "population": 69011
+  },
+  {
+    "id": "sint-niklaas",
+    "name": "Sint-Niklaas",
+    "slug": "sint-niklaas",
+    "country": "Belgium",
+    "latitude": 51.16509,
+    "longitude": 4.1437,
+    "population": 69010
+  },
+  {
+    "id": "mouscron",
+    "name": "Mouscron",
+    "slug": "mouscron",
+    "country": "Belgium",
+    "latitude": 50.74497,
+    "longitude": 3.20639,
+    "population": 52069
+  },
+  {
+    "id": "dendermonde",
+    "name": "Dendermonde",
+    "slug": "dendermonde",
+    "country": "Belgium",
+    "latitude": 51.02869,
+    "longitude": 4.10106,
+    "population": 45673
+  },
+  {
+    "id": "turnhout",
+    "name": "Turnhout",
+    "slug": "turnhout",
+    "country": "Belgium",
+    "latitude": 51.32254,
+    "longitude": 4.94471,
+    "population": 44000
+  },
+  {
+    "id": "ieper",
+    "name": "Ieper",
+    "slug": "ieper",
+    "country": "Belgium",
+    "latitude": 50.85114,
+    "longitude": 2.88569,
+    "population": 35089
+  },
+  {
+    "id": "oudenaarde",
+    "name": "Oudenaarde",
+    "slug": "oudenaarde",
+    "country": "Belgium",
+    "latitude": 50.85168,
+    "longitude": 3.60891,
+    "population": 31866
+  },
+  {
+    "id": "tielt",
+    "name": "Tielt",
+    "slug": "tielt",
+    "country": "Belgium",
+    "latitude": 50.99931,
+    "longitude": 3.32707,
+    "population": 19299
+  },
+  {
+    "id": "eeklo",
+    "name": "Eeklo",
+    "slug": "eeklo",
+    "country": "Belgium",
+    "latitude": 51.18703,
+    "longitude": 3.55654,
+    "population": 19116
+  },
+  {
+    "id": "diksmuide",
+    "name": "Diksmuide",
+    "slug": "diksmuide",
+    "country": "Belgium",
+    "latitude": 51.03248,
+    "longitude": 2.86384,
+    "population": 15515
+  },
+  {
+    "id": "bastogne",
+    "name": "Bastogne",
+    "slug": "bastogne",
+    "country": "Belgium",
+    "latitude": 50.00347,
+    "longitude": 5.71844,
+    "population": 14395
+  },
+  {
+    "id": "veurne",
+    "name": "Veurne",
+    "slug": "veurne",
+    "country": "Belgium",
+    "latitude": 51.07316,
+    "longitude": 2.66803,
+    "population": 11983
+  },
+  {
+    "id": "virton",
+    "name": "Virton",
+    "slug": "virton",
+    "country": "Belgium",
+    "latitude": 49.56824,
+    "longitude": 5.53259,
+    "population": 11259
+  },
+  {
+    "id": "philippeville",
+    "name": "Philippeville",
+    "slug": "philippeville",
+    "country": "Belgium",
+    "latitude": 50.19612,
+    "longitude": 4.54374,
+    "population": 8051
+  },
+  {
+    "id": "neufchateau",
+    "name": "Neufchâteau",
+    "slug": "neufchateau",
+    "country": "Belgium",
+    "latitude": 49.84074,
+    "longitude": 5.43535,
+    "population": 6416
+  },
+  {
+    "id": "anderlecht",
+    "name": "Anderlecht",
+    "slug": "anderlecht",
+    "country": "Belgium",
+    "latitude": 50.83619,
+    "longitude": 4.31454,
+    "population": 160553
+  },
+  {
+    "id": "heist-op-den-berg",
+    "name": "Heist-op-den-Berg",
+    "slug": "heist-op-den-berg",
+    "country": "Belgium",
+    "latitude": 51.07537,
+    "longitude": 4.72827,
+    "population": 37873
+  },
+  {
+    "id": "sarajevo",
+    "name": "Sarajevo",
+    "slug": "sarajevo",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 43.84864,
+    "longitude": 18.35644,
+    "population": 696731
+  },
+  {
+    "id": "banja-luka",
+    "name": "Banja Luka",
+    "slug": "banja-luka",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.77879,
+    "longitude": 17.20629,
+    "population": 221106
+  },
+  {
+    "id": "brcko",
+    "name": "Brčko",
+    "slug": "brcko",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.87162,
+    "longitude": 18.8163,
+    "population": 38968
+  },
+  {
+    "id": "zenica",
+    "name": "Zenica",
+    "slug": "zenica",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.20169,
+    "longitude": 17.90397,
+    "population": 164423
+  },
+  {
+    "id": "tuzla",
+    "name": "Tuzla",
+    "slug": "tuzla",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.53842,
+    "longitude": 18.66709,
+    "population": 142486
+  },
+  {
+    "id": "mostar",
+    "name": "Mostar",
+    "slug": "mostar",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 43.34333,
+    "longitude": 17.80806,
+    "population": 104518
+  },
+  {
+    "id": "bihac",
+    "name": "Bihać",
+    "slug": "bihac",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.81694,
+    "longitude": 15.87083,
+    "population": 75641
+  },
+  {
+    "id": "bijeljina",
+    "name": "Bijeljina",
+    "slug": "bijeljina",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.75874,
+    "longitude": 19.21437,
+    "population": 37692
+  },
+  {
+    "id": "prijedor",
+    "name": "Prijedor",
+    "slug": "prijedor",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.97991,
+    "longitude": 16.71401,
+    "population": 36347
+  },
+  {
+    "id": "trebinje",
+    "name": "Trebinje",
+    "slug": "trebinje",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 42.71197,
+    "longitude": 18.34362,
+    "population": 33178
+  },
+  {
+    "id": "travnik",
+    "name": "Travnik",
+    "slug": "travnik",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.22637,
+    "longitude": 17.66583,
+    "population": 31127
+  },
+  {
+    "id": "doboj",
+    "name": "Doboj",
+    "slug": "doboj",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.73179,
+    "longitude": 18.08698,
+    "population": 27235
+  },
+  {
+    "id": "gorazde",
+    "name": "Goražde",
+    "slug": "gorazde",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 43.66795,
+    "longitude": 18.97564,
+    "population": 17650
+  },
+  {
+    "id": "mrkonjic-grad",
+    "name": "Mrkonjić Grad",
+    "slug": "mrkonjic-grad",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.41729,
+    "longitude": 17.08288,
+    "population": 14737
+  },
+  {
+    "id": "foca",
+    "name": "Foča",
+    "slug": "foca",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 43.50646,
+    "longitude": 18.77854,
+    "population": 14615
+  },
+  {
+    "id": "gradiska",
+    "name": "Gradiška",
+    "slug": "gradiska",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 45.14484,
+    "longitude": 17.25453,
+    "population": 13346
+  },
+  {
+    "id": "bileca",
+    "name": "Bileća",
+    "slug": "bileca",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 42.87645,
+    "longitude": 18.42967,
+    "population": 13257
+  },
+  {
+    "id": "livno",
+    "name": "Livno",
+    "slug": "livno",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 43.82695,
+    "longitude": 17.00746,
+    "population": 11748
+  },
+  {
+    "id": "sipovo",
+    "name": "Šipovo",
+    "slug": "sipovo",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 44.28237,
+    "longitude": 17.08597,
+    "population": 10738
+  },
+  {
+    "id": "kozarska-dubica",
+    "name": "Kozarska Dubica",
+    "slug": "kozarska-dubica",
+    "country": "Bosnia and Herzegovina",
+    "latitude": 45.17667,
+    "longitude": 16.80944,
+    "population": 9959
+  },
+  {
+    "id": "sofia",
+    "name": "Sofia",
+    "slug": "sofia",
+    "country": "Bulgaria",
+    "latitude": 42.69751,
+    "longitude": 23.32415,
+    "population": 1152556
+  },
+  {
+    "id": "plovdiv",
+    "name": "Plovdiv",
+    "slug": "plovdiv",
+    "country": "Bulgaria",
+    "latitude": 42.15387,
+    "longitude": 24.75001,
+    "population": 329489
+  },
+  {
+    "id": "varna",
+    "name": "Varna",
+    "slug": "varna",
+    "country": "Bulgaria",
+    "latitude": 43.21912,
+    "longitude": 27.91024,
+    "population": 318737
+  },
+  {
+    "id": "burgas",
+    "name": "Burgas",
+    "slug": "burgas",
+    "country": "Bulgaria",
+    "latitude": 42.50651,
+    "longitude": 27.46886,
+    "population": 210646
+  },
+  {
+    "id": "stara-zagora",
+    "name": "Stara Zagora",
+    "slug": "stara-zagora",
+    "country": "Bulgaria",
+    "latitude": 42.43205,
+    "longitude": 25.64262,
+    "population": 121582
+  },
+  {
+    "id": "ruse",
+    "name": "Ruse",
+    "slug": "ruse",
+    "country": "Bulgaria",
+    "latitude": 43.84872,
+    "longitude": 25.9534,
+    "population": 121168
+  },
+  {
+    "id": "pleven",
+    "name": "Pleven",
+    "slug": "pleven",
+    "country": "Bulgaria",
+    "latitude": 43.41791,
+    "longitude": 24.61666,
+    "population": 90209
+  },
+  {
+    "id": "sliven",
+    "name": "Sliven",
+    "slug": "sliven",
+    "country": "Bulgaria",
+    "latitude": 42.68607,
+    "longitude": 26.32558,
+    "population": 83740
+  },
+  {
+    "id": "pernik",
+    "name": "Pernik",
+    "slug": "pernik",
+    "country": "Bulgaria",
+    "latitude": 42.59671,
+    "longitude": 23.03318,
+    "population": 82467
+  },
+  {
+    "id": "shumen",
+    "name": "Shumen",
+    "slug": "shumen",
+    "country": "Bulgaria",
+    "latitude": 43.27064,
+    "longitude": 26.92286,
+    "population": 72342
+  },
+  {
+    "id": "dobrich",
+    "name": "Dobrich",
+    "slug": "dobrich",
+    "country": "Bulgaria",
+    "latitude": 43.56491,
+    "longitude": 27.83138,
+    "population": 69434
+  },
+  {
+    "id": "blagoevgrad",
+    "name": "Blagoevgrad",
+    "slug": "blagoevgrad",
+    "country": "Bulgaria",
+    "latitude": 42.01457,
+    "longitude": 23.09804,
+    "population": 67810
+  },
+  {
+    "id": "haskovo",
+    "name": "Haskovo",
+    "slug": "haskovo",
+    "country": "Bulgaria",
+    "latitude": 41.93415,
+    "longitude": 25.55557,
+    "population": 64564
+  },
+  {
+    "id": "yambol",
+    "name": "Yambol",
+    "slug": "yambol",
+    "country": "Bulgaria",
+    "latitude": 42.48243,
+    "longitude": 26.50006,
+    "population": 63656
+  },
+  {
+    "id": "veliko-turnovo",
+    "name": "Veliko Tŭrnovo",
+    "slug": "veliko-turnovo",
+    "country": "Bulgaria",
+    "latitude": 43.08124,
+    "longitude": 25.62904,
+    "population": 59166
+  },
+  {
+    "id": "pazardzhik",
+    "name": "Pazardzhik",
+    "slug": "pazardzhik",
+    "country": "Bulgaria",
+    "latitude": 42.19934,
+    "longitude": 24.33318,
+    "population": 55220
+  },
+  {
+    "id": "vratsa",
+    "name": "Vratsa",
+    "slug": "vratsa",
+    "country": "Bulgaria",
+    "latitude": 43.21052,
+    "longitude": 23.56312,
+    "population": 49569
+  },
+  {
+    "id": "gabrovo",
+    "name": "Gabrovo",
+    "slug": "gabrovo",
+    "country": "Bulgaria",
+    "latitude": 42.87419,
+    "longitude": 25.31823,
+    "population": 48133
+  },
+  {
+    "id": "montana",
+    "name": "Montana",
+    "slug": "montana",
+    "country": "Bulgaria",
+    "latitude": 43.41285,
+    "longitude": 23.22174,
+    "population": 47445
+  },
+  {
+    "id": "kyustendil",
+    "name": "Kyustendil",
+    "slug": "kyustendil",
+    "country": "Bulgaria",
+    "latitude": 42.28314,
+    "longitude": 22.69224,
+    "population": 46856
+  },
+  {
+    "id": "zagreb",
+    "name": "Zagreb",
+    "slug": "zagreb",
+    "country": "Croatia",
+    "latitude": 45.81444,
+    "longitude": 15.97798,
+    "population": 663592
+  },
+  {
+    "id": "split",
+    "name": "Split",
+    "slug": "split",
+    "country": "Croatia",
+    "latitude": 43.50891,
+    "longitude": 16.43915,
+    "population": 149830
+  },
+  {
+    "id": "rijeka",
+    "name": "Rijeka",
+    "slug": "rijeka",
+    "country": "Croatia",
+    "latitude": 45.32673,
+    "longitude": 14.44241,
+    "population": 107964
+  },
+  {
+    "id": "osijek",
+    "name": "Osijek",
+    "slug": "osijek",
+    "country": "Croatia",
+    "latitude": 45.55066,
+    "longitude": 18.6942,
+    "population": 75535
+  },
+  {
+    "id": "zadar",
+    "name": "Zadar",
+    "slug": "zadar",
+    "country": "Croatia",
+    "latitude": 44.11578,
+    "longitude": 15.22514,
+    "population": 67309
+  },
+  {
+    "id": "slavonski-brod",
+    "name": "Slavonski Brod",
+    "slug": "slavonski-brod",
+    "country": "Croatia",
+    "latitude": 45.16158,
+    "longitude": 18.0163,
+    "population": 45005
+  },
+  {
+    "id": "karlovac",
+    "name": "Karlovac",
+    "slug": "karlovac",
+    "country": "Croatia",
+    "latitude": 45.49167,
+    "longitude": 15.55,
+    "population": 41869
+  },
+  {
+    "id": "varazdin",
+    "name": "Varaždin",
+    "slug": "varazdin",
+    "country": "Croatia",
+    "latitude": 46.30444,
+    "longitude": 16.33778,
+    "population": 36187
+  },
+  {
+    "id": "sibenik",
+    "name": "Šibenik",
+    "slug": "sibenik",
+    "country": "Croatia",
+    "latitude": 43.73429,
+    "longitude": 15.8942,
+    "population": 31115
+  },
+  {
+    "id": "sisak",
+    "name": "Sisak",
+    "slug": "sisak",
+    "country": "Croatia",
+    "latitude": 45.46608,
+    "longitude": 16.37748,
+    "population": 27859
+  },
+  {
+    "id": "dubrovnik",
+    "name": "Dubrovnik",
+    "slug": "dubrovnik",
+    "country": "Croatia",
+    "latitude": 42.64125,
+    "longitude": 18.10909,
+    "population": 26922
+  },
+  {
+    "id": "bjelovar",
+    "name": "Bjelovar",
+    "slug": "bjelovar",
+    "country": "Croatia",
+    "latitude": 45.89789,
+    "longitude": 16.85071,
+    "population": 24392
+  },
+  {
+    "id": "koprivnica",
+    "name": "Koprivnica",
+    "slug": "koprivnica",
+    "country": "Croatia",
+    "latitude": 46.16364,
+    "longitude": 16.8297,
+    "population": 22262
+  },
+  {
+    "id": "vukovar",
+    "name": "Vukovar",
+    "slug": "vukovar",
+    "country": "Croatia",
+    "latitude": 45.35161,
+    "longitude": 19.00225,
+    "population": 22255
+  },
+  {
+    "id": "pozega",
+    "name": "Požega",
+    "slug": "pozega",
+    "country": "Croatia",
+    "latitude": 45.34028,
+    "longitude": 17.68528,
+    "population": 16867
+  },
+  {
+    "id": "cakovec",
+    "name": "Čakovec",
+    "slug": "cakovec",
+    "country": "Croatia",
+    "latitude": 46.38444,
+    "longitude": 16.43389,
+    "population": 15078
+  },
+  {
+    "id": "virovitica",
+    "name": "Virovitica",
+    "slug": "virovitica",
+    "country": "Croatia",
+    "latitude": 45.83448,
+    "longitude": 17.38555,
+    "population": 13486
+  },
+  {
+    "id": "gospic",
+    "name": "Gospić",
+    "slug": "gospic",
+    "country": "Croatia",
+    "latitude": 44.54611,
+    "longitude": 15.37472,
+    "population": 6362
+  },
+  {
+    "id": "krapina",
+    "name": "Krapina",
+    "slug": "krapina",
+    "country": "Croatia",
+    "latitude": 46.16076,
+    "longitude": 15.8737,
+    "population": 4201
+  },
+  {
+    "id": "pazin",
+    "name": "Pazin",
+    "slug": "pazin",
+    "country": "Croatia",
+    "latitude": 45.23917,
+    "longitude": 13.93945,
+    "population": 3981
+  },
+  {
+    "id": "nicosia",
+    "name": "Nicosia",
+    "slug": "nicosia",
+    "country": "Cyprus",
+    "latitude": 35.17284,
+    "longitude": 33.35397,
+    "population": 200452
+  },
+  {
+    "id": "limassol",
+    "name": "Limassol",
+    "slug": "limassol",
+    "country": "Cyprus",
+    "latitude": 34.68406,
+    "longitude": 33.03794,
+    "population": 154000
+  },
+  {
+    "id": "larnaca",
+    "name": "Larnaca",
+    "slug": "larnaca",
+    "country": "Cyprus",
+    "latitude": 34.9221,
+    "longitude": 33.62794,
+    "population": 72000
+  },
+  {
+    "id": "famagusta",
+    "name": "Famagusta",
+    "slug": "famagusta",
+    "country": "Cyprus",
+    "latitude": 35.12489,
+    "longitude": 33.94135,
+    "population": 42526
+  },
+  {
+    "id": "paphos",
+    "name": "Paphos",
+    "slug": "paphos",
+    "country": "Cyprus",
+    "latitude": 34.77679,
+    "longitude": 32.42451,
+    "population": 35961
+  },
+  {
+    "id": "kyrenia",
+    "name": "Kyrenia",
+    "slug": "kyrenia",
+    "country": "Cyprus",
+    "latitude": 35.33634,
+    "longitude": 33.31729,
+    "population": 26701
+  },
+  {
+    "id": "strovolos",
+    "name": "Stróvolos",
+    "slug": "strovolos",
+    "country": "Cyprus",
+    "latitude": 35.14867,
+    "longitude": 33.33384,
+    "population": 67904
+  },
+  {
+    "id": "kato-lakatameia",
+    "name": "Káto Lakatámeia",
+    "slug": "kato-lakatameia",
+    "country": "Cyprus",
+    "latitude": 35.11755,
+    "longitude": 33.32539,
+    "population": 40000
+  },
+  {
+    "id": "pergamos",
+    "name": "Pérgamos",
+    "slug": "pergamos",
+    "country": "Cyprus",
+    "latitude": 35.04167,
+    "longitude": 33.70833,
+    "population": 15000
+  },
+  {
+    "id": "polemi",
+    "name": "Polémi",
+    "slug": "polemi",
+    "country": "Cyprus",
+    "latitude": 34.88613,
+    "longitude": 32.50712,
+    "population": 848
+  },
+  {
+    "id": "meladeia",
+    "name": "Meládeia",
+    "slug": "meladeia",
+    "country": "Cyprus",
+    "latitude": 34.98816,
+    "longitude": 32.50665,
+    "population": 20
+  },
+  {
+    "id": "koloni",
+    "name": "Koloni",
+    "slug": "koloni",
+    "country": "Cyprus",
+    "latitude": 34.74858,
+    "longitude": 32.46565,
+    "population": 264
+  },
+  {
+    "id": "morfou",
+    "name": "Mórfou",
+    "slug": "morfou",
+    "country": "Cyprus",
+    "latitude": 35.19869,
+    "longitude": 32.99338,
+    "population": 24070
+  },
+  {
+    "id": "kato-polemidia",
+    "name": "Káto Polemídia",
+    "slug": "kato-polemidia",
+    "country": "Cyprus",
+    "latitude": 34.69721,
+    "longitude": 32.99324,
+    "population": 23231
+  },
+  {
+    "id": "aradippou",
+    "name": "Aradíppou",
+    "slug": "aradippou",
+    "country": "Cyprus",
+    "latitude": 34.94779,
+    "longitude": 33.58813,
+    "population": 22934
+  },
+  {
+    "id": "aglantzia",
+    "name": "Aglantziá",
+    "slug": "aglantzia",
+    "country": "Cyprus",
+    "latitude": 35.15422,
+    "longitude": 33.39643,
+    "population": 21543
+  },
+  {
+    "id": "egkomi",
+    "name": "Égkomi",
+    "slug": "egkomi",
+    "country": "Cyprus",
+    "latitude": 35.16272,
+    "longitude": 33.88322,
+    "population": 20502
+  },
+  {
+    "id": "protaras",
+    "name": "Protaras",
+    "slug": "protaras",
+    "country": "Cyprus",
+    "latitude": 35.0125,
+    "longitude": 34.05833,
+    "population": 20230
+  },
+  {
+    "id": "germasogeia",
+    "name": "Germasógeia",
+    "slug": "germasogeia",
+    "country": "Cyprus",
+    "latitude": 34.72073,
+    "longitude": 33.08447,
+    "population": 17325
+  },
+  {
+    "id": "agios-dometios",
+    "name": "Ágios Dométios",
+    "slug": "agios-dometios",
+    "country": "Cyprus",
+    "latitude": 35.17346,
+    "longitude": 33.34045,
+    "population": 12904
+  },
+  {
+    "id": "prague",
+    "name": "Prague",
+    "slug": "prague",
+    "country": "Czechia",
+    "latitude": 50.08804,
+    "longitude": 14.42076,
+    "population": 1165581
+  },
+  {
+    "id": "brno",
+    "name": "Brno",
+    "slug": "brno",
+    "country": "Czechia",
+    "latitude": 49.19522,
+    "longitude": 16.60796,
+    "population": 379466
+  },
+  {
+    "id": "ostrava",
+    "name": "Ostrava",
+    "slug": "ostrava",
+    "country": "Czechia",
+    "latitude": 49.83465,
+    "longitude": 18.28204,
+    "population": 279791
+  },
+  {
+    "id": "pilsen",
+    "name": "Pilsen",
+    "slug": "pilsen",
+    "country": "Czechia",
+    "latitude": 49.74747,
+    "longitude": 13.37759,
+    "population": 168733
+  },
+  {
+    "id": "liberec",
+    "name": "Liberec",
+    "slug": "liberec",
+    "country": "Czechia",
+    "latitude": 50.76711,
+    "longitude": 15.05619,
+    "population": 102951
+  },
+  {
+    "id": "olomouc",
+    "name": "Olomouc",
+    "slug": "olomouc",
+    "country": "Czechia",
+    "latitude": 49.59552,
+    "longitude": 17.25175,
+    "population": 99496
+  },
+  {
+    "id": "ceske-budejovice",
+    "name": "České Budějovice",
+    "slug": "ceske-budejovice",
+    "country": "Czechia",
+    "latitude": 48.97447,
+    "longitude": 14.47434,
+    "population": 93426
+  },
+  {
+    "id": "hradec-kralove",
+    "name": "Hradec Králové",
+    "slug": "hradec-kralove",
+    "country": "Czechia",
+    "latitude": 50.20923,
+    "longitude": 15.83277,
+    "population": 90596
+  },
+  {
+    "id": "usti-nad-labem",
+    "name": "Ústí nad Labem",
+    "slug": "usti-nad-labem",
+    "country": "Czechia",
+    "latitude": 50.6607,
+    "longitude": 14.03227,
+    "population": 90378
+  },
+  {
+    "id": "pardubice",
+    "name": "Pardubice",
+    "slug": "pardubice",
+    "country": "Czechia",
+    "latitude": 50.04075,
+    "longitude": 15.77659,
+    "population": 88520
+  },
+  {
+    "id": "zlin",
+    "name": "Zlín",
+    "slug": "zlin",
+    "country": "Czechia",
+    "latitude": 49.22645,
+    "longitude": 17.67065,
+    "population": 72973
+  },
+  {
+    "id": "jihlava",
+    "name": "Jihlava",
+    "slug": "jihlava",
+    "country": "Czechia",
+    "latitude": 49.3961,
+    "longitude": 15.59124,
+    "population": 50108
+  },
+  {
+    "id": "karlovy-vary",
+    "name": "Karlovy Vary",
+    "slug": "karlovy-vary",
+    "country": "Czechia",
+    "latitude": 50.23271,
+    "longitude": 12.87117,
+    "population": 45500
+  },
+  {
+    "id": "karvina",
+    "name": "Karviná",
+    "slug": "karvina",
+    "country": "Czechia",
+    "latitude": 49.854,
+    "longitude": 18.54169,
+    "population": 48637
+  },
+  {
+    "id": "znojmo",
+    "name": "Znojmo",
+    "slug": "znojmo",
+    "country": "Czechia",
+    "latitude": 48.8555,
+    "longitude": 16.0488,
+    "population": 35280
+  },
+  {
+    "id": "breclav",
+    "name": "Břeclav",
+    "slug": "breclav",
+    "country": "Czechia",
+    "latitude": 48.75897,
+    "longitude": 16.88203,
+    "population": 25789
+  },
+  {
+    "id": "havirov",
+    "name": "Havířov",
+    "slug": "havirov",
+    "country": "Czechia",
+    "latitude": 49.77984,
+    "longitude": 18.43688,
+    "population": 82768
+  },
+  {
+    "id": "cesky-tesin",
+    "name": "Český Těšín",
+    "slug": "cesky-tesin",
+    "country": "Czechia",
+    "latitude": 49.74613,
+    "longitude": 18.62613,
+    "population": 25750
+  },
+  {
+    "id": "slapanice",
+    "name": "Šlapanice",
+    "slug": "slapanice",
+    "country": "Czechia",
+    "latitude": 49.16863,
+    "longitude": 16.72731,
+    "population": 7109
+  },
+  {
+    "id": "bludov",
+    "name": "Bludov",
+    "slug": "bludov",
+    "country": "Czechia",
+    "latitude": 49.9408,
+    "longitude": 16.92849,
+    "population": 3155
+  },
+  {
+    "id": "copenhagen",
+    "name": "Copenhagen",
+    "slug": "copenhagen",
+    "country": "Denmark",
+    "latitude": 55.67594,
+    "longitude": 12.56553,
+    "population": 1153615
+  },
+  {
+    "id": "aalborg",
+    "name": "Aalborg",
+    "slug": "aalborg",
+    "country": "Denmark",
+    "latitude": 57.048,
+    "longitude": 9.9187,
+    "population": 142937
+  },
+  {
+    "id": "vejle",
+    "name": "Vejle",
+    "slug": "vejle",
+    "country": "Denmark",
+    "latitude": 55.70927,
+    "longitude": 9.5357,
+    "population": 60231
+  },
+  {
+    "id": "viborg",
+    "name": "Viborg",
+    "slug": "viborg",
+    "country": "Denmark",
+    "latitude": 56.45319,
+    "longitude": 9.40201,
+    "population": 41239
+  },
+  {
+    "id": "hiller-d",
+    "name": "Hillerød",
+    "slug": "hiller-d",
+    "country": "Denmark",
+    "latitude": 55.92791,
+    "longitude": 12.30081,
+    "population": 35357
+  },
+  {
+    "id": "sor",
+    "name": "Sorø",
+    "slug": "sor",
+    "country": "Denmark",
+    "latitude": 55.43184,
+    "longitude": 11.55547,
+    "population": 7999
+  },
+  {
+    "id": "arhus",
+    "name": "Århus",
+    "slug": "arhus",
+    "country": "Denmark",
+    "latitude": 56.15674,
+    "longitude": 10.21076,
+    "population": 285273
+  },
+  {
+    "id": "odense",
+    "name": "Odense",
+    "slug": "odense",
+    "country": "Denmark",
+    "latitude": 55.39594,
+    "longitude": 10.38831,
+    "population": 180863
+  },
+  {
+    "id": "frederiksberg",
+    "name": "Frederiksberg",
+    "slug": "frederiksberg",
+    "country": "Denmark",
+    "latitude": 55.67938,
+    "longitude": 12.53463,
+    "population": 95029
+  },
+  {
+    "id": "esbjerg",
+    "name": "Esbjerg",
+    "slug": "esbjerg",
+    "country": "Denmark",
+    "latitude": 55.47028,
+    "longitude": 8.45187,
+    "population": 71698
+  },
+  {
+    "id": "randers",
+    "name": "Randers",
+    "slug": "randers",
+    "country": "Denmark",
+    "latitude": 56.4607,
+    "longitude": 10.03639,
+    "population": 62802
+  },
+  {
+    "id": "kolding",
+    "name": "Kolding",
+    "slug": "kolding",
+    "country": "Denmark",
+    "latitude": 55.4904,
+    "longitude": 9.47216,
+    "population": 61638
+  },
+  {
+    "id": "horsens",
+    "name": "Horsens",
+    "slug": "horsens",
+    "country": "Denmark",
+    "latitude": 55.86066,
+    "longitude": 9.85034,
+    "population": 61074
+  },
+  {
+    "id": "hvidovre",
+    "name": "Hvidovre",
+    "slug": "hvidovre",
+    "country": "Denmark",
+    "latitude": 55.64297,
+    "longitude": 12.47708,
+    "population": 53527
+  },
+  {
+    "id": "roskilde",
+    "name": "Roskilde",
+    "slug": "roskilde",
+    "country": "Denmark",
+    "latitude": 55.64152,
+    "longitude": 12.08035,
+    "population": 51916
+  },
+  {
+    "id": "herning",
+    "name": "Herning",
+    "slug": "herning",
+    "country": "Denmark",
+    "latitude": 56.13615,
+    "longitude": 8.97662,
+    "population": 50565
+  },
+  {
+    "id": "silkeborg",
+    "name": "Silkeborg",
+    "slug": "silkeborg",
+    "country": "Denmark",
+    "latitude": 56.1697,
+    "longitude": 9.54508,
+    "population": 49747
+  },
+  {
+    "id": "h-rsholm",
+    "name": "Hørsholm",
+    "slug": "h-rsholm",
+    "country": "Denmark",
+    "latitude": 55.88098,
+    "longitude": 12.50111,
+    "population": 47680
+  },
+  {
+    "id": "greve",
+    "name": "Greve",
+    "slug": "greve",
+    "country": "Denmark",
+    "latitude": 55.58333,
+    "longitude": 12.3,
+    "population": 47671
+  },
+  {
+    "id": "hedensted",
+    "name": "Hedensted",
+    "slug": "hedensted",
+    "country": "Denmark",
+    "latitude": 55.77043,
+    "longitude": 9.7011,
+    "population": 47099
+  },
+  {
+    "id": "tallinn",
+    "name": "Tallinn",
+    "slug": "tallinn",
+    "country": "Estonia",
+    "latitude": 59.43696,
+    "longitude": 24.75353,
+    "population": 394024
+  },
+  {
+    "id": "tartu",
+    "name": "Tartu",
+    "slug": "tartu",
+    "country": "Estonia",
+    "latitude": 58.38062,
+    "longitude": 26.72509,
+    "population": 91407
+  },
+  {
+    "id": "parnu",
+    "name": "Pärnu",
+    "slug": "parnu",
+    "country": "Estonia",
+    "latitude": 58.38588,
+    "longitude": 24.49711,
+    "population": 40228
+  },
+  {
+    "id": "viljandi",
+    "name": "Viljandi",
+    "slug": "viljandi",
+    "country": "Estonia",
+    "latitude": 58.36319,
+    "longitude": 25.59159,
+    "population": 17407
+  },
+  {
+    "id": "rakvere",
+    "name": "Rakvere",
+    "slug": "rakvere",
+    "country": "Estonia",
+    "latitude": 59.34808,
+    "longitude": 26.35784,
+    "population": 14984
+  },
+  {
+    "id": "kuressaare",
+    "name": "Kuressaare",
+    "slug": "kuressaare",
+    "country": "Estonia",
+    "latitude": 58.25382,
+    "longitude": 22.49217,
+    "population": 12698
+  },
+  {
+    "id": "voru",
+    "name": "Võru",
+    "slug": "voru",
+    "country": "Estonia",
+    "latitude": 57.83389,
+    "longitude": 27.01944,
+    "population": 12367
+  },
+  {
+    "id": "haapsalu",
+    "name": "Haapsalu",
+    "slug": "haapsalu",
+    "country": "Estonia",
+    "latitude": 58.93937,
+    "longitude": 23.54127,
+    "population": 11805
+  },
+  {
+    "id": "valga",
+    "name": "Valga",
+    "slug": "valga",
+    "country": "Estonia",
+    "latitude": 57.77781,
+    "longitude": 26.0473,
+    "population": 11792
+  },
+  {
+    "id": "johvi",
+    "name": "Jõhvi",
+    "slug": "johvi",
+    "country": "Estonia",
+    "latitude": 59.35917,
+    "longitude": 27.42111,
+    "population": 10130
+  },
+  {
+    "id": "paide",
+    "name": "Paide",
+    "slug": "paide",
+    "country": "Estonia",
+    "latitude": 58.88768,
+    "longitude": 25.54042,
+    "population": 7793
+  },
+  {
+    "id": "jogeva",
+    "name": "Jõgeva",
+    "slug": "jogeva",
+    "country": "Estonia",
+    "latitude": 58.74667,
+    "longitude": 26.39389,
+    "population": 6396
+  },
+  {
+    "id": "rapla",
+    "name": "Rapla",
+    "slug": "rapla",
+    "country": "Estonia",
+    "latitude": 59.00759,
+    "longitude": 24.79386,
+    "population": 5132
+  },
+  {
+    "id": "polva",
+    "name": "Põlva",
+    "slug": "polva",
+    "country": "Estonia",
+    "latitude": 58.06028,
+    "longitude": 27.06944,
+    "population": 5115
+  },
+  {
+    "id": "kardla",
+    "name": "Kärdla",
+    "slug": "kardla",
+    "country": "Estonia",
+    "latitude": 58.99778,
+    "longitude": 22.74917,
+    "population": 3160
+  },
+  {
+    "id": "narva",
+    "name": "Narva",
+    "slug": "narva",
+    "country": "Estonia",
+    "latitude": 59.37722,
+    "longitude": 28.19028,
+    "population": 54409
+  },
+  {
+    "id": "maardu",
+    "name": "Maardu",
+    "slug": "maardu",
+    "country": "Estonia",
+    "latitude": 59.46529,
+    "longitude": 24.98215,
+    "population": 16630
+  },
+  {
+    "id": "sillamae",
+    "name": "Sillamäe",
+    "slug": "sillamae",
+    "country": "Estonia",
+    "latitude": 59.39697,
+    "longitude": 27.76331,
+    "population": 12480
+  },
+  {
+    "id": "keila",
+    "name": "Keila",
+    "slug": "keila",
+    "country": "Estonia",
+    "latitude": 59.30361,
+    "longitude": 24.41306,
+    "population": 10068
+  },
+  {
+    "id": "kuusalu",
+    "name": "Kuusalu",
+    "slug": "kuusalu",
+    "country": "Estonia",
+    "latitude": 59.44389,
+    "longitude": 25.44139,
+    "population": 6464
+  },
+  {
+    "id": "helsinki",
+    "name": "Helsinki",
+    "slug": "helsinki",
+    "country": "Finland",
+    "latitude": 60.16952,
+    "longitude": 24.93545,
+    "population": 658864
+  },
+  {
+    "id": "tampere",
+    "name": "Tampere",
+    "slug": "tampere",
+    "country": "Finland",
+    "latitude": 61.49911,
+    "longitude": 23.78712,
+    "population": 260646
+  },
+  {
+    "id": "oulu",
+    "name": "Oulu",
+    "slug": "oulu",
+    "country": "Finland",
+    "latitude": 65.01236,
+    "longitude": 25.46816,
+    "population": 216066
+  },
+  {
+    "id": "turku",
+    "name": "Turku",
+    "slug": "turku",
+    "country": "Finland",
+    "latitude": 60.45148,
+    "longitude": 22.26869,
+    "population": 206655
+  },
+  {
+    "id": "jyvaskyla",
+    "name": "Jyväskylä",
+    "slug": "jyvaskyla",
+    "country": "Finland",
+    "latitude": 62.24147,
+    "longitude": 25.72088,
+    "population": 148744
+  },
+  {
+    "id": "kuopio",
+    "name": "Kuopio",
+    "slug": "kuopio",
+    "country": "Finland",
+    "latitude": 62.89238,
+    "longitude": 27.67703,
+    "population": 125462
+  },
+  {
+    "id": "lahti",
+    "name": "Lahti",
+    "slug": "lahti",
+    "country": "Finland",
+    "latitude": 60.98267,
+    "longitude": 25.66151,
+    "population": 121622
+  },
+  {
+    "id": "pori",
+    "name": "Pori",
+    "slug": "pori",
+    "country": "Finland",
+    "latitude": 61.48072,
+    "longitude": 21.78518,
+    "population": 83157
+  },
+  {
+    "id": "joensuu",
+    "name": "Joensuu",
+    "slug": "joensuu",
+    "country": "Finland",
+    "latitude": 62.60118,
+    "longitude": 29.76316,
+    "population": 78398
+  },
+  {
+    "id": "kouvola",
+    "name": "Kouvola",
+    "slug": "kouvola",
+    "country": "Finland",
+    "latitude": 60.86667,
+    "longitude": 26.7,
+    "population": 78094
+  },
+  {
+    "id": "lappeenranta",
+    "name": "Lappeenranta",
+    "slug": "lappeenranta",
+    "country": "Finland",
+    "latitude": 61.05871,
+    "longitude": 28.18871,
+    "population": 72909
+  },
+  {
+    "id": "vaasa",
+    "name": "Vaasa",
+    "slug": "vaasa",
+    "country": "Finland",
+    "latitude": 63.096,
+    "longitude": 21.61577,
+    "population": 69819
+  },
+  {
+    "id": "hameenlinna",
+    "name": "Hämeenlinna",
+    "slug": "hameenlinna",
+    "country": "Finland",
+    "latitude": 60.99596,
+    "longitude": 24.46434,
+    "population": 68473
+  },
+  {
+    "id": "seinajoki",
+    "name": "Seinäjoki",
+    "slug": "seinajoki",
+    "country": "Finland",
+    "latitude": 62.79446,
+    "longitude": 22.82822,
+    "population": 66848
+  },
+  {
+    "id": "rovaniemi",
+    "name": "Rovaniemi",
+    "slug": "rovaniemi",
+    "country": "Finland",
+    "latitude": 66.49897,
+    "longitude": 25.68867,
+    "population": 65670
+  },
+  {
+    "id": "mikkeli",
+    "name": "Mikkeli",
+    "slug": "mikkeli",
+    "country": "Finland",
+    "latitude": 61.68857,
+    "longitude": 27.27227,
+    "population": 51661
+  },
+  {
+    "id": "kokkola",
+    "name": "Kokkola",
+    "slug": "kokkola",
+    "country": "Finland",
+    "latitude": 63.83847,
+    "longitude": 23.13066,
+    "population": 48361
+  },
+  {
+    "id": "kajaani",
+    "name": "Kajaani",
+    "slug": "kajaani",
+    "country": "Finland",
+    "latitude": 64.22728,
+    "longitude": 27.72846,
+    "population": 36458
+  },
+  {
+    "id": "pyhajarvi",
+    "name": "Pyhäjärvi",
+    "slug": "pyhajarvi",
+    "country": "Finland",
+    "latitude": 63.68125,
+    "longitude": 25.9812,
+    "population": 4639
+  },
+  {
+    "id": "espoo",
+    "name": "Espoo",
+    "slug": "espoo",
+    "country": "Finland",
+    "latitude": 60.2052,
+    "longitude": 24.6522,
+    "population": 323910
+  },
+  {
+    "id": "paris",
+    "name": "Paris",
+    "slug": "paris",
+    "country": "France",
+    "latitude": 48.85341,
+    "longitude": 2.3488,
+    "population": 2138551
+  },
+  {
+    "id": "marseille",
+    "name": "Marseille",
+    "slug": "marseille",
+    "country": "France",
+    "latitude": 43.29695,
+    "longitude": 5.38107,
+    "population": 877215
+  },
+  {
+    "id": "lyon",
+    "name": "Lyon",
+    "slug": "lyon",
+    "country": "France",
+    "latitude": 45.74906,
+    "longitude": 4.84789,
+    "population": 520774
+  },
+  {
+    "id": "toulouse",
+    "name": "Toulouse",
+    "slug": "toulouse",
+    "country": "France",
+    "latitude": 43.60426,
+    "longitude": 1.44367,
+    "population": 511684
+  },
+  {
+    "id": "nantes",
+    "name": "Nantes",
+    "slug": "nantes",
+    "country": "France",
+    "latitude": 47.21725,
+    "longitude": -1.55336,
+    "population": 325070
+  },
+  {
+    "id": "strasbourg",
+    "name": "Strasbourg",
+    "slug": "strasbourg",
+    "country": "France",
+    "latitude": 48.58392,
+    "longitude": 7.74553,
+    "population": 274845
+  },
+  {
+    "id": "bordeaux",
+    "name": "Bordeaux",
+    "slug": "bordeaux",
+    "country": "France",
+    "latitude": 44.84124,
+    "longitude": -0.58046,
+    "population": 265328
+  },
+  {
+    "id": "lille",
+    "name": "Lille",
+    "slug": "lille",
+    "country": "France",
+    "latitude": 50.63391,
+    "longitude": 3.05512,
+    "population": 238695
+  },
+  {
+    "id": "rennes",
+    "name": "Rennes",
+    "slug": "rennes",
+    "country": "France",
+    "latitude": 48.11109,
+    "longitude": -1.67431,
+    "population": 227830
+  },
+  {
+    "id": "dijon",
+    "name": "Dijon",
+    "slug": "dijon",
+    "country": "France",
+    "latitude": 47.31344,
+    "longitude": 5.01391,
+    "population": 159941
+  },
+  {
+    "id": "orleans",
+    "name": "Orléans",
+    "slug": "orleans",
+    "country": "France",
+    "latitude": 47.90248,
+    "longitude": 1.90407,
+    "population": 116344
+  },
+  {
+    "id": "rouen",
+    "name": "Rouen",
+    "slug": "rouen",
+    "country": "France",
+    "latitude": 49.44313,
+    "longitude": 1.09932,
+    "population": 116331
+  },
+  {
+    "id": "ajaccio",
+    "name": "Ajaccio",
+    "slug": "ajaccio",
+    "country": "France",
+    "latitude": 41.91886,
+    "longitude": 8.73812,
+    "population": 54364
+  },
+  {
+    "id": "nice",
+    "name": "Nice",
+    "slug": "nice",
+    "country": "France",
+    "latitude": 43.70313,
+    "longitude": 7.26608,
+    "population": 342669
+  },
+  {
+    "id": "montpellier",
+    "name": "Montpellier",
+    "slug": "montpellier",
+    "country": "France",
+    "latitude": 43.61093,
+    "longitude": 3.87635,
+    "population": 248252
+  },
+  {
+    "id": "saint-etienne",
+    "name": "Saint-Étienne",
+    "slug": "saint-etienne",
+    "country": "France",
+    "latitude": 45.43389,
+    "longitude": 4.39,
+    "population": 176280
+  },
+  {
+    "id": "toulon",
+    "name": "Toulon",
+    "slug": "toulon",
+    "country": "France",
+    "latitude": 43.12442,
+    "longitude": 5.92836,
+    "population": 168701
+  },
+  {
+    "id": "angers",
+    "name": "Angers",
+    "slug": "angers",
+    "country": "France",
+    "latitude": 47.47156,
+    "longitude": -0.55202,
+    "population": 168279
+  },
+  {
+    "id": "grenoble",
+    "name": "Grenoble",
+    "slug": "grenoble",
+    "country": "France",
+    "latitude": 45.17869,
+    "longitude": 5.71479,
+    "population": 158552
+  },
+  {
+    "id": "nimes",
+    "name": "Nîmes",
+    "slug": "nimes",
+    "country": "France",
+    "latitude": 43.83665,
+    "longitude": 4.35788,
+    "population": 148236
+  },
+  {
+    "id": "tbilisi",
+    "name": "Tbilisi",
+    "slug": "tbilisi",
+    "country": "Georgia",
+    "latitude": 41.69143,
+    "longitude": 44.83412,
+    "population": 1049498
+  },
+  {
+    "id": "batumi",
+    "name": "Batumi",
+    "slug": "batumi",
+    "country": "Georgia",
+    "latitude": 41.64077,
+    "longitude": 41.6306,
+    "population": 186949
+  },
+  {
+    "id": "kutaisi",
+    "name": "Kutaisi",
+    "slug": "kutaisi",
+    "country": "Georgia",
+    "latitude": 42.26791,
+    "longitude": 42.69459,
+    "population": 135201
+  },
+  {
+    "id": "rustavi",
+    "name": "Rustavi",
+    "slug": "rustavi",
+    "country": "Georgia",
+    "latitude": 41.56271,
+    "longitude": 44.9787,
+    "population": 128249
+  },
+  {
+    "id": "sokhumi",
+    "name": "Sokhumi",
+    "slug": "sokhumi",
+    "country": "Georgia",
+    "latitude": 43.00697,
+    "longitude": 40.9893,
+    "population": 65439
+  },
+  {
+    "id": "gori",
+    "name": "Gori",
+    "slug": "gori",
+    "country": "Georgia",
+    "latitude": 41.98532,
+    "longitude": 44.1129,
+    "population": 41933
+  },
+  {
+    "id": "zugdidi",
+    "name": "Zugdidi",
+    "slug": "zugdidi",
+    "country": "Georgia",
+    "latitude": 42.5084,
+    "longitude": 41.86796,
+    "population": 40067
+  },
+  {
+    "id": "telavi",
+    "name": "Telavi",
+    "slug": "telavi",
+    "country": "Georgia",
+    "latitude": 41.91957,
+    "longitude": 45.47002,
+    "population": 19875
+  },
+  {
+    "id": "akhaltsikhe",
+    "name": "Akhaltsikhe",
+    "slug": "akhaltsikhe",
+    "country": "Georgia",
+    "latitude": 41.63952,
+    "longitude": 42.98604,
+    "population": 17445
+  },
+  {
+    "id": "ozurgeti",
+    "name": "Ozurgeti",
+    "slug": "ozurgeti",
+    "country": "Georgia",
+    "latitude": 41.92336,
+    "longitude": 42.00525,
+    "population": 13935
+  },
+  {
+    "id": "mtskheta",
+    "name": "Mtskheta",
+    "slug": "mtskheta",
+    "country": "Georgia",
+    "latitude": 41.84514,
+    "longitude": 44.71875,
+    "population": 7380
+  },
+  {
+    "id": "ambrolauri",
+    "name": "Ambrolauri",
+    "slug": "ambrolauri",
+    "country": "Georgia",
+    "latitude": 42.52322,
+    "longitude": 43.14982,
+    "population": 1952
+  },
+  {
+    "id": "poti",
+    "name": "Poti",
+    "slug": "poti",
+    "country": "Georgia",
+    "latitude": 42.14272,
+    "longitude": 41.67384,
+    "population": 41175
+  },
+  {
+    "id": "marneuli",
+    "name": "Marneuli",
+    "slug": "marneuli",
+    "country": "Georgia",
+    "latitude": 41.48758,
+    "longitude": 44.79845,
+    "population": 26400
+  },
+  {
+    "id": "khashuri",
+    "name": "Khashuri",
+    "slug": "khashuri",
+    "country": "Georgia",
+    "latitude": 41.99733,
+    "longitude": 43.59905,
+    "population": 23949
+  },
+  {
+    "id": "samtredia",
+    "name": "Samtredia",
+    "slug": "samtredia",
+    "country": "Georgia",
+    "latitude": 42.1537,
+    "longitude": 42.33517,
+    "population": 20633
+  },
+  {
+    "id": "zestaponi",
+    "name": "Zestaponi",
+    "slug": "zestaponi",
+    "country": "Georgia",
+    "latitude": 42.10752,
+    "longitude": 43.03291,
+    "population": 20183
+  },
+  {
+    "id": "kobuleti",
+    "name": "Kobuleti",
+    "slug": "kobuleti",
+    "country": "Georgia",
+    "latitude": 41.83283,
+    "longitude": 41.77823,
+    "population": 17538
+  },
+  {
+    "id": "senaki",
+    "name": "Senaki",
+    "slug": "senaki",
+    "country": "Georgia",
+    "latitude": 42.27077,
+    "longitude": 42.06334,
+    "population": 14991
+  },
+  {
+    "id": "gardabani",
+    "name": "Gardabani",
+    "slug": "gardabani",
+    "country": "Georgia",
+    "latitude": 41.45967,
+    "longitude": 45.08988,
+    "population": 12364
+  },
+  {
+    "id": "berlin",
+    "name": "Berlin",
+    "slug": "berlin",
+    "country": "Germany",
+    "latitude": 52.52437,
+    "longitude": 13.41053,
+    "population": 3426354
+  },
+  {
+    "id": "hamburg",
+    "name": "Hamburg",
+    "slug": "hamburg",
+    "country": "Germany",
+    "latitude": 53.55073,
+    "longitude": 9.99302,
+    "population": 1845229
+  },
+  {
+    "id": "munich",
+    "name": "Munich",
+    "slug": "munich",
+    "country": "Germany",
+    "latitude": 48.13743,
+    "longitude": 11.57549,
+    "population": 1260391
+  },
+  {
+    "id": "stuttgart",
+    "name": "Stuttgart",
+    "slug": "stuttgart",
+    "country": "Germany",
+    "latitude": 48.78232,
+    "longitude": 9.17702,
+    "population": 630305
+  },
+  {
+    "id": "dusseldorf",
+    "name": "Düsseldorf",
+    "slug": "dusseldorf",
+    "country": "Germany",
+    "latitude": 51.22172,
+    "longitude": 6.77616,
+    "population": 620523
+  },
+  {
+    "id": "dresden",
+    "name": "Dresden",
+    "slug": "dresden",
+    "country": "Germany",
+    "latitude": 51.05089,
+    "longitude": 13.73832,
+    "population": 556227
+  },
+  {
+    "id": "bremen",
+    "name": "Bremen",
+    "slug": "bremen",
+    "country": "Germany",
+    "latitude": 53.07582,
+    "longitude": 8.80717,
+    "population": 546501
+  },
+  {
+    "id": "hannover",
+    "name": "Hannover",
+    "slug": "hannover",
+    "country": "Germany",
+    "latitude": 52.37052,
+    "longitude": 9.73322,
+    "population": 515140
+  },
+  {
+    "id": "wiesbaden",
+    "name": "Wiesbaden",
+    "slug": "wiesbaden",
+    "country": "Germany",
+    "latitude": 50.08601,
+    "longitude": 8.24435,
+    "population": 278609
+  },
+  {
+    "id": "kiel",
+    "name": "Kiel",
+    "slug": "kiel",
+    "country": "Germany",
+    "latitude": 54.32133,
+    "longitude": 10.13489,
+    "population": 246601
+  },
+  {
+    "id": "magdeburg",
+    "name": "Magdeburg",
+    "slug": "magdeburg",
+    "country": "Germany",
+    "latitude": 52.13129,
+    "longitude": 11.63189,
+    "population": 235775
+  },
+  {
+    "id": "mainz",
+    "name": "Mainz",
+    "slug": "mainz",
+    "country": "Germany",
+    "latitude": 49.98185,
+    "longitude": 8.28008,
+    "population": 217123
+  },
+  {
+    "id": "erfurt",
+    "name": "Erfurt",
+    "slug": "erfurt",
+    "country": "Germany",
+    "latitude": 50.97734,
+    "longitude": 11.03536,
+    "population": 213692
+  },
+  {
+    "id": "potsdam",
+    "name": "Potsdam",
+    "slug": "potsdam",
+    "country": "Germany",
+    "latitude": 52.39886,
+    "longitude": 13.06566,
+    "population": 182112
+  },
+  {
+    "id": "saarbrucken",
+    "name": "Saarbrücken",
+    "slug": "saarbrucken",
+    "country": "Germany",
+    "latitude": 49.23262,
+    "longitude": 7.00982,
+    "population": 179349
+  },
+  {
+    "id": "schwerin",
+    "name": "Schwerin",
+    "slug": "schwerin",
+    "country": "Germany",
+    "latitude": 53.62937,
+    "longitude": 11.41316,
+    "population": 96641
+  },
+  {
+    "id": "koln",
+    "name": "Köln",
+    "slug": "koln",
+    "country": "Germany",
+    "latitude": 50.93333,
+    "longitude": 6.95,
+    "population": 963395
+  },
+  {
+    "id": "karlsruhe",
+    "name": "Karlsruhe",
+    "slug": "karlsruhe",
+    "country": "Germany",
+    "latitude": 49.00937,
+    "longitude": 8.40444,
+    "population": 283799
+  },
+  {
+    "id": "munster",
+    "name": "Münster",
+    "slug": "munster",
+    "country": "Germany",
+    "latitude": 51.96236,
+    "longitude": 7.62571,
+    "population": 270184
+  },
+  {
+    "id": "augsburg",
+    "name": "Augsburg",
+    "slug": "augsburg",
+    "country": "Germany",
+    "latitude": 48.37154,
+    "longitude": 10.89851,
+    "population": 259196
+  },
+  {
+    "id": "athens",
+    "name": "Athens",
+    "slug": "athens",
+    "country": "Greece",
+    "latitude": 37.98376,
+    "longitude": 23.72784,
+    "population": 664046
+  },
+  {
+    "id": "thessaloniki",
+    "name": "Thessaloníki",
+    "slug": "thessaloniki",
+    "country": "Greece",
+    "latitude": 40.64072,
+    "longitude": 22.93493,
+    "population": 317778
+  },
+  {
+    "id": "patra",
+    "name": "Pátra",
+    "slug": "patra",
+    "country": "Greece",
+    "latitude": 38.2462,
+    "longitude": 21.73508,
+    "population": 168034
+  },
+  {
+    "id": "larisa",
+    "name": "Lárisa",
+    "slug": "larisa",
+    "country": "Greece",
+    "latitude": 39.62847,
+    "longitude": 22.42112,
+    "population": 146926
+  },
+  {
+    "id": "irakleion",
+    "name": "Irákleion",
+    "slug": "irakleion",
+    "country": "Greece",
+    "latitude": 35.32787,
+    "longitude": 25.14341,
+    "population": 137154
+  },
+  {
+    "id": "ioannina",
+    "name": "Ioánnina",
+    "slug": "ioannina",
+    "country": "Greece",
+    "latitude": 39.66341,
+    "longitude": 20.85187,
+    "population": 65574
+  },
+  {
+    "id": "lamia",
+    "name": "Lamía",
+    "slug": "lamia",
+    "country": "Greece",
+    "latitude": 38.89947,
+    "longitude": 22.4335,
+    "population": 52006
+  },
+  {
+    "id": "komotini",
+    "name": "Komotiní",
+    "slug": "komotini",
+    "country": "Greece",
+    "latitude": 41.11758,
+    "longitude": 25.40587,
+    "population": 45631
+  },
+  {
+    "id": "corfu",
+    "name": "Corfu",
+    "slug": "corfu",
+    "country": "Greece",
+    "latitude": 39.62441,
+    "longitude": 19.92016,
+    "population": 40047
+  },
+  {
+    "id": "kozani",
+    "name": "Kozáni",
+    "slug": "kozani",
+    "country": "Greece",
+    "latitude": 40.29931,
+    "longitude": 21.78984,
+    "population": 36481
+  },
+  {
+    "id": "mytilene",
+    "name": "Mytilene",
+    "slug": "mytilene",
+    "country": "Greece",
+    "latitude": 39.10772,
+    "longitude": 26.55529,
+    "population": 28322
+  },
+  {
+    "id": "tripoli",
+    "name": "Trípoli",
+    "slug": "tripoli",
+    "country": "Greece",
+    "latitude": 37.50959,
+    "longitude": 22.37883,
+    "population": 26561
+  },
+  {
+    "id": "ermoupolis",
+    "name": "Ermoúpolis",
+    "slug": "ermoupolis",
+    "country": "Greece",
+    "latitude": 37.44466,
+    "longitude": 24.9429,
+    "population": 11351
+  },
+  {
+    "id": "karyes",
+    "name": "Karyes",
+    "slug": "karyes",
+    "country": "Greece",
+    "latitude": 40.25715,
+    "longitude": 24.24498,
+    "population": 237
+  },
+  {
+    "id": "volos",
+    "name": "Volos",
+    "slug": "volos",
+    "country": "Greece",
+    "latitude": 39.36923,
+    "longitude": 22.94769,
+    "population": 86048
+  },
+  {
+    "id": "zografos",
+    "name": "Zográfos",
+    "slug": "zografos",
+    "country": "Greece",
+    "latitude": 37.97574,
+    "longitude": 23.76911,
+    "population": 71026
+  },
+  {
+    "id": "trikala",
+    "name": "Tríkala",
+    "slug": "trikala",
+    "country": "Greece",
+    "latitude": 39.55493,
+    "longitude": 21.76837,
+    "population": 61653
+  },
+  {
+    "id": "chalkida",
+    "name": "Chalkída",
+    "slug": "chalkida",
+    "country": "Greece",
+    "latitude": 38.46354,
+    "longitude": 23.60284,
+    "population": 59125
+  },
+  {
+    "id": "serres",
+    "name": "Sérres",
+    "slug": "serres",
+    "country": "Greece",
+    "latitude": 41.08499,
+    "longitude": 23.54757,
+    "population": 58287
+  },
+  {
+    "id": "rodos",
+    "name": "Ródos",
+    "slug": "rodos",
+    "country": "Greece",
+    "latitude": 36.43556,
+    "longitude": 28.22199,
+    "population": 56128
+  },
+  {
+    "id": "budapest",
+    "name": "Budapest",
+    "slug": "budapest",
+    "country": "Hungary",
+    "latitude": 47.49835,
+    "longitude": 19.04045,
+    "population": 1741041
+  },
+  {
+    "id": "debrecen",
+    "name": "Debrecen",
+    "slug": "debrecen",
+    "country": "Hungary",
+    "latitude": 47.53167,
+    "longitude": 21.62444,
+    "population": 202402
+  },
+  {
+    "id": "szeged",
+    "name": "Szeged",
+    "slug": "szeged",
+    "country": "Hungary",
+    "latitude": 46.253,
+    "longitude": 20.14824,
+    "population": 160766
+  },
+  {
+    "id": "miskolc",
+    "name": "Miskolc",
+    "slug": "miskolc",
+    "country": "Hungary",
+    "latitude": 48.10327,
+    "longitude": 20.77806,
+    "population": 154521
+  },
+  {
+    "id": "pecs",
+    "name": "Pécs",
+    "slug": "pecs",
+    "country": "Hungary",
+    "latitude": 46.07617,
+    "longitude": 18.22814,
+    "population": 145347
+  },
+  {
+    "id": "gyor",
+    "name": "Győr",
+    "slug": "gyor",
+    "country": "Hungary",
+    "latitude": 47.68333,
+    "longitude": 17.63512,
+    "population": 129301
+  },
+  {
+    "id": "nyiregyhaza",
+    "name": "Nyíregyháza",
+    "slug": "nyiregyhaza",
+    "country": "Hungary",
+    "latitude": 47.95539,
+    "longitude": 21.71671,
+    "population": 117689
+  },
+  {
+    "id": "kecskemet",
+    "name": "Kecskemét",
+    "slug": "kecskemet",
+    "country": "Hungary",
+    "latitude": 46.90618,
+    "longitude": 19.69128,
+    "population": 109847
+  },
+  {
+    "id": "szekesfehervar",
+    "name": "Székesfehérvár",
+    "slug": "szekesfehervar",
+    "country": "Hungary",
+    "latitude": 47.18995,
+    "longitude": 18.41034,
+    "population": 101600
+  },
+  {
+    "id": "szombathely",
+    "name": "Szombathely",
+    "slug": "szombathely",
+    "country": "Hungary",
+    "latitude": 47.23088,
+    "longitude": 16.62155,
+    "population": 78025
+  },
+  {
+    "id": "szolnok",
+    "name": "Szolnok",
+    "slug": "szolnok",
+    "country": "Hungary",
+    "latitude": 47.18066,
+    "longitude": 20.19835,
+    "population": 71285
+  },
+  {
+    "id": "tatabanya",
+    "name": "Tatabánya",
+    "slug": "tatabanya",
+    "country": "Hungary",
+    "latitude": 47.59247,
+    "longitude": 18.38099,
+    "population": 65849
+  },
+  {
+    "id": "kaposvar",
+    "name": "Kaposvár",
+    "slug": "kaposvar",
+    "country": "Hungary",
+    "latitude": 46.36667,
+    "longitude": 17.8,
+    "population": 64280
+  },
+  {
+    "id": "zalaegerszeg",
+    "name": "Zalaegerszeg",
+    "slug": "zalaegerszeg",
+    "country": "Hungary",
+    "latitude": 46.83695,
+    "longitude": 16.84401,
+    "population": 61898
+  },
+  {
+    "id": "bekescsaba",
+    "name": "Békéscsaba",
+    "slug": "bekescsaba",
+    "country": "Hungary",
+    "latitude": 46.68333,
+    "longitude": 21.1,
+    "population": 59732
+  },
+  {
+    "id": "veszprem",
+    "name": "Veszprém",
+    "slug": "veszprem",
+    "country": "Hungary",
+    "latitude": 47.09327,
+    "longitude": 17.91149,
+    "population": 56927
+  },
+  {
+    "id": "eger",
+    "name": "Eger",
+    "slug": "eger",
+    "country": "Hungary",
+    "latitude": 47.90265,
+    "longitude": 20.37329,
+    "population": 53876
+  },
+  {
+    "id": "salgotarjan",
+    "name": "Salgótarján",
+    "slug": "salgotarjan",
+    "country": "Hungary",
+    "latitude": 48.09872,
+    "longitude": 19.80303,
+    "population": 34627
+  },
+  {
+    "id": "szekszard",
+    "name": "Szekszárd",
+    "slug": "szekszard",
+    "country": "Hungary",
+    "latitude": 46.34723,
+    "longitude": 18.71189,
+    "population": 34174
+  },
+  {
+    "id": "erd",
+    "name": "Érd",
+    "slug": "erd",
+    "country": "Hungary",
+    "latitude": 47.39489,
+    "longitude": 18.91361,
+    "population": 62408
+  },
+  {
+    "id": "reykjavik",
+    "name": "Reykjavík",
+    "slug": "reykjavik",
+    "country": "Iceland",
+    "latitude": 64.13548,
+    "longitude": -21.89541,
+    "population": 118918
+  },
+  {
+    "id": "akureyri",
+    "name": "Akureyri",
+    "slug": "akureyri",
+    "country": "Iceland",
+    "latitude": 65.68353,
+    "longitude": -18.0878,
+    "population": 19219
+  },
+  {
+    "id": "keflavik",
+    "name": "Keflavík",
+    "slug": "keflavik",
+    "country": "Iceland",
+    "latitude": 64.00492,
+    "longitude": -22.56242,
+    "population": 15930
+  },
+  {
+    "id": "selfoss",
+    "name": "Selfoss",
+    "slug": "selfoss",
+    "country": "Iceland",
+    "latitude": 63.93311,
+    "longitude": -20.99712,
+    "population": 9000
+  },
+  {
+    "id": "isafjor-ur",
+    "name": "Ísafjörður",
+    "slug": "isafjor-ur",
+    "country": "Iceland",
+    "latitude": 66.07475,
+    "longitude": -23.13498,
+    "population": 2736
+  },
+  {
+    "id": "sau-arkrokur",
+    "name": "Sauðárkrókur",
+    "slug": "sau-arkrokur",
+    "country": "Iceland",
+    "latitude": 65.74611,
+    "longitude": -19.63944,
+    "population": 2614
+  },
+  {
+    "id": "egilssta-ir",
+    "name": "Egilsstaðir",
+    "slug": "egilssta-ir",
+    "country": "Iceland",
+    "latitude": 65.26687,
+    "longitude": -14.39485,
+    "population": 2572
+  },
+  {
+    "id": "borgarnes",
+    "name": "Borgarnes",
+    "slug": "borgarnes",
+    "country": "Iceland",
+    "latitude": 64.53834,
+    "longitude": -21.92064,
+    "population": 1875
+  },
+  {
+    "id": "akranes",
+    "name": "Akranes",
+    "slug": "akranes",
+    "country": "Iceland",
+    "latitude": 64.32179,
+    "longitude": -22.0749,
+    "population": 7411
+  },
+  {
+    "id": "kopavogur",
+    "name": "Kópavogur",
+    "slug": "kopavogur",
+    "country": "Iceland",
+    "latitude": 64.11234,
+    "longitude": -21.91298,
+    "population": 37959
+  },
+  {
+    "id": "hafnarfjor-ur",
+    "name": "Hafnarfjörður",
+    "slug": "hafnarfjor-ur",
+    "country": "Iceland",
+    "latitude": 64.0671,
+    "longitude": -21.93774,
+    "population": 29971
+  },
+  {
+    "id": "reykjanesb-r",
+    "name": "Reykjanesbær",
+    "slug": "reykjanesb-r",
+    "country": "Iceland",
+    "latitude": 63.99813,
+    "longitude": -22.56111,
+    "population": 19724
+  },
+  {
+    "id": "mosfellsb-r",
+    "name": "Mosfellsbær",
+    "slug": "mosfellsb-r",
+    "country": "Iceland",
+    "latitude": 64.16667,
+    "longitude": -21.7,
+    "population": 12073
+  },
+  {
+    "id": "gar-ab-r",
+    "name": "Garðabær",
+    "slug": "gar-ab-r",
+    "country": "Iceland",
+    "latitude": 64.08865,
+    "longitude": -21.92298,
+    "population": 11421
+  },
+  {
+    "id": "seltjarnarnes",
+    "name": "Seltjarnarnes",
+    "slug": "seltjarnarnes",
+    "country": "Iceland",
+    "latitude": 64.15309,
+    "longitude": -21.99499,
+    "population": 4726
+  },
+  {
+    "id": "vestmannaeyjar",
+    "name": "Vestmannaeyjar",
+    "slug": "vestmannaeyjar",
+    "country": "Iceland",
+    "latitude": 63.44273,
+    "longitude": -20.27339,
+    "population": 4219
+  },
+  {
+    "id": "grindavik",
+    "name": "Grindavík",
+    "slug": "grindavik",
+    "country": "Iceland",
+    "latitude": 63.83849,
+    "longitude": -22.43931,
+    "population": 2856
+  },
+  {
+    "id": "alftanes",
+    "name": "Álftanes",
+    "slug": "alftanes",
+    "country": "Iceland",
+    "latitude": 64.1,
+    "longitude": -22.01667,
+    "population": 2392
+  },
+  {
+    "id": "hverager-i",
+    "name": "Hveragerði",
+    "slug": "hverager-i",
+    "country": "Iceland",
+    "latitude": 64.00039,
+    "longitude": -21.18602,
+    "population": 2288
+  },
+  {
+    "id": "nor-ur-ing",
+    "name": "Norðurþing",
+    "slug": "nor-ur-ing",
+    "country": "Iceland",
+    "latitude": 66.04148,
+    "longitude": -17.33834,
+    "population": 2228
+  },
+  {
+    "id": "dublin",
+    "name": "Dublin",
+    "slug": "dublin",
+    "country": "Ireland",
+    "latitude": 53.33306,
+    "longitude": -6.24889,
+    "population": 1024027
+  },
+  {
+    "id": "galway",
+    "name": "Galway",
+    "slug": "galway",
+    "country": "Ireland",
+    "latitude": 53.27245,
+    "longitude": -9.05095,
+    "population": 83456
+  },
+  {
+    "id": "swords",
+    "name": "Swords",
+    "slug": "swords",
+    "country": "Ireland",
+    "latitude": 53.45972,
+    "longitude": -6.21806,
+    "population": 42738
+  },
+  {
+    "id": "monaghan",
+    "name": "Monaghan",
+    "slug": "monaghan",
+    "country": "Ireland",
+    "latitude": 54.24589,
+    "longitude": -6.97098,
+    "population": 7894
+  },
+  {
+    "id": "nenagh",
+    "name": "Nenagh",
+    "slug": "nenagh",
+    "country": "Ireland",
+    "latitude": 52.86284,
+    "longitude": -8.19953,
+    "population": 5500
+  },
+  {
+    "id": "cork",
+    "name": "Cork",
+    "slug": "cork",
+    "country": "Ireland",
+    "latitude": 51.89797,
+    "longitude": -8.47061,
+    "population": 190384
+  },
+  {
+    "id": "limerick",
+    "name": "Limerick",
+    "slug": "limerick",
+    "country": "Ireland",
+    "latitude": 52.66472,
+    "longitude": -8.62306,
+    "population": 94192
+  },
+  {
+    "id": "tallaght",
+    "name": "Tallaght",
+    "slug": "tallaght",
+    "country": "Ireland",
+    "latitude": 53.2859,
+    "longitude": -6.37344,
+    "population": 80339
+  },
+  {
+    "id": "waterford",
+    "name": "Waterford",
+    "slug": "waterford",
+    "country": "Ireland",
+    "latitude": 52.25833,
+    "longitude": -7.11194,
+    "population": 53504
+  },
+  {
+    "id": "dundalk",
+    "name": "Dundalk",
+    "slug": "dundalk",
+    "country": "Ireland",
+    "latitude": 54,
+    "longitude": -6.41667,
+    "population": 39004
+  },
+  {
+    "id": "ennis",
+    "name": "Ennis",
+    "slug": "ennis",
+    "country": "Ireland",
+    "latitude": 52.84361,
+    "longitude": -8.98639,
+    "population": 25276
+  },
+  {
+    "id": "navan",
+    "name": "Navan",
+    "slug": "navan",
+    "country": "Ireland",
+    "latitude": 53.65278,
+    "longitude": -6.68139,
+    "population": 24545
+  },
+  {
+    "id": "carlow",
+    "name": "Carlow",
+    "slug": "carlow",
+    "country": "Ireland",
+    "latitude": 52.84083,
+    "longitude": -6.92611,
+    "population": 24272
+  },
+  {
+    "id": "tralee",
+    "name": "Tralee",
+    "slug": "tralee",
+    "country": "Ireland",
+    "latitude": 52.27042,
+    "longitude": -9.70264,
+    "population": 22941
+  },
+  {
+    "id": "kilkenny",
+    "name": "Kilkenny",
+    "slug": "kilkenny",
+    "country": "Ireland",
+    "latitude": 52.65417,
+    "longitude": -7.25222,
+    "population": 21589
+  },
+  {
+    "id": "naas",
+    "name": "Naas",
+    "slug": "naas",
+    "country": "Ireland",
+    "latitude": 53.21583,
+    "longitude": -6.66694,
+    "population": 20713
+  },
+  {
+    "id": "wexford",
+    "name": "Wexford",
+    "slug": "wexford",
+    "country": "Ireland",
+    "latitude": 52.33417,
+    "longitude": -6.4575,
+    "population": 19913
+  },
+  {
+    "id": "sligo",
+    "name": "Sligo",
+    "slug": "sligo",
+    "country": "Ireland",
+    "latitude": 54.26969,
+    "longitude": -8.46943,
+    "population": 19199
+  },
+  {
+    "id": "an-muileann-gcearr",
+    "name": "An Muileann gCearr",
+    "slug": "an-muileann-gcearr",
+    "country": "Ireland",
+    "latitude": 53.52466,
+    "longitude": -7.3385,
+    "population": 17262
+  },
+  {
+    "id": "cluain-meala",
+    "name": "Cluain Meala",
+    "slug": "cluain-meala",
+    "country": "Ireland",
+    "latitude": 52.355,
+    "longitude": -7.70389,
+    "population": 17140
+  },
+  {
+    "id": "rome",
+    "name": "Rome",
+    "slug": "rome",
+    "country": "Italy",
+    "latitude": 41.89193,
+    "longitude": 12.51133,
+    "population": 2318895
+  },
+  {
+    "id": "milan",
+    "name": "Milan",
+    "slug": "milan",
+    "country": "Italy",
+    "latitude": 45.46427,
+    "longitude": 9.18951,
+    "population": 1371498
+  },
+  {
+    "id": "naples",
+    "name": "Naples",
+    "slug": "naples",
+    "country": "Italy",
+    "latitude": 40.85216,
+    "longitude": 14.26811,
+    "population": 909048
+  },
+  {
+    "id": "turin",
+    "name": "Turin",
+    "slug": "turin",
+    "country": "Italy",
+    "latitude": 45.07049,
+    "longitude": 7.68682,
+    "population": 847287
+  },
+  {
+    "id": "palermo",
+    "name": "Palermo",
+    "slug": "palermo",
+    "country": "Italy",
+    "latitude": 38.1166,
+    "longitude": 13.3636,
+    "population": 648260
+  },
+  {
+    "id": "genoa",
+    "name": "Genoa",
+    "slug": "genoa",
+    "country": "Italy",
+    "latitude": 44.40478,
+    "longitude": 8.94439,
+    "population": 580097
+  },
+  {
+    "id": "bologna",
+    "name": "Bologna",
+    "slug": "bologna",
+    "country": "Italy",
+    "latitude": 44.49381,
+    "longitude": 11.33875,
+    "population": 394843
+  },
+  {
+    "id": "florence",
+    "name": "Florence",
+    "slug": "florence",
+    "country": "Italy",
+    "latitude": 43.77925,
+    "longitude": 11.24626,
+    "population": 367150
+  },
+  {
+    "id": "bari",
+    "name": "Bari",
+    "slug": "bari",
+    "country": "Italy",
+    "latitude": 41.12066,
+    "longitude": 16.86982,
+    "population": 316491
+  },
+  {
+    "id": "trieste",
+    "name": "Trieste",
+    "slug": "trieste",
+    "country": "Italy",
+    "latitude": 45.64953,
+    "longitude": 13.77678,
+    "population": 204338
+  },
+  {
+    "id": "cagliari",
+    "name": "Cagliari",
+    "slug": "cagliari",
+    "country": "Italy",
+    "latitude": 39.23054,
+    "longitude": 9.11917,
+    "population": 149257
+  },
+  {
+    "id": "trento",
+    "name": "Trento",
+    "slug": "trento",
+    "country": "Italy",
+    "latitude": 46.06787,
+    "longitude": 11.12108,
+    "population": 120709
+  },
+  {
+    "id": "perugia",
+    "name": "Perugia",
+    "slug": "perugia",
+    "country": "Italy",
+    "latitude": 43.1122,
+    "longitude": 12.38878,
+    "population": 120137
+  },
+  {
+    "id": "ancona",
+    "name": "Ancona",
+    "slug": "ancona",
+    "country": "Italy",
+    "latitude": 43.60717,
+    "longitude": 13.5103,
+    "population": 89994
+  },
+  {
+    "id": "catanzaro",
+    "name": "Catanzaro",
+    "slug": "catanzaro",
+    "country": "Italy",
+    "latitude": 38.88247,
+    "longitude": 16.60086,
+    "population": 78970
+  },
+  {
+    "id": "potenza",
+    "name": "Potenza",
+    "slug": "potenza",
+    "country": "Italy",
+    "latitude": 40.64175,
+    "longitude": 15.80794,
+    "population": 56433
+  },
+  {
+    "id": "venice",
+    "name": "Venice",
+    "slug": "venice",
+    "country": "Italy",
+    "latitude": 45.43713,
+    "longitude": 12.33265,
+    "population": 51298
+  },
+  {
+    "id": "campobasso",
+    "name": "Campobasso",
+    "slug": "campobasso",
+    "country": "Italy",
+    "latitude": 41.55947,
+    "longitude": 14.66737,
+    "population": 49230
+  },
+  {
+    "id": "aosta",
+    "name": "Aosta",
+    "slug": "aosta",
+    "country": "Italy",
+    "latitude": 45.73764,
+    "longitude": 7.31722,
+    "population": 35261
+  },
+  {
+    "id": "l-aquila",
+    "name": "L'Aquila",
+    "slug": "l-aquila",
+    "country": "Italy",
+    "latitude": 42.35055,
+    "longitude": 13.39954,
+    "population": 33691
+  },
+  {
+    "id": "pristina",
+    "name": "Pristina",
+    "slug": "pristina",
+    "country": "Kosovo",
+    "latitude": 42.67272,
+    "longitude": 21.16688,
+    "population": 550000
+  },
+  {
+    "id": "prizren",
+    "name": "Prizren",
+    "slug": "prizren",
+    "country": "Kosovo",
+    "latitude": 42.21389,
+    "longitude": 20.73972,
+    "population": 171464
+  },
+  {
+    "id": "mitrovice",
+    "name": "Mitrovicë",
+    "slug": "mitrovice",
+    "country": "Kosovo",
+    "latitude": 42.88333,
+    "longitude": 20.86667,
+    "population": 107045
+  },
+  {
+    "id": "gjakove",
+    "name": "Gjakovë",
+    "slug": "gjakove",
+    "country": "Kosovo",
+    "latitude": 42.38028,
+    "longitude": 20.43083,
+    "population": 94158
+  },
+  {
+    "id": "ferizaj",
+    "name": "Ferizaj",
+    "slug": "ferizaj",
+    "country": "Kosovo",
+    "latitude": 42.37056,
+    "longitude": 21.15528,
+    "population": 59504
+  },
+  {
+    "id": "gjilan",
+    "name": "Gjilan",
+    "slug": "gjilan",
+    "country": "Kosovo",
+    "latitude": 42.46045,
+    "longitude": 21.46986,
+    "population": 51912
+  },
+  {
+    "id": "peje",
+    "name": "Pejë",
+    "slug": "peje",
+    "country": "Kosovo",
+    "latitude": 42.65913,
+    "longitude": 20.28828,
+    "population": 48962
+  },
+  {
+    "id": "suva-reka",
+    "name": "Suva Reka",
+    "slug": "suva-reka",
+    "country": "Kosovo",
+    "latitude": 42.35861,
+    "longitude": 20.825,
+    "population": 72229
+  },
+  {
+    "id": "glogovac",
+    "name": "Glogovac",
+    "slug": "glogovac",
+    "country": "Kosovo",
+    "latitude": 42.62833,
+    "longitude": 20.89389,
+    "population": 58579
+  },
+  {
+    "id": "decan",
+    "name": "Deçan",
+    "slug": "decan",
+    "country": "Kosovo",
+    "latitude": 42.54018,
+    "longitude": 20.28793,
+    "population": 50500
+  },
+  {
+    "id": "vitina",
+    "name": "Vitina",
+    "slug": "vitina",
+    "country": "Kosovo",
+    "latitude": 42.32139,
+    "longitude": 21.35833,
+    "population": 46959
+  },
+  {
+    "id": "istok",
+    "name": "Istok",
+    "slug": "istok",
+    "country": "Kosovo",
+    "latitude": 42.78083,
+    "longitude": 20.4875,
+    "population": 40000
+  },
+  {
+    "id": "dragash",
+    "name": "Dragash",
+    "slug": "dragash",
+    "country": "Kosovo",
+    "latitude": 42.0265,
+    "longitude": 20.65333,
+    "population": 35000
+  },
+  {
+    "id": "podujeva",
+    "name": "Podujeva",
+    "slug": "podujeva",
+    "country": "Kosovo",
+    "latitude": 42.91056,
+    "longitude": 21.19306,
+    "population": 35000
+  },
+  {
+    "id": "shtime",
+    "name": "Shtime",
+    "slug": "shtime",
+    "country": "Kosovo",
+    "latitude": 42.43306,
+    "longitude": 21.03972,
+    "population": 35000
+  },
+  {
+    "id": "vushtrri",
+    "name": "Vushtrri",
+    "slug": "vushtrri",
+    "country": "Kosovo",
+    "latitude": 42.82306,
+    "longitude": 20.9675,
+    "population": 30651
+  },
+  {
+    "id": "orahovac",
+    "name": "Orahovac",
+    "slug": "orahovac",
+    "country": "Kosovo",
+    "latitude": 42.39944,
+    "longitude": 20.65472,
+    "population": 22049
+  },
+  {
+    "id": "leposaviq",
+    "name": "Leposaviq",
+    "slug": "leposaviq",
+    "country": "Kosovo",
+    "latitude": 43.10389,
+    "longitude": 20.80278,
+    "population": 19000
+  },
+  {
+    "id": "zvecan",
+    "name": "Zvečan",
+    "slug": "zvecan",
+    "country": "Kosovo",
+    "latitude": 42.9075,
+    "longitude": 20.84028,
+    "population": 17000
+  },
+  {
+    "id": "kosovo-polje",
+    "name": "Kosovo Polje",
+    "slug": "kosovo-polje",
+    "country": "Kosovo",
+    "latitude": 42.66394,
+    "longitude": 21.09611,
+    "population": 16154
+  },
+  {
+    "id": "riga",
+    "name": "Riga",
+    "slug": "riga",
+    "country": "Latvia",
+    "latitude": 56.946,
+    "longitude": 24.10589,
+    "population": 742572
+  },
+  {
+    "id": "daugavpils",
+    "name": "Daugavpils",
+    "slug": "daugavpils",
+    "country": "Latvia",
+    "latitude": 55.88333,
+    "longitude": 26.53333,
+    "population": 78126
+  },
+  {
+    "id": "liepaja",
+    "name": "Liepāja",
+    "slug": "liepaja",
+    "country": "Latvia",
+    "latitude": 56.50474,
+    "longitude": 21.01085,
+    "population": 67421
+  },
+  {
+    "id": "jelgava",
+    "name": "Jelgava",
+    "slug": "jelgava",
+    "country": "Latvia",
+    "latitude": 56.65,
+    "longitude": 23.71278,
+    "population": 54834
+  },
+  {
+    "id": "jurmala",
+    "name": "Jūrmala",
+    "slug": "jurmala",
+    "country": "Latvia",
+    "latitude": 56.968,
+    "longitude": 23.77038,
+    "population": 52001
+  },
+  {
+    "id": "ventspils",
+    "name": "Ventspils",
+    "slug": "ventspils",
+    "country": "Latvia",
+    "latitude": 57.39485,
+    "longitude": 21.56121,
+    "population": 32723
+  },
+  {
+    "id": "rezekne",
+    "name": "Rēzekne",
+    "slug": "rezekne",
+    "country": "Latvia",
+    "latitude": 56.51028,
+    "longitude": 27.34,
+    "population": 26429
+  },
+  {
+    "id": "valmiera",
+    "name": "Valmiera",
+    "slug": "valmiera",
+    "country": "Latvia",
+    "latitude": 57.54108,
+    "longitude": 25.42751,
+    "population": 22812
+  },
+  {
+    "id": "ogre",
+    "name": "Ogre",
+    "slug": "ogre",
+    "country": "Latvia",
+    "latitude": 56.8162,
+    "longitude": 24.61401,
+    "population": 22767
+  },
+  {
+    "id": "jekabpils",
+    "name": "Jēkabpils",
+    "slug": "jekabpils",
+    "country": "Latvia",
+    "latitude": 56.49903,
+    "longitude": 25.85735,
+    "population": 21014
+  },
+  {
+    "id": "marupe",
+    "name": "Mārupe",
+    "slug": "marupe",
+    "country": "Latvia",
+    "latitude": 56.90544,
+    "longitude": 24.05113,
+    "population": 19096
+  },
+  {
+    "id": "salaspils",
+    "name": "Salaspils",
+    "slug": "salaspils",
+    "country": "Latvia",
+    "latitude": 56.86014,
+    "longitude": 24.36544,
+    "population": 17826
+  },
+  {
+    "id": "tukums",
+    "name": "Tukums",
+    "slug": "tukums",
+    "country": "Latvia",
+    "latitude": 56.96764,
+    "longitude": 23.15554,
+    "population": 16182
+  },
+  {
+    "id": "cesis",
+    "name": "Cēsis",
+    "slug": "cesis",
+    "country": "Latvia",
+    "latitude": 57.31188,
+    "longitude": 25.27456,
+    "population": 15020
+  },
+  {
+    "id": "sigulda",
+    "name": "Sigulda",
+    "slug": "sigulda",
+    "country": "Latvia",
+    "latitude": 57.15375,
+    "longitude": 24.85953,
+    "population": 14757
+  },
+  {
+    "id": "kuldiga",
+    "name": "Kuldīga",
+    "slug": "kuldiga",
+    "country": "Latvia",
+    "latitude": 56.97399,
+    "longitude": 21.95721,
+    "population": 9863
+  },
+  {
+    "id": "bauska",
+    "name": "Bauska",
+    "slug": "bauska",
+    "country": "Latvia",
+    "latitude": 56.4071,
+    "longitude": 24.18733,
+    "population": 9709
+  },
+  {
+    "id": "olaine",
+    "name": "Olaine",
+    "slug": "olaine",
+    "country": "Latvia",
+    "latitude": 56.79583,
+    "longitude": 23.93726,
+    "population": 9654
+  },
+  {
+    "id": "preili",
+    "name": "Preiļi",
+    "slug": "preili",
+    "country": "Latvia",
+    "latitude": 56.29444,
+    "longitude": 26.72459,
+    "population": 9553
+  },
+  {
+    "id": "saldus",
+    "name": "Saldus",
+    "slug": "saldus",
+    "country": "Latvia",
+    "latitude": 56.66363,
+    "longitude": 22.48807,
+    "population": 9553
+  },
+  {
+    "id": "vilnius",
+    "name": "Vilnius",
+    "slug": "vilnius",
+    "country": "Lithuania",
+    "latitude": 54.68916,
+    "longitude": 25.2798,
+    "population": 542366
+  },
+  {
+    "id": "kaunas",
+    "name": "Kaunas",
+    "slug": "kaunas",
+    "country": "Lithuania",
+    "latitude": 54.90156,
+    "longitude": 23.90909,
+    "population": 289380
+  },
+  {
+    "id": "klaipeda",
+    "name": "Klaipėda",
+    "slug": "klaipeda",
+    "country": "Lithuania",
+    "latitude": 55.7068,
+    "longitude": 21.13912,
+    "population": 172292
+  },
+  {
+    "id": "siauliai",
+    "name": "Šiauliai",
+    "slug": "siauliai",
+    "country": "Lithuania",
+    "latitude": 55.93333,
+    "longitude": 23.31667,
+    "population": 99462
+  },
+  {
+    "id": "panevezys",
+    "name": "Panevėžys",
+    "slug": "panevezys",
+    "country": "Lithuania",
+    "latitude": 55.73186,
+    "longitude": 24.35983,
+    "population": 85885
+  },
+  {
+    "id": "alytus",
+    "name": "Alytus",
+    "slug": "alytus",
+    "country": "Lithuania",
+    "latitude": 54.39574,
+    "longitude": 24.03885,
+    "population": 49195
+  },
+  {
+    "id": "marijampole",
+    "name": "Marijampolė",
+    "slug": "marijampole",
+    "country": "Lithuania",
+    "latitude": 54.55787,
+    "longitude": 23.35004,
+    "population": 34975
+  },
+  {
+    "id": "utena",
+    "name": "Utena",
+    "slug": "utena",
+    "country": "Lithuania",
+    "latitude": 55.4978,
+    "longitude": 25.60462,
+    "population": 25397
+  },
+  {
+    "id": "telsiai",
+    "name": "Telsiai",
+    "slug": "telsiai",
+    "country": "Lithuania",
+    "latitude": 55.98139,
+    "longitude": 22.24722,
+    "population": 21294
+  },
+  {
+    "id": "taurage",
+    "name": "Taurage",
+    "slug": "taurage",
+    "country": "Lithuania",
+    "latitude": 55.25222,
+    "longitude": 22.28972,
+    "population": 21203
+  },
+  {
+    "id": "jonava",
+    "name": "Jonava",
+    "slug": "jonava",
+    "country": "Lithuania",
+    "latitude": 55.08014,
+    "longitude": 24.27544,
+    "population": 26423
+  },
+  {
+    "id": "kedainiai",
+    "name": "Kėdainiai",
+    "slug": "kedainiai",
+    "country": "Lithuania",
+    "latitude": 55.28782,
+    "longitude": 23.97275,
+    "population": 22677
+  },
+  {
+    "id": "visaginas",
+    "name": "Visaginas",
+    "slug": "visaginas",
+    "country": "Lithuania",
+    "latitude": 55.59678,
+    "longitude": 26.43984,
+    "population": 18024
+  },
+  {
+    "id": "kretinga",
+    "name": "Kretinga",
+    "slug": "kretinga",
+    "country": "Lithuania",
+    "latitude": 55.8888,
+    "longitude": 21.24448,
+    "population": 17249
+  },
+  {
+    "id": "druskininkai",
+    "name": "Druskininkai",
+    "slug": "druskininkai",
+    "country": "Lithuania",
+    "latitude": 54.01573,
+    "longitude": 23.98703,
+    "population": 12055
+  },
+  {
+    "id": "rokiskis",
+    "name": "Rokiškis",
+    "slug": "rokiskis",
+    "country": "Lithuania",
+    "latitude": 55.95867,
+    "longitude": 25.59466,
+    "population": 11765
+  },
+  {
+    "id": "joniskis",
+    "name": "Joniškis",
+    "slug": "joniskis",
+    "country": "Lithuania",
+    "latitude": 56.23939,
+    "longitude": 23.61541,
+    "population": 11113
+  },
+  {
+    "id": "jurbarkas",
+    "name": "Jurbarkas",
+    "slug": "jurbarkas",
+    "country": "Lithuania",
+    "latitude": 55.07556,
+    "longitude": 22.76416,
+    "population": 10186
+  },
+  {
+    "id": "kaisiadorys",
+    "name": "Kaišiadorys",
+    "slug": "kaisiadorys",
+    "country": "Lithuania",
+    "latitude": 54.86528,
+    "longitude": 24.46815,
+    "population": 9867
+  },
+  {
+    "id": "raseiniai",
+    "name": "Raseiniai",
+    "slug": "raseiniai",
+    "country": "Lithuania",
+    "latitude": 55.37973,
+    "longitude": 23.12386,
+    "population": 9686
+  },
+  {
+    "id": "luxembourg",
+    "name": "Luxembourg",
+    "slug": "luxembourg",
+    "country": "Luxembourg",
+    "latitude": 49.60982,
+    "longitude": 6.13268,
+    "population": 76684
+  },
+  {
+    "id": "diekirch",
+    "name": "Diekirch",
+    "slug": "diekirch",
+    "country": "Luxembourg",
+    "latitude": 49.86687,
+    "longitude": 6.15451,
+    "population": 7295
+  },
+  {
+    "id": "grevenmacher",
+    "name": "Grevenmacher",
+    "slug": "grevenmacher",
+    "country": "Luxembourg",
+    "latitude": 49.67751,
+    "longitude": 6.44022,
+    "population": 5092
+  },
+  {
+    "id": "wiltz",
+    "name": "Wiltz",
+    "slug": "wiltz",
+    "country": "Luxembourg",
+    "latitude": 49.96547,
+    "longitude": 5.9339,
+    "population": 4816
+  },
+  {
+    "id": "mersch",
+    "name": "Mersch",
+    "slug": "mersch",
+    "country": "Luxembourg",
+    "latitude": 49.75055,
+    "longitude": 6.10627,
+    "population": 3464
+  },
+  {
+    "id": "redange-sur-attert",
+    "name": "Redange-sur-Attert",
+    "slug": "redange-sur-attert",
+    "country": "Luxembourg",
+    "latitude": 49.76437,
+    "longitude": 5.88997,
+    "population": 1164
+  },
+  {
+    "id": "esch-sur-alzette",
+    "name": "Esch-sur-Alzette",
+    "slug": "esch-sur-alzette",
+    "country": "Luxembourg",
+    "latitude": 49.49583,
+    "longitude": 5.98056,
+    "population": 36625
+  },
+  {
+    "id": "echternach",
+    "name": "Echternach",
+    "slug": "echternach",
+    "country": "Luxembourg",
+    "latitude": 49.81212,
+    "longitude": 6.41846,
+    "population": 4787
+  },
+  {
+    "id": "remich",
+    "name": "Remich",
+    "slug": "remich",
+    "country": "Luxembourg",
+    "latitude": 49.545,
+    "longitude": 6.36694,
+    "population": 4015
+  },
+  {
+    "id": "capellen",
+    "name": "Capellen",
+    "slug": "capellen",
+    "country": "Luxembourg",
+    "latitude": 49.645,
+    "longitude": 5.99083,
+    "population": 2371
+  },
+  {
+    "id": "vianden",
+    "name": "Vianden",
+    "slug": "vianden",
+    "country": "Luxembourg",
+    "latitude": 49.935,
+    "longitude": 6.20889,
+    "population": 2203
+  },
+  {
+    "id": "clervaux",
+    "name": "Clervaux",
+    "slug": "clervaux",
+    "country": "Luxembourg",
+    "latitude": 50.05472,
+    "longitude": 6.03139,
+    "population": 1103
+  },
+  {
+    "id": "dudelange",
+    "name": "Dudelange",
+    "slug": "dudelange",
+    "country": "Luxembourg",
+    "latitude": 49.48056,
+    "longitude": 6.0875,
+    "population": 18013
+  },
+  {
+    "id": "schifflange",
+    "name": "Schifflange",
+    "slug": "schifflange",
+    "country": "Luxembourg",
+    "latitude": 49.50639,
+    "longitude": 6.01278,
+    "population": 8155
+  },
+  {
+    "id": "walferdange",
+    "name": "Walferdange",
+    "slug": "walferdange",
+    "country": "Luxembourg",
+    "latitude": 49.66321,
+    "longitude": 6.13224,
+    "population": 7819
+  },
+  {
+    "id": "bettembourg",
+    "name": "Bettembourg",
+    "slug": "bettembourg",
+    "country": "Luxembourg",
+    "latitude": 49.51861,
+    "longitude": 6.10278,
+    "population": 7437
+  },
+  {
+    "id": "petange",
+    "name": "Pétange",
+    "slug": "petange",
+    "country": "Luxembourg",
+    "latitude": 49.55833,
+    "longitude": 5.88056,
+    "population": 7187
+  },
+  {
+    "id": "ettelbruck",
+    "name": "Ettelbruck",
+    "slug": "ettelbruck",
+    "country": "Luxembourg",
+    "latitude": 49.8475,
+    "longitude": 6.10417,
+    "population": 6364
+  },
+  {
+    "id": "strassen",
+    "name": "Strassen",
+    "slug": "strassen",
+    "country": "Luxembourg",
+    "latitude": 49.62056,
+    "longitude": 6.07333,
+    "population": 6006
+  },
+  {
+    "id": "bertrange",
+    "name": "Bertrange",
+    "slug": "bertrange",
+    "country": "Luxembourg",
+    "latitude": 49.61111,
+    "longitude": 6.05,
+    "population": 5615
+  },
+  {
+    "id": "valletta",
+    "name": "Valletta",
+    "slug": "valletta",
+    "country": "Malta",
+    "latitude": 35.89968,
+    "longitude": 14.5148,
+    "population": 6794
+  },
+  {
+    "id": "san-pawl-il-ba-ar",
+    "name": "San Pawl il-Baħar",
+    "slug": "san-pawl-il-ba-ar",
+    "country": "Malta",
+    "latitude": 35.95064,
+    "longitude": 14.41561,
+    "population": 32042
+  },
+  {
+    "id": "birkirkara",
+    "name": "Birkirkara",
+    "slug": "birkirkara",
+    "country": "Malta",
+    "latitude": 35.89706,
+    "longitude": 14.46115,
+    "population": 24356
+  },
+  {
+    "id": "mosta",
+    "name": "Mosta",
+    "slug": "mosta",
+    "country": "Malta",
+    "latitude": 35.90942,
+    "longitude": 14.42566,
+    "population": 23482
+  },
+  {
+    "id": "sliema",
+    "name": "Sliema",
+    "slug": "sliema",
+    "country": "Malta",
+    "latitude": 35.91247,
+    "longitude": 14.50175,
+    "population": 22591
+  },
+  {
+    "id": "qormi",
+    "name": "Qormi",
+    "slug": "qormi",
+    "country": "Malta",
+    "latitude": 35.87601,
+    "longitude": 14.472,
+    "population": 16801
+  },
+  {
+    "id": "zabbar",
+    "name": "Żabbar",
+    "slug": "zabbar",
+    "country": "Malta",
+    "latitude": 35.87687,
+    "longitude": 14.53592,
+    "population": 15648
+  },
+  {
+    "id": "naxxar",
+    "name": "Naxxar",
+    "slug": "naxxar",
+    "country": "Malta",
+    "latitude": 35.91368,
+    "longitude": 14.44382,
+    "population": 14890
+  },
+  {
+    "id": "san-gwann",
+    "name": "San Ġwann",
+    "slug": "san-gwann",
+    "country": "Malta",
+    "latitude": 35.90556,
+    "longitude": 14.47611,
+    "population": 14720
+  },
+  {
+    "id": "swieqi",
+    "name": "Swieqi",
+    "slug": "swieqi",
+    "country": "Malta",
+    "latitude": 35.92154,
+    "longitude": 14.47998,
+    "population": 14452
+  },
+  {
+    "id": "san-giljan",
+    "name": "San Ġiljan",
+    "slug": "san-giljan",
+    "country": "Malta",
+    "latitude": 35.91839,
+    "longitude": 14.48977,
+    "population": 13792
+  },
+  {
+    "id": "imsida",
+    "name": "Imsida",
+    "slug": "imsida",
+    "country": "Malta",
+    "latitude": 35.8925,
+    "longitude": 14.48278,
+    "population": 13713
+  },
+  {
+    "id": "birzebbuga",
+    "name": "Birżebbuġa",
+    "slug": "birzebbuga",
+    "country": "Malta",
+    "latitude": 35.82546,
+    "longitude": 14.52685,
+    "population": 12915
+  },
+  {
+    "id": "gzira",
+    "name": "Gżira",
+    "slug": "gzira",
+    "country": "Malta",
+    "latitude": 35.90583,
+    "longitude": 14.48806,
+    "population": 11669
+  },
+  {
+    "id": "zejtun",
+    "name": "Żejtun",
+    "slug": "zejtun",
+    "country": "Malta",
+    "latitude": 35.85547,
+    "longitude": 14.53341,
+    "population": 11549
+  },
+  {
+    "id": "mellie-a",
+    "name": "Mellieħa",
+    "slug": "mellie-a",
+    "country": "Malta",
+    "latitude": 35.95663,
+    "longitude": 14.36259,
+    "population": 11389
+  },
+  {
+    "id": "attard",
+    "name": "Attard",
+    "slug": "attard",
+    "country": "Malta",
+    "latitude": 35.88967,
+    "longitude": 14.4425,
+    "population": 11377
+  },
+  {
+    "id": "haz-zebbug",
+    "name": "Haz-Zebbug",
+    "slug": "haz-zebbug",
+    "country": "Malta",
+    "latitude": 35.87194,
+    "longitude": 14.44111,
+    "population": 11079
+  },
+  {
+    "id": "zurrieq",
+    "name": "Żurrieq",
+    "slug": "zurrieq",
+    "country": "Malta",
+    "latitude": 35.8296,
+    "longitude": 14.47588,
+    "population": 10962
+  },
+  {
+    "id": "marsaskala",
+    "name": "Marsaskala",
+    "slug": "marsaskala",
+    "country": "Malta",
+    "latitude": 35.8622,
+    "longitude": 14.56701,
+    "population": 10024
+  },
+  {
+    "id": "chisinau",
+    "name": "Chisinau",
+    "slug": "chisinau",
+    "country": "Moldova",
+    "latitude": 47.00902,
+    "longitude": 28.85938,
+    "population": 635994
+  },
+  {
+    "id": "tiraspol",
+    "name": "Tiraspol",
+    "slug": "tiraspol",
+    "country": "Moldova",
+    "latitude": 46.84275,
+    "longitude": 29.6284,
+    "population": 157000
+  },
+  {
+    "id": "balti",
+    "name": "Bălţi",
+    "slug": "balti",
+    "country": "Moldova",
+    "latitude": 47.76291,
+    "longitude": 27.92854,
+    "population": 125000
+  },
+  {
+    "id": "bender",
+    "name": "Bender",
+    "slug": "bender",
+    "country": "Moldova",
+    "latitude": 46.83158,
+    "longitude": 29.47671,
+    "population": 110175
+  },
+  {
+    "id": "cahul",
+    "name": "Cahul",
+    "slug": "cahul",
+    "country": "Moldova",
+    "latitude": 45.90456,
+    "longitude": 28.19516,
+    "population": 34492
+  },
+  {
+    "id": "ungheni",
+    "name": "Ungheni",
+    "slug": "ungheni",
+    "country": "Moldova",
+    "latitude": 47.21023,
+    "longitude": 27.80013,
+    "population": 34422
+  },
+  {
+    "id": "soroca",
+    "name": "Soroca",
+    "slug": "soroca",
+    "country": "Moldova",
+    "latitude": 48.15659,
+    "longitude": 28.28489,
+    "population": 27423
+  },
+  {
+    "id": "orhei",
+    "name": "Orhei",
+    "slug": "orhei",
+    "country": "Moldova",
+    "latitude": 47.38503,
+    "longitude": 28.82535,
+    "population": 24918
+  },
+  {
+    "id": "comrat",
+    "name": "Comrat",
+    "slug": "comrat",
+    "country": "Moldova",
+    "latitude": 46.29488,
+    "longitude": 28.65713,
+    "population": 22911
+  },
+  {
+    "id": "edinet",
+    "name": "Edineţ",
+    "slug": "edinet",
+    "country": "Moldova",
+    "latitude": 48.17319,
+    "longitude": 27.30075,
+    "population": 22872
+  },
+  {
+    "id": "causeni",
+    "name": "Căuşeni",
+    "slug": "causeni",
+    "country": "Moldova",
+    "latitude": 46.63738,
+    "longitude": 29.41087,
+    "population": 21690
+  },
+  {
+    "id": "straseni",
+    "name": "Strășeni",
+    "slug": "straseni",
+    "country": "Moldova",
+    "latitude": 47.14216,
+    "longitude": 28.60774,
+    "population": 19225
+  },
+  {
+    "id": "hincesti",
+    "name": "Hînceşti",
+    "slug": "hincesti",
+    "country": "Moldova",
+    "latitude": 46.83089,
+    "longitude": 28.58999,
+    "population": 16900
+  },
+  {
+    "id": "floresti",
+    "name": "Floreşti",
+    "slug": "floresti",
+    "country": "Moldova",
+    "latitude": 47.89168,
+    "longitude": 28.29339,
+    "population": 16759
+  },
+  {
+    "id": "drochia",
+    "name": "Drochia",
+    "slug": "drochia",
+    "country": "Moldova",
+    "latitude": 48.03686,
+    "longitude": 27.81242,
+    "population": 16080
+  },
+  {
+    "id": "ialoveni",
+    "name": "Ialoveni",
+    "slug": "ialoveni",
+    "country": "Moldova",
+    "latitude": 46.94357,
+    "longitude": 28.78153,
+    "population": 14915
+  },
+  {
+    "id": "singerei",
+    "name": "Sîngerei",
+    "slug": "singerei",
+    "country": "Moldova",
+    "latitude": 47.63694,
+    "longitude": 28.1407,
+    "population": 14600
+  },
+  {
+    "id": "falesti",
+    "name": "Fălești",
+    "slug": "falesti",
+    "country": "Moldova",
+    "latitude": 47.57667,
+    "longitude": 27.71264,
+    "population": 14377
+  },
+  {
+    "id": "leova",
+    "name": "Leova",
+    "slug": "leova",
+    "country": "Moldova",
+    "latitude": 46.48195,
+    "longitude": 28.25298,
+    "population": 14301
+  },
+  {
+    "id": "calarasi",
+    "name": "Călăraşi",
+    "slug": "calarasi",
+    "country": "Moldova",
+    "latitude": 47.25548,
+    "longitude": 28.30953,
+    "population": 14066
+  },
+  {
+    "id": "podgorica",
+    "name": "Podgorica",
+    "slug": "podgorica",
+    "country": "Montenegro",
+    "latitude": 42.44124,
+    "longitude": 19.26309,
+    "population": 236852
+  },
+  {
+    "id": "niksic",
+    "name": "Nikšić",
+    "slug": "niksic",
+    "country": "Montenegro",
+    "latitude": 42.7731,
+    "longitude": 18.94446,
+    "population": 58212
+  },
+  {
+    "id": "herceg-novi",
+    "name": "Herceg Novi",
+    "slug": "herceg-novi",
+    "country": "Montenegro",
+    "latitude": 42.45306,
+    "longitude": 18.5375,
+    "population": 19536
+  },
+  {
+    "id": "pljevlja",
+    "name": "Pljevlja",
+    "slug": "pljevlja",
+    "country": "Montenegro",
+    "latitude": 43.3567,
+    "longitude": 19.35843,
+    "population": 19489
+  },
+  {
+    "id": "budva",
+    "name": "Budva",
+    "slug": "budva",
+    "country": "Montenegro",
+    "latitude": 42.28721,
+    "longitude": 18.83922,
+    "population": 18000
+  },
+  {
+    "id": "bar",
+    "name": "Bar",
+    "slug": "bar",
+    "country": "Montenegro",
+    "latitude": 42.0937,
+    "longitude": 19.09841,
+    "population": 17727
+  },
+  {
+    "id": "bijelo-polje",
+    "name": "Bijelo Polje",
+    "slug": "bijelo-polje",
+    "country": "Montenegro",
+    "latitude": 43.03834,
+    "longitude": 19.74758,
+    "population": 15400
+  },
+  {
+    "id": "cetinje",
+    "name": "Cetinje",
+    "slug": "cetinje",
+    "country": "Montenegro",
+    "latitude": 42.39063,
+    "longitude": 18.91417,
+    "population": 15137
+  },
+  {
+    "id": "berane",
+    "name": "Berane",
+    "slug": "berane",
+    "country": "Montenegro",
+    "latitude": 42.84333,
+    "longitude": 19.87281,
+    "population": 11073
+  },
+  {
+    "id": "ulcinj",
+    "name": "Ulcinj",
+    "slug": "ulcinj",
+    "country": "Montenegro",
+    "latitude": 41.92936,
+    "longitude": 19.22436,
+    "population": 10828
+  },
+  {
+    "id": "rozaje",
+    "name": "Rožaje",
+    "slug": "rozaje",
+    "country": "Montenegro",
+    "latitude": 42.83299,
+    "longitude": 20.16652,
+    "population": 9121
+  },
+  {
+    "id": "tivat",
+    "name": "Tivat",
+    "slug": "tivat",
+    "country": "Montenegro",
+    "latitude": 42.43623,
+    "longitude": 18.69361,
+    "population": 6280
+  },
+  {
+    "id": "kotor",
+    "name": "Kotor",
+    "slug": "kotor",
+    "country": "Montenegro",
+    "latitude": 42.42067,
+    "longitude": 18.76825,
+    "population": 5345
+  },
+  {
+    "id": "danilovgrad",
+    "name": "Danilovgrad",
+    "slug": "danilovgrad",
+    "country": "Montenegro",
+    "latitude": 42.55384,
+    "longitude": 19.14608,
+    "population": 5208
+  },
+  {
+    "id": "mojkovac",
+    "name": "Mojkovac",
+    "slug": "mojkovac",
+    "country": "Montenegro",
+    "latitude": 42.96044,
+    "longitude": 19.5833,
+    "population": 4120
+  },
+  {
+    "id": "tuzi",
+    "name": "Tuzi",
+    "slug": "tuzi",
+    "country": "Montenegro",
+    "latitude": 42.36578,
+    "longitude": 19.3297,
+    "population": 3789
+  },
+  {
+    "id": "plav",
+    "name": "Plav",
+    "slug": "plav",
+    "country": "Montenegro",
+    "latitude": 42.5969,
+    "longitude": 19.94415,
+    "population": 3615
+  },
+  {
+    "id": "golubovci",
+    "name": "Golubovci",
+    "slug": "golubovci",
+    "country": "Montenegro",
+    "latitude": 42.3352,
+    "longitude": 19.23104,
+    "population": 3110
+  },
+  {
+    "id": "kolasin",
+    "name": "Kolašin",
+    "slug": "kolasin",
+    "country": "Montenegro",
+    "latitude": 42.82229,
+    "longitude": 19.51653,
+    "population": 2989
+  },
+  {
+    "id": "zabljak",
+    "name": "Žabljak",
+    "slug": "zabljak",
+    "country": "Montenegro",
+    "latitude": 43.15423,
+    "longitude": 19.12325,
+    "population": 1937
+  },
+  {
+    "id": "skopje",
+    "name": "Skopje",
+    "slug": "skopje",
+    "country": "North Macedonia",
+    "latitude": 41.99646,
+    "longitude": 21.43141,
+    "population": 474889
+  },
+  {
+    "id": "kumanovo",
+    "name": "Kumanovo",
+    "slug": "kumanovo",
+    "country": "North Macedonia",
+    "latitude": 42.13279,
+    "longitude": 21.71585,
+    "population": 75051
+  },
+  {
+    "id": "prilep",
+    "name": "Prilep",
+    "slug": "prilep",
+    "country": "North Macedonia",
+    "latitude": 41.34558,
+    "longitude": 21.5537,
+    "population": 73814
+  },
+  {
+    "id": "bitola",
+    "name": "Bitola",
+    "slug": "bitola",
+    "country": "North Macedonia",
+    "latitude": 41.03226,
+    "longitude": 21.33553,
+    "population": 69287
+  },
+  {
+    "id": "tetovo",
+    "name": "Tetovo",
+    "slug": "tetovo",
+    "country": "North Macedonia",
+    "latitude": 42.00989,
+    "longitude": 20.97138,
+    "population": 63176
+  },
+  {
+    "id": "veles",
+    "name": "Veles",
+    "slug": "veles",
+    "country": "North Macedonia",
+    "latitude": 41.71719,
+    "longitude": 21.77196,
+    "population": 57873
+  },
+  {
+    "id": "gostivar",
+    "name": "Gostivar",
+    "slug": "gostivar",
+    "country": "North Macedonia",
+    "latitude": 41.79627,
+    "longitude": 20.90799,
+    "population": 50974
+  },
+  {
+    "id": "shtip",
+    "name": "Shtip",
+    "slug": "shtip",
+    "country": "North Macedonia",
+    "latitude": 41.74583,
+    "longitude": 22.19583,
+    "population": 48279
+  },
+  {
+    "id": "centar-zupa",
+    "name": "Centar Župa",
+    "slug": "centar-zupa",
+    "country": "North Macedonia",
+    "latitude": 41.47849,
+    "longitude": 20.55945,
+    "population": 45412
+  },
+  {
+    "id": "ohrid",
+    "name": "Ohrid",
+    "slug": "ohrid",
+    "country": "North Macedonia",
+    "latitude": 41.11701,
+    "longitude": 20.80175,
+    "population": 42033
+  },
+  {
+    "id": "kavadarci",
+    "name": "Kavadarci",
+    "slug": "kavadarci",
+    "country": "North Macedonia",
+    "latitude": 41.43344,
+    "longitude": 22.01218,
+    "population": 38799
+  },
+  {
+    "id": "struga",
+    "name": "Struga",
+    "slug": "struga",
+    "country": "North Macedonia",
+    "latitude": 41.17787,
+    "longitude": 20.67894,
+    "population": 37387
+  },
+  {
+    "id": "kochani",
+    "name": "Kochani",
+    "slug": "kochani",
+    "country": "North Macedonia",
+    "latitude": 41.91639,
+    "longitude": 22.41278,
+    "population": 34258
+  },
+  {
+    "id": "strumica",
+    "name": "Strumica",
+    "slug": "strumica",
+    "country": "North Macedonia",
+    "latitude": 41.43763,
+    "longitude": 22.64288,
+    "population": 33825
+  },
+  {
+    "id": "kicevo",
+    "name": "Kičevo",
+    "slug": "kicevo",
+    "country": "North Macedonia",
+    "latitude": 41.51274,
+    "longitude": 20.95867,
+    "population": 31123
+  },
+  {
+    "id": "lipkovo",
+    "name": "Lipkovo",
+    "slug": "lipkovo",
+    "country": "North Macedonia",
+    "latitude": 42.15696,
+    "longitude": 21.58559,
+    "population": 28102
+  },
+  {
+    "id": "zelino",
+    "name": "Zelino",
+    "slug": "zelino",
+    "country": "North Macedonia",
+    "latitude": 41.98028,
+    "longitude": 21.06417,
+    "population": 25422
+  },
+  {
+    "id": "radovis",
+    "name": "Radovis",
+    "slug": "radovis",
+    "country": "North Macedonia",
+    "latitude": 41.63833,
+    "longitude": 22.46472,
+    "population": 24984
+  },
+  {
+    "id": "tearce",
+    "name": "Tearce",
+    "slug": "tearce",
+    "country": "North Macedonia",
+    "latitude": 42.07593,
+    "longitude": 21.05179,
+    "population": 23096
+  },
+  {
+    "id": "kriva-palanka",
+    "name": "Kriva Palanka",
+    "slug": "kriva-palanka",
+    "country": "North Macedonia",
+    "latitude": 42.20197,
+    "longitude": 22.33385,
+    "population": 20820
+  },
+  {
+    "id": "oslo",
+    "name": "Oslo",
+    "slug": "oslo",
+    "country": "Norway",
+    "latitude": 59.91273,
+    "longitude": 10.74609,
+    "population": 1082575
+  },
+  {
+    "id": "bergen",
+    "name": "Bergen",
+    "slug": "bergen",
+    "country": "Norway",
+    "latitude": 60.39299,
+    "longitude": 5.32415,
+    "population": 294029
+  },
+  {
+    "id": "stavanger",
+    "name": "Stavanger",
+    "slug": "stavanger",
+    "country": "Norway",
+    "latitude": 58.97005,
+    "longitude": 5.73332,
+    "population": 148682
+  },
+  {
+    "id": "kristiansand",
+    "name": "Kristiansand",
+    "slug": "kristiansand",
+    "country": "Norway",
+    "latitude": 58.14671,
+    "longitude": 7.9956,
+    "population": 117237
+  },
+  {
+    "id": "drammen",
+    "name": "Drammen",
+    "slug": "drammen",
+    "country": "Norway",
+    "latitude": 59.74389,
+    "longitude": 10.20449,
+    "population": 105042
+  },
+  {
+    "id": "sarpsborg",
+    "name": "Sarpsborg",
+    "slug": "sarpsborg",
+    "country": "Norway",
+    "latitude": 59.28391,
+    "longitude": 11.10962,
+    "population": 59038
+  },
+  {
+    "id": "t-nsberg",
+    "name": "Tønsberg",
+    "slug": "t-nsberg",
+    "country": "Norway",
+    "latitude": 59.26754,
+    "longitude": 10.40762,
+    "population": 55387
+  },
+  {
+    "id": "skien",
+    "name": "Skien",
+    "slug": "skien",
+    "country": "Norway",
+    "latitude": 59.20962,
+    "longitude": 9.60897,
+    "population": 50595
+  },
+  {
+    "id": "troms",
+    "name": "Tromsø",
+    "slug": "troms",
+    "country": "Norway",
+    "latitude": 69.6489,
+    "longitude": 18.95508,
+    "population": 41915
+  },
+  {
+    "id": "bod",
+    "name": "Bodø",
+    "slug": "bod",
+    "country": "Norway",
+    "latitude": 67.28267,
+    "longitude": 14.37513,
+    "population": 34073
+  },
+  {
+    "id": "arendal",
+    "name": "Arendal",
+    "slug": "arendal",
+    "country": "Norway",
+    "latitude": 58.46151,
+    "longitude": 8.77253,
+    "population": 30916
+  },
+  {
+    "id": "hamar",
+    "name": "Hamar",
+    "slug": "hamar",
+    "country": "Norway",
+    "latitude": 60.7945,
+    "longitude": 11.06798,
+    "population": 29479
+  },
+  {
+    "id": "lillehammer",
+    "name": "Lillehammer",
+    "slug": "lillehammer",
+    "country": "Norway",
+    "latitude": 61.11514,
+    "longitude": 10.46628,
+    "population": 29011
+  },
+  {
+    "id": "molde",
+    "name": "Molde",
+    "slug": "molde",
+    "country": "Norway",
+    "latitude": 62.73752,
+    "longitude": 7.15912,
+    "population": 22410
+  },
+  {
+    "id": "steinkjer",
+    "name": "Steinkjer",
+    "slug": "steinkjer",
+    "country": "Norway",
+    "latitude": 64.01487,
+    "longitude": 11.49537,
+    "population": 13060
+  },
+  {
+    "id": "vads",
+    "name": "Vadsø",
+    "slug": "vads",
+    "country": "Norway",
+    "latitude": 70.07348,
+    "longitude": 29.74943,
+    "population": 4654
+  },
+  {
+    "id": "hermansverk",
+    "name": "Hermansverk",
+    "slug": "hermansverk",
+    "country": "Norway",
+    "latitude": 61.18461,
+    "longitude": 6.85016,
+    "population": 2144
+  },
+  {
+    "id": "lillestr-m",
+    "name": "Lillestrøm",
+    "slug": "lillestr-m",
+    "country": "Norway",
+    "latitude": 59.95597,
+    "longitude": 11.04918,
+    "population": 89684
+  },
+  {
+    "id": "sandnes",
+    "name": "Sandnes",
+    "slug": "sandnes",
+    "country": "Norway",
+    "latitude": 58.85244,
+    "longitude": 5.73521,
+    "population": 85386
+  },
+  {
+    "id": "fredrikstad",
+    "name": "Fredrikstad",
+    "slug": "fredrikstad",
+    "country": "Norway",
+    "latitude": 59.2181,
+    "longitude": 10.9298,
+    "population": 83761
+  },
+  {
+    "id": "warsaw",
+    "name": "Warsaw",
+    "slug": "warsaw",
+    "country": "Poland",
+    "latitude": 52.22977,
+    "longitude": 21.01178,
+    "population": 1702139
+  },
+  {
+    "id": "krakow",
+    "name": "Kraków",
+    "slug": "krakow",
+    "country": "Poland",
+    "latitude": 50.06143,
+    "longitude": 19.93658,
+    "population": 804237
+  },
+  {
+    "id": "wroc-aw",
+    "name": "Wrocław",
+    "slug": "wroc-aw",
+    "country": "Poland",
+    "latitude": 51.10286,
+    "longitude": 17.03006,
+    "population": 672545
+  },
+  {
+    "id": "odz",
+    "name": "Łódź",
+    "slug": "odz",
+    "country": "Poland",
+    "latitude": 51.77058,
+    "longitude": 19.47395,
+    "population": 645693
+  },
+  {
+    "id": "poznan",
+    "name": "Poznań",
+    "slug": "poznan",
+    "country": "Poland",
+    "latitude": 52.40692,
+    "longitude": 16.92993,
+    "population": 536151
+  },
+  {
+    "id": "gdansk",
+    "name": "Gdańsk",
+    "slug": "gdansk",
+    "country": "Poland",
+    "latitude": 54.35227,
+    "longitude": 18.64912,
+    "population": 487371
+  },
+  {
+    "id": "szczecin",
+    "name": "Szczecin",
+    "slug": "szczecin",
+    "country": "Poland",
+    "latitude": 53.42894,
+    "longitude": 14.55302,
+    "population": 395513
+  },
+  {
+    "id": "lublin",
+    "name": "Lublin",
+    "slug": "lublin",
+    "country": "Poland",
+    "latitude": 51.25058,
+    "longitude": 22.57009,
+    "population": 336339
+  },
+  {
+    "id": "bydgoszcz",
+    "name": "Bydgoszcz",
+    "slug": "bydgoszcz",
+    "country": "Poland",
+    "latitude": 53.1235,
+    "longitude": 18.00762,
+    "population": 330038
+  },
+  {
+    "id": "bia-ystok",
+    "name": "Białystok",
+    "slug": "bia-ystok",
+    "country": "Poland",
+    "latitude": 53.13333,
+    "longitude": 23.16433,
+    "population": 295683
+  },
+  {
+    "id": "katowice",
+    "name": "Katowice",
+    "slug": "katowice",
+    "country": "Poland",
+    "latitude": 50.2597,
+    "longitude": 19.02173,
+    "population": 286960
+  },
+  {
+    "id": "rzeszow",
+    "name": "Rzeszów",
+    "slug": "rzeszow",
+    "country": "Poland",
+    "latitude": 50.04132,
+    "longitude": 21.99901,
+    "population": 198317
+  },
+  {
+    "id": "kielce",
+    "name": "Kielce",
+    "slug": "kielce",
+    "country": "Poland",
+    "latitude": 50.87033,
+    "longitude": 20.62752,
+    "population": 192468
+  },
+  {
+    "id": "olsztyn",
+    "name": "Olsztyn",
+    "slug": "olsztyn",
+    "country": "Poland",
+    "latitude": 53.78376,
+    "longitude": 20.49272,
+    "population": 169793
+  },
+  {
+    "id": "opole",
+    "name": "Opole",
+    "slug": "opole",
+    "country": "Poland",
+    "latitude": 50.67119,
+    "longitude": 17.92604,
+    "population": 127676
+  },
+  {
+    "id": "zielona-gora",
+    "name": "Zielona Góra",
+    "slug": "zielona-gora",
+    "country": "Poland",
+    "latitude": 51.93548,
+    "longitude": 15.50643,
+    "population": 118433
+  },
+  {
+    "id": "gorzow-wielkopolski",
+    "name": "Gorzów Wielkopolski",
+    "slug": "gorzow-wielkopolski",
+    "country": "Poland",
+    "latitude": 52.73371,
+    "longitude": 15.22505,
+    "population": 114567
+  },
+  {
+    "id": "radom",
+    "name": "Radom",
+    "slug": "radom",
+    "country": "Poland",
+    "latitude": 51.40253,
+    "longitude": 21.14714,
+    "population": 226794
+  },
+  {
+    "id": "zabrze",
+    "name": "Zabrze",
+    "slug": "zabrze",
+    "country": "Poland",
+    "latitude": 50.32492,
+    "longitude": 18.78576,
+    "population": 192177
+  },
+  {
+    "id": "rybnik",
+    "name": "Rybnik",
+    "slug": "rybnik",
+    "country": "Poland",
+    "latitude": 50.09713,
+    "longitude": 18.54179,
+    "population": 142510
+  },
+  {
+    "id": "lisbon",
+    "name": "Lisbon",
+    "slug": "lisbon",
+    "country": "Portugal",
+    "latitude": 38.72509,
+    "longitude": -9.1498,
+    "population": 517802
+  },
+  {
+    "id": "porto",
+    "name": "Porto",
+    "slug": "porto",
+    "country": "Portugal",
+    "latitude": 41.1485,
+    "longitude": -8.61097,
+    "population": 252687
+  },
+  {
+    "id": "braga",
+    "name": "Braga",
+    "slug": "braga",
+    "country": "Portugal",
+    "latitude": 41.5514,
+    "longitude": -8.42311,
+    "population": 193324
+  },
+  {
+    "id": "coimbra",
+    "name": "Coimbra",
+    "slug": "coimbra",
+    "country": "Portugal",
+    "latitude": 40.20686,
+    "longitude": -8.41996,
+    "population": 140796
+  },
+  {
+    "id": "leiria",
+    "name": "Leiria",
+    "slug": "leiria",
+    "country": "Portugal",
+    "latitude": 39.74362,
+    "longitude": -8.80705,
+    "population": 128640
+  },
+  {
+    "id": "setubal",
+    "name": "Setúbal",
+    "slug": "setubal",
+    "country": "Portugal",
+    "latitude": 38.5244,
+    "longitude": -8.8882,
+    "population": 118166
+  },
+  {
+    "id": "funchal",
+    "name": "Funchal",
+    "slug": "funchal",
+    "country": "Portugal",
+    "latitude": 32.66568,
+    "longitude": -16.92547,
+    "population": 105795
+  },
+  {
+    "id": "viseu",
+    "name": "Viseu",
+    "slug": "viseu",
+    "country": "Portugal",
+    "latitude": 40.66165,
+    "longitude": -7.90905,
+    "population": 103502
+  },
+  {
+    "id": "aveiro",
+    "name": "Aveiro",
+    "slug": "aveiro",
+    "country": "Portugal",
+    "latitude": 40.64575,
+    "longitude": -8.64643,
+    "population": 80880
+  },
+  {
+    "id": "faro",
+    "name": "Faro",
+    "slug": "faro",
+    "country": "Portugal",
+    "latitude": 37.01869,
+    "longitude": -7.92716,
+    "population": 70347
+  },
+  {
+    "id": "evora",
+    "name": "Évora",
+    "slug": "evora",
+    "country": "Portugal",
+    "latitude": 38.56587,
+    "longitude": -7.90405,
+    "population": 53591
+  },
+  {
+    "id": "guarda",
+    "name": "Guarda",
+    "slug": "guarda",
+    "country": "Portugal",
+    "latitude": 40.53754,
+    "longitude": -7.26631,
+    "population": 40126
+  },
+  {
+    "id": "viana-do-castelo",
+    "name": "Viana do Castelo",
+    "slug": "viana-do-castelo",
+    "country": "Portugal",
+    "latitude": 41.69323,
+    "longitude": -8.83287,
+    "population": 36148
+  },
+  {
+    "id": "braganca",
+    "name": "Bragança",
+    "slug": "braganca",
+    "country": "Portugal",
+    "latitude": 41.80716,
+    "longitude": -6.75898,
+    "population": 35341
+  },
+  {
+    "id": "beja",
+    "name": "Beja",
+    "slug": "beja",
+    "country": "Portugal",
+    "latitude": 38.01469,
+    "longitude": -7.86284,
+    "population": 34760
+  },
+  {
+    "id": "castelo-branco",
+    "name": "Castelo Branco",
+    "slug": "castelo-branco",
+    "country": "Portugal",
+    "latitude": 39.82364,
+    "longitude": -7.49101,
+    "population": 33479
+  },
+  {
+    "id": "santarem",
+    "name": "Santarém",
+    "slug": "santarem",
+    "country": "Portugal",
+    "latitude": 39.23379,
+    "longitude": -8.68617,
+    "population": 29385
+  },
+  {
+    "id": "portalegre",
+    "name": "Portalegre",
+    "slug": "portalegre",
+    "country": "Portugal",
+    "latitude": 39.29379,
+    "longitude": -7.43122,
+    "population": 22368
+  },
+  {
+    "id": "ponta-delgada",
+    "name": "Ponta Delgada",
+    "slug": "ponta-delgada",
+    "country": "Portugal",
+    "latitude": 37.73952,
+    "longitude": -25.66874,
+    "population": 20056
+  },
+  {
+    "id": "vila-real",
+    "name": "Vila Real",
+    "slug": "vila-real",
+    "country": "Portugal",
+    "latitude": 41.3001,
+    "longitude": -7.7432,
+    "population": 17001
+  },
+  {
+    "id": "bucharest",
+    "name": "Bucharest",
+    "slug": "bucharest",
+    "country": "Romania",
+    "latitude": 44.43225,
+    "longitude": 26.10626,
+    "population": 1877155
+  },
+  {
+    "id": "iasi",
+    "name": "Iaşi",
+    "slug": "iasi",
+    "country": "Romania",
+    "latitude": 47.16667,
+    "longitude": 27.6,
+    "population": 378954
+  },
+  {
+    "id": "constanta",
+    "name": "Constanţa",
+    "slug": "constanta",
+    "country": "Romania",
+    "latitude": 44.18073,
+    "longitude": 28.63432,
+    "population": 317832
+  },
+  {
+    "id": "cluj-napoca",
+    "name": "Cluj-Napoca",
+    "slug": "cluj-napoca",
+    "country": "Romania",
+    "latitude": 46.76667,
+    "longitude": 23.6,
+    "population": 286598
+  },
+  {
+    "id": "brasov",
+    "name": "Braşov",
+    "slug": "brasov",
+    "country": "Romania",
+    "latitude": 45.64861,
+    "longitude": 25.60613,
+    "population": 253200
+  },
+  {
+    "id": "timisoara",
+    "name": "Timişoara",
+    "slug": "timisoara",
+    "country": "Romania",
+    "latitude": 45.75372,
+    "longitude": 21.22571,
+    "population": 250849
+  },
+  {
+    "id": "craiova",
+    "name": "Craiova",
+    "slug": "craiova",
+    "country": "Romania",
+    "latitude": 44.31667,
+    "longitude": 23.8,
+    "population": 234140
+  },
+  {
+    "id": "galati",
+    "name": "Galaţi",
+    "slug": "galati",
+    "country": "Romania",
+    "latitude": 45.43687,
+    "longitude": 28.05028,
+    "population": 217851
+  },
+  {
+    "id": "targu-mures",
+    "name": "Târgu Mureş",
+    "slug": "targu-mures",
+    "country": "Romania",
+    "latitude": 46.54245,
+    "longitude": 24.55747,
+    "population": 212752
+  },
+  {
+    "id": "oradea",
+    "name": "Oradea",
+    "slug": "oradea",
+    "country": "Romania",
+    "latitude": 47.0458,
+    "longitude": 21.91833,
+    "population": 183105
+  },
+  {
+    "id": "ploiesti",
+    "name": "Ploieşti",
+    "slug": "ploiesti",
+    "country": "Romania",
+    "latitude": 44.95,
+    "longitude": 26.01667,
+    "population": 180540
+  },
+  {
+    "id": "arad",
+    "name": "Arad",
+    "slug": "arad",
+    "country": "Romania",
+    "latitude": 46.18333,
+    "longitude": 21.31667,
+    "population": 169065
+  },
+  {
+    "id": "braila",
+    "name": "Brăila",
+    "slug": "braila",
+    "country": "Romania",
+    "latitude": 45.27152,
+    "longitude": 27.97429,
+    "population": 154686
+  },
+  {
+    "id": "pitesti",
+    "name": "Piteşti",
+    "slug": "pitesti",
+    "country": "Romania",
+    "latitude": 44.85,
+    "longitude": 24.86667,
+    "population": 141275
+  },
+  {
+    "id": "bacau",
+    "name": "Bacău",
+    "slug": "bacau",
+    "country": "Romania",
+    "latitude": 46.56718,
+    "longitude": 26.91384,
+    "population": 136087
+  },
+  {
+    "id": "sibiu",
+    "name": "Sibiu",
+    "slug": "sibiu",
+    "country": "Romania",
+    "latitude": 45.8,
+    "longitude": 24.15,
+    "population": 134309
+  },
+  {
+    "id": "satu-mare",
+    "name": "Satu Mare",
+    "slug": "satu-mare",
+    "country": "Romania",
+    "latitude": 47.79926,
+    "longitude": 22.86255,
+    "population": 112490
+  },
+  {
+    "id": "baia-mare",
+    "name": "Baia Mare",
+    "slug": "baia-mare",
+    "country": "Romania",
+    "latitude": 47.65729,
+    "longitude": 23.56808,
+    "population": 108759
+  },
+  {
+    "id": "buzau",
+    "name": "Buzău",
+    "slug": "buzau",
+    "country": "Romania",
+    "latitude": 45.15,
+    "longitude": 26.83333,
+    "population": 103481
+  },
+  {
+    "id": "piatra-neamt",
+    "name": "Piatra Neamţ",
+    "slug": "piatra-neamt",
+    "country": "Romania",
+    "latitude": 46.91667,
+    "longitude": 26.33333,
+    "population": 102688
+  },
+  {
+    "id": "moscow",
+    "name": "Moscow",
+    "slug": "moscow",
+    "country": "Russia",
+    "latitude": 55.75204,
+    "longitude": 37.61781,
+    "population": 10381222
+  },
+  {
+    "id": "saint-petersburg",
+    "name": "Saint Petersburg",
+    "slug": "saint-petersburg",
+    "country": "Russia",
+    "latitude": 59.93863,
+    "longitude": 30.31413,
+    "population": 5351935
+  },
+  {
+    "id": "novosibirsk",
+    "name": "Novosibirsk",
+    "slug": "novosibirsk",
+    "country": "Russia",
+    "latitude": 55.02259,
+    "longitude": 82.93175,
+    "population": 1612833
+  },
+  {
+    "id": "yekaterinburg",
+    "name": "Yekaterinburg",
+    "slug": "yekaterinburg",
+    "country": "Russia",
+    "latitude": 56.85733,
+    "longitude": 60.61529,
+    "population": 1495066
+  },
+  {
+    "id": "nizhniy-novgorod",
+    "name": "Nizhniy Novgorod",
+    "slug": "nizhniy-novgorod",
+    "country": "Russia",
+    "latitude": 56.32867,
+    "longitude": 44.00205,
+    "population": 1259013
+  },
+  {
+    "id": "kazan",
+    "name": "Kazan",
+    "slug": "kazan",
+    "country": "Russia",
+    "latitude": 55.78874,
+    "longitude": 49.12214,
+    "population": 1243500
+  },
+  {
+    "id": "chelyabinsk",
+    "name": "Chelyabinsk",
+    "slug": "chelyabinsk",
+    "country": "Russia",
+    "latitude": 55.1611,
+    "longitude": 61.42877,
+    "population": 1202371
+  },
+  {
+    "id": "omsk",
+    "name": "Omsk",
+    "slug": "omsk",
+    "country": "Russia",
+    "latitude": 54.99244,
+    "longitude": 73.36859,
+    "population": 1172070
+  },
+  {
+    "id": "samara",
+    "name": "Samara",
+    "slug": "samara",
+    "country": "Russia",
+    "latitude": 53.20767,
+    "longitude": 50.13553,
+    "population": 1163399
+  },
+  {
+    "id": "rostov-on-don",
+    "name": "Rostov-on-Don",
+    "slug": "rostov-on-don",
+    "country": "Russia",
+    "latitude": 47.21997,
+    "longitude": 39.70769,
+    "population": 1130305
+  },
+  {
+    "id": "ufa",
+    "name": "Ufa",
+    "slug": "ufa",
+    "country": "Russia",
+    "latitude": 54.74306,
+    "longitude": 55.96779,
+    "population": 1120547
+  },
+  {
+    "id": "krasnoyarsk",
+    "name": "Krasnoyarsk",
+    "slug": "krasnoyarsk",
+    "country": "Russia",
+    "latitude": 56.03742,
+    "longitude": 92.93136,
+    "population": 1090811
+  },
+  {
+    "id": "voronezh",
+    "name": "Voronezh",
+    "slug": "voronezh",
+    "country": "Russia",
+    "latitude": 51.66833,
+    "longitude": 39.19204,
+    "population": 1047549
+  },
+  {
+    "id": "volgograd",
+    "name": "Volgograd",
+    "slug": "volgograd",
+    "country": "Russia",
+    "latitude": 48.71378,
+    "longitude": 44.4976,
+    "population": 1013533
+  },
+  {
+    "id": "perm",
+    "name": "Perm",
+    "slug": "perm",
+    "country": "Russia",
+    "latitude": 58.01046,
+    "longitude": 56.25017,
+    "population": 982419
+  },
+  {
+    "id": "krasnodar",
+    "name": "Krasnodar",
+    "slug": "krasnodar",
+    "country": "Russia",
+    "latitude": 45.04534,
+    "longitude": 38.98178,
+    "population": 899541
+  },
+  {
+    "id": "saratov",
+    "name": "Saratov",
+    "slug": "saratov",
+    "country": "Russia",
+    "latitude": 51.54048,
+    "longitude": 45.9901,
+    "population": 844858
+  },
+  {
+    "id": "tyumen",
+    "name": "Tyumen",
+    "slug": "tyumen",
+    "country": "Russia",
+    "latitude": 57.15222,
+    "longitude": 65.52722,
+    "population": 768358
+  },
+  {
+    "id": "izhevsk",
+    "name": "Izhevsk",
+    "slug": "izhevsk",
+    "country": "Russia",
+    "latitude": 56.85225,
+    "longitude": 53.19862,
+    "population": 648213
+  },
+  {
+    "id": "barnaul",
+    "name": "Barnaul",
+    "slug": "barnaul",
+    "country": "Russia",
+    "latitude": 53.36199,
+    "longitude": 83.72786,
+    "population": 632372
+  },
+  {
+    "id": "belgrade",
+    "name": "Belgrade",
+    "slug": "belgrade",
+    "country": "Serbia",
+    "latitude": 44.80401,
+    "longitude": 20.46513,
+    "population": 1273651
+  },
+  {
+    "id": "novi-sad",
+    "name": "Novi Sad",
+    "slug": "novi-sad",
+    "country": "Serbia",
+    "latitude": 45.25167,
+    "longitude": 19.83694,
+    "population": 215400
+  },
+  {
+    "id": "nis",
+    "name": "Niš",
+    "slug": "nis",
+    "country": "Serbia",
+    "latitude": 43.32472,
+    "longitude": 21.90333,
+    "population": 250000
+  },
+  {
+    "id": "kragujevac",
+    "name": "Kragujevac",
+    "slug": "kragujevac",
+    "country": "Serbia",
+    "latitude": 44.01667,
+    "longitude": 20.91667,
+    "population": 147473
+  },
+  {
+    "id": "cacak",
+    "name": "Čačak",
+    "slug": "cacak",
+    "country": "Serbia",
+    "latitude": 43.89139,
+    "longitude": 20.34972,
+    "population": 117072
+  },
+  {
+    "id": "subotica",
+    "name": "Subotica",
+    "slug": "subotica",
+    "country": "Serbia",
+    "latitude": 46.1,
+    "longitude": 19.66667,
+    "population": 100000
+  },
+  {
+    "id": "leskovac",
+    "name": "Leskovac",
+    "slug": "leskovac",
+    "country": "Serbia",
+    "latitude": 42.99806,
+    "longitude": 21.94611,
+    "population": 94758
+  },
+  {
+    "id": "kraljevo",
+    "name": "Kraljevo",
+    "slug": "kraljevo",
+    "country": "Serbia",
+    "latitude": 43.72583,
+    "longitude": 20.68944,
+    "population": 82846
+  },
+  {
+    "id": "zrenjanin",
+    "name": "Zrenjanin",
+    "slug": "zrenjanin",
+    "country": "Serbia",
+    "latitude": 45.38361,
+    "longitude": 20.38194,
+    "population": 79773
+  },
+  {
+    "id": "pancevo",
+    "name": "Pančevo",
+    "slug": "pancevo",
+    "country": "Serbia",
+    "latitude": 44.87177,
+    "longitude": 20.64167,
+    "population": 76654
+  },
+  {
+    "id": "krusevac",
+    "name": "Kruševac",
+    "slug": "krusevac",
+    "country": "Serbia",
+    "latitude": 43.58,
+    "longitude": 21.33389,
+    "population": 75256
+  },
+  {
+    "id": "uzice",
+    "name": "Užice",
+    "slug": "uzice",
+    "country": "Serbia",
+    "latitude": 43.85861,
+    "longitude": 19.84878,
+    "population": 63577
+  },
+  {
+    "id": "smederevo",
+    "name": "Smederevo",
+    "slug": "smederevo",
+    "country": "Serbia",
+    "latitude": 44.66436,
+    "longitude": 20.92763,
+    "population": 62000
+  },
+  {
+    "id": "valjevo",
+    "name": "Valjevo",
+    "slug": "valjevo",
+    "country": "Serbia",
+    "latitude": 44.27513,
+    "longitude": 19.89821,
+    "population": 61035
+  },
+  {
+    "id": "vranje",
+    "name": "Vranje",
+    "slug": "vranje",
+    "country": "Serbia",
+    "latitude": 42.55139,
+    "longitude": 21.90028,
+    "population": 56199
+  },
+  {
+    "id": "sabac",
+    "name": "Šabac",
+    "slug": "sabac",
+    "country": "Serbia",
+    "latitude": 44.74667,
+    "longitude": 19.69,
+    "population": 55114
+  },
+  {
+    "id": "zajecar",
+    "name": "Zaječar",
+    "slug": "zajecar",
+    "country": "Serbia",
+    "latitude": 43.90358,
+    "longitude": 22.26405,
+    "population": 49800
+  },
+  {
+    "id": "sombor",
+    "name": "Sombor",
+    "slug": "sombor",
+    "country": "Serbia",
+    "latitude": 45.77417,
+    "longitude": 19.11222,
+    "population": 48454
+  },
+  {
+    "id": "kikinda",
+    "name": "Kikinda",
+    "slug": "kikinda",
+    "country": "Serbia",
+    "latitude": 45.82972,
+    "longitude": 20.46528,
+    "population": 41935
+  },
+  {
+    "id": "pozarevac",
+    "name": "Požarevac",
+    "slug": "pozarevac",
+    "country": "Serbia",
+    "latitude": 44.62133,
+    "longitude": 21.18782,
+    "population": 41736
+  },
+  {
+    "id": "bratislava",
+    "name": "Bratislava",
+    "slug": "bratislava",
+    "country": "Slovakia",
+    "latitude": 48.14816,
+    "longitude": 17.10674,
+    "population": 423737
+  },
+  {
+    "id": "kosice",
+    "name": "Košice",
+    "slug": "kosice",
+    "country": "Slovakia",
+    "latitude": 48.71441,
+    "longitude": 21.25802,
+    "population": 225044
+  },
+  {
+    "id": "nitra",
+    "name": "Nitra",
+    "slug": "nitra",
+    "country": "Slovakia",
+    "latitude": 48.30763,
+    "longitude": 18.08453,
+    "population": 86329
+  },
+  {
+    "id": "presov",
+    "name": "Prešov",
+    "slug": "presov",
+    "country": "Slovakia",
+    "latitude": 48.99923,
+    "longitude": 21.2355,
+    "population": 82927
+  },
+  {
+    "id": "zilina",
+    "name": "Žilina",
+    "slug": "zilina",
+    "country": "Slovakia",
+    "latitude": 49.22315,
+    "longitude": 18.73941,
+    "population": 81219
+  },
+  {
+    "id": "banska-bystrica",
+    "name": "Banská Bystrica",
+    "slug": "banska-bystrica",
+    "country": "Slovakia",
+    "latitude": 48.73947,
+    "longitude": 19.14932,
+    "population": 74590
+  },
+  {
+    "id": "trnava",
+    "name": "Trnava",
+    "slug": "trnava",
+    "country": "Slovakia",
+    "latitude": 48.37773,
+    "longitude": 17.58603,
+    "population": 62806
+  },
+  {
+    "id": "trencin",
+    "name": "Trenčín",
+    "slug": "trencin",
+    "country": "Slovakia",
+    "latitude": 48.89452,
+    "longitude": 18.04436,
+    "population": 58278
+  },
+  {
+    "id": "martin",
+    "name": "Martin",
+    "slug": "martin",
+    "country": "Slovakia",
+    "latitude": 49.06651,
+    "longitude": 18.92399,
+    "population": 51139
+  },
+  {
+    "id": "poprad",
+    "name": "Poprad",
+    "slug": "poprad",
+    "country": "Slovakia",
+    "latitude": 49.06144,
+    "longitude": 20.29798,
+    "population": 49091
+  },
+  {
+    "id": "prievidza",
+    "name": "Prievidza",
+    "slug": "prievidza",
+    "country": "Slovakia",
+    "latitude": 48.77446,
+    "longitude": 18.6275,
+    "population": 43645
+  },
+  {
+    "id": "povazska-bystrica",
+    "name": "Považská Bystrica",
+    "slug": "povazska-bystrica",
+    "country": "Slovakia",
+    "latitude": 49.12153,
+    "longitude": 18.42169,
+    "population": 37483
+  },
+  {
+    "id": "michalovce",
+    "name": "Michalovce",
+    "slug": "michalovce",
+    "country": "Slovakia",
+    "latitude": 48.75434,
+    "longitude": 21.9195,
+    "population": 35874
+  },
+  {
+    "id": "spisska-nova-ves",
+    "name": "Spišská Nová Ves",
+    "slug": "spisska-nova-ves",
+    "country": "Slovakia",
+    "latitude": 48.94464,
+    "longitude": 20.56153,
+    "population": 34855
+  },
+  {
+    "id": "komarno",
+    "name": "Komárno",
+    "slug": "komarno",
+    "country": "Slovakia",
+    "latitude": 48.11667,
+    "longitude": 18.31667,
+    "population": 32287
+  },
+  {
+    "id": "levice",
+    "name": "Levice",
+    "slug": "levice",
+    "country": "Slovakia",
+    "latitude": 48.21563,
+    "longitude": 18.60705,
+    "population": 30556
+  },
+  {
+    "id": "humenne",
+    "name": "Humenné",
+    "slug": "humenne",
+    "country": "Slovakia",
+    "latitude": 48.93707,
+    "longitude": 21.91625,
+    "population": 30450
+  },
+  {
+    "id": "bardejov",
+    "name": "Bardejov",
+    "slug": "bardejov",
+    "country": "Slovakia",
+    "latitude": 49.29175,
+    "longitude": 21.27271,
+    "population": 30267
+  },
+  {
+    "id": "piestany",
+    "name": "Piešťany",
+    "slug": "piestany",
+    "country": "Slovakia",
+    "latitude": 48.59479,
+    "longitude": 17.82591,
+    "population": 26862
+  },
+  {
+    "id": "ruzomberok",
+    "name": "Ružomberok",
+    "slug": "ruzomberok",
+    "country": "Slovakia",
+    "latitude": 49.0748,
+    "longitude": 19.30751,
+    "population": 26671
+  },
+  {
+    "id": "ljubljana",
+    "name": "Ljubljana",
+    "slug": "ljubljana",
+    "country": "Slovenia",
+    "latitude": 46.05108,
+    "longitude": 14.50513,
+    "population": 272220
+  },
+  {
+    "id": "maribor",
+    "name": "Maribor",
+    "slug": "maribor",
+    "country": "Slovenia",
+    "latitude": 46.55583,
+    "longitude": 15.64593,
+    "population": 96209
+  },
+  {
+    "id": "celje",
+    "name": "Celje",
+    "slug": "celje",
+    "country": "Slovenia",
+    "latitude": 46.23092,
+    "longitude": 15.26044,
+    "population": 38059
+  },
+  {
+    "id": "kranj",
+    "name": "Kranj",
+    "slug": "kranj",
+    "country": "Slovenia",
+    "latitude": 46.23887,
+    "longitude": 14.35561,
+    "population": 37966
+  },
+  {
+    "id": "koper",
+    "name": "Koper",
+    "slug": "koper",
+    "country": "Slovenia",
+    "latitude": 45.5482,
+    "longitude": 13.72963,
+    "population": 25753
+  },
+  {
+    "id": "novo-mesto",
+    "name": "Novo Mesto",
+    "slug": "novo-mesto",
+    "country": "Slovenia",
+    "latitude": 45.80397,
+    "longitude": 15.16886,
+    "population": 24446
+  },
+  {
+    "id": "velenje",
+    "name": "Velenje",
+    "slug": "velenje",
+    "country": "Slovenia",
+    "latitude": 46.35719,
+    "longitude": 15.11277,
+    "population": 24327
+  },
+  {
+    "id": "ptuj",
+    "name": "Ptuj",
+    "slug": "ptuj",
+    "country": "Slovenia",
+    "latitude": 46.42005,
+    "longitude": 15.87018,
+    "population": 17984
+  },
+  {
+    "id": "trbovlje",
+    "name": "Trbovlje",
+    "slug": "trbovlje",
+    "country": "Slovenia",
+    "latitude": 46.1541,
+    "longitude": 15.05178,
+    "population": 15163
+  },
+  {
+    "id": "kamnik",
+    "name": "Kamnik",
+    "slug": "kamnik",
+    "country": "Slovenia",
+    "latitude": 46.22587,
+    "longitude": 14.61207,
+    "population": 13644
+  },
+  {
+    "id": "jesenice",
+    "name": "Jesenice",
+    "slug": "jesenice",
+    "country": "Slovenia",
+    "latitude": 46.4324,
+    "longitude": 14.06232,
+    "population": 13255
+  },
+  {
+    "id": "domzale",
+    "name": "Domžale",
+    "slug": "domzale",
+    "country": "Slovenia",
+    "latitude": 46.13774,
+    "longitude": 14.59371,
+    "population": 13204
+  },
+  {
+    "id": "nova-gorica",
+    "name": "Nova Gorica",
+    "slug": "nova-gorica",
+    "country": "Slovenia",
+    "latitude": 45.95604,
+    "longitude": 13.64837,
+    "population": 13031
+  },
+  {
+    "id": "skofja-loka",
+    "name": "Škofja Loka",
+    "slug": "skofja-loka",
+    "country": "Slovenia",
+    "latitude": 46.16551,
+    "longitude": 14.30626,
+    "population": 11619
+  },
+  {
+    "id": "izola",
+    "name": "Izola",
+    "slug": "izola",
+    "country": "Slovenia",
+    "latitude": 45.53661,
+    "longitude": 13.66015,
+    "population": 11223
+  },
+  {
+    "id": "murska-sobota",
+    "name": "Murska Sobota",
+    "slug": "murska-sobota",
+    "country": "Slovenia",
+    "latitude": 46.66264,
+    "longitude": 16.16643,
+    "population": 11107
+  },
+  {
+    "id": "postojna",
+    "name": "Postojna",
+    "slug": "postojna",
+    "country": "Slovenia",
+    "latitude": 45.77435,
+    "longitude": 14.21528,
+    "population": 9605
+  },
+  {
+    "id": "logatec",
+    "name": "Logatec",
+    "slug": "logatec",
+    "country": "Slovenia",
+    "latitude": 45.9168,
+    "longitude": 14.22652,
+    "population": 8942
+  },
+  {
+    "id": "sentilj-v-slov-goricah",
+    "name": "Šentilj v Slov. Goricah",
+    "slug": "sentilj-v-slov-goricah",
+    "country": "Slovenia",
+    "latitude": 46.68167,
+    "longitude": 15.64806,
+    "population": 8452
+  },
+  {
+    "id": "vrhnika",
+    "name": "Vrhnika",
+    "slug": "vrhnika",
+    "country": "Slovenia",
+    "latitude": 45.9635,
+    "longitude": 14.29484,
+    "population": 8413
+  },
+  {
+    "id": "madrid",
+    "name": "Madrid",
+    "slug": "madrid",
+    "country": "Spain",
+    "latitude": 40.4165,
+    "longitude": -3.70256,
+    "population": 3255944
+  },
+  {
+    "id": "barcelona",
+    "name": "Barcelona",
+    "slug": "barcelona",
+    "country": "Spain",
+    "latitude": 41.38879,
+    "longitude": 2.15899,
+    "population": 1686208
+  },
+  {
+    "id": "valencia",
+    "name": "Valencia",
+    "slug": "valencia",
+    "country": "Spain",
+    "latitude": 39.47391,
+    "longitude": -0.37966,
+    "population": 824340
+  },
+  {
+    "id": "zaragoza",
+    "name": "Zaragoza",
+    "slug": "zaragoza",
+    "country": "Spain",
+    "latitude": 41.65606,
+    "longitude": -0.87734,
+    "population": 686986
+  },
+  {
+    "id": "sevilla",
+    "name": "Sevilla",
+    "slug": "sevilla",
+    "country": "Spain",
+    "latitude": 37.38283,
+    "longitude": -5.97317,
+    "population": 686741
+  },
+  {
+    "id": "murcia",
+    "name": "Murcia",
+    "slug": "murcia",
+    "country": "Spain",
+    "latitude": 37.98704,
+    "longitude": -1.13004,
+    "population": 471982
+  },
+  {
+    "id": "palma",
+    "name": "Palma",
+    "slug": "palma",
+    "country": "Spain",
+    "latitude": 39.56939,
+    "longitude": 2.65024,
+    "population": 438234
+  },
+  {
+    "id": "las-palmas-de-gran-canaria",
+    "name": "Las Palmas de Gran Canaria",
+    "slug": "las-palmas-de-gran-canaria",
+    "country": "Spain",
+    "latitude": 28.10178,
+    "longitude": -15.41573,
+    "population": 383516
+  },
+  {
+    "id": "valladolid",
+    "name": "Valladolid",
+    "slug": "valladolid",
+    "country": "Spain",
+    "latitude": 41.65541,
+    "longitude": -4.72353,
+    "population": 300618
+  },
+  {
+    "id": "gasteiz-vitoria",
+    "name": "Gasteiz / Vitoria",
+    "slug": "gasteiz-vitoria",
+    "country": "Spain",
+    "latitude": 42.84998,
+    "longitude": -2.67268,
+    "population": 257407
+  },
+  {
+    "id": "oviedo",
+    "name": "Oviedo",
+    "slug": "oviedo",
+    "country": "Spain",
+    "latitude": 43.36029,
+    "longitude": -5.84476,
+    "population": 220027
+  },
+  {
+    "id": "santa-cruz-de-tenerife",
+    "name": "Santa Cruz de Tenerife",
+    "slug": "santa-cruz-de-tenerife",
+    "country": "Spain",
+    "latitude": 28.46824,
+    "longitude": -16.25462,
+    "population": 211359
+  },
+  {
+    "id": "pamplona",
+    "name": "Pamplona",
+    "slug": "pamplona",
+    "country": "Spain",
+    "latitude": 42.81687,
+    "longitude": -1.64323,
+    "population": 208243
+  },
+  {
+    "id": "santander",
+    "name": "Santander",
+    "slug": "santander",
+    "country": "Spain",
+    "latitude": 43.46589,
+    "longitude": -3.80493,
+    "population": 173635
+  },
+  {
+    "id": "logrono",
+    "name": "Logroño",
+    "slug": "logrono",
+    "country": "Spain",
+    "latitude": 42.46615,
+    "longitude": -2.45115,
+    "population": 151164
+  },
+  {
+    "id": "santiago-de-compostela",
+    "name": "Santiago de Compostela",
+    "slug": "santiago-de-compostela",
+    "country": "Spain",
+    "latitude": 42.88052,
+    "longitude": -8.54569,
+    "population": 99536
+  },
+  {
+    "id": "toledo",
+    "name": "Toledo",
+    "slug": "toledo",
+    "country": "Spain",
+    "latitude": 39.8581,
+    "longitude": -4.02263,
+    "population": 86526
+  },
+  {
+    "id": "melilla",
+    "name": "Melilla",
+    "slug": "melilla",
+    "country": "Spain",
+    "latitude": 35.29369,
+    "longitude": -2.93833,
+    "population": 85985
+  },
+  {
+    "id": "ceuta",
+    "name": "Ceuta",
+    "slug": "ceuta",
+    "country": "Spain",
+    "latitude": 35.88919,
+    "longitude": -5.32042,
+    "population": 83179
+  },
+  {
+    "id": "merida",
+    "name": "Mérida",
+    "slug": "merida",
+    "country": "Spain",
+    "latitude": 38.91802,
+    "longitude": -6.34292,
+    "population": 59857
+  },
+  {
+    "id": "stockholm",
+    "name": "Stockholm",
+    "slug": "stockholm",
+    "country": "Sweden",
+    "latitude": 59.32938,
+    "longitude": 18.06871,
+    "population": 1515017
+  },
+  {
+    "id": "goteborg",
+    "name": "Göteborg",
+    "slug": "goteborg",
+    "country": "Sweden",
+    "latitude": 57.70716,
+    "longitude": 11.96679,
+    "population": 608462
+  },
+  {
+    "id": "malmo",
+    "name": "Malmö",
+    "slug": "malmo",
+    "country": "Sweden",
+    "latitude": 55.60587,
+    "longitude": 13.00073,
+    "population": 362133
+  },
+  {
+    "id": "uppsala",
+    "name": "Uppsala",
+    "slug": "uppsala",
+    "country": "Sweden",
+    "latitude": 59.85882,
+    "longitude": 17.63889,
+    "population": 177074
+  },
+  {
+    "id": "linkoping",
+    "name": "Linköping",
+    "slug": "linkoping",
+    "country": "Sweden",
+    "latitude": 58.41086,
+    "longitude": 15.62157,
+    "population": 166673
+  },
+  {
+    "id": "orebro",
+    "name": "Örebro",
+    "slug": "orebro",
+    "country": "Sweden",
+    "latitude": 59.27412,
+    "longitude": 15.2066,
+    "population": 155989
+  },
+  {
+    "id": "umea",
+    "name": "Umeå",
+    "slug": "umea",
+    "country": "Sweden",
+    "latitude": 63.82842,
+    "longitude": 20.25972,
+    "population": 130224
+  },
+  {
+    "id": "vasteras",
+    "name": "Västerås",
+    "slug": "vasteras",
+    "country": "Sweden",
+    "latitude": 59.61617,
+    "longitude": 16.55276,
+    "population": 127799
+  },
+  {
+    "id": "jonkoping",
+    "name": "Jönköping",
+    "slug": "jonkoping",
+    "country": "Sweden",
+    "latitude": 57.78145,
+    "longitude": 14.15618,
+    "population": 112766
+  },
+  {
+    "id": "lulea",
+    "name": "Luleå",
+    "slug": "lulea",
+    "country": "Sweden",
+    "latitude": 65.58415,
+    "longitude": 22.15465,
+    "population": 77832
+  },
+  {
+    "id": "gavle",
+    "name": "Gävle",
+    "slug": "gavle",
+    "country": "Sweden",
+    "latitude": 60.67452,
+    "longitude": 17.14174,
+    "population": 74884
+  },
+  {
+    "id": "vaxjo",
+    "name": "Växjö",
+    "slug": "vaxjo",
+    "country": "Sweden",
+    "latitude": 56.87767,
+    "longitude": 14.80906,
+    "population": 71282
+  },
+  {
+    "id": "halmstad",
+    "name": "Halmstad",
+    "slug": "halmstad",
+    "country": "Sweden",
+    "latitude": 56.67446,
+    "longitude": 12.85676,
+    "population": 70480
+  },
+  {
+    "id": "karlskrona",
+    "name": "Karlskrona",
+    "slug": "karlskrona",
+    "country": "Sweden",
+    "latitude": 56.16156,
+    "longitude": 15.58661,
+    "population": 66675
+  },
+  {
+    "id": "karlstad",
+    "name": "Karlstad",
+    "slug": "karlstad",
+    "country": "Sweden",
+    "latitude": 59.3793,
+    "longitude": 13.50357,
+    "population": 61492
+  },
+  {
+    "id": "ostersund",
+    "name": "Östersund",
+    "slug": "ostersund",
+    "country": "Sweden",
+    "latitude": 63.1792,
+    "longitude": 14.63566,
+    "population": 49806
+  },
+  {
+    "id": "nykoping",
+    "name": "Nyköping",
+    "slug": "nykoping",
+    "country": "Sweden",
+    "latitude": 58.753,
+    "longitude": 17.00788,
+    "population": 38780
+  },
+  {
+    "id": "kalmar",
+    "name": "Kalmar",
+    "slug": "kalmar",
+    "country": "Sweden",
+    "latitude": 56.66157,
+    "longitude": 16.36163,
+    "population": 38408
+  },
+  {
+    "id": "falun",
+    "name": "Falun",
+    "slug": "falun",
+    "country": "Sweden",
+    "latitude": 60.60357,
+    "longitude": 15.62597,
+    "population": 37291
+  },
+  {
+    "id": "harnosand",
+    "name": "Härnösand",
+    "slug": "harnosand",
+    "country": "Sweden",
+    "latitude": 62.63228,
+    "longitude": 17.93794,
+    "population": 25012
+  },
+  {
+    "id": "bern",
+    "name": "Bern",
+    "slug": "bern",
+    "country": "Switzerland",
+    "latitude": 46.94809,
+    "longitude": 7.44744,
+    "population": 121631
+  },
+  {
+    "id": "zurich",
+    "name": "Zürich",
+    "slug": "zurich",
+    "country": "Switzerland",
+    "latitude": 47.36667,
+    "longitude": 8.55,
+    "population": 415367
+  },
+  {
+    "id": "geneve",
+    "name": "Genève",
+    "slug": "geneve",
+    "country": "Switzerland",
+    "latitude": 46.20222,
+    "longitude": 6.14569,
+    "population": 201741
+  },
+  {
+    "id": "basel",
+    "name": "Basel",
+    "slug": "basel",
+    "country": "Switzerland",
+    "latitude": 47.55839,
+    "longitude": 7.57327,
+    "population": 177595
+  },
+  {
+    "id": "lausanne",
+    "name": "Lausanne",
+    "slug": "lausanne",
+    "country": "Switzerland",
+    "latitude": 46.516,
+    "longitude": 6.63282,
+    "population": 139111
+  },
+  {
+    "id": "luzern",
+    "name": "Luzern",
+    "slug": "luzern",
+    "country": "Switzerland",
+    "latitude": 47.05048,
+    "longitude": 8.30635,
+    "population": 81691
+  },
+  {
+    "id": "sankt-gallen",
+    "name": "Sankt Gallen",
+    "slug": "sankt-gallen",
+    "country": "Switzerland",
+    "latitude": 47.42391,
+    "longitude": 9.37477,
+    "population": 75833
+  },
+  {
+    "id": "bellinzona",
+    "name": "Bellinzona",
+    "slug": "bellinzona",
+    "country": "Switzerland",
+    "latitude": 46.19278,
+    "longitude": 9.01703,
+    "population": 43220
+  },
+  {
+    "id": "fribourg",
+    "name": "Fribourg",
+    "slug": "fribourg",
+    "country": "Switzerland",
+    "latitude": 46.80237,
+    "longitude": 7.15128,
+    "population": 38365
+  },
+  {
+    "id": "schaffhausen",
+    "name": "Schaffhausen",
+    "slug": "schaffhausen",
+    "country": "Switzerland",
+    "latitude": 47.69732,
+    "longitude": 8.63493,
+    "population": 36587
+  },
+  {
+    "id": "chur",
+    "name": "Chur",
+    "slug": "chur",
+    "country": "Switzerland",
+    "latitude": 46.84986,
+    "longitude": 9.53287,
+    "population": 35373
+  },
+  {
+    "id": "sitten",
+    "name": "Sitten",
+    "slug": "sitten",
+    "country": "Switzerland",
+    "latitude": 46.22739,
+    "longitude": 7.35559,
+    "population": 34708
+  },
+  {
+    "id": "neuchatel",
+    "name": "Neuchâtel",
+    "slug": "neuchatel",
+    "country": "Switzerland",
+    "latitude": 46.99179,
+    "longitude": 6.931,
+    "population": 33475
+  },
+  {
+    "id": "zug",
+    "name": "Zug",
+    "slug": "zug",
+    "country": "Switzerland",
+    "latitude": 47.17242,
+    "longitude": 8.51745,
+    "population": 30542
+  },
+  {
+    "id": "frauenfeld",
+    "name": "Frauenfeld",
+    "slug": "frauenfeld",
+    "country": "Switzerland",
+    "latitude": 47.55776,
+    "longitude": 8.89893,
+    "population": 25607
+  },
+  {
+    "id": "aarau",
+    "name": "Aarau",
+    "slug": "aarau",
+    "country": "Switzerland",
+    "latitude": 47.39254,
+    "longitude": 8.04422,
+    "population": 21503
+  },
+  {
+    "id": "solothurn",
+    "name": "Solothurn",
+    "slug": "solothurn",
+    "country": "Switzerland",
+    "latitude": 47.20791,
+    "longitude": 7.53714,
+    "population": 16777
+  },
+  {
+    "id": "herisau",
+    "name": "Herisau",
+    "slug": "herisau",
+    "country": "Switzerland",
+    "latitude": 47.38615,
+    "longitude": 9.27916,
+    "population": 15744
+  },
+  {
+    "id": "schwyz",
+    "name": "Schwyz",
+    "slug": "schwyz",
+    "country": "Switzerland",
+    "latitude": 47.02076,
+    "longitude": 8.65414,
+    "population": 15181
+  },
+  {
+    "id": "liestal",
+    "name": "Liestal",
+    "slug": "liestal",
+    "country": "Switzerland",
+    "latitude": 47.48455,
+    "longitude": 7.73446,
+    "population": 12832
+  },
+  {
+    "id": "amsterdam",
+    "name": "Amsterdam",
+    "slug": "amsterdam",
+    "country": "The Netherlands",
+    "latitude": 52.37403,
+    "longitude": 4.88969,
+    "population": 741636
+  },
+  {
+    "id": "utrecht",
+    "name": "Utrecht",
+    "slug": "utrecht",
+    "country": "The Netherlands",
+    "latitude": 52.09083,
+    "longitude": 5.12222,
+    "population": 376435
+  },
+  {
+    "id": "groningen",
+    "name": "Groningen",
+    "slug": "groningen",
+    "country": "The Netherlands",
+    "latitude": 53.21917,
+    "longitude": 6.56667,
+    "population": 244807
+  },
+  {
+    "id": "haarlem",
+    "name": "Haarlem",
+    "slug": "haarlem",
+    "country": "The Netherlands",
+    "latitude": 52.38084,
+    "longitude": 4.63683,
+    "population": 162543
+  },
+  {
+    "id": "arnhem",
+    "name": "Arnhem",
+    "slug": "arnhem",
+    "country": "The Netherlands",
+    "latitude": 51.98,
+    "longitude": 5.91111,
+    "population": 162424
+  },
+  {
+    "id": "s-hertogenbosch",
+    "name": "'s-Hertogenbosch",
+    "slug": "s-hertogenbosch",
+    "country": "The Netherlands",
+    "latitude": 51.69917,
+    "longitude": 5.30417,
+    "population": 160783
+  },
+  {
+    "id": "zwolle",
+    "name": "Zwolle",
+    "slug": "zwolle",
+    "country": "The Netherlands",
+    "latitude": 52.5125,
+    "longitude": 6.09444,
+    "population": 129840
+  },
+  {
+    "id": "leeuwarden",
+    "name": "Leeuwarden",
+    "slug": "leeuwarden",
+    "country": "The Netherlands",
+    "latitude": 53.20271,
+    "longitude": 5.80973,
+    "population": 124481
+  },
+  {
+    "id": "maastricht",
+    "name": "Maastricht",
+    "slug": "maastricht",
+    "country": "The Netherlands",
+    "latitude": 50.84833,
+    "longitude": 5.68889,
+    "population": 122378
+  },
+  {
+    "id": "lelystad",
+    "name": "Lelystad",
+    "slug": "lelystad",
+    "country": "The Netherlands",
+    "latitude": 52.50833,
+    "longitude": 5.475,
+    "population": 79811
+  },
+  {
+    "id": "assen",
+    "name": "Assen",
+    "slug": "assen",
+    "country": "The Netherlands",
+    "latitude": 52.99667,
+    "longitude": 6.5625,
+    "population": 68836
+  },
+  {
+    "id": "middelburg",
+    "name": "Middelburg",
+    "slug": "middelburg",
+    "country": "The Netherlands",
+    "latitude": 51.5,
+    "longitude": 3.61389,
+    "population": 46485
+  },
+  {
+    "id": "venlo",
+    "name": "Venlo",
+    "slug": "venlo",
+    "country": "The Netherlands",
+    "latitude": 51.37,
+    "longitude": 6.16806,
+    "population": 101988
+  },
+  {
+    "id": "hengelo",
+    "name": "Hengelo",
+    "slug": "hengelo",
+    "country": "The Netherlands",
+    "latitude": 52.26583,
+    "longitude": 6.79306,
+    "population": 82311
+  },
+  {
+    "id": "drachten",
+    "name": "Drachten",
+    "slug": "drachten",
+    "country": "The Netherlands",
+    "latitude": 53.11254,
+    "longitude": 6.0989,
+    "population": 45186
+  },
+  {
+    "id": "heemskerk",
+    "name": "Heemskerk",
+    "slug": "heemskerk",
+    "country": "The Netherlands",
+    "latitude": 52.51108,
+    "longitude": 4.67165,
+    "population": 39191
+  },
+  {
+    "id": "bergen-nl",
+    "name": "Bergen",
+    "slug": "bergen-nl",
+    "country": "The Netherlands",
+    "latitude": 52.66917,
+    "longitude": 4.70417,
+    "population": 29715
+  },
+  {
+    "id": "heiloo",
+    "name": "Heiloo",
+    "slug": "heiloo",
+    "country": "The Netherlands",
+    "latitude": 52.60252,
+    "longitude": 4.68815,
+    "population": 24144
+  },
+  {
+    "id": "borne",
+    "name": "Borne",
+    "slug": "borne",
+    "country": "The Netherlands",
+    "latitude": 52.30136,
+    "longitude": 6.7482,
+    "population": 23877
+  },
+  {
+    "id": "joure",
+    "name": "Joure",
+    "slug": "joure",
+    "country": "The Netherlands",
+    "latitude": 52.9657,
+    "longitude": 5.80301,
+    "population": 13090
+  },
+  {
+    "id": "ankara",
+    "name": "Ankara",
+    "slug": "ankara",
+    "country": "Turkey",
+    "latitude": 39.91987,
+    "longitude": 32.85427,
+    "population": 3517182
+  },
+  {
+    "id": "istanbul",
+    "name": "Istanbul",
+    "slug": "istanbul",
+    "country": "Turkey",
+    "latitude": 41.01384,
+    "longitude": 28.94966,
+    "population": 15701602
+  },
+  {
+    "id": "bursa",
+    "name": "Bursa",
+    "slug": "bursa",
+    "country": "Turkey",
+    "latitude": 40.19559,
+    "longitude": 29.06013,
+    "population": 3101833
+  },
+  {
+    "id": "izmir",
+    "name": "İzmir",
+    "slug": "izmir",
+    "country": "Turkey",
+    "latitude": 38.41273,
+    "longitude": 27.13838,
+    "population": 2938292
+  },
+  {
+    "id": "gaziantep",
+    "name": "Gaziantep",
+    "slug": "gaziantep",
+    "country": "Turkey",
+    "latitude": 37.05944,
+    "longitude": 37.3825,
+    "population": 2130432
+  },
+  {
+    "id": "adana",
+    "name": "Adana",
+    "slug": "adana",
+    "country": "Turkey",
+    "latitude": 36.98615,
+    "longitude": 35.32531,
+    "population": 1816750
+  },
+  {
+    "id": "diyarbak-r",
+    "name": "Diyarbakır",
+    "slug": "diyarbak-r",
+    "country": "Turkey",
+    "latitude": 37.91363,
+    "longitude": 40.21721,
+    "population": 1791373
+  },
+  {
+    "id": "kayseri",
+    "name": "Kayseri",
+    "slug": "kayseri",
+    "country": "Turkey",
+    "latitude": 38.73222,
+    "longitude": 35.48528,
+    "population": 1434357
+  },
+  {
+    "id": "konya",
+    "name": "Konya",
+    "slug": "konya",
+    "country": "Turkey",
+    "latitude": 37.87135,
+    "longitude": 32.48464,
+    "population": 1433861
+  },
+  {
+    "id": "antalya",
+    "name": "Antalya",
+    "slug": "antalya",
+    "country": "Turkey",
+    "latitude": 36.90812,
+    "longitude": 30.69556,
+    "population": 1344000
+  },
+  {
+    "id": "malatya",
+    "name": "Malatya",
+    "slug": "malatya",
+    "country": "Turkey",
+    "latitude": 38.35018,
+    "longitude": 38.31667,
+    "population": 806156
+  },
+  {
+    "id": "eskisehir",
+    "name": "Eskişehir",
+    "slug": "eskisehir",
+    "country": "Turkey",
+    "latitude": 39.77667,
+    "longitude": 30.52056,
+    "population": 789023
+  },
+  {
+    "id": "erzurum",
+    "name": "Erzurum",
+    "slug": "erzurum",
+    "country": "Turkey",
+    "latitude": 39.90861,
+    "longitude": 41.27694,
+    "population": 767848
+  },
+  {
+    "id": "mersin",
+    "name": "Mersin",
+    "slug": "mersin",
+    "country": "Turkey",
+    "latitude": 36.81196,
+    "longitude": 34.63886,
+    "population": 537842
+  },
+  {
+    "id": "van",
+    "name": "Van",
+    "slug": "van",
+    "country": "Turkey",
+    "latitude": 38.49457,
+    "longitude": 43.38323,
+    "population": 525016
+  },
+  {
+    "id": "batman",
+    "name": "Batman",
+    "slug": "batman",
+    "country": "Turkey",
+    "latitude": 37.88738,
+    "longitude": 41.13221,
+    "population": 452157
+  },
+  {
+    "id": "sanl-urfa",
+    "name": "Şanlıurfa",
+    "slug": "sanl-urfa",
+    "country": "Turkey",
+    "latitude": 37.16708,
+    "longitude": 38.79392,
+    "population": 449549
+  },
+  {
+    "id": "elaz-g",
+    "name": "Elazığ",
+    "slug": "elaz-g",
+    "country": "Turkey",
+    "latitude": 38.67431,
+    "longitude": 39.22321,
+    "population": 443363
+  },
+  {
+    "id": "samsun",
+    "name": "Samsun",
+    "slug": "samsun",
+    "country": "Turkey",
+    "latitude": 41.27976,
+    "longitude": 36.3361,
+    "population": 394050
+  },
+  {
+    "id": "kahramanmaras",
+    "name": "Kahramanmaraş",
+    "slug": "kahramanmaras",
+    "country": "Turkey",
+    "latitude": 37.5847,
+    "longitude": 36.92641,
+    "population": 384953
+  },
+  {
+    "id": "kyiv",
+    "name": "Kyiv",
+    "slug": "kyiv",
+    "country": "Ukraine",
+    "latitude": 50.45466,
+    "longitude": 30.5238,
+    "population": 2952301
+  },
+  {
+    "id": "kharkiv",
+    "name": "Kharkiv",
+    "slug": "kharkiv",
+    "country": "Ukraine",
+    "latitude": 49.98177,
+    "longitude": 36.25475,
+    "population": 1433886
+  },
+  {
+    "id": "odesa",
+    "name": "Odesa",
+    "slug": "odesa",
+    "country": "Ukraine",
+    "latitude": 46.48572,
+    "longitude": 30.74383,
+    "population": 1015826
+  },
+  {
+    "id": "dnipro",
+    "name": "Dnipro",
+    "slug": "dnipro",
+    "country": "Ukraine",
+    "latitude": 48.46664,
+    "longitude": 35.04066,
+    "population": 968502
+  },
+  {
+    "id": "donetsk",
+    "name": "Donetsk",
+    "slug": "donetsk",
+    "country": "Ukraine",
+    "latitude": 48.023,
+    "longitude": 37.80224,
+    "population": 901645
+  },
+  {
+    "id": "lviv",
+    "name": "Lviv",
+    "slug": "lviv",
+    "country": "Ukraine",
+    "latitude": 49.83826,
+    "longitude": 24.02324,
+    "population": 717273
+  },
+  {
+    "id": "zaporizhzhya",
+    "name": "Zaporizhzhya",
+    "slug": "zaporizhzhya",
+    "country": "Ukraine",
+    "latitude": 47.85167,
+    "longitude": 35.11714,
+    "population": 710052
+  },
+  {
+    "id": "sevastopol",
+    "name": "Sevastopol",
+    "slug": "sevastopol",
+    "country": "Ukraine",
+    "latitude": 44.60795,
+    "longitude": 33.52134,
+    "population": 547820
+  },
+  {
+    "id": "mykolayiv",
+    "name": "Mykolayiv",
+    "slug": "mykolayiv",
+    "country": "Ukraine",
+    "latitude": 46.97625,
+    "longitude": 31.99296,
+    "population": 470011
+  },
+  {
+    "id": "luhansk",
+    "name": "Luhansk",
+    "slug": "luhansk",
+    "country": "Ukraine",
+    "latitude": 48.56814,
+    "longitude": 39.30553,
+    "population": 397677
+  },
+  {
+    "id": "vinnytsya",
+    "name": "Vinnytsya",
+    "slug": "vinnytsya",
+    "country": "Ukraine",
+    "latitude": 49.2322,
+    "longitude": 28.46871,
+    "population": 369839
+  },
+  {
+    "id": "chernihiv",
+    "name": "Chernihiv",
+    "slug": "chernihiv",
+    "country": "Ukraine",
+    "latitude": 51.50541,
+    "longitude": 31.28656,
+    "population": 285234
+  },
+  {
+    "id": "kherson",
+    "name": "Kherson",
+    "slug": "kherson",
+    "country": "Ukraine",
+    "latitude": 46.63695,
+    "longitude": 32.61458,
+    "population": 283649
+  },
+  {
+    "id": "poltava",
+    "name": "Poltava",
+    "slug": "poltava",
+    "country": "Ukraine",
+    "latitude": 49.58925,
+    "longitude": 34.55367,
+    "population": 283402
+  },
+  {
+    "id": "khmelnytskyi",
+    "name": "Khmelnytskyi",
+    "slug": "khmelnytskyi",
+    "country": "Ukraine",
+    "latitude": 49.41835,
+    "longitude": 26.97936,
+    "population": 274582
+  },
+  {
+    "id": "cherkasy",
+    "name": "Cherkasy",
+    "slug": "cherkasy",
+    "country": "Ukraine",
+    "latitude": 49.44452,
+    "longitude": 32.05738,
+    "population": 272651
+  },
+  {
+    "id": "chernivtsi",
+    "name": "Chernivtsi",
+    "slug": "chernivtsi",
+    "country": "Ukraine",
+    "latitude": 48.29045,
+    "longitude": 25.93241,
+    "population": 265471
+  },
+  {
+    "id": "zhytomyr",
+    "name": "Zhytomyr",
+    "slug": "zhytomyr",
+    "country": "Ukraine",
+    "latitude": 50.26235,
+    "longitude": 28.67913,
+    "population": 261624
+  },
+  {
+    "id": "sumy",
+    "name": "Sumy",
+    "slug": "sumy",
+    "country": "Ukraine",
+    "latitude": 50.91741,
+    "longitude": 34.79906,
+    "population": 259660
+  },
+  {
+    "id": "rivne",
+    "name": "Rivne",
+    "slug": "rivne",
+    "country": "Ukraine",
+    "latitude": 50.62036,
+    "longitude": 26.23695,
+    "population": 245289
+  },
+  {
+    "id": "london",
+    "name": "London",
+    "slug": "london",
+    "country": "United Kingdom",
+    "latitude": 51.50853,
+    "longitude": -0.12574,
+    "population": 8961989
+  },
+  {
+    "id": "edinburgh",
+    "name": "Edinburgh",
+    "slug": "edinburgh",
+    "country": "United Kingdom",
+    "latitude": 55.95206,
+    "longitude": -3.19648,
+    "population": 514990
+  },
+  {
+    "id": "cardiff",
+    "name": "Cardiff",
+    "slug": "cardiff",
+    "country": "United Kingdom",
+    "latitude": 51.48,
+    "longitude": -3.18,
+    "population": 372089
+  },
+  {
+    "id": "belfast",
+    "name": "Belfast",
+    "slug": "belfast",
+    "country": "United Kingdom",
+    "latitude": 54.59682,
+    "longitude": -5.92541,
+    "population": 348005
+  },
+  {
+    "id": "west-ilsley",
+    "name": "West Ilsley",
+    "slug": "west-ilsley",
+    "country": "United Kingdom",
+    "latitude": 51.53993,
+    "longitude": -1.32368,
+    "population": 332
+  },
+  {
+    "id": "birmingham",
+    "name": "Birmingham",
+    "slug": "birmingham",
+    "country": "United Kingdom",
+    "latitude": 52.48142,
+    "longitude": -1.89983,
+    "population": 1157603
+  },
+  {
+    "id": "glasgow",
+    "name": "Glasgow",
+    "slug": "glasgow",
+    "country": "United Kingdom",
+    "latitude": 55.86515,
+    "longitude": -4.25763,
+    "population": 626410
+  },
+  {
+    "id": "manchester",
+    "name": "Manchester",
+    "slug": "manchester",
+    "country": "United Kingdom",
+    "latitude": 53.48095,
+    "longitude": -2.23743,
+    "population": 568996
+  },
+  {
+    "id": "sheffield",
+    "name": "Sheffield",
+    "slug": "sheffield",
+    "country": "United Kingdom",
+    "latitude": 53.38297,
+    "longitude": -1.4659,
+    "population": 556500
+  },
+  {
+    "id": "leeds",
+    "name": "Leeds",
+    "slug": "leeds",
+    "country": "United Kingdom",
+    "latitude": 53.79648,
+    "longitude": -1.54785,
+    "population": 536280
+  },
+  {
+    "id": "liverpool",
+    "name": "Liverpool",
+    "slug": "liverpool",
+    "country": "United Kingdom",
+    "latitude": 53.41058,
+    "longitude": -2.97794,
+    "population": 496770
+  },
+  {
+    "id": "bristol",
+    "name": "Bristol",
+    "slug": "bristol",
+    "country": "United Kingdom",
+    "latitude": 51.45523,
+    "longitude": -2.59665,
+    "population": 479024
+  },
+  {
+    "id": "leicester",
+    "name": "Leicester",
+    "slug": "leicester",
+    "country": "United Kingdom",
+    "latitude": 52.6386,
+    "longitude": -1.13169,
+    "population": 368600
+  },
+  {
+    "id": "bradford",
+    "name": "Bradford",
+    "slug": "bradford",
+    "country": "United Kingdom",
+    "latitude": 53.79391,
+    "longitude": -1.75206,
+    "population": 366187
+  },
+  {
+    "id": "coventry",
+    "name": "Coventry",
+    "slug": "coventry",
+    "country": "United Kingdom",
+    "latitude": 52.40656,
+    "longitude": -1.51217,
+    "population": 345324
+  },
+  {
+    "id": "nottingham",
+    "name": "Nottingham",
+    "slug": "nottingham",
+    "country": "United Kingdom",
+    "latitude": 52.9536,
+    "longitude": -1.15047,
+    "population": 323632
+  },
+  {
+    "id": "reading",
+    "name": "Reading",
+    "slug": "reading",
+    "country": "United Kingdom",
+    "latitude": 51.45625,
+    "longitude": -0.97113,
+    "population": 318014
+  },
+  {
+    "id": "kingston-upon-hull",
+    "name": "Kingston upon Hull",
+    "slug": "kingston-upon-hull",
+    "country": "United Kingdom",
+    "latitude": 53.7446,
+    "longitude": -0.33525,
+    "population": 314018
+  },
+  {
+    "id": "preston",
+    "name": "Preston",
+    "slug": "preston",
+    "country": "United Kingdom",
+    "latitude": 53.76282,
+    "longitude": -2.70452,
+    "population": 313332
+  },
+  {
+    "id": "swansea",
+    "name": "Swansea",
+    "slug": "swansea",
+    "country": "United Kingdom",
+    "latitude": 51.62079,
+    "longitude": -3.94323,
+    "population": 300352
+  }
+]

@@ -1,0 +1,16 @@
+{
+  "defaultLocale": "en",
+  "publishedLocales": ["en"],
+  "allLocales": ["en", "de", "es", "fr", "pl"],
+  "tiers": {
+    "tier1": ["de", "es"],
+    "tier2": ["fr", "pl"]
+  },
+  "labels": {
+    "en": "English",
+    "de": "Deutsch",
+    "es": "Espa\u00f1ol",
+    "fr": "Fran\u00e7ais",
+    "pl": "Polski"
+  }
+}

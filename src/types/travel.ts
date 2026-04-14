@@ -31,6 +31,21 @@ export interface PointOfInterest {
   popularityScore: number;
   lat: number;
   lon: number;
+  image?: PoiImage;
+}
+
+export interface PoiImage {
+  source: string;
+  sourcePageUrl: string;
+  fileTitle: string;
+  imageUrl: string;
+  thumbUrl?: string | null;
+  width?: number | null;
+  height?: number | null;
+  author?: string | null;
+  licenseName?: string | null;
+  licenseUrl?: string | null;
+  attributionText?: string | null;
 }
 
 export interface InternalLink {
@@ -76,5 +91,17 @@ export interface PagePayload {
   internalLinks: {
     sameCity: InternalLink[];
     similarCities: InternalLink[];
+  };
+  editorial?: {
+    bestFor?: string[];
+    monthRead?: string;
+    bookingRead?: string;
+  };
+  copyMeta?: {
+    source: "rules" | "openai";
+    model?: string;
+    promptVersion?: string;
+    locale?: string;
+    generatedAt: string;
   };
 }

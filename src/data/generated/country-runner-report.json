@@ -1,0 +1,252 @@
+{
+  "startedAt": "2026-04-11T06:15:49.427Z",
+  "locale": "en",
+  "generateAiCopy": false,
+  "continueOnError": false,
+  "selectedCities": [
+    {
+      "id": "warsaw",
+      "name": "Warsaw",
+      "country": "Poland"
+    },
+    {
+      "id": "krakow",
+      "name": "Kraków",
+      "country": "Poland"
+    },
+    {
+      "id": "wroc-aw",
+      "name": "Wrocław",
+      "country": "Poland"
+    },
+    {
+      "id": "odz",
+      "name": "Łódź",
+      "country": "Poland"
+    },
+    {
+      "id": "poznan",
+      "name": "Poznań",
+      "country": "Poland"
+    },
+    {
+      "id": "gdansk",
+      "name": "Gdańsk",
+      "country": "Poland"
+    },
+    {
+      "id": "szczecin",
+      "name": "Szczecin",
+      "country": "Poland"
+    },
+    {
+      "id": "lublin",
+      "name": "Lublin",
+      "country": "Poland"
+    },
+    {
+      "id": "bydgoszcz",
+      "name": "Bydgoszcz",
+      "country": "Poland"
+    },
+    {
+      "id": "bia-ystok",
+      "name": "Białystok",
+      "country": "Poland"
+    },
+    {
+      "id": "katowice",
+      "name": "Katowice",
+      "country": "Poland"
+    },
+    {
+      "id": "rzeszow",
+      "name": "Rzeszów",
+      "country": "Poland"
+    },
+    {
+      "id": "kielce",
+      "name": "Kielce",
+      "country": "Poland"
+    },
+    {
+      "id": "olsztyn",
+      "name": "Olsztyn",
+      "country": "Poland"
+    },
+    {
+      "id": "opole",
+      "name": "Opole",
+      "country": "Poland"
+    },
+    {
+      "id": "zielona-gora",
+      "name": "Zielona Góra",
+      "country": "Poland"
+    },
+    {
+      "id": "gorzow-wielkopolski",
+      "name": "Gorzów Wielkopolski",
+      "country": "Poland"
+    },
+    {
+      "id": "radom",
+      "name": "Radom",
+      "country": "Poland"
+    },
+    {
+      "id": "zabrze",
+      "name": "Zabrze",
+      "country": "Poland"
+    },
+    {
+      "id": "rybnik",
+      "name": "Rybnik",
+      "country": "Poland"
+    }
+  ],
+  "successes": [
+    {
+      "cityId": "warsaw",
+      "cityName": "Warsaw",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "krakow",
+      "cityName": "Kraków",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "wroc-aw",
+      "cityName": "Wrocław",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "odz",
+      "cityName": "Łódź",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "poznan",
+      "cityName": "Poznań",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "gdansk",
+      "cityName": "Gdańsk",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "szczecin",
+      "cityName": "Szczecin",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "lublin",
+      "cityName": "Lublin",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "bydgoszcz",
+      "cityName": "Bydgoszcz",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "bia-ystok",
+      "cityName": "Białystok",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "katowice",
+      "cityName": "Katowice",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "rzeszow",
+      "cityName": "Rzeszów",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "kielce",
+      "cityName": "Kielce",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "olsztyn",
+      "cityName": "Olsztyn",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "opole",
+      "cityName": "Opole",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "zielona-gora",
+      "cityName": "Zielona Góra",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "gorzow-wielkopolski",
+      "cityName": "Gorzów Wielkopolski",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "radom",
+      "cityName": "Radom",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "zabrze",
+      "cityName": "Zabrze",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    },
+    {
+      "cityId": "rybnik",
+      "cityName": "Rybnik",
+      "country": "Poland",
+      "pages": 12,
+      "aiCopyPages": 0
+    }
+  ],
+  "failures": [],
+  "finishedAt": "2026-04-11T06:27:24.739Z"
+}

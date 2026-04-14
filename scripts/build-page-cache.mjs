@@ -2,336 +2,396 @@ import { mkdir, writeFile } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import path from "node:path";
 
-import cities from "../src/data/raw/cities.json" with { type: "json" };
-import climateRows from "../src/data/raw/monthly-climate.json" with { type: "json" };
-import signalRows from "../src/data/raw/monthly-signals.json" with { type: "json" };
-import poiRows from "../src/data/raw/poi.json" with { type: "json" };
+import { Pool } from "@neondatabase/serverless";
+
+import { isTruthyEnv, loadLocalEnv } from "./lib/load-env.mjs";
+import {
+  buildTravelCache,
+  getLocalSeedData,
+  monthNameByNumber,
+} from "./lib/travel-engine.mjs";
+import {
+  allLocales,
+  buildDefaultLocalePublicationState,
+  defaultLocale,
+} from "./lib/locales.mjs";
+
+loadLocalEnv();
+
+const disableLocalData = isTruthyEnv(process.env.DISABLE_LOCAL_DATA);
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const outputDir = path.resolve(__dirname, "../src/data/generated");
 
-const monthOrder = [
-  "january",
-  "february",
-  "march",
-  "april",
-  "may",
-  "june",
-  "july",
-  "august",
-  "september",
-  "october",
-  "november",
-  "december",
-];
-
-const crowdWeight = { low: 100, medium: 72, high: 40 };
-const priceWeight = { low: 100, medium: 70, high: 42 };
-
-function monthLabel(month) {
-  return month.charAt(0).toUpperCase() + month.slice(1);
-}
-
-function scoreTemperature(avgTempDay) {
-  const optimalMin = 18;
-  const optimalMax = 26;
-
-  if (avgTempDay >= optimalMin && avgTempDay <= optimalMax) {
-    return 100;
-  }
-
-  if (avgTempDay < optimalMin) {
-    return Math.max(0, 100 - (optimalMin - avgTempDay) * 6);
-  }
-
-  return Math.max(0, 100 - (avgTempDay - optimalMax) * 7);
-}
-
-function scoreRainfall(rainfallMm, rainyDays) {
-  return Math.max(0, 100 - rainfallMm * 0.7 - rainyDays * 3.5);
-}
-
-function scoreLabel(score) {
-  if (score >= 80) return "Excellent";
-  if (score >= 68) return "Very Good";
-  if (score >= 55) return "Solid";
-  if (score >= 45) return "Mixed";
-  return "Only if the timing fits";
-}
-
-function buildPros(climate, signal, cityName) {
-  const pros = [];
-
-  if (climate.avg_temp_day >= 18 && climate.avg_temp_day <= 26) {
-    pros.push(`Comfortable daytime temperatures make long walks around ${cityName} easy.`);
-  }
-
-  if (climate.rainfall_mm <= 60) {
-    pros.push("Rainfall stays manageable for sightseeing-heavy itineraries.");
-  }
-
-  if (signal.crowd_level === "low") {
-    pros.push("Queues and popular viewpoints are easier to handle than peak season.");
-  }
-
-  if (signal.price_level === "low") {
-    pros.push("Accommodation pricing is more forgiving than the summer peak.");
-  }
-
-  if (climate.sunshine_hours >= 7) {
-    pros.push("Longer, brighter days make it easier to fit more into each visit.");
-  }
-
-  return pros.slice(0, 3);
-}
-
-function buildCons(climate, signal, cityName) {
-  const cons = [];
-
-  if (climate.avg_temp_day < 10) {
-    cons.push(`Cold spells can shorten outdoor time in ${cityName}.`);
-  }
-
-  if (climate.avg_temp_day > 29) {
-    cons.push("Midday sightseeing can feel draining, especially on exposed routes.");
-  }
-
-  if (climate.rainfall_mm >= 80 || climate.rainy_days >= 10) {
-    cons.push("A flexible plan helps because rain interruptions are fairly common.");
-  }
-
-  if (signal.crowd_level === "high") {
-    cons.push("Top sights need early starts or advance booking to avoid long waits.");
-  }
-
-  if (signal.price_level === "high") {
-    cons.push("Flights and central hotels are usually priced above shoulder-season levels.");
-  }
-
-  return cons.slice(0, 3);
-}
-
-function buildRecommendations(climate) {
-  const recommendations = [];
-
-  if (climate.avg_temp_day >= 20 && climate.rainfall_mm <= 70) {
-    recommendations.push("Prioritize landmark-heavy walking routes and open-air viewpoints.");
-  }
-
-  if (climate.sunshine_hours >= 7) {
-    recommendations.push("Use early mornings and late afternoons for the most photogenic light.");
-  }
-
-  if (climate.rainfall_mm > 70 || climate.rainy_days >= 9) {
-    recommendations.push("Keep a museum-focused backup plan for wetter afternoons.");
-  }
-
-  if (climate.avg_temp_day < 10) {
-    recommendations.push("Lean into shorter outdoor loops with cafe or museum breaks between them.");
-  }
-
-  return recommendations.slice(0, 3);
-}
-
-function buildTips(climate, signal) {
-  const tips = [];
-
-  tips.push(
-    climate.avg_temp_day >= 24
-      ? "Pack breathable layers, water, and one shaded lunch stop each day."
-      : climate.avg_temp_day <= 8
-        ? "Bring insulated layers, comfortable boots, and gloves for morning starts."
-        : "Light layers work best because mornings and evenings still shift noticeably.",
+async function writeGeneratedFiles(
+  monthlyScores,
+  pages,
+  cityLocalizations,
+  localePublication,
+  pageCopyByLocale,
+  poiLocalizationsByLocale,
+) {
+  await mkdir(outputDir, { recursive: true });
+  await writeFile(
+    path.join(outputDir, "monthly-scores.json"),
+    `${JSON.stringify(monthlyScores, null, 2)}\n`,
   );
-
-  tips.push(
-    climate.rainfall_mm >= 70 || climate.rainy_days >= 9
-      ? "A compact umbrella matters more than a heavy rain jacket for city sightseeing."
-      : "Comfortable walking shoes matter more than weather gear on most days.",
+  await writeFile(
+    path.join(outputDir, "page-cache.json"),
+    `${JSON.stringify(pages, null, 2)}\n`,
   );
-
-  tips.push(
-    signal.crowd_level === "high"
-      ? "Reserve the headline attraction first and build the rest of the day around that slot."
-      : "You can usually keep the itinerary flexible and still fit in major highlights.",
+  await writeFile(
+    path.join(outputDir, "city-localizations.json"),
+    `${JSON.stringify(cityLocalizations, null, 2)}\n`,
   );
-
-  return tips;
+  await writeFile(
+    path.join(outputDir, "locale-publication.json"),
+    `${JSON.stringify(localePublication, null, 2)}\n`,
+  );
+  await writeFile(
+    path.join(outputDir, "page-copy.json"),
+    `${JSON.stringify(pageCopyByLocale, null, 2)}\n`,
+  );
+  await writeFile(
+    path.join(outputDir, "poi-localizations.json"),
+    `${JSON.stringify(poiLocalizationsByLocale, null, 2)}\n`,
+  );
 }
 
-function buildSummary(city, month, climate, score, signal) {
-  const temperatureLine =
-    climate.avg_temp_day >= 20
-      ? `warm ${climate.avg_temp_day}C days`
-      : climate.avg_temp_day >= 10
-        ? `mild ${climate.avg_temp_day}C days`
-        : `cool ${climate.avg_temp_day}C days`;
+async function readGeneratedFromNeon() {
+  if (!process.env.DATABASE_URL) {
+    return null;
+  }
 
-  const rainLine =
-    climate.rainfall_mm <= 55
-      ? "limited rain risk"
-      : climate.rainfall_mm <= 80
-        ? "some rain interruptions"
-        : "noticeably wetter conditions";
+  const pool = new Pool({ connectionString: process.env.DATABASE_URL });
 
-  return `${city.name} in ${monthLabel(month)} is a ${scoreLabel(score).toLowerCase()} pick, with ${temperatureLine}, ${rainLine}, and ${signal.crowd_level} crowds. Expect ${climate.sunshine_hours.toFixed(1)} daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.`;
+  try {
+    const [
+      scoreResult,
+      pageResult,
+      copyTableResult,
+      poiLocalizationTableResult,
+      poiImageTableResult,
+      cityLocalizationTableResult,
+      localePublicationTableResult,
+    ] = await Promise.all([
+      pool.query(`
+        SELECT
+          ms.city_id,
+          c.name AS city_name,
+          c.country,
+          c.slug AS city_slug,
+          ms.month,
+          ms.score,
+          ms.crowd_level,
+          ms.price_level
+        FROM monthly_scores ms
+        JOIN cities c ON c.id = ms.city_id
+        ORDER BY c.slug, ms.month
+      `),
+      pool.query(`
+        SELECT payload_json, generated_at
+        FROM page_cache
+        ORDER BY city_id, month
+      `),
+      pool.query(`SELECT to_regclass('public.page_copy') AS page_copy_regclass`),
+      pool.query(`SELECT to_regclass('public.poi_localizations') AS poi_localizations_regclass`),
+      pool.query(`SELECT to_regclass('public.poi_images') AS poi_images_regclass`),
+      pool.query(`SELECT to_regclass('public.city_localizations') AS city_localizations_regclass`),
+      pool.query(`SELECT to_regclass('public.locale_publication') AS locale_publication_regclass`),
+    ]);
+
+    if (!scoreResult.rows.length || !pageResult.rows.length) {
+      return null;
+    }
+
+    const hasPageCopyTable = Boolean(copyTableResult.rows[0]?.page_copy_regclass);
+    const hasPoiLocalizationTable = Boolean(
+      poiLocalizationTableResult.rows[0]?.poi_localizations_regclass,
+    );
+    const hasPoiImageTable = Boolean(poiImageTableResult.rows[0]?.poi_images_regclass);
+    const hasCityLocalizationTable = Boolean(
+      cityLocalizationTableResult.rows[0]?.city_localizations_regclass,
+    );
+    const hasLocalePublicationTable = Boolean(
+      localePublicationTableResult.rows[0]?.locale_publication_regclass,
+    );
+    const copyResult = hasPageCopyTable
+      ? await pool.query(
+          `
+            SELECT city_id, month, locale, copy_json, generated_at
+            FROM page_copy
+            ORDER BY city_id, month, locale
+          `,
+        )
+      : { rows: [] };
+    const poiLocalizationResult = hasPoiLocalizationTable
+      ? await pool.query(
+          `
+            SELECT poi_id, locale, name
+            FROM poi_localizations
+          `,
+        )
+      : { rows: [] };
+    const cityLocalizationResult = hasCityLocalizationTable
+      ? await pool.query(`
+          SELECT city_id, locale, name, canonical_slug, aliases_json
+          FROM city_localizations
+          ORDER BY city_id, locale
+        `)
+      : { rows: [] };
+    const poiImageResult = hasPoiImageTable
+      ? await pool.query(`
+          SELECT
+            poi_id,
+            source,
+            source_page_url,
+            file_title,
+            image_url,
+            thumb_url,
+            width,
+            height,
+            author,
+            license_name,
+            license_url,
+            attribution_text
+          FROM poi_images
+        `)
+      : { rows: [] };
+    const localePublicationResult = hasLocalePublicationTable
+      ? await pool.query(`
+          SELECT locale, label, tier, is_default, published
+          FROM locale_publication
+          ORDER BY locale
+        `)
+      : { rows: [] };
+    const poiImages = new Map(
+      poiImageResult.rows.map((row) => [
+        row.poi_id,
+        {
+          source: row.source,
+          sourcePageUrl: row.source_page_url,
+          fileTitle: row.file_title,
+          imageUrl: row.image_url,
+          thumbUrl: row.thumb_url,
+          width: row.width,
+          height: row.height,
+          author: row.author,
+          licenseName: row.license_name,
+          licenseUrl: row.license_url,
+          attributionText: row.attribution_text,
+        },
+      ]),
+    );
+    const cityLocalizations = buildCityLocalizationMap(cityLocalizationResult.rows);
+    const localePublication = buildLocalePublicationMap(localePublicationResult.rows);
+
+    const monthlyScores = scoreResult.rows.map((row) => ({
+      cityId: row.city_id,
+      cityName: row.city_name,
+      country: row.country,
+      citySlug: row.city_slug,
+      month: monthNameByNumber[row.month],
+      score: row.score,
+      crowdLevel: row.crowd_level,
+      priceLevel: row.price_level,
+    }));
+
+    const basePages = pageResult.rows.map((row) => ({
+      ...row.payload_json,
+      generatedAt:
+        row.payload_json.generatedAt ??
+        row.generated_at?.toISOString?.() ??
+        new Date().toISOString(),
+    }));
+    const slugByPageKey = new Map(
+      basePages.map((page) => [`${page.cityId}:${monthNumberFromName(page.month)}`, page.slug]),
+    );
+    const pageCopyByLocale = buildPageCopyByLocale(copyResult.rows, slugByPageKey);
+    const poiLocalizationsByLocale = buildPoiLocalizationMap(poiLocalizationResult.rows);
+    const pages = basePages.map((page) =>
+      applyPageLocalization(
+        page,
+        defaultLocale,
+        pageCopyByLocale,
+        poiLocalizationsByLocale,
+        poiImages,
+      ),
+    );
+
+    return {
+      monthlyScores,
+      pages,
+      cityLocalizations,
+      localePublication,
+      pageCopyByLocale,
+      poiLocalizationsByLocale,
+    };
+  } finally {
+    await pool.end();
+  }
 }
 
-function pickAttractions(cityId, climate) {
-  const cityPois = poiRows
-    .filter((poi) => poi.city_id === cityId)
-    .sort((left, right) => right.popularity_score - left.popularity_score);
+function applyPageLocalization(
+  page,
+  locale,
+  pageCopyByLocale,
+  poiLocalizationsByLocale,
+  poiImages,
+) {
+  const localizedPageCopy = pageCopyByLocale[locale]?.[page.slug];
+  const localizedPoiNames = poiLocalizationsByLocale[locale] ?? {};
+  const hydratedPage = {
+    ...page,
+    attractions: {
+      outdoor: localizePoiItems(page.attractions?.outdoor, localizedPoiNames, poiImages),
+      indoor: localizePoiItems(page.attractions?.indoor, localizedPoiNames, poiImages),
+    },
+  };
 
-  const outdoor = cityPois
-    .filter((poi) => !poi.indoor)
-    .slice(0, climate.avg_temp_day >= 10 ? 3 : 2);
-  const indoor = cityPois
-    .filter((poi) => poi.indoor)
-    .slice(0, climate.rainy_days >= 9 ? 3 : 2);
+  if (!localizedPageCopy) {
+    return hydratedPage;
+  }
 
   return {
-    outdoor: outdoor.map((poi) => ({
-      id: poi.id,
-      cityId: poi.city_id,
-      name: poi.name,
-      category: poi.category,
-      indoor: poi.indoor,
-      popularityScore: poi.popularity_score,
-      lat: poi.lat,
-      lon: poi.lon,
-    })),
-    indoor: indoor.map((poi) => ({
-      id: poi.id,
-      cityId: poi.city_id,
-      name: poi.name,
-      category: poi.category,
-      indoor: poi.indoor,
-      popularityScore: poi.popularity_score,
-      lat: poi.lat,
-      lon: poi.lon,
-    })),
+    ...hydratedPage,
+    summary: localizedPageCopy.summary ?? hydratedPage.summary,
+    verdict: localizedPageCopy.verdict
+      ? {
+          ...hydratedPage.verdict,
+          ...localizedPageCopy.verdict,
+        }
+      : hydratedPage.verdict,
+    recommendations: localizedPageCopy.recommendations ?? hydratedPage.recommendations,
+    tips: localizedPageCopy.tips ?? hydratedPage.tips,
+    editorial: localizedPageCopy.editorial
+      ? {
+          ...hydratedPage.editorial,
+          ...localizedPageCopy.editorial,
+        }
+      : hydratedPage.editorial,
+    copyMeta: localizedPageCopy.copyMeta ?? hydratedPage.copyMeta,
   };
 }
 
-const monthlyScores = [];
+function localizePoiItems(items = [], localizedPoiNames = {}, poiImages) {
+  return items.map((item) => ({
+    ...item,
+    name: localizedPoiNames[item.id] ?? item.name,
+    image: poiImages.get(item.id) ?? item.image,
+  }));
+}
 
-for (const city of cities) {
-  for (const month of monthOrder) {
-    const climate = climateRows.find(
-      (entry) => entry.city_id === city.id && entry.month === month,
-    );
-    const signal = signalRows.find(
-      (entry) => entry.city_id === city.id && entry.month === month,
-    );
+function buildPageCopyByLocale(rows, slugByPageKey) {
+  const map = Object.fromEntries(allLocales.map((locale) => [locale, {}]));
 
-    const temperatureComponent = scoreTemperature(climate.avg_temp_day);
-    const rainfallComponent = scoreRainfall(climate.rainfall_mm, climate.rainy_days);
+  for (const row of rows) {
+    const slug = slugByPageKey.get(`${row.city_id}:${row.month}`);
 
-    const score = Math.round(
-      temperatureComponent * 0.4 +
-        rainfallComponent * 0.2 +
-        crowdWeight[signal.crowd_level] * 0.2 +
-        priceWeight[signal.price_level] * 0.2,
-    );
+    if (!slug) {
+      continue;
+    }
 
-    monthlyScores.push({
-      cityId: city.id,
-      cityName: city.name,
-      country: city.country,
-      citySlug: city.slug,
-      month,
-      score,
-      crowdLevel: signal.crowd_level,
-      priceLevel: signal.price_level,
-    });
+    map[row.locale][slug] = {
+      ...row.copy_json,
+      generatedAt:
+        row.copy_json?.copyMeta?.generatedAt ??
+        row.generated_at?.toISOString?.() ??
+        new Date().toISOString(),
+    };
   }
+
+  return map;
 }
 
-function getSameCityLinks(cityId, month) {
-  return monthlyScores
-    .filter((entry) => entry.cityId === cityId && entry.month !== month)
-    .sort((left, right) => right.score - left.score)
-    .slice(0, 3)
-    .map((entry) => ({
-      slug: `${entry.citySlug}-in-${entry.month}`,
-      label: `${entry.cityName} in ${monthLabel(entry.month)}`,
-      score: entry.score,
-    }));
+function buildPoiLocalizationMap(rows) {
+  const map = Object.fromEntries(allLocales.map((locale) => [locale, {}]));
+
+  for (const row of rows) {
+    map[row.locale][row.poi_id] = row.name;
+  }
+
+  return map;
 }
 
-function getSimilarCityLinks(cityId, month) {
-  return monthlyScores
-    .filter((entry) => entry.cityId !== cityId && entry.month === month)
-    .sort((left, right) => right.score - left.score)
-    .slice(0, 2)
-    .map((entry) => ({
-      slug: `${entry.citySlug}-in-${entry.month}`,
-      label: `${entry.cityName} in ${monthLabel(entry.month)}`,
-      score: entry.score,
-    }));
+function buildCityLocalizationMap(rows) {
+  const map = {};
+
+  for (const row of rows) {
+    if (!map[row.city_id]) {
+      map[row.city_id] = {};
+    }
+
+    map[row.city_id][row.locale] = {
+      name: row.name,
+      canonical: row.canonical_slug,
+      aliases: Array.isArray(row.aliases_json) ? row.aliases_json : [],
+    };
+  }
+
+  return map;
 }
 
-const pages = monthlyScores.map((scoreRecord) => {
-  const city = cities.find((entry) => entry.id === scoreRecord.cityId);
-  const climate = climateRows.find(
-    (entry) =>
-      entry.city_id === scoreRecord.cityId && entry.month === scoreRecord.month,
+function buildLocalePublicationMap(rows) {
+  if (!rows.length) {
+    return buildDefaultLocalePublicationState();
+  }
+
+  return Object.fromEntries(
+    rows.map((row) => [
+      row.locale,
+      {
+        label: row.label,
+        tier: row.tier,
+        isDefault: row.is_default,
+        published: row.published,
+      },
+    ]),
   );
-  const signal = signalRows.find(
-    (entry) =>
-      entry.city_id === scoreRecord.cityId && entry.month === scoreRecord.month,
+}
+
+function monthNumberFromName(monthName) {
+  const entry = Object.entries(monthNameByNumber).find(([, value]) => value === monthName);
+  return entry ? Number(entry[0]) : null;
+}
+
+async function main() {
+  const neonData = await readGeneratedFromNeon();
+
+  if (neonData) {
+    await writeGeneratedFiles(
+      neonData.monthlyScores,
+      neonData.pages,
+      neonData.cityLocalizations,
+      neonData.localePublication,
+      neonData.pageCopyByLocale,
+      neonData.poiLocalizationsByLocale,
+    );
+    console.log(
+      `Generated ${neonData.monthlyScores.length} monthly scores and ${neonData.pages.length} page payloads from Neon.`,
+    );
+    return;
+  }
+
+  if (disableLocalData) {
+    throw new Error(
+      "Local fallback is disabled and Neon page cache is not available. Run a successful live import first.",
+    );
+  }
+
+  const localData = buildTravelCache(getLocalSeedData());
+  await writeGeneratedFiles(
+    localData.monthlyScores,
+    localData.pages,
+    {},
+    buildDefaultLocalePublicationState(),
+    Object.fromEntries(allLocales.map((locale) => [locale, {}])),
+    Object.fromEntries(allLocales.map((locale) => [locale, {}])),
   );
-  const attractions = pickAttractions(scoreRecord.cityId, climate);
+  console.log(
+    `Generated ${localData.monthlyScores.length} monthly scores and ${localData.pages.length} page payloads from local seed data.`,
+  );
+}
 
-  return {
-    slug: `${scoreRecord.citySlug}-in-${scoreRecord.month}`,
-    cityId: scoreRecord.cityId,
-    cityName: city.name,
-    citySlug: city.slug,
-    country: city.country,
-    month: scoreRecord.month,
-    summary: buildSummary(city, scoreRecord.month, climate, scoreRecord.score, signal),
-    generatedAt: new Date().toISOString(),
-    score: scoreRecord.score,
-    scoreLabel: scoreLabel(scoreRecord.score),
-    climate: {
-      avgTempDay: climate.avg_temp_day,
-      avgTempNight: climate.avg_temp_night,
-      rainfallMm: climate.rainfall_mm,
-      rainyDays: climate.rainy_days,
-      humidity: climate.humidity,
-      sunshineHours: climate.sunshine_hours,
-    },
-    verdict: {
-      heading: `${city.name} in ${monthLabel(scoreRecord.month)} is best for travelers who want a ${
-        scoreRecord.score >= 68 ? "well-balanced city break" : "more situational city break"
-      }.`,
-      pros: buildPros(climate, signal, city.name),
-      cons: buildCons(climate, signal, city.name),
-    },
-    attractions,
-    recommendations: buildRecommendations(climate),
-    tips: buildTips(climate, signal),
-    travelSignals: {
-      crowdLevel: signal.crowd_level,
-      priceLevel: signal.price_level,
-    },
-    internalLinks: {
-      sameCity: getSameCityLinks(scoreRecord.cityId, scoreRecord.month),
-      similarCities: getSimilarCityLinks(scoreRecord.cityId, scoreRecord.month),
-    },
-  };
-});
-
-await mkdir(outputDir, { recursive: true });
-await writeFile(
-  path.join(outputDir, "monthly-scores.json"),
-  `${JSON.stringify(monthlyScores, null, 2)}\n`,
-);
-await writeFile(
-  path.join(outputDir, "page-cache.json"),
-  `${JSON.stringify(pages, null, 2)}\n`,
-);
-
-console.log(`Generated ${monthlyScores.length} monthly scores and ${pages.length} page payloads.`);
+await main();

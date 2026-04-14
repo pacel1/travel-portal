@@ -1,0 +1,393 @@
+{
+  "generatedAt": "2026-04-09T10:44:53.133Z",
+  "source": {
+    "provider": "GeoNames",
+    "countryInfoUrl": "https://download.geonames.org/export/dump/countryInfo.txt",
+    "baselineCitiesUrl": "https://download.geonames.org/export/dump/cities500.zip"
+  },
+  "countryCount": 50,
+  "cityCount": 920,
+  "requestedCitiesPerCountry": 20,
+  "countriesWithShortfall": [
+    {
+      "country": "Liechtenstein",
+      "countryCode": "LI",
+      "selectedCities": 0,
+      "requestedCities": 20,
+      "shortfall": 20
+    },
+    {
+      "country": "Monaco",
+      "countryCode": "MC",
+      "selectedCities": 0,
+      "requestedCities": 20,
+      "shortfall": 20
+    },
+    {
+      "country": "San Marino",
+      "countryCode": "SM",
+      "selectedCities": 0,
+      "requestedCities": 20,
+      "shortfall": 20
+    },
+    {
+      "country": "Vatican",
+      "countryCode": "VA",
+      "selectedCities": 0,
+      "requestedCities": 20,
+      "shortfall": 20
+    }
+  ],
+  "countries": [
+    {
+      "country": "Albania",
+      "countryCode": "AL",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Andorra",
+      "countryCode": "AD",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Armenia",
+      "countryCode": "AM",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Austria",
+      "countryCode": "AT",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Azerbaijan",
+      "countryCode": "AZ",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Belarus",
+      "countryCode": "BY",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Belgium",
+      "countryCode": "BE",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "countryCode": "BA",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Bulgaria",
+      "countryCode": "BG",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Croatia",
+      "countryCode": "HR",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Cyprus",
+      "countryCode": "CY",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Czechia",
+      "countryCode": "CZ",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Denmark",
+      "countryCode": "DK",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Estonia",
+      "countryCode": "EE",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Finland",
+      "countryCode": "FI",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "France",
+      "countryCode": "FR",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Georgia",
+      "countryCode": "GE",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Germany",
+      "countryCode": "DE",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Greece",
+      "countryCode": "GR",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Hungary",
+      "countryCode": "HU",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Iceland",
+      "countryCode": "IS",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Ireland",
+      "countryCode": "IE",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Italy",
+      "countryCode": "IT",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Kosovo",
+      "countryCode": "XK",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Latvia",
+      "countryCode": "LV",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Liechtenstein",
+      "countryCode": "LI",
+      "selectedCities": 0,
+      "requestedCities": 20,
+      "shortfall": 20
+    },
+    {
+      "country": "Lithuania",
+      "countryCode": "LT",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Luxembourg",
+      "countryCode": "LU",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Malta",
+      "countryCode": "MT",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Moldova",
+      "countryCode": "MD",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Monaco",
+      "countryCode": "MC",
+      "selectedCities": 0,
+      "requestedCities": 20,
+      "shortfall": 20
+    },
+    {
+      "country": "Montenegro",
+      "countryCode": "ME",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "North Macedonia",
+      "countryCode": "MK",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Norway",
+      "countryCode": "NO",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Poland",
+      "countryCode": "PL",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Portugal",
+      "countryCode": "PT",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Romania",
+      "countryCode": "RO",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Russia",
+      "countryCode": "RU",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "San Marino",
+      "countryCode": "SM",
+      "selectedCities": 0,
+      "requestedCities": 20,
+      "shortfall": 20
+    },
+    {
+      "country": "Serbia",
+      "countryCode": "RS",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Slovakia",
+      "countryCode": "SK",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Slovenia",
+      "countryCode": "SI",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Spain",
+      "countryCode": "ES",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Sweden",
+      "countryCode": "SE",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "The Netherlands",
+      "countryCode": "NL",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Turkey",
+      "countryCode": "TR",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "United Kingdom",
+      "countryCode": "GB",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Vatican",
+      "countryCode": "VA",
+      "selectedCities": 0,
+      "requestedCities": 20,
+      "shortfall": 20
+    }
+  ]
+}
