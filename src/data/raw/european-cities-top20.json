@@ -7782,7 +7782,16 @@
     "country": "Turkey",
     "latitude": 37.05944,
     "longitude": 37.3825,
-    "population": 2130432
+    "population": 2222415
+  },
+  {
+    "id": "diyarbak-r",
+    "name": "Diyarbakır",
+    "slug": "diyarbak-r",
+    "country": "Turkey",
+    "latitude": 37.91363,
+    "longitude": 40.21721,
+    "population": 1833684
   },
   {
     "id": "adana",
@@ -7794,22 +7803,13 @@
     "population": 1816750
   },
   {
-    "id": "diyarbak-r",
-    "name": "Diyarbakır",
-    "slug": "diyarbak-r",
-    "country": "Turkey",
-    "latitude": 37.91363,
-    "longitude": 40.21721,
-    "population": 1791373
-  },
-  {
     "id": "kayseri",
     "name": "Kayseri",
     "slug": "kayseri",
     "country": "Turkey",
     "latitude": 38.73222,
     "longitude": 35.48528,
-    "population": 1434357
+    "population": 1452458
   },
   {
     "id": "konya",
@@ -7827,16 +7827,7 @@
     "country": "Turkey",
     "latitude": 36.90812,
     "longitude": 30.69556,
-    "population": 1344000
-  },
-  {
-    "id": "malatya",
-    "name": "Malatya",
-    "slug": "malatya",
-    "country": "Turkey",
-    "latitude": 38.35018,
-    "longitude": 38.31667,
-    "population": 806156
+    "population": 1335002
   },
   {
     "id": "eskisehir",
@@ -7845,7 +7836,7 @@
     "country": "Turkey",
     "latitude": 39.77667,
     "longitude": 30.52056,
-    "population": 789023
+    "population": 921630
   },
   {
     "id": "erzurum",
@@ -7855,6 +7846,15 @@
     "latitude": 39.90861,
     "longitude": 41.27694,
     "population": 767848
+  },
+  {
+    "id": "malatya",
+    "name": "Malatya",
+    "slug": "malatya",
+    "country": "Turkey",
+    "latitude": 38.35018,
+    "longitude": 38.31667,
+    "population": 750491
   },
   {
     "id": "mersin",
@@ -7902,6 +7902,15 @@
     "population": 443363
   },
   {
+    "id": "antakya",
+    "name": "Antakya",
+    "slug": "antakya",
+    "country": "Turkey",
+    "latitude": 36.20655,
+    "longitude": 36.15722,
+    "population": 399045
+  },
+  {
     "id": "samsun",
     "name": "Samsun",
     "slug": "samsun",
@@ -7909,15 +7918,6 @@
     "latitude": 41.27976,
     "longitude": 36.3361,
     "population": 394050
-  },
-  {
-    "id": "kahramanmaras",
-    "name": "Kahramanmaraş",
-    "slug": "kahramanmaras",
-    "country": "Turkey",
-    "latitude": 37.5847,
-    "longitude": 36.92641,
-    "population": 384953
   },
   {
     "id": "kyiv",
@@ -7935,7 +7935,7 @@
     "country": "Ukraine",
     "latitude": 49.98177,
     "longitude": 36.25475,
-    "population": 1433886
+    "population": 1421125
   },
   {
     "id": "odesa",
@@ -7944,7 +7944,7 @@
     "country": "Ukraine",
     "latitude": 46.48572,
     "longitude": 30.74383,
-    "population": 1015826
+    "population": 1010537
   },
   {
     "id": "dnipro",
@@ -8001,6 +8001,15 @@
     "population": 470011
   },
   {
+    "id": "vinnytsya",
+    "name": "Vinnytsya",
+    "slug": "vinnytsya",
+    "country": "Ukraine",
+    "latitude": 49.2322,
+    "longitude": 28.46871,
+    "population": 430091
+  },
+  {
     "id": "luhansk",
     "name": "Luhansk",
     "slug": "luhansk",
@@ -8010,31 +8019,13 @@
     "population": 397677
   },
   {
-    "id": "vinnytsya",
-    "name": "Vinnytsya",
-    "slug": "vinnytsya",
-    "country": "Ukraine",
-    "latitude": 49.2322,
-    "longitude": 28.46871,
-    "population": 369839
-  },
-  {
     "id": "chernihiv",
     "name": "Chernihiv",
     "slug": "chernihiv",
     "country": "Ukraine",
     "latitude": 51.50541,
     "longitude": 31.28656,
-    "population": 285234
-  },
-  {
-    "id": "kherson",
-    "name": "Kherson",
-    "slug": "kherson",
-    "country": "Ukraine",
-    "latitude": 46.63695,
-    "longitude": 32.61458,
-    "population": 283649
+    "population": 282747
   },
   {
     "id": "poltava",
@@ -8043,7 +8034,7 @@
     "country": "Ukraine",
     "latitude": 49.58925,
     "longitude": 34.55367,
-    "population": 283402
+    "population": 279593
   },
   {
     "id": "khmelnytskyi",
@@ -8052,7 +8043,7 @@
     "country": "Ukraine",
     "latitude": 49.41835,
     "longitude": 26.97936,
-    "population": 274582
+    "population": 274452
   },
   {
     "id": "cherkasy",
@@ -8070,7 +8061,7 @@
     "country": "Ukraine",
     "latitude": 48.29045,
     "longitude": 25.93241,
-    "population": 265471
+    "population": 264298
   },
   {
     "id": "zhytomyr",
@@ -8088,7 +8079,7 @@
     "country": "Ukraine",
     "latitude": 50.91741,
     "longitude": 34.79906,
-    "population": 259660
+    "population": 256474
   },
   {
     "id": "rivne",
@@ -8097,7 +8088,16 @@
     "country": "Ukraine",
     "latitude": 50.62036,
     "longitude": 26.23695,
-    "population": 245289
+    "population": 243873
+  },
+  {
+    "id": "ivano-frankivsk",
+    "name": "Ivano-Frankivsk",
+    "slug": "ivano-frankivsk",
+    "country": "Ukraine",
+    "latitude": 48.92312,
+    "longitude": 24.71248,
+    "population": 238196
   },
   {
     "id": "london",

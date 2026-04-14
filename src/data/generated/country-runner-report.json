@@ -1,252 +1,250 @@
 {
-  "startedAt": "2026-04-11T06:15:49.427Z",
+  "startedAt": "2026-04-14T10:53:49.283Z",
   "locale": "en",
-  "generateAiCopy": false,
-  "continueOnError": false,
+  "generateAiCopy": true,
+  "continueOnError": true,
   "selectedCities": [
     {
-      "id": "warsaw",
-      "name": "Warsaw",
-      "country": "Poland"
+      "id": "madrid",
+      "name": "Madrid",
+      "country": "Spain"
     },
     {
-      "id": "krakow",
-      "name": "Kraków",
-      "country": "Poland"
+      "id": "barcelona",
+      "name": "Barcelona",
+      "country": "Spain"
     },
     {
-      "id": "wroc-aw",
-      "name": "Wrocław",
-      "country": "Poland"
+      "id": "valencia",
+      "name": "Valencia",
+      "country": "Spain"
     },
     {
-      "id": "odz",
-      "name": "Łódź",
-      "country": "Poland"
+      "id": "zaragoza",
+      "name": "Zaragoza",
+      "country": "Spain"
     },
     {
-      "id": "poznan",
-      "name": "Poznań",
-      "country": "Poland"
+      "id": "sevilla",
+      "name": "Sevilla",
+      "country": "Spain"
     },
     {
-      "id": "gdansk",
-      "name": "Gdańsk",
-      "country": "Poland"
+      "id": "murcia",
+      "name": "Murcia",
+      "country": "Spain"
     },
     {
-      "id": "szczecin",
-      "name": "Szczecin",
-      "country": "Poland"
+      "id": "palma",
+      "name": "Palma",
+      "country": "Spain"
     },
     {
-      "id": "lublin",
-      "name": "Lublin",
-      "country": "Poland"
+      "id": "las-palmas-de-gran-canaria",
+      "name": "Las Palmas de Gran Canaria",
+      "country": "Spain"
     },
     {
-      "id": "bydgoszcz",
-      "name": "Bydgoszcz",
-      "country": "Poland"
+      "id": "valladolid",
+      "name": "Valladolid",
+      "country": "Spain"
     },
     {
-      "id": "bia-ystok",
-      "name": "Białystok",
-      "country": "Poland"
+      "id": "gasteiz-vitoria",
+      "name": "Gasteiz / Vitoria",
+      "country": "Spain"
     },
     {
-      "id": "katowice",
-      "name": "Katowice",
-      "country": "Poland"
+      "id": "oviedo",
+      "name": "Oviedo",
+      "country": "Spain"
     },
     {
-      "id": "rzeszow",
-      "name": "Rzeszów",
-      "country": "Poland"
+      "id": "santa-cruz-de-tenerife",
+      "name": "Santa Cruz de Tenerife",
+      "country": "Spain"
     },
     {
-      "id": "kielce",
-      "name": "Kielce",
-      "country": "Poland"
+      "id": "pamplona",
+      "name": "Pamplona",
+      "country": "Spain"
     },
     {
-      "id": "olsztyn",
-      "name": "Olsztyn",
-      "country": "Poland"
+      "id": "santander",
+      "name": "Santander",
+      "country": "Spain"
     },
     {
-      "id": "opole",
-      "name": "Opole",
-      "country": "Poland"
+      "id": "logrono",
+      "name": "Logroño",
+      "country": "Spain"
     },
     {
-      "id": "zielona-gora",
-      "name": "Zielona Góra",
-      "country": "Poland"
+      "id": "santiago-de-compostela",
+      "name": "Santiago de Compostela",
+      "country": "Spain"
     },
     {
-      "id": "gorzow-wielkopolski",
-      "name": "Gorzów Wielkopolski",
-      "country": "Poland"
+      "id": "toledo",
+      "name": "Toledo",
+      "country": "Spain"
     },
     {
-      "id": "radom",
-      "name": "Radom",
-      "country": "Poland"
+      "id": "melilla",
+      "name": "Melilla",
+      "country": "Spain"
     },
     {
-      "id": "zabrze",
-      "name": "Zabrze",
-      "country": "Poland"
+      "id": "ceuta",
+      "name": "Ceuta",
+      "country": "Spain"
     },
     {
-      "id": "rybnik",
-      "name": "Rybnik",
-      "country": "Poland"
+      "id": "merida",
+      "name": "Mérida",
+      "country": "Spain"
     }
   ],
   "successes": [
     {
-      "cityId": "warsaw",
-      "cityName": "Warsaw",
-      "country": "Poland",
+      "cityId": "madrid",
+      "cityName": "Madrid",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "krakow",
-      "cityName": "Kraków",
-      "country": "Poland",
+      "cityId": "barcelona",
+      "cityName": "Barcelona",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "wroc-aw",
-      "cityName": "Wrocław",
-      "country": "Poland",
+      "cityId": "valencia",
+      "cityName": "Valencia",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "odz",
-      "cityName": "Łódź",
-      "country": "Poland",
+      "cityId": "zaragoza",
+      "cityName": "Zaragoza",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "poznan",
-      "cityName": "Poznań",
-      "country": "Poland",
+      "cityId": "sevilla",
+      "cityName": "Sevilla",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "gdansk",
-      "cityName": "Gdańsk",
-      "country": "Poland",
+      "cityId": "murcia",
+      "cityName": "Murcia",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "szczecin",
-      "cityName": "Szczecin",
-      "country": "Poland",
+      "cityId": "palma",
+      "cityName": "Palma",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "lublin",
-      "cityName": "Lublin",
-      "country": "Poland",
+      "cityId": "las-palmas-de-gran-canaria",
+      "cityName": "Las Palmas de Gran Canaria",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "bydgoszcz",
-      "cityName": "Bydgoszcz",
-      "country": "Poland",
+      "cityId": "valladolid",
+      "cityName": "Valladolid",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "bia-ystok",
-      "cityName": "Białystok",
-      "country": "Poland",
+      "cityId": "santa-cruz-de-tenerife",
+      "cityName": "Santa Cruz de Tenerife",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "katowice",
-      "cityName": "Katowice",
-      "country": "Poland",
+      "cityId": "pamplona",
+      "cityName": "Pamplona",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "rzeszow",
-      "cityName": "Rzeszów",
-      "country": "Poland",
+      "cityId": "logrono",
+      "cityName": "Logroño",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "kielce",
-      "cityName": "Kielce",
-      "country": "Poland",
+      "cityId": "santiago-de-compostela",
+      "cityName": "Santiago de Compostela",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "olsztyn",
-      "cityName": "Olsztyn",
-      "country": "Poland",
+      "cityId": "toledo",
+      "cityName": "Toledo",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "opole",
-      "cityName": "Opole",
-      "country": "Poland",
+      "cityId": "melilla",
+      "cityName": "Melilla",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "zielona-gora",
-      "cityName": "Zielona Góra",
-      "country": "Poland",
+      "cityId": "ceuta",
+      "cityName": "Ceuta",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     },
     {
-      "cityId": "gorzow-wielkopolski",
-      "cityName": "Gorzów Wielkopolski",
-      "country": "Poland",
+      "cityId": "merida",
+      "cityName": "Mérida",
+      "country": "Spain",
       "pages": 12,
-      "aiCopyPages": 0
-    },
-    {
-      "cityId": "radom",
-      "cityName": "Radom",
-      "country": "Poland",
-      "pages": 12,
-      "aiCopyPages": 0
-    },
-    {
-      "cityId": "zabrze",
-      "cityName": "Zabrze",
-      "country": "Poland",
-      "pages": 12,
-      "aiCopyPages": 0
-    },
-    {
-      "cityId": "rybnik",
-      "cityName": "Rybnik",
-      "country": "Poland",
-      "pages": 12,
-      "aiCopyPages": 0
+      "aiCopyPages": 12
     }
   ],
-  "failures": [],
-  "finishedAt": "2026-04-11T06:27:24.739Z"
+  "failures": [
+    {
+      "cityId": "gasteiz-vitoria",
+      "cityName": "Gasteiz / Vitoria",
+      "country": "Spain",
+      "error": "Overpass request failed for Gasteiz / Vitoria: 429 Too Many Requests"
+    },
+    {
+      "cityId": "oviedo",
+      "cityName": "Oviedo",
+      "country": "Spain",
+      "error": "Overpass request failed for Oviedo: 429 Too Many Requests"
+    },
+    {
+      "cityId": "santander",
+      "cityName": "Santander",
+      "country": "Spain",
+      "error": "Overpass request failed for Santander: 429 Too Many Requests"
+    }
+  ],
+  "finishedAt": "2026-04-14T11:19:41.961Z"
 }

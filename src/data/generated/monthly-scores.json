@@ -120,6 +120,126 @@
     "priceLevel": "medium"
   },
   {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "january",
+    "score": 84,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "february",
+    "score": 84,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "march",
+    "score": 81,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "april",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "may",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "june",
+    "score": 83,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "july",
+    "score": 80,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "august",
+    "score": 80,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "september",
+    "score": 77,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "october",
+    "score": 82,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "november",
+    "score": 84,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "barcelona",
+    "cityName": "Barcelona",
+    "country": "Spain",
+    "citySlug": "barcelona",
+    "month": "december",
+    "score": 78,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
     "cityId": "berlin",
     "cityName": "Berlin",
     "country": "Germany",
@@ -596,6 +716,126 @@
     "citySlug": "bydgoszcz",
     "month": "december",
     "score": 48,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "january",
+    "score": 77,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "february",
+    "score": 80,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "march",
+    "score": 72,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "april",
+    "score": 88,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "may",
+    "score": 90,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "june",
+    "score": 90,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "july",
+    "score": 91,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "august",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "september",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "october",
+    "score": 86,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "november",
+    "score": 86,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ceuta",
+    "cityName": "Ceuta",
+    "country": "Spain",
+    "citySlug": "ceuta",
+    "month": "december",
+    "score": 74,
     "crowdLevel": "medium",
     "priceLevel": "medium"
   },
@@ -2160,6 +2400,246 @@
     "priceLevel": "medium"
   },
   {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "january",
+    "score": 87,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "february",
+    "score": 88,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "march",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "april",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "may",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "june",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "july",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "august",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "september",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "october",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "november",
+    "score": 86,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "las-palmas-de-gran-canaria",
+    "cityName": "Las Palmas de Gran Canaria",
+    "country": "Spain",
+    "citySlug": "las-palmas-de-gran-canaria",
+    "month": "december",
+    "score": 79,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "january",
+    "score": 68,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "february",
+    "score": 77,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "march",
+    "score": 75,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "april",
+    "score": 83,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "may",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "june",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "july",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "august",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "september",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "october",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "november",
+    "score": 72,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "logrono",
+    "cityName": "Logroño",
+    "country": "Spain",
+    "citySlug": "logrono",
+    "month": "december",
+    "score": 62,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
     "cityId": "lublin",
     "cityName": "Lublin",
     "country": "Poland",
@@ -2278,6 +2758,126 @@
     "score": 44,
     "crowdLevel": "medium",
     "priceLevel": "medium"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "january",
+    "score": 72,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "february",
+    "score": 83,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "march",
+    "score": 68,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "april",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "may",
+    "score": 84,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "june",
+    "score": 82,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "july",
+    "score": 78,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "august",
+    "score": 77,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "september",
+    "score": 80,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "october",
+    "score": 81,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "november",
+    "score": 77,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "madrid",
+    "cityName": "Madrid",
+    "country": "Spain",
+    "citySlug": "madrid",
+    "month": "december",
+    "score": 67,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
   },
   {
     "cityId": "magdeburg",
@@ -2520,6 +3120,246 @@
     "priceLevel": "medium"
   },
   {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "january",
+    "score": 86,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "february",
+    "score": 88,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "march",
+    "score": 81,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "april",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "may",
+    "score": 91,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "june",
+    "score": 90,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "july",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "august",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "september",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "october",
+    "score": 91,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "november",
+    "score": 91,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "melilla",
+    "cityName": "Melilla",
+    "country": "Spain",
+    "citySlug": "melilla",
+    "month": "december",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "january",
+    "score": 77,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "february",
+    "score": 83,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "march",
+    "score": 77,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "april",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "may",
+    "score": 91,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "june",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "july",
+    "score": 80,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "august",
+    "score": 79,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "september",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "october",
+    "score": 84,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "november",
+    "score": 82,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "merida",
+    "cityName": "Mérida",
+    "country": "Spain",
+    "citySlug": "merida",
+    "month": "december",
+    "score": 71,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
     "cityId": "munich",
     "cityName": "Munich",
     "country": "Germany",
@@ -2756,6 +3596,126 @@
     "citySlug": "munster",
     "month": "december",
     "score": 41,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "january",
+    "score": 88,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "february",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "march",
+    "score": 80,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "april",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "may",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "june",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "july",
+    "score": 75,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "august",
+    "score": 77,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "september",
+    "score": 81,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "october",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "november",
+    "score": 91,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "murcia",
+    "cityName": "Murcia",
+    "country": "Spain",
+    "citySlug": "murcia",
+    "month": "december",
+    "score": 83,
     "crowdLevel": "medium",
     "priceLevel": "medium"
   },
@@ -3116,6 +4076,246 @@
     "citySlug": "opole",
     "month": "december",
     "score": 48,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "january",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "february",
+    "score": 86,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "march",
+    "score": 82,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "april",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "may",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "june",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "july",
+    "score": 79,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "august",
+    "score": 80,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "september",
+    "score": 79,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "october",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "november",
+    "score": 81,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "palma",
+    "cityName": "Palma",
+    "country": "Spain",
+    "citySlug": "palma",
+    "month": "december",
+    "score": 80,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "january",
+    "score": 61,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "february",
+    "score": 73,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "march",
+    "score": 73,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "april",
+    "score": 80,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "may",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "june",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "july",
+    "score": 92,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "august",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "september",
+    "score": 82,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "october",
+    "score": 81,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "november",
+    "score": 67,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "pamplona",
+    "cityName": "Pamplona",
+    "country": "Spain",
+    "citySlug": "pamplona",
+    "month": "december",
+    "score": 56,
     "crowdLevel": "medium",
     "priceLevel": "medium"
   },
@@ -3836,6 +5036,246 @@
     "citySlug": "saarbrucken",
     "month": "december",
     "score": 42,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "january",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "february",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "march",
+    "score": 87,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "april",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "may",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "june",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "july",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "august",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "september",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "october",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "november",
+    "score": 87,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santa-cruz-de-tenerife",
+    "cityName": "Santa Cruz de Tenerife",
+    "country": "Spain",
+    "citySlug": "santa-cruz-de-tenerife",
+    "month": "december",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "january",
+    "score": 58,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "february",
+    "score": 67,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "march",
+    "score": 67,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "april",
+    "score": 75,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "may",
+    "score": 75,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "june",
+    "score": 81,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "july",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "august",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "september",
+    "score": 76,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "october",
+    "score": 66,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "november",
+    "score": 62,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "santiago-de-compostela",
+    "cityName": "Santiago de Compostela",
+    "country": "Spain",
+    "citySlug": "santiago-de-compostela",
+    "month": "december",
+    "score": 54,
     "crowdLevel": "medium",
     "priceLevel": "medium"
   },
@@ -3960,6 +5400,126 @@
     "priceLevel": "medium"
   },
   {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "january",
+    "score": 81,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "february",
+    "score": 88,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "march",
+    "score": 75,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "april",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "may",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "june",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "july",
+    "score": 72,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "august",
+    "score": 74,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "september",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "october",
+    "score": 77,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "november",
+    "score": 87,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "sevilla",
+    "cityName": "Sevilla",
+    "country": "Spain",
+    "citySlug": "sevilla",
+    "month": "december",
+    "score": 75,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
     "cityId": "stuttgart",
     "cityName": "Stuttgart",
     "country": "Germany",
@@ -4196,6 +5756,366 @@
     "citySlug": "szczecin",
     "month": "december",
     "score": 49,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "january",
+    "score": 74,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "february",
+    "score": 83,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "march",
+    "score": 76,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "april",
+    "score": 86,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "may",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "june",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "july",
+    "score": 81,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "august",
+    "score": 80,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "september",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "october",
+    "score": 86,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "november",
+    "score": 81,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "toledo",
+    "cityName": "Toledo",
+    "country": "Spain",
+    "citySlug": "toledo",
+    "month": "december",
+    "score": 72,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "january",
+    "score": 87,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "february",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "march",
+    "score": 76,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "april",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "may",
+    "score": 90,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "june",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "july",
+    "score": 81,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "august",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "september",
+    "score": 80,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "october",
+    "score": 80,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "november",
+    "score": 88,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "valencia",
+    "cityName": "Valencia",
+    "country": "Spain",
+    "citySlug": "valencia",
+    "month": "december",
+    "score": 81,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "january",
+    "score": 69,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "february",
+    "score": 77,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "march",
+    "score": 76,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "april",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "may",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "june",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "july",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "august",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "september",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "october",
+    "score": 82,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "november",
+    "score": 74,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "valladolid",
+    "cityName": "Valladolid",
+    "country": "Spain",
+    "citySlug": "valladolid",
+    "month": "december",
+    "score": 64,
     "crowdLevel": "medium",
     "priceLevel": "medium"
   },
@@ -4676,6 +6596,126 @@
     "citySlug": "zabrze",
     "month": "december",
     "score": 48,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "january",
+    "score": 77,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "february",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "march",
+    "score": 83,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "april",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "may",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "june",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "july",
+    "score": 78,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "august",
+    "score": 79,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "september",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "october",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "november",
+    "score": 83,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "zaragoza",
+    "cityName": "Zaragoza",
+    "country": "Spain",
+    "citySlug": "zaragoza",
+    "month": "december",
+    "score": 73,
     "crowdLevel": "medium",
     "priceLevel": "medium"
   },
