@@ -54,6 +54,7 @@ import {
   MiniTripTimiScoreTicket,
   TripTimiScoreTicket,
 } from "@/components/triptimi-score-ticket";
+import { FlightSearchWidget } from "@/components/flight-search-widget";
 
 type TravelPagePayload = PagePayload;
 type PageIntentTier = "strong" | "balanced" | "selective";
@@ -452,7 +453,7 @@ export function renderTravelMonthPage(
           </div>
         </section>
 
-
+        <FlightSearchWidget destination={cityName} locale={locale} />
 
         <section className="grid gap-5 xl:grid-cols-[1.2fr_0.8fr] xl:items-start">
           <div className="grid gap-5">
