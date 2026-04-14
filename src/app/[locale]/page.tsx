@@ -55,6 +55,7 @@ import {
   TripTimiScoreTicket,
 } from "@/components/triptimi-score-ticket";
 import { FlightSearchWidget } from "@/components/flight-search-widget";
+import { ToursActivitiesWidget } from "@/components/tours-activities-widget";
 
 type TravelPagePayload = PagePayload;
 type PageIntentTier = "strong" | "balanced" | "selective";
@@ -574,21 +575,8 @@ export function renderTravelMonthPage(
               {copy.whatToDoTitle}
             </h2>
 
-            <div className="mt-6 grid gap-3">
-              <AttractionPanel
-                title={copy.attractionPanels.outdoorTitle}
-                intro={copy.attractionPanels.outdoorIntro}
-                items={page.attractions.outdoor}
-                photoCopy={copy}
-                locale={locale}
-              />
-              <AttractionPanel
-                title={copy.attractionPanels.indoorTitle}
-                intro={copy.attractionPanels.indoorIntro}
-                items={page.attractions.indoor}
-                photoCopy={copy}
-                locale={locale}
-              />
+            <div className="mt-6">
+              <ToursActivitiesWidget locale={locale} />
             </div>
           </article>
         </section>
