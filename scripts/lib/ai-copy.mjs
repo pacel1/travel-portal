@@ -44,10 +44,10 @@ const MODEL_PRICING_BY_MILLION = {
 };
 
 const RAW_FIELD_MAX_LENGTHS = {
-  summary: 230,
-  verdictHeading: 230,
-  monthRead: 235,
-  bookingRead: 235,
+  summary: 280,
+  verdictHeading: 300,
+  monthRead: 280,
+  bookingRead: 280,
 };
 
 const NORMALIZED_FIELD_MAX_LENGTHS = {
@@ -1138,7 +1138,7 @@ async function repairVerdictHeadingWithClient(client, facts, locale, sourceCopy,
 
       const parsed = JSON.parse(response.output_text);
 
-      if (!looksCompleteSentence(parsed.verdictHeading) || parsed.verdictHeading.length > 260) {
+      if (!looksCompleteSentence(parsed.verdictHeading) || parsed.verdictHeading.length > 300) {
         throw new Error("AI verdict repair returned an incomplete heading.");
       }
 
