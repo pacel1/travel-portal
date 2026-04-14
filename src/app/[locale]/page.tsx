@@ -38,6 +38,7 @@ import {
   buildHomePath,
   defaultLocale,
   isPublishedLocale,
+  publishedPrefixedLocales,
   type LocaleCode,
 } from "@/lib/i18n";
 import {
@@ -94,7 +95,9 @@ const monthSequence = [
 ] as const;
 
 export function generateStaticParams() {
-  return getLocalizedStaticSlugs(defaultLocale).map((slug) => ({ locale: slug }));
+  const englishSlugs = getLocalizedStaticSlugs(defaultLocale).map((slug) => ({ locale: slug }));
+  const publishedLocaleSlugs = publishedPrefixedLocales.map((locale) => ({ locale }));
+  return [...englishSlugs, ...publishedLocaleSlugs];
 }
 
 export async function generateMetadata({
