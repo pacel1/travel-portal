@@ -41,7 +41,9 @@ export function FlightSearchWidget({
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!containerRef.current || containerRef.current.hasChildNodes()) {
+    const container = containerRef.current;
+
+    if (!container || container.hasChildNodes()) {
       return;
     }
 
@@ -49,30 +51,25 @@ export function FlightSearchWidget({
     script.async = true;
     script.src = buildWidgetUrl(destination, locale);
     script.setAttribute("charset", "utf-8");
-    containerRef.current.appendChild(script);
+    container.appendChild(script);
 
     return () => {
-      if (containerRef.current) {
-        containerRef.current.innerHTML = "";
-      }
+      container.innerHTML = "";
     };
   }, [destination, locale]);
 
   return (
-    <div className="mx-auto max-w-[76rem] px-5 sm:px-7 lg:px-8">
-      <div className="rounded-[2rem] border border-[var(--border)] bg-white">
-        <div className="px-5 py-6 sm:px-7 sm:py-6">
-          <p className="eyebrow text-[var(--accent)]">Book your trip</p>
-          <h2 className="mt-2 text-[1.8rem] font-semibold tracking-tight sm:text-[2rem]">
-            {getTitle(destination, locale)}
-          </h2>
-        </div>
-        <div
-          ref={containerRef}
-          id="tp-widget"
-          style={{ overflow: "visible", position: "relative" }}
-        />
-      </div>
-    </div>
+    <section className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
+      <p className="eyebrow text-[var(--accent)]">Book your trip</p>
+      <h2 className="mt-2 text-[1.8rem] font-semibold tracking-tight sm:text-[2rem]">
+        {getTitle(destination, locale)}
+      </h2>
+      <div
+        ref={containerRef}
+        id="tp-widget"
+        className="mt-6 min-h-[28rem]"
+        style={{ overflow: "visible", position: "relative" }}
+      />
+    </section>
   );
 }

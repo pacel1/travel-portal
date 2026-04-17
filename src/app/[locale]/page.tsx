@@ -60,6 +60,7 @@ import {
   MiniTripTimiScoreTicket,
   TripTimiScoreTicket,
 } from "@/components/triptimi-score-ticket";
+import { EsimWidget } from "@/components/esim-widget";
 import { FlightSearchWidget } from "@/components/flight-search-widget";
 import { ToursActivitiesWidget } from "@/components/tours-activities-widget";
 
@@ -729,6 +730,8 @@ export function renderTravelMonthPage(
             ))}
           </div>
         </section>
+
+        <EsimWidget country={page.country} locale={locale} />
       </div>
     </main>
   );
