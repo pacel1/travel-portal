@@ -1,0 +1,420 @@
+City,ID
+Aarhus,65338
+Abu Dhabi,60013
+Akureyri,71389
+Albufeira,76558
+Alicante,66088
+Alphen aan den Rijn,75064
+Amboise,97582
+Amnéville,97579
+Amsterdam,75061
+Angers,67158
+Antalya,78987
+Antigua Guatemala,68016
+Antwerp,60863
+Aosta,72022
+Apeldoorn,75059
+Arequipa,75334
+Arnhem,75058
+Astorga,95315
+Athens,99239
+Atlanta,79980
+Auburn Hills,80986
+Avignon,184100
+Ayutthaya,78545
+Bakewell,186855
+Balchik,85333
+Baltimore,80176
+Banff,87579
+Bangkok,78586
+Barcelona,66342
+Bari,210005
+Bariloche,60331
+Bath,67623
+Belfast,67614
+Benalmádena,66061
+Benidorm,66059
+Bergamo,71991
+Berlin,65144
+Bethlehem,76477
+Bilbao,66335
+Birmingham,67597
+Blackpool,67591
+Blankenberge,60852
+Bodrum,78967
+Bogotá,81
+Bologna,71986
+Bordeaux,67101
+Boston,80874
+Boulogne-sur-Mer,67098
+Bournemouth,67582
+Braga,76598
+Brampton,98490
+Bran,115866
+Brașov,260938
+Brescia,71978
+Brighton,67570
+Bruges,60844
+Brussels,60843
+Bucharest,76753
+Budapest,68199
+Buenos Aires,60189
+Burgas,60950
+Caen,67081
+Cagliari,71473
+Cairns,60466
+Calgary,62338
+Cambridge,67548
+Cambridge,80879
+Çanakkale,183
+Cancún,24
+Capri,105984
+Carcassonne,67073
+Cardiff,67545
+Caserta,105064
+Castel di Lama,106390
+Catania,71461
+Český Krumlov,90598
+Chamonix-Mont-Blanc,97278
+Champs-sur-Marne,67054
+Chantilly,97268
+Charleston,80045
+Charlotte,80353
+Chaumont-sur-Loire,182857
+Cherbourg-en-Cotentin,67038
+Chicago,80816
+Chichén Itzá,74049
+Chinon,97220
+Clermont,79784
+Cluny,182711
+Coevorden,111536
+Coimbra,76595
+Cologne,64765
+Como,71894
+Constanța,260939
+Copenhagen,113
+Córdoba,27
+Cork,1841
+Cozumel,370
+Cusco,75323
+Dachau,65070
+Dallas,80608
+De Panne,85055
+Delft,75020
+Delhi,70505
+Denpasar,68506
+Derinkuyu,120725
+Derry,199867
+Dorgali,105708
+Dortmund,65045
+Dresden,65042
+Dubai,60005
+Dublin,68616
+Durham,126
+Düsseldorf,65037
+Edinburgh,21
+Eindhoven,75003
+Eisenstadt,83806
+El Calafate,83553
+Emmen,74999
+Enkhuizen,74998
+Essen,64998
+Fairbanks,82344
+Fátima,114807
+Ferney-Voltaire,97034
+Figueres,66292
+Florence,71854
+Flores,67993
+Flúðir,261005
+Fort Lauderdale,79817
+Frankfurt,64980
+Funchal,76533
+Genk,60815
+Genoa,71831
+Ghent,60814
+Girona,66285
+Giverny,276
+Glasgow,5
+Göreme,120668
+Gothenburg,78108
+Granada,66003
+Graz,60360
+Grindavík,203923
+Grosseto,71818
+Guadalajara,74270
+Guatemala City,68006
+Gurgaon,70285
+Haarlem,74982
+Haines,258507
+Hamburg,64886
+Harderwijk,74980
+Hasselt,60807
+Haßloch,64872
+Healy,258629
+Helsinki,66544
+Höfn,203903
+Hong Kong,34
+Honolulu,82342
+Houston,80638
+Huelva,65996
+Húsafell,260972
+Húsavík,203902
+Innsbruck,60358
+Interlaken,88270
+Inverness,29
+Istanbul,79079
+Izmir,1343
+Jasper,322
+Jerusalem,68627
+Kaatsheuvel,952
+Kahului,82330
+Kansas City,80090
+Katoomba,60435
+Kauai (Island),1246
+Kayenta,125517
+Kearny,81190
+Key West,79844
+Kiel,64775
+Kissimmee,79846
+Klaipeda,73367
+Ko Samui,78483
+Köflach,83755
+Krakow,46
+Kuala Lumpur,74416
+Kuşadası,78863
+Kutná Hora,64187
+Kyoto,72420
+La Flèche,66907
+La Rochelle,66897
+Langkawi,772
+Laren,111406
+Las Vegas,82073
+Lausanne,62666
+Lauterbrunnen,137907
+Le Mont-Saint-Michel,260936
+Leeuwarden,74943
+Leiden,74942
+Leipzig,64715
+Lelystad,74940
+Les Diablerets,261269
+Les Epesses,180481
+Les Sables-d'Olonne,66864
+Leticia,63843
+Liberia,63976
+Lido di Jesolo,71809
+Lille,66858
+Lima,75306
+Lisbon,76528
+Lisse,260931
+Liverpool,67463
+Livorno,71786
+Ljubljana,78133
+London,67458
+Los Angeles,81810
+Loxahatchee,248469
+Lucca,71784
+Lyon,66838
+Maastricht,74931
+Macau,47
+Madrid,66254
+Málaga,32
+Mallorca,471
+Manchester,67441
+Manta,207794
+Marmaris,78854
+Marseille,66825
+Matera,71760
+Mechelen,60769
+Medellín,63829
+Melaka,74395
+Melbourne,60426
+Memphis,80554
+Metz,66814
+Mexico City,74040
+Miami,79868
+Milan,71749
+Minneapolis,81094
+Modena,71744
+Monaco,73505
+Monterosso al Mare,207409
+Monteux,96478
+Montevideo,82413
+Montpellier,66788
+Montreal,25
+Moscow,77231
+Munich,31
+Muscat,75189
+Myrtle Beach,80512
+Naantali,95595
+Nantes,66776
+Naples,71720
+Nara,72353
+Nashville,82353
+Nerja,65926
+Nevşehir,78844
+New Orleans,80162
+New York,260932
+Newcastle,185710
+Niagara Falls,62419
+Niagara Falls,81337
+Niagara-On-The-Lake,982
+Nice,66770
+Nijmegen,74919
+Nuenen,74916
+Nusajaya,194489
+Ocho Rios,106481
+Ölüdeniz,245910
+Oostende,60750
+Orlando,79889
+Orvieto,71696
+Osaka,28
+Oslo,75084
+Ottawa,62431
+Oxford,67381
+Padua,138
+Padula,105173
+Palermo,71428
+Palm Springs,79898
+Parabiago,71684
+Paris,66746
+Pattaya,48
+Peaugres,179024
+Perugia,71679
+Philadelphia,80492
+Phoenix,81637
+Pigeon Forge,124347
+Pisa,260935
+Playa del Carmen,73927
+Poitiers,66735
+Poole,67363
+Portland,80975
+Porto,177169
+Porto,76573
+Portsmouth,67358
+Potsdam,64529
+Pozza di Fassa,206622
+Prague,64162
+Puerto Iguazú,30
+Puerto Vallarta,74201
+Puno,75296
+Quimbaya,63796
+Quito,65652
+Reykholt,1320
+Reykjavík,22
+Riga,73383
+Rimini,71634
+Rio de Janeiro,61535
+Rome,71631
+Ronda,65896
+Rotterdam,74895
+Rovaniemi,66502
+s-Hertogenbosch,74887
+Saint Augustine,122690
+Saint Petersburg,77061
+Saint-Émilion,177951
+Sainte Mère l'Eglise,177952
+Salisbury,67309
+Salta,60240
+Salzburg,60346
+Samut Songkhram,78528
+San Antonio,248671
+San Clemente del Tuyú,83245
+San Diego,81920
+San Francisco,1772
+San Giovanni la Punta,71409
+San Jose,81926
+San Sebastián,66172
+Santa Cruz,898
+Santander,66168
+Săpânţa,232513
+Sauðárkrókur,104177
+Savannah,80026
+Seattle,82304
+Segovia,66160
+Seoul,73067
+Sevenum,784
+Seville,65870
+Sežana,119195
+Sharjah,60007
+Siem Reap,72961
+Siena,71558
+Sighișoara,76778
+Sinaia,115342
+Singapore,78125
+Sintra,76496
+Siracusa,71400
+Skagway,292
+Slagharen,839
+Sliema,108895
+Sliven,60916
+Sofia,60914
+Somersby,261071
+Sonoma,126046
+Sorrento,71552
+South Kuta,261236
+Split,68069
+Squamish,301
+Stavelot,84775
+Stockholm,1638
+Stoke-on-Trent,67269
+Stratford-upon-Avon,97844
+Sydney,60400
+Taipei,79181
+Tallinn,65702
+Tampa,79946
+Tarragona,66154
+Tel Aviv,68635
+Teruel,66150
+The Hague,74889
+Tilburg,74872
+Tivoli,71537
+Tokyo,72181
+Toledo,170113
+Toronto,62492
+Torquay,83942
+Toulouse,66619
+Tours,66615
+Tredozio,205342
+Treviso,71524
+Tulum,109113
+Turin,71534
+Ubud,68270
+Ungersheim,176560
+Urbino,71518
+Ushuaia,60210
+Utrecht,74866
+Valencia,65847
+Valletta,73787
+Vancouver,62496
+Vantaa,66489
+Varenna,205179
+Varese,71514
+Varna,60906
+Venice,71510
+Veracruz,73840
+Verbania,72048
+Verona,71506
+Victoria,62501
+Vienna,60335
+Vík,71390
+Vilnius,73352
+Viterbo,71494
+Volendam,74851
+Wailuku,82338
+Waimanalo,1036
+Wangetti,261137
+Warsaw,485
+"Washington, D.C.",79751
+Waterford,68596
+Wattens,83662
+Weymouth,67236
+Williamsburg,260937
+Windermere,97691
+Windsor,67223
+Wolfsburg,64249
+Yonkers,81390
+Yorba Linda,82014
+York,67204
+Zaandam,74827
+Zator,228605
+Zundert,74819

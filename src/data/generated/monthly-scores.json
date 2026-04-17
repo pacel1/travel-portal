@@ -1,5 +1,125 @@
 [
   {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "january",
+    "score": 87,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "february",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "march",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "april",
+    "score": 91,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "may",
+    "score": 92,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "june",
+    "score": 91,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "july",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "august",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "september",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "october",
+    "score": 91,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "november",
+    "score": 92,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "al-hoceima",
+    "cityName": "Al Hoceïma",
+    "country": "Morocco",
+    "citySlug": "al-hoceima",
+    "month": "december",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
     "cityId": "augsburg",
     "cityName": "Augsburg",
     "country": "Germany",
@@ -361,7 +481,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "january",
@@ -371,7 +491,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "february",
@@ -381,7 +501,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "march",
@@ -391,7 +511,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "april",
@@ -401,7 +521,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "may",
@@ -411,7 +531,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "june",
@@ -421,7 +541,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "july",
@@ -431,7 +551,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "august",
@@ -441,7 +561,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "september",
@@ -451,7 +571,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "october",
@@ -461,7 +581,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "november",
@@ -471,7 +591,7 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "BiaÅ‚ystok",
+    "cityName": "Białystok",
     "country": "Poland",
     "citySlug": "bialystok",
     "month": "december",
@@ -720,6 +840,126 @@
     "priceLevel": "medium"
   },
   {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "january",
+    "score": 86,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "february",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "march",
+    "score": 78,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "april",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "may",
+    "score": 88,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "june",
+    "score": 88,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "july",
+    "score": 88,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "august",
+    "score": 87,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "september",
+    "score": 87,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "october",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "november",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "casablanca",
+    "cityName": "Casablanca",
+    "country": "Morocco",
+    "citySlug": "casablanca",
+    "month": "december",
+    "score": 77,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
     "cityId": "ceuta",
     "cityName": "Ceuta",
     "country": "Spain",
@@ -961,7 +1201,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "january",
@@ -971,7 +1211,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "february",
@@ -981,7 +1221,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "march",
@@ -991,7 +1231,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "april",
@@ -1001,7 +1241,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "may",
@@ -1011,7 +1251,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "june",
@@ -1021,7 +1261,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "july",
@@ -1031,7 +1271,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "august",
@@ -1041,7 +1281,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "september",
@@ -1051,7 +1291,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "october",
@@ -1061,7 +1301,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "november",
@@ -1071,7 +1311,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "DÃ¼sseldorf",
+    "cityName": "Düsseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "december",
@@ -1200,8 +1440,128 @@
     "priceLevel": "medium"
   },
   {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "january",
+    "score": 84,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "february",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "march",
+    "score": 77,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "april",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "may",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "june",
+    "score": 80,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "july",
+    "score": 72,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "august",
+    "score": 72,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "september",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "october",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "november",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "fes",
+    "cityName": "Fes",
+    "country": "Morocco",
+    "citySlug": "fes",
+    "month": "december",
+    "score": 77,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "january",
@@ -1211,7 +1571,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "february",
@@ -1221,7 +1581,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "march",
@@ -1231,7 +1591,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "april",
@@ -1241,7 +1601,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "may",
@@ -1251,7 +1611,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "june",
@@ -1261,7 +1621,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "july",
@@ -1271,7 +1631,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "august",
@@ -1281,7 +1641,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "september",
@@ -1291,7 +1651,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "october",
@@ -1301,7 +1661,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "november",
@@ -1311,7 +1671,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "GdaÅ„sk",
+    "cityName": "Gdańsk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "december",
@@ -1321,7 +1681,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "january",
@@ -1331,7 +1691,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "february",
@@ -1341,7 +1701,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "march",
@@ -1351,7 +1711,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "april",
@@ -1361,7 +1721,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "may",
@@ -1371,7 +1731,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "june",
@@ -1381,7 +1741,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "july",
@@ -1391,7 +1751,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "august",
@@ -1401,7 +1761,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "september",
@@ -1411,7 +1771,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "october",
@@ -1421,7 +1781,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "november",
@@ -1431,11 +1791,131 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "GorzÃ³w Wielkopolski",
+    "cityName": "Gorzów Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "december",
     "score": 48,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "january",
+    "score": 94,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "february",
+    "score": 93,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "march",
+    "score": 94,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "april",
+    "score": 96,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "may",
+    "score": 92,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "june",
+    "score": 91,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "july",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "august",
+    "score": 82,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "september",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "october",
+    "score": 91,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "november",
+    "score": 94,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "guelmim",
+    "cityName": "Guelmim",
+    "country": "Morocco",
+    "citySlug": "guelmim",
+    "month": "december",
+    "score": 90,
     "crowdLevel": "medium",
     "priceLevel": "medium"
   },
@@ -1920,6 +2400,126 @@
     "priceLevel": "medium"
   },
   {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "january",
+    "score": 84,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "february",
+    "score": 84,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "march",
+    "score": 77,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "april",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "may",
+    "score": 92,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "june",
+    "score": 91,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "july",
+    "score": 86,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "august",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "september",
+    "score": 90,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "october",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "november",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "kenitra",
+    "cityName": "Kenitra",
+    "country": "Morocco",
+    "citySlug": "kenitra",
+    "month": "december",
+    "score": 73,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
     "cityId": "kiel",
     "cityName": "Kiel",
     "country": "Germany",
@@ -2161,7 +2761,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "january",
@@ -2171,7 +2771,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "february",
@@ -2181,7 +2781,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "march",
@@ -2191,7 +2791,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "april",
@@ -2201,7 +2801,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "may",
@@ -2211,7 +2811,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "june",
@@ -2221,7 +2821,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "july",
@@ -2231,7 +2831,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "august",
@@ -2241,7 +2841,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "september",
@@ -2251,7 +2851,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "october",
@@ -2261,7 +2861,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "november",
@@ -2271,7 +2871,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "KÃ¶ln",
+    "cityName": "Köln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "december",
@@ -2281,7 +2881,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "january",
@@ -2291,7 +2891,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "february",
@@ -2301,7 +2901,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "march",
@@ -2311,7 +2911,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "april",
@@ -2321,7 +2921,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "may",
@@ -2331,7 +2931,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "june",
@@ -2341,7 +2941,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "july",
@@ -2351,7 +2951,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "august",
@@ -2361,7 +2961,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "september",
@@ -2371,7 +2971,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "october",
@@ -2381,7 +2981,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "november",
@@ -2391,7 +2991,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "KrakÃ³w",
+    "cityName": "Kraków",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "december",
@@ -2521,7 +3121,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "january",
@@ -2531,7 +3131,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "february",
@@ -2541,7 +3141,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "march",
@@ -2551,7 +3151,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "april",
@@ -2561,7 +3161,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "may",
@@ -2571,7 +3171,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "june",
@@ -2581,7 +3181,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "july",
@@ -2591,7 +3191,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "august",
@@ -2601,7 +3201,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "september",
@@ -2611,7 +3211,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "october",
@@ -2621,7 +3221,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "november",
@@ -2631,7 +3231,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "LogroÃ±o",
+    "cityName": "Logroño",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "december",
@@ -3120,6 +3720,246 @@
     "priceLevel": "medium"
   },
   {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "january",
+    "score": 91,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "february",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "march",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "april",
+    "score": 90,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "may",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "june",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "july",
+    "score": 71,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "august",
+    "score": 74,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "september",
+    "score": 82,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "october",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "november",
+    "score": 93,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "marrakesh",
+    "cityName": "Marrakesh",
+    "country": "Morocco",
+    "citySlug": "marrakesh",
+    "month": "december",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "january",
+    "score": 83,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "february",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "march",
+    "score": 75,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "april",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "may",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "june",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "july",
+    "score": 75,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "august",
+    "score": 77,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "september",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "october",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "november",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "meknes",
+    "cityName": "Meknes",
+    "country": "Morocco",
+    "citySlug": "meknes",
+    "month": "december",
+    "score": 75,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
     "cityId": "melilla",
     "cityName": "Melilla",
     "country": "Spain",
@@ -3241,7 +4081,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "january",
@@ -3251,7 +4091,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "february",
@@ -3261,7 +4101,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "march",
@@ -3271,7 +4111,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "april",
@@ -3281,7 +4121,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "may",
@@ -3291,7 +4131,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "june",
@@ -3301,7 +4141,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "july",
@@ -3311,7 +4151,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "august",
@@ -3321,7 +4161,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "september",
@@ -3331,7 +4171,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "october",
@@ -3341,7 +4181,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "november",
@@ -3351,7 +4191,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "MÃ©rida",
+    "cityName": "Mérida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "december",
@@ -3481,7 +4321,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "january",
@@ -3491,7 +4331,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "february",
@@ -3501,7 +4341,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "march",
@@ -3511,7 +4351,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "april",
@@ -3521,7 +4361,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "may",
@@ -3531,7 +4371,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "june",
@@ -3541,7 +4381,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "july",
@@ -3551,7 +4391,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "august",
@@ -3561,7 +4401,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "september",
@@ -3571,7 +4411,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "october",
@@ -3581,7 +4421,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "november",
@@ -3591,7 +4431,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "MÃ¼nster",
+    "cityName": "Münster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "december",
@@ -3721,7 +4561,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "january",
@@ -3731,7 +4571,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "february",
@@ -3741,7 +4581,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "march",
@@ -3751,7 +4591,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "april",
@@ -3761,7 +4601,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "may",
@@ -3771,7 +4611,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "june",
@@ -3781,7 +4621,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "july",
@@ -3791,7 +4631,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "august",
@@ -3801,7 +4641,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "september",
@@ -3811,7 +4651,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "october",
@@ -3821,7 +4661,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "november",
@@ -3831,7 +4671,7 @@
   },
   {
     "cityId": "odz",
-    "cityName": "ÅÃ³dÅº",
+    "cityName": "Łódź",
     "country": "Poland",
     "citySlug": "lodz",
     "month": "december",
@@ -4076,6 +4916,246 @@
     "citySlug": "opole",
     "month": "december",
     "score": 48,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "january",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "february",
+    "score": 88,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "march",
+    "score": 94,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "april",
+    "score": 95,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "may",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "june",
+    "score": 82,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "july",
+    "score": 75,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "august",
+    "score": 75,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "september",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "october",
+    "score": 94,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "november",
+    "score": 93,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "ouarzazate",
+    "cityName": "Ouarzazate",
+    "country": "Morocco",
+    "citySlug": "ouarzazate",
+    "month": "december",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "january",
+    "score": 86,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "february",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "march",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "april",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "may",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "june",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "july",
+    "score": 74,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "august",
+    "score": 75,
+    "crowdLevel": "medium",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "september",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "october",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "november",
+    "score": 93,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "oujda",
+    "cityName": "Oujda",
+    "country": "Morocco",
+    "citySlug": "oujda",
+    "month": "december",
+    "score": 84,
     "crowdLevel": "medium",
     "priceLevel": "medium"
   },
@@ -4441,7 +5521,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "january",
@@ -4451,7 +5531,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "february",
@@ -4461,7 +5541,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "march",
@@ -4471,7 +5551,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "april",
@@ -4481,7 +5561,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "may",
@@ -4491,7 +5571,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "june",
@@ -4501,7 +5581,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "july",
@@ -4511,7 +5591,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "august",
@@ -4521,7 +5601,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "september",
@@ -4531,7 +5611,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "october",
@@ -4541,7 +5621,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "november",
@@ -4551,7 +5631,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "PoznaÅ„",
+    "cityName": "Poznań",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "december",
@@ -4801,7 +5881,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "january",
@@ -4811,7 +5891,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "february",
@@ -4821,7 +5901,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "march",
@@ -4831,7 +5911,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "april",
@@ -4841,7 +5921,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "may",
@@ -4851,7 +5931,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "june",
@@ -4861,7 +5941,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "july",
@@ -4871,7 +5951,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "august",
@@ -4881,7 +5961,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "september",
@@ -4891,7 +5971,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "october",
@@ -4901,7 +5981,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "november",
@@ -4911,7 +5991,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "RzeszÃ³w",
+    "cityName": "Rzeszów",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "december",
@@ -4921,7 +6001,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "january",
@@ -4931,7 +6011,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "february",
@@ -4941,7 +6021,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "march",
@@ -4951,7 +6031,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "april",
@@ -4961,7 +6041,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "may",
@@ -4971,7 +6051,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "june",
@@ -4981,7 +6061,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "july",
@@ -4991,7 +6071,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "august",
@@ -5001,7 +6081,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "september",
@@ -5011,7 +6091,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "october",
@@ -5021,7 +6101,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "november",
@@ -5031,11 +6111,131 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "SaarbrÃ¼cken",
+    "cityName": "Saarbrücken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "december",
     "score": 42,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "january",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "february",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "march",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "april",
+    "score": 93,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "may",
+    "score": 93,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "june",
+    "score": 94,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "july",
+    "score": 94,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "august",
+    "score": 93,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "september",
+    "score": 92,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "october",
+    "score": 94,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "november",
+    "score": 94,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "safi",
+    "cityName": "Safi",
+    "country": "Morocco",
+    "citySlug": "safi",
+    "month": "december",
+    "score": 83,
     "crowdLevel": "medium",
     "priceLevel": "medium"
   },
@@ -5400,6 +6600,126 @@
     "priceLevel": "medium"
   },
   {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "january",
+    "score": 89,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "february",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "march",
+    "score": 84,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "april",
+    "score": 92,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "may",
+    "score": 91,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "june",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "july",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "august",
+    "score": 83,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "september",
+    "score": 87,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "october",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "november",
+    "score": 92,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "settat",
+    "cityName": "Settat",
+    "country": "Morocco",
+    "citySlug": "settat",
+    "month": "december",
+    "score": 80,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
     "cityId": "sevilla",
     "cityName": "Sevilla",
     "country": "Spain",
@@ -5756,6 +7076,366 @@
     "citySlug": "szczecin",
     "month": "december",
     "score": 49,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "january",
+    "score": 94,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "february",
+    "score": 93,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "march",
+    "score": 96,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "april",
+    "score": 97,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "may",
+    "score": 93,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "june",
+    "score": 92,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "july",
+    "score": 91,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "august",
+    "score": 89,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "september",
+    "score": 90,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "october",
+    "score": 93,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "november",
+    "score": 95,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "tan-tan",
+    "cityName": "Tan-Tan",
+    "country": "Morocco",
+    "citySlug": "tan-tan",
+    "month": "december",
+    "score": 90,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "january",
+    "score": 79,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "february",
+    "score": 83,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "march",
+    "score": 74,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "april",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "may",
+    "score": 90,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "june",
+    "score": 86,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "july",
+    "score": 85,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "august",
+    "score": 83,
+    "crowdLevel": "high",
+    "priceLevel": "high"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "september",
+    "score": 88,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "october",
+    "score": 84,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "november",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "tangier",
+    "cityName": "Tangier",
+    "country": "Morocco",
+    "citySlug": "tangier",
+    "month": "december",
+    "score": 69,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "january",
+    "score": 82,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "february",
+    "score": 85,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "march",
+    "score": 79,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "april",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "may",
+    "score": 90,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "june",
+    "score": 85,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "july",
+    "score": 76,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "august",
+    "score": 76,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "september",
+    "score": 86,
+    "crowdLevel": "medium",
+    "priceLevel": "medium"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "october",
+    "score": 91,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "november",
+    "score": 90,
+    "crowdLevel": "low",
+    "priceLevel": "low"
+  },
+  {
+    "cityId": "taza",
+    "cityName": "Taza",
+    "country": "Morocco",
+    "citySlug": "taza",
+    "month": "december",
+    "score": 77,
     "crowdLevel": "medium",
     "priceLevel": "medium"
   },
@@ -6361,7 +8041,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "january",
@@ -6371,7 +8051,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "february",
@@ -6381,7 +8061,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "march",
@@ -6391,7 +8071,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "april",
@@ -6401,7 +8081,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "may",
@@ -6411,7 +8091,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "june",
@@ -6421,7 +8101,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "july",
@@ -6431,7 +8111,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "august",
@@ -6441,7 +8121,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "september",
@@ -6451,7 +8131,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "october",
@@ -6461,7 +8141,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "november",
@@ -6471,7 +8151,7 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "WrocÅ‚aw",
+    "cityName": "Wrocław",
     "country": "Poland",
     "citySlug": "wroclaw",
     "month": "december",
@@ -6721,7 +8401,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "january",
@@ -6731,7 +8411,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "february",
@@ -6741,7 +8421,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "march",
@@ -6751,7 +8431,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "april",
@@ -6761,7 +8441,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "may",
@@ -6771,7 +8451,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "june",
@@ -6781,7 +8461,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "july",
@@ -6791,7 +8471,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "august",
@@ -6801,7 +8481,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "september",
@@ -6811,7 +8491,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "october",
@@ -6821,7 +8501,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "november",
@@ -6831,7 +8511,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona GÃ³ra",
+    "cityName": "Zielona Góra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "december",

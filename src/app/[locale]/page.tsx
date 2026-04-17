@@ -53,6 +53,7 @@ import {
   buildCityMonthSeoTitle,
 } from "@/lib/seo-snippets";
 import { getCanonicalCitySlug } from "@/lib/slug-utils";
+import { getTiqetsCityId } from "@/lib/tiqets";
 import type { PagePayload, PointOfInterest } from "@/types/travel";
 import {
   getScoreTicketToneClass,
@@ -234,6 +235,7 @@ export function renderTravelMonthPage(
   const practicalTips = getPracticalTips(page, locale);
   const monthRead = page.editorial?.monthRead || getMonthRead(page, locale);
   const bookingRead = page.editorial?.bookingRead || getBookingRead(page, locale);
+  const tiqetsCityId = getTiqetsCityId(page.cityId, page.cityName);
   const heroHighlights = [
     {
       label: copy.crowds,
@@ -573,18 +575,20 @@ export function renderTravelMonthPage(
           </article>
         </section>
 
-        <section>
-          <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7" id="plan">
-            <p className="eyebrow text-[var(--accent)]">{copy.whatToDoEyebrow}</p>
-            <h2 className="mt-3 text-[2rem] font-semibold tracking-tight sm:text-[2.6rem]">
-              {copy.whatToDoTitle}
-            </h2>
+        {tiqetsCityId ? (
+          <section>
+            <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7" id="plan">
+              <p className="eyebrow text-[var(--accent)]">{copy.whatToDoEyebrow}</p>
+              <h2 className="mt-3 text-[2rem] font-semibold tracking-tight sm:text-[2.6rem]">
+                {copy.whatToDoTitle}
+              </h2>
 
-            <div className="mt-6">
-              <ToursActivitiesWidget locale={locale} />
-            </div>
-          </article>
-        </section>
+              <div className="mt-6">
+                <ToursActivitiesWidget tiqetsCityId={tiqetsCityId} />
+              </div>
+            </article>
+          </section>
+        ) : null}
 
         <section className="grid gap-5 lg:grid-cols-[1.02fr_0.98fr]">
           <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">

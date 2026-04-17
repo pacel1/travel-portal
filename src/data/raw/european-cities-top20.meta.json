@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-04-14T10:52:07.092Z",
+  "generatedAt": "2026-04-17T13:28:14.220Z",
   "source": {
     "provider": "GeoNames",
     "countryInfoUrl": "https://download.geonames.org/export/dump/countryInfo.txt",
     "baselineCitiesUrl": "https://download.geonames.org/export/dump/cities500.zip"
   },
-  "countryCount": 50,
-  "cityCount": 920,
+  "countryCount": 51,
+  "cityCount": 940,
   "requestedCitiesPerCountry": 20,
   "countriesWithShortfall": [
     {
@@ -259,6 +259,13 @@
     {
       "country": "Montenegro",
       "countryCode": "ME",
+      "selectedCities": 20,
+      "requestedCities": 20,
+      "shortfall": 0
+    },
+    {
+      "country": "Morocco",
+      "countryCode": "MA",
       "selectedCities": 20,
       "requestedCities": 20,
       "shortfall": 0

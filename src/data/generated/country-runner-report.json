@@ -1,250 +1,127 @@
 {
-  "startedAt": "2026-04-14T10:53:49.283Z",
+  "startedAt": "2026-04-17T14:38:53.243Z",
   "locale": "en",
-  "generateAiCopy": true,
+  "generateAiCopy": false,
   "continueOnError": true,
   "selectedCities": [
     {
-      "id": "madrid",
-      "name": "Madrid",
-      "country": "Spain"
+      "id": "rabat",
+      "name": "Rabat",
+      "country": "Morocco"
     },
     {
-      "id": "barcelona",
-      "name": "Barcelona",
-      "country": "Spain"
+      "id": "agadir",
+      "name": "Agadir",
+      "country": "Morocco"
     },
     {
-      "id": "valencia",
-      "name": "Valencia",
-      "country": "Spain"
+      "id": "oujda",
+      "name": "Oujda",
+      "country": "Morocco"
     },
     {
-      "id": "zaragoza",
-      "name": "Zaragoza",
-      "country": "Spain"
+      "id": "beni-mellal",
+      "name": "Beni Mellal",
+      "country": "Morocco"
     },
     {
-      "id": "sevilla",
-      "name": "Sevilla",
-      "country": "Spain"
+      "id": "tetouan",
+      "name": "Tétouan",
+      "country": "Morocco"
     },
     {
-      "id": "murcia",
-      "name": "Murcia",
-      "country": "Spain"
+      "id": "taza",
+      "name": "Taza",
+      "country": "Morocco"
     },
     {
-      "id": "palma",
-      "name": "Palma",
-      "country": "Spain"
+      "id": "tan-tan",
+      "name": "Tan-Tan",
+      "country": "Morocco"
     },
     {
-      "id": "las-palmas-de-gran-canaria",
-      "name": "Las Palmas de Gran Canaria",
-      "country": "Spain"
+      "id": "ouarzazate",
+      "name": "Ouarzazate",
+      "country": "Morocco"
     },
     {
-      "id": "valladolid",
-      "name": "Valladolid",
-      "country": "Spain"
+      "id": "ouezzane",
+      "name": "Ouezzane",
+      "country": "Morocco"
     },
     {
-      "id": "gasteiz-vitoria",
-      "name": "Gasteiz / Vitoria",
-      "country": "Spain"
-    },
-    {
-      "id": "oviedo",
-      "name": "Oviedo",
-      "country": "Spain"
-    },
-    {
-      "id": "santa-cruz-de-tenerife",
-      "name": "Santa Cruz de Tenerife",
-      "country": "Spain"
-    },
-    {
-      "id": "pamplona",
-      "name": "Pamplona",
-      "country": "Spain"
-    },
-    {
-      "id": "santander",
-      "name": "Santander",
-      "country": "Spain"
-    },
-    {
-      "id": "logrono",
-      "name": "Logroño",
-      "country": "Spain"
-    },
-    {
-      "id": "santiago-de-compostela",
-      "name": "Santiago de Compostela",
-      "country": "Spain"
-    },
-    {
-      "id": "toledo",
-      "name": "Toledo",
-      "country": "Spain"
-    },
-    {
-      "id": "melilla",
-      "name": "Melilla",
-      "country": "Spain"
-    },
-    {
-      "id": "ceuta",
-      "name": "Ceuta",
-      "country": "Spain"
-    },
-    {
-      "id": "merida",
-      "name": "Mérida",
-      "country": "Spain"
+      "id": "mdiq",
+      "name": "Mdiq",
+      "country": "Morocco"
     }
   ],
   "successes": [
     {
-      "cityId": "madrid",
-      "cityName": "Madrid",
-      "country": "Spain",
+      "cityId": "oujda",
+      "cityName": "Oujda",
+      "country": "Morocco",
       "pages": 12,
-      "aiCopyPages": 12
+      "aiCopyPages": 0
     },
     {
-      "cityId": "barcelona",
-      "cityName": "Barcelona",
-      "country": "Spain",
+      "cityId": "taza",
+      "cityName": "Taza",
+      "country": "Morocco",
       "pages": 12,
-      "aiCopyPages": 12
+      "aiCopyPages": 0
     },
     {
-      "cityId": "valencia",
-      "cityName": "Valencia",
-      "country": "Spain",
+      "cityId": "tan-tan",
+      "cityName": "Tan-Tan",
+      "country": "Morocco",
       "pages": 12,
-      "aiCopyPages": 12
+      "aiCopyPages": 0
     },
     {
-      "cityId": "zaragoza",
-      "cityName": "Zaragoza",
-      "country": "Spain",
+      "cityId": "ouarzazate",
+      "cityName": "Ouarzazate",
+      "country": "Morocco",
       "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "sevilla",
-      "cityName": "Sevilla",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "murcia",
-      "cityName": "Murcia",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "palma",
-      "cityName": "Palma",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "las-palmas-de-gran-canaria",
-      "cityName": "Las Palmas de Gran Canaria",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "valladolid",
-      "cityName": "Valladolid",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "santa-cruz-de-tenerife",
-      "cityName": "Santa Cruz de Tenerife",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "pamplona",
-      "cityName": "Pamplona",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "logrono",
-      "cityName": "Logroño",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "santiago-de-compostela",
-      "cityName": "Santiago de Compostela",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "toledo",
-      "cityName": "Toledo",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "melilla",
-      "cityName": "Melilla",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "ceuta",
-      "cityName": "Ceuta",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
-    },
-    {
-      "cityId": "merida",
-      "cityName": "Mérida",
-      "country": "Spain",
-      "pages": 12,
-      "aiCopyPages": 12
+      "aiCopyPages": 0
     }
   ],
   "failures": [
     {
-      "cityId": "gasteiz-vitoria",
-      "cityName": "Gasteiz / Vitoria",
-      "country": "Spain",
-      "error": "Overpass request failed for Gasteiz / Vitoria: 429 Too Many Requests"
+      "cityId": "rabat",
+      "cityName": "Rabat",
+      "country": "Morocco",
+      "error": "Overpass request failed for Rabat: fetch failed"
     },
     {
-      "cityId": "oviedo",
-      "cityName": "Oviedo",
-      "country": "Spain",
-      "error": "Overpass request failed for Oviedo: 429 Too Many Requests"
+      "cityId": "agadir",
+      "cityName": "Agadir",
+      "country": "Morocco",
+      "error": "Overpass request failed for Agadir: fetch failed"
     },
     {
-      "cityId": "santander",
-      "cityName": "Santander",
-      "country": "Spain",
-      "error": "Overpass request failed for Santander: 429 Too Many Requests"
+      "cityId": "beni-mellal",
+      "cityName": "Beni Mellal",
+      "country": "Morocco",
+      "error": "Overpass request failed for Beni Mellal: 429 Too Many Requests"
+    },
+    {
+      "cityId": "tetouan",
+      "cityName": "Tétouan",
+      "country": "Morocco",
+      "error": "Overpass request failed for Tétouan: fetch failed"
+    },
+    {
+      "cityId": "ouezzane",
+      "cityName": "Ouezzane",
+      "country": "Morocco",
+      "error": "Overpass request failed for Ouezzane: 429 Too Many Requests"
+    },
+    {
+      "cityId": "mdiq",
+      "cityName": "Mdiq",
+      "country": "Morocco",
+      "error": "Overpass request failed for Mdiq: 429 Too Many Requests"
     }
   ],
-  "finishedAt": "2026-04-14T11:19:41.961Z"
+  "finishedAt": "2026-04-17T15:19:17.774Z"
 }

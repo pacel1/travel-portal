@@ -39,6 +39,7 @@ const TARGET_COUNTRY_CODES = [
   "LT",
   "LU",
   "MT",
+  "MA",
   "MD",
   "MC",
   "ME",

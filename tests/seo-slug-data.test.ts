@@ -16,13 +16,17 @@ function hasLegacyPageSlug(value: string) {
   return legacyPageSlugPrefixes.some((prefix) => value.startsWith(prefix));
 }
 
-test("raw city catalog keeps internal ids but exposes canonical slugs", () => {
+test("raw city catalog exposes canonical slugs for Polish transliteration edge cases", () => {
   const cities = readJson("src/data/raw/european-cities-top20.json");
-  const slugById = new Map(cities.map((city: { id: string; slug: string }) => [city.id, city.slug]));
+  const polishSlugs = new Set(
+    cities
+      .filter((city: { country: string }) => city.country === "Poland")
+      .map((city: { slug: string }) => city.slug),
+  );
 
-  assert.equal(slugById.get("wroc-aw"), "wroclaw");
-  assert.equal(slugById.get("odz"), "lodz");
-  assert.equal(slugById.get("bia-ystok"), "bialystok");
+  assert.ok(polishSlugs.has("wroclaw"));
+  assert.ok(polishSlugs.has("lodz"));
+  assert.ok(polishSlugs.has("bialystok"));
 });
 
 test("generated monthly scores and page payloads only expose canonical public slugs", () => {

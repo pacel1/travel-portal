@@ -125,7 +125,7 @@ npm run db:sync-european-cities
 
 This workflow:
 
-- builds a catalog of the top 20 cities by population for each targeted European-market country
+- builds a catalog of the top 20 cities by population for each targeted travel-market country in and around Europe
 - writes the generated catalog to `src/data/raw/european-cities-top20.json`
 - writes import metadata and shortfall diagnostics to `src/data/raw/european-cities-top20.meta.json`
 - syncs that catalog into the `cities` table in Neon without forcing a full page-generation import for all of them

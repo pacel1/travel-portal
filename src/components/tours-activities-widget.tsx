@@ -3,47 +3,48 @@
 import { useEffect, useRef } from "react";
 
 interface ToursActivitiesWidgetProps {
-  locale?: string;
+  tiqetsCityId: string;
 }
 
-function buildWidgetUrl(locale: string = "en"): string {
+function buildWidgetUrl(tiqetsCityId: string): string {
   const params = new URLSearchParams({
     currency: "USD",
     trs: "518488",
     shmarker: "719133",
-    locale,
-    category: "4",
-    amount: "3",
+    language: "en",
+    locale: tiqetsCityId,
+    layout: "horizontal",
+    cards: "4",
     powered_by: "true",
-    campaign_id: "137",
-    promo_id: "4497",
+    campaign_id: "89",
+    promo_id: "3947",
   });
 
   return `https://tpwidg.com/content?${params.toString()}`;
 }
 
 export function ToursActivitiesWidget({
-  locale = "en",
+  tiqetsCityId,
 }: ToursActivitiesWidgetProps) {
   const containerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    if (!containerRef.current || containerRef.current.hasChildNodes()) {
+    const container = containerRef.current;
+
+    if (!container || container.hasChildNodes()) {
       return;
     }
 
     const script = document.createElement("script");
     script.async = true;
-    script.src = buildWidgetUrl(locale);
+    script.src = buildWidgetUrl(tiqetsCityId);
     script.setAttribute("charset", "utf-8");
-    containerRef.current.appendChild(script);
+    container.appendChild(script);
 
     return () => {
-      if (containerRef.current) {
-        containerRef.current.innerHTML = "";
-      }
+      container.innerHTML = "";
     };
-  }, [locale]);
+  }, [tiqetsCityId]);
 
   return (
     <div

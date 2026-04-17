@@ -231,11 +231,12 @@ async function postOverpassQuery(query, cityName) {
         "https://lz4.overpass-api.de/api/interpreter",
         "https://overpass.kumi.systems/api/interpreter",
       ];
+  const maxAttempts = Math.max(1, Number(process.env.OVERPASS_MAX_ATTEMPTS ?? 4));
 
   let lastError = null;
 
   for (const endpoint of endpoints) {
-    for (const attempt of [1, 2]) {
+    for (let attempt = 1; attempt <= maxAttempts; attempt += 1) {
       try {
         const response = await fetch(endpoint, {
           method: "POST",
@@ -246,6 +247,14 @@ async function postOverpassQuery(query, cityName) {
         });
 
         if (!response.ok) {
+          if (response.status === 429 || response.status >= 500) {
+            throw new RetryableHttpError(
+              response.status,
+              response.statusText,
+              parseRetryAfterMs(response.headers.get("retry-after")),
+            );
+          }
+
           throw new Error(`${response.status} ${response.statusText}`);
         }
 
@@ -253,8 +262,9 @@ async function postOverpassQuery(query, cityName) {
       } catch (error) {
         lastError = error;
 
-        if (attempt === 1) {
-          await sleep(800);
+        if (attempt < maxAttempts && isRetryableError(error)) {
+          await sleep(error.waitMs ?? 2000 * attempt);
+          continue;
         }
       }
     }
@@ -263,6 +273,16 @@ async function postOverpassQuery(query, cityName) {
   throw new Error(
     `Overpass request failed for ${cityName}: ${lastError instanceof Error ? lastError.message : String(lastError)}`,
   );
+}
+
+function parseRetryAfterMs(value) {
+  const retryAfterSeconds = Number(value);
+
+  if (Number.isFinite(retryAfterSeconds) && retryAfterSeconds > 0) {
+    return retryAfterSeconds * 1000;
+  }
+
+  return null;
 }
 
 function toPoiRecord(city, element) {
