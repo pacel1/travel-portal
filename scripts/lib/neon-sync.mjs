@@ -6,6 +6,7 @@ import { Pool } from "@neondatabase/serverless";
 
 import { monthNameByNumber, monthNumberByName } from "./travel-engine.mjs";
 import { getLocalizedEntityData } from "./localized-entity-data.mjs";
+import { buildCanonicalPageSlug, getCanonicalCitySlug } from "./slug-utils.mjs";
 import {
   allLocales,
   buildDefaultLocalePublicationState,
@@ -13,6 +14,36 @@ import {
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+function canonicalizeLinkEntry(entry) {
+  const slugMatch = entry.slug?.match(/^(.*)-in-([a-z]+)$/u);
+
+  if (!slugMatch) {
+    return entry;
+  }
+
+  return {
+    ...entry,
+    slug: buildCanonicalPageSlug(slugMatch[1], slugMatch[2]),
+  };
+}
+
+function canonicalizePagePayload(page, monthNumber) {
+  const month = page.month ?? monthNameByNumber[monthNumber];
+  const canonicalCitySlug = getCanonicalCitySlug(page.citySlug, page.cityName);
+
+  return {
+    ...page,
+    slug: buildCanonicalPageSlug(page.citySlug, month, page.cityName),
+    citySlug: canonicalCitySlug,
+    internalLinks: page.internalLinks
+      ? {
+          sameCity: (page.internalLinks.sameCity ?? []).map(canonicalizeLinkEntry),
+          similarCities: (page.internalLinks.similarCities ?? []).map(canonicalizeLinkEntry),
+        }
+      : page.internalLinks,
+  };
+}
 
 export function createNeonPool(connectionString) {
   return new Pool({ connectionString });
@@ -145,7 +176,7 @@ function buildInternalLinks(scoreRows) {
       .sort((left, right) => right.score - left.score)
       .slice(0, 3)
       .map((entry) => ({
-        slug: `${entry.citySlug}-in-${entry.monthName}`,
+        slug: buildCanonicalPageSlug(entry.citySlug, entry.monthName, entry.cityName),
         label: `${entry.cityName} in ${capitalizeMonth(entry.monthName)}`,
         score: entry.score,
       }));
@@ -157,7 +188,7 @@ function buildInternalLinks(scoreRows) {
       .sort((left, right) => right.score - left.score)
       .slice(0, 2)
       .map((entry) => ({
-        slug: `${entry.citySlug}-in-${entry.monthName}`,
+        slug: buildCanonicalPageSlug(entry.citySlug, entry.monthName, entry.cityName),
         label: `${entry.cityName} in ${capitalizeMonth(entry.monthName)}`,
         score: entry.score,
       }));
@@ -196,13 +227,13 @@ export async function refreshPageCacheInternalLinks(pool) {
     monthName: monthNameByNumber[row.month],
     score: row.score,
     cityName: row.city_name,
-    citySlug: row.city_slug,
+    citySlug: getCanonicalCitySlug(row.city_slug, row.city_name),
   }));
   const { getSameCityLinks, getSimilarCityLinks } = buildInternalLinks(scoreRows);
 
   for (const row of pageCacheResult.rows) {
     const refreshedPayload = {
-      ...row.payload_json,
+      ...canonicalizePagePayload(row.payload_json, row.month),
       internalLinks: {
         sameCity: getSameCityLinks(row.city_id, row.month),
         similarCities: getSimilarCityLinks(row.city_id, row.month),

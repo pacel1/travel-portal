@@ -361,9 +361,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "january",
     "score": 43,
     "crowdLevel": "low",
@@ -371,9 +371,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "february",
     "score": 55,
     "crowdLevel": "low",
@@ -381,9 +381,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "march",
     "score": 69,
     "crowdLevel": "low",
@@ -391,9 +391,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "april",
     "score": 74,
     "crowdLevel": "low",
@@ -401,9 +401,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "may",
     "score": 78,
     "crowdLevel": "medium",
@@ -411,9 +411,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "june",
     "score": 84,
     "crowdLevel": "medium",
@@ -421,9 +421,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "july",
     "score": 77,
     "crowdLevel": "medium",
@@ -431,9 +431,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "august",
     "score": 83,
     "crowdLevel": "medium",
@@ -441,9 +441,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "september",
     "score": 81,
     "crowdLevel": "medium",
@@ -451,9 +451,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "october",
     "score": 69,
     "crowdLevel": "low",
@@ -461,9 +461,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "november",
     "score": 55,
     "crowdLevel": "low",
@@ -471,9 +471,9 @@
   },
   {
     "cityId": "bia-ystok",
-    "cityName": "Białystok",
+    "cityName": "BiaÅ‚ystok",
     "country": "Poland",
-    "citySlug": "bia-ystok",
+    "citySlug": "bialystok",
     "month": "december",
     "score": 43,
     "crowdLevel": "medium",
@@ -961,7 +961,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "january",
@@ -971,7 +971,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "february",
@@ -981,7 +981,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "march",
@@ -991,7 +991,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "april",
@@ -1001,7 +1001,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "may",
@@ -1011,7 +1011,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "june",
@@ -1021,7 +1021,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "july",
@@ -1031,7 +1031,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "august",
@@ -1041,7 +1041,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "september",
@@ -1051,7 +1051,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "october",
@@ -1061,7 +1061,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "november",
@@ -1071,7 +1071,7 @@
   },
   {
     "cityId": "dusseldorf",
-    "cityName": "Düsseldorf",
+    "cityName": "DÃ¼sseldorf",
     "country": "Germany",
     "citySlug": "dusseldorf",
     "month": "december",
@@ -1201,7 +1201,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "january",
@@ -1211,7 +1211,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "february",
@@ -1221,7 +1221,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "march",
@@ -1231,7 +1231,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "april",
@@ -1241,7 +1241,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "may",
@@ -1251,7 +1251,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "june",
@@ -1261,7 +1261,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "july",
@@ -1271,7 +1271,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "august",
@@ -1281,7 +1281,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "september",
@@ -1291,7 +1291,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "october",
@@ -1301,7 +1301,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "november",
@@ -1311,7 +1311,7 @@
   },
   {
     "cityId": "gdansk",
-    "cityName": "Gdańsk",
+    "cityName": "GdaÅ„sk",
     "country": "Poland",
     "citySlug": "gdansk",
     "month": "december",
@@ -1321,7 +1321,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "january",
@@ -1331,7 +1331,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "february",
@@ -1341,7 +1341,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "march",
@@ -1351,7 +1351,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "april",
@@ -1361,7 +1361,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "may",
@@ -1371,7 +1371,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "june",
@@ -1381,7 +1381,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "july",
@@ -1391,7 +1391,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "august",
@@ -1401,7 +1401,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "september",
@@ -1411,7 +1411,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "october",
@@ -1421,7 +1421,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "november",
@@ -1431,7 +1431,7 @@
   },
   {
     "cityId": "gorzow-wielkopolski",
-    "cityName": "Gorzów Wielkopolski",
+    "cityName": "GorzÃ³w Wielkopolski",
     "country": "Poland",
     "citySlug": "gorzow-wielkopolski",
     "month": "december",
@@ -2161,7 +2161,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "january",
@@ -2171,7 +2171,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "february",
@@ -2181,7 +2181,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "march",
@@ -2191,7 +2191,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "april",
@@ -2201,7 +2201,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "may",
@@ -2211,7 +2211,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "june",
@@ -2221,7 +2221,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "july",
@@ -2231,7 +2231,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "august",
@@ -2241,7 +2241,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "september",
@@ -2251,7 +2251,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "october",
@@ -2261,7 +2261,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "november",
@@ -2271,7 +2271,7 @@
   },
   {
     "cityId": "koln",
-    "cityName": "Köln",
+    "cityName": "KÃ¶ln",
     "country": "Germany",
     "citySlug": "koln",
     "month": "december",
@@ -2281,7 +2281,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "january",
@@ -2291,7 +2291,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "february",
@@ -2301,7 +2301,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "march",
@@ -2311,7 +2311,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "april",
@@ -2321,7 +2321,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "may",
@@ -2331,7 +2331,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "june",
@@ -2341,7 +2341,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "july",
@@ -2351,7 +2351,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "august",
@@ -2361,7 +2361,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "september",
@@ -2371,7 +2371,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "october",
@@ -2381,7 +2381,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "november",
@@ -2391,7 +2391,7 @@
   },
   {
     "cityId": "krakow",
-    "cityName": "Kraków",
+    "cityName": "KrakÃ³w",
     "country": "Poland",
     "citySlug": "krakow",
     "month": "december",
@@ -2521,7 +2521,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "january",
@@ -2531,7 +2531,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "february",
@@ -2541,7 +2541,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "march",
@@ -2551,7 +2551,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "april",
@@ -2561,7 +2561,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "may",
@@ -2571,7 +2571,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "june",
@@ -2581,7 +2581,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "july",
@@ -2591,7 +2591,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "august",
@@ -2601,7 +2601,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "september",
@@ -2611,7 +2611,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "october",
@@ -2621,7 +2621,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "november",
@@ -2631,7 +2631,7 @@
   },
   {
     "cityId": "logrono",
-    "cityName": "Logroño",
+    "cityName": "LogroÃ±o",
     "country": "Spain",
     "citySlug": "logrono",
     "month": "december",
@@ -3241,7 +3241,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "january",
@@ -3251,7 +3251,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "february",
@@ -3261,7 +3261,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "march",
@@ -3271,7 +3271,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "april",
@@ -3281,7 +3281,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "may",
@@ -3291,7 +3291,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "june",
@@ -3301,7 +3301,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "july",
@@ -3311,7 +3311,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "august",
@@ -3321,7 +3321,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "september",
@@ -3331,7 +3331,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "october",
@@ -3341,7 +3341,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "november",
@@ -3351,7 +3351,7 @@
   },
   {
     "cityId": "merida",
-    "cityName": "Mérida",
+    "cityName": "MÃ©rida",
     "country": "Spain",
     "citySlug": "merida",
     "month": "december",
@@ -3481,7 +3481,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "january",
@@ -3491,7 +3491,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "february",
@@ -3501,7 +3501,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "march",
@@ -3511,7 +3511,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "april",
@@ -3521,7 +3521,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "may",
@@ -3531,7 +3531,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "june",
@@ -3541,7 +3541,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "july",
@@ -3551,7 +3551,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "august",
@@ -3561,7 +3561,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "september",
@@ -3571,7 +3571,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "october",
@@ -3581,7 +3581,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "november",
@@ -3591,7 +3591,7 @@
   },
   {
     "cityId": "munster",
-    "cityName": "Münster",
+    "cityName": "MÃ¼nster",
     "country": "Germany",
     "citySlug": "munster",
     "month": "december",
@@ -3721,9 +3721,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "january",
     "score": 48,
     "crowdLevel": "low",
@@ -3731,9 +3731,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "february",
     "score": 55,
     "crowdLevel": "low",
@@ -3741,9 +3741,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "march",
     "score": 70,
     "crowdLevel": "low",
@@ -3751,9 +3751,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "april",
     "score": 71,
     "crowdLevel": "medium",
@@ -3761,9 +3761,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "may",
     "score": 82,
     "crowdLevel": "medium",
@@ -3771,9 +3771,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "june",
     "score": 85,
     "crowdLevel": "medium",
@@ -3781,9 +3781,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "july",
     "score": 75,
     "crowdLevel": "high",
@@ -3791,9 +3791,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "august",
     "score": 75,
     "crowdLevel": "medium",
@@ -3801,9 +3801,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "september",
     "score": 81,
     "crowdLevel": "medium",
@@ -3811,9 +3811,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "october",
     "score": 70,
     "crowdLevel": "medium",
@@ -3821,9 +3821,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "november",
     "score": 59,
     "crowdLevel": "low",
@@ -3831,9 +3831,9 @@
   },
   {
     "cityId": "odz",
-    "cityName": "Łódź",
+    "cityName": "ÅÃ³dÅº",
     "country": "Poland",
-    "citySlug": "odz",
+    "citySlug": "lodz",
     "month": "december",
     "score": 47,
     "crowdLevel": "medium",
@@ -4441,7 +4441,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "january",
@@ -4451,7 +4451,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "february",
@@ -4461,7 +4461,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "march",
@@ -4471,7 +4471,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "april",
@@ -4481,7 +4481,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "may",
@@ -4491,7 +4491,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "june",
@@ -4501,7 +4501,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "july",
@@ -4511,7 +4511,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "august",
@@ -4521,7 +4521,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "september",
@@ -4531,7 +4531,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "october",
@@ -4541,7 +4541,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "november",
@@ -4551,7 +4551,7 @@
   },
   {
     "cityId": "poznan",
-    "cityName": "Poznań",
+    "cityName": "PoznaÅ„",
     "country": "Poland",
     "citySlug": "poznan",
     "month": "december",
@@ -4801,7 +4801,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "january",
@@ -4811,7 +4811,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "february",
@@ -4821,7 +4821,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "march",
@@ -4831,7 +4831,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "april",
@@ -4841,7 +4841,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "may",
@@ -4851,7 +4851,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "june",
@@ -4861,7 +4861,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "july",
@@ -4871,7 +4871,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "august",
@@ -4881,7 +4881,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "september",
@@ -4891,7 +4891,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "october",
@@ -4901,7 +4901,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "november",
@@ -4911,7 +4911,7 @@
   },
   {
     "cityId": "rzeszow",
-    "cityName": "Rzeszów",
+    "cityName": "RzeszÃ³w",
     "country": "Poland",
     "citySlug": "rzeszow",
     "month": "december",
@@ -4921,7 +4921,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "january",
@@ -4931,7 +4931,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "february",
@@ -4941,7 +4941,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "march",
@@ -4951,7 +4951,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "april",
@@ -4961,7 +4961,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "may",
@@ -4971,7 +4971,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "june",
@@ -4981,7 +4981,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "july",
@@ -4991,7 +4991,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "august",
@@ -5001,7 +5001,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "september",
@@ -5011,7 +5011,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "october",
@@ -5021,7 +5021,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "november",
@@ -5031,7 +5031,7 @@
   },
   {
     "cityId": "saarbrucken",
-    "cityName": "Saarbrücken",
+    "cityName": "SaarbrÃ¼cken",
     "country": "Germany",
     "citySlug": "saarbrucken",
     "month": "december",
@@ -6361,9 +6361,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "january",
     "score": 51,
     "crowdLevel": "low",
@@ -6371,9 +6371,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "february",
     "score": 59,
     "crowdLevel": "low",
@@ -6381,9 +6381,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "march",
     "score": 73,
     "crowdLevel": "low",
@@ -6391,9 +6391,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "april",
     "score": 72,
     "crowdLevel": "medium",
@@ -6401,9 +6401,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "may",
     "score": 81,
     "crowdLevel": "medium",
@@ -6411,9 +6411,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "june",
     "score": 85,
     "crowdLevel": "medium",
@@ -6421,9 +6421,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "july",
     "score": 75,
     "crowdLevel": "high",
@@ -6431,9 +6431,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "august",
     "score": 74,
     "crowdLevel": "medium",
@@ -6441,9 +6441,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "september",
     "score": 81,
     "crowdLevel": "medium",
@@ -6451,9 +6451,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "october",
     "score": 72,
     "crowdLevel": "medium",
@@ -6461,9 +6461,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "november",
     "score": 61,
     "crowdLevel": "low",
@@ -6471,9 +6471,9 @@
   },
   {
     "cityId": "wroc-aw",
-    "cityName": "Wrocław",
+    "cityName": "WrocÅ‚aw",
     "country": "Poland",
-    "citySlug": "wroc-aw",
+    "citySlug": "wroclaw",
     "month": "december",
     "score": 50,
     "crowdLevel": "medium",
@@ -6721,7 +6721,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "january",
@@ -6731,7 +6731,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "february",
@@ -6741,7 +6741,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "march",
@@ -6751,7 +6751,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "april",
@@ -6761,7 +6761,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "may",
@@ -6771,7 +6771,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "june",
@@ -6781,7 +6781,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "july",
@@ -6791,7 +6791,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "august",
@@ -6801,7 +6801,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "september",
@@ -6811,7 +6811,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "october",
@@ -6821,7 +6821,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "november",
@@ -6831,7 +6831,7 @@
   },
   {
     "cityId": "zielona-gora",
-    "cityName": "Zielona Góra",
+    "cityName": "Zielona GÃ³ra",
     "country": "Poland",
     "citySlug": "zielona-gora",
     "month": "december",

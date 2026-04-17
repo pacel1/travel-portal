@@ -52,6 +52,7 @@ import {
   buildCityMonthSeoDescription,
   buildCityMonthSeoTitle,
 } from "@/lib/seo-snippets";
+import { getCanonicalCitySlug } from "@/lib/slug-utils";
 import type { PagePayload, PointOfInterest } from "@/types/travel";
 import {
   getScoreTicketToneClass,
@@ -1165,7 +1166,9 @@ function buildTravelMonthStructuredData(
             "@type": "ListItem",
             position: 2,
             name: cityName,
-            item: buildAbsoluteUrl(`${buildHomePath(locale)}#${page.citySlug}`),
+            item: buildAbsoluteUrl(
+              `${buildHomePath(locale)}#${getCanonicalCitySlug(page.citySlug, page.cityName)}`,
+            ),
           },
           {
             "@type": "ListItem",
@@ -1702,7 +1705,7 @@ function buildBookingPlaceholderHref(
   intent: "hotels" | "flights" | "car-rental",
 ) {
   const params = new URLSearchParams({
-    city: page.citySlug,
+    city: getCanonicalCitySlug(page.citySlug, page.cityName),
     month: page.month,
     intent,
   });

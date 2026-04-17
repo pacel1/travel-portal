@@ -10,7 +10,7 @@
   },
   {
     "id": "durres",
-    "name": "Durrës",
+    "name": "DurrÃ«s",
     "slug": "durres",
     "country": "Albania",
     "latitude": 41.32355,
@@ -19,7 +19,7 @@
   },
   {
     "id": "vlore",
-    "name": "Vlorë",
+    "name": "VlorÃ«",
     "slug": "vlore",
     "country": "Albania",
     "latitude": 40.4696,
@@ -37,7 +37,7 @@
   },
   {
     "id": "shkoder",
-    "name": "Shkodër",
+    "name": "ShkodÃ«r",
     "slug": "shkoder",
     "country": "Albania",
     "latitude": 42.06828,
@@ -55,7 +55,7 @@
   },
   {
     "id": "korce",
-    "name": "Korçë",
+    "name": "KorÃ§Ã«",
     "slug": "korce",
     "country": "Albania",
     "latitude": 40.61861,
@@ -73,7 +73,7 @@
   },
   {
     "id": "kukes",
-    "name": "Kukës",
+    "name": "KukÃ«s",
     "slug": "kukes",
     "country": "Albania",
     "latitude": 42.07694,
@@ -82,7 +82,7 @@
   },
   {
     "id": "gjirokaster",
-    "name": "Gjirokastër",
+    "name": "GjirokastÃ«r",
     "slug": "gjirokaster",
     "country": "Albania",
     "latitude": 40.07583,
@@ -91,7 +91,7 @@
   },
   {
     "id": "lezhe",
-    "name": "Lezhë",
+    "name": "LezhÃ«",
     "slug": "lezhe",
     "country": "Albania",
     "latitude": 41.78361,
@@ -109,7 +109,7 @@
   },
   {
     "id": "lushnje",
-    "name": "Lushnjë",
+    "name": "LushnjÃ«",
     "slug": "lushnje",
     "country": "Albania",
     "latitude": 40.94194,
@@ -118,7 +118,7 @@
   },
   {
     "id": "kruje",
-    "name": "Krujë",
+    "name": "KrujÃ«",
     "slug": "kruje",
     "country": "Albania",
     "latitude": 41.50917,
@@ -136,7 +136,7 @@
   },
   {
     "id": "kucove",
-    "name": "Kuçovë",
+    "name": "KuÃ§ovÃ«",
     "slug": "kucove",
     "country": "Albania",
     "latitude": 40.80028,
@@ -145,7 +145,7 @@
   },
   {
     "id": "kavaje",
-    "name": "Kavajë",
+    "name": "KavajÃ«",
     "slug": "kavaje",
     "country": "Albania",
     "latitude": 41.18556,
@@ -154,7 +154,7 @@
   },
   {
     "id": "bulqize",
-    "name": "Bulqizë",
+    "name": "BulqizÃ«",
     "slug": "bulqize",
     "country": "Albania",
     "latitude": 41.49167,
@@ -172,7 +172,7 @@
   },
   {
     "id": "sarande",
-    "name": "Sarandë",
+    "name": "SarandÃ«",
     "slug": "sarande",
     "country": "Albania",
     "latitude": 39.87534,
@@ -208,7 +208,7 @@
   },
   {
     "id": "sant-julia-de-loria",
-    "name": "Sant Julià de Lòria",
+    "name": "Sant JuliÃ  de LÃ²ria",
     "slug": "sant-julia-de-loria",
     "country": "Andorra",
     "latitude": 42.46372,
@@ -307,7 +307,7 @@
   },
   {
     "id": "anyos",
-    "name": "Anyós",
+    "name": "AnyÃ³s",
     "slug": "anyos",
     "country": "Andorra",
     "latitude": 42.53465,
@@ -586,7 +586,7 @@
   },
   {
     "id": "klagenfurt-am-worthersee",
-    "name": "Klagenfurt am Wörthersee",
+    "name": "Klagenfurt am WÃ¶rthersee",
     "slug": "klagenfurt-am-worthersee",
     "country": "Austria",
     "latitude": 46.62472,
@@ -604,7 +604,7 @@
   },
   {
     "id": "sankt-polten",
-    "name": "Sankt Pölten",
+    "name": "Sankt PÃ¶lten",
     "slug": "sankt-polten",
     "country": "Austria",
     "latitude": 48.20762,
@@ -730,7 +730,7 @@
   },
   {
     "id": "sumqay-t",
-    "name": "Sumqayıt",
+    "name": "SumqayÄ±t",
     "slug": "sumqay-t",
     "country": "Azerbaijan",
     "latitude": 40.58972,
@@ -784,7 +784,7 @@
   },
   {
     "id": "naxc-van",
-    "name": "Naxçıvan",
+    "name": "NaxÃ§Ä±van",
     "slug": "naxc-van",
     "country": "Azerbaijan",
     "latitude": 39.20889,
@@ -802,7 +802,7 @@
   },
   {
     "id": "saatl",
-    "name": "Saatlı",
+    "name": "SaatlÄ±",
     "slug": "saatl",
     "country": "Azerbaijan",
     "latitude": 39.93214,
@@ -811,7 +811,7 @@
   },
   {
     "id": "sirvan",
-    "name": "Şirvan",
+    "name": "Åžirvan",
     "slug": "sirvan",
     "country": "Azerbaijan",
     "latitude": 39.93778,
@@ -838,7 +838,7 @@
   },
   {
     "id": "goycay",
-    "name": "Göyçay",
+    "name": "GÃ¶yÃ§ay",
     "slug": "goycay",
     "country": "Azerbaijan",
     "latitude": 40.65055,
@@ -847,7 +847,7 @@
   },
   {
     "id": "agdam",
-    "name": "Ağdam",
+    "name": "AÄŸdam",
     "slug": "agdam",
     "country": "Azerbaijan",
     "latitude": 39.99096,
@@ -874,7 +874,7 @@
   },
   {
     "id": "xacmaz",
-    "name": "Xaçmaz",
+    "name": "XaÃ§maz",
     "slug": "xacmaz",
     "country": "Azerbaijan",
     "latitude": 41.46426,
@@ -1036,7 +1036,7 @@
   },
   {
     "id": "maladziecna",
-    "name": "Maladziečna",
+    "name": "MaladzieÄna",
     "slug": "maladziecna",
     "country": "Belarus",
     "latitude": 54.3167,
@@ -1234,7 +1234,7 @@
   },
   {
     "id": "neufchateau",
-    "name": "Neufchâteau",
+    "name": "NeufchÃ¢teau",
     "slug": "neufchateau",
     "country": "Belgium",
     "latitude": 49.84074,
@@ -1279,7 +1279,7 @@
   },
   {
     "id": "brcko",
-    "name": "Brčko",
+    "name": "BrÄko",
     "slug": "brcko",
     "country": "Bosnia and Herzegovina",
     "latitude": 44.87162,
@@ -1315,7 +1315,7 @@
   },
   {
     "id": "bihac",
-    "name": "Bihać",
+    "name": "BihaÄ‡",
     "slug": "bihac",
     "country": "Bosnia and Herzegovina",
     "latitude": 44.81694,
@@ -1369,7 +1369,7 @@
   },
   {
     "id": "gorazde",
-    "name": "Goražde",
+    "name": "GoraÅ¾de",
     "slug": "gorazde",
     "country": "Bosnia and Herzegovina",
     "latitude": 43.66795,
@@ -1378,7 +1378,7 @@
   },
   {
     "id": "mrkonjic-grad",
-    "name": "Mrkonjić Grad",
+    "name": "MrkonjiÄ‡ Grad",
     "slug": "mrkonjic-grad",
     "country": "Bosnia and Herzegovina",
     "latitude": 44.41729,
@@ -1387,7 +1387,7 @@
   },
   {
     "id": "foca",
-    "name": "Foča",
+    "name": "FoÄa",
     "slug": "foca",
     "country": "Bosnia and Herzegovina",
     "latitude": 43.50646,
@@ -1396,7 +1396,7 @@
   },
   {
     "id": "gradiska",
-    "name": "Gradiška",
+    "name": "GradiÅ¡ka",
     "slug": "gradiska",
     "country": "Bosnia and Herzegovina",
     "latitude": 45.14484,
@@ -1405,7 +1405,7 @@
   },
   {
     "id": "bileca",
-    "name": "Bileća",
+    "name": "BileÄ‡a",
     "slug": "bileca",
     "country": "Bosnia and Herzegovina",
     "latitude": 42.87645,
@@ -1423,7 +1423,7 @@
   },
   {
     "id": "sipovo",
-    "name": "Šipovo",
+    "name": "Å ipovo",
     "slug": "sipovo",
     "country": "Bosnia and Herzegovina",
     "latitude": 44.28237,
@@ -1567,7 +1567,7 @@
   },
   {
     "id": "veliko-turnovo",
-    "name": "Veliko Tŭrnovo",
+    "name": "Veliko TÅ­rnovo",
     "slug": "veliko-turnovo",
     "country": "Bulgaria",
     "latitude": 43.08124,
@@ -1684,7 +1684,7 @@
   },
   {
     "id": "varazdin",
-    "name": "Varaždin",
+    "name": "VaraÅ¾din",
     "slug": "varazdin",
     "country": "Croatia",
     "latitude": 46.30444,
@@ -1693,7 +1693,7 @@
   },
   {
     "id": "sibenik",
-    "name": "Šibenik",
+    "name": "Å ibenik",
     "slug": "sibenik",
     "country": "Croatia",
     "latitude": 43.73429,
@@ -1747,7 +1747,7 @@
   },
   {
     "id": "pozega",
-    "name": "Požega",
+    "name": "PoÅ¾ega",
     "slug": "pozega",
     "country": "Croatia",
     "latitude": 45.34028,
@@ -1756,7 +1756,7 @@
   },
   {
     "id": "cakovec",
-    "name": "Čakovec",
+    "name": "ÄŒakovec",
     "slug": "cakovec",
     "country": "Croatia",
     "latitude": 46.38444,
@@ -1774,7 +1774,7 @@
   },
   {
     "id": "gospic",
-    "name": "Gospić",
+    "name": "GospiÄ‡",
     "slug": "gospic",
     "country": "Croatia",
     "latitude": 44.54611,
@@ -1855,7 +1855,7 @@
   },
   {
     "id": "strovolos",
-    "name": "Stróvolos",
+    "name": "StrÃ³volos",
     "slug": "strovolos",
     "country": "Cyprus",
     "latitude": 35.14867,
@@ -1864,7 +1864,7 @@
   },
   {
     "id": "kato-lakatameia",
-    "name": "Káto Lakatámeia",
+    "name": "KÃ¡to LakatÃ¡meia",
     "slug": "kato-lakatameia",
     "country": "Cyprus",
     "latitude": 35.11755,
@@ -1873,7 +1873,7 @@
   },
   {
     "id": "pergamos",
-    "name": "Pérgamos",
+    "name": "PÃ©rgamos",
     "slug": "pergamos",
     "country": "Cyprus",
     "latitude": 35.04167,
@@ -1882,7 +1882,7 @@
   },
   {
     "id": "polemi",
-    "name": "Polémi",
+    "name": "PolÃ©mi",
     "slug": "polemi",
     "country": "Cyprus",
     "latitude": 34.88613,
@@ -1891,7 +1891,7 @@
   },
   {
     "id": "meladeia",
-    "name": "Meládeia",
+    "name": "MelÃ¡deia",
     "slug": "meladeia",
     "country": "Cyprus",
     "latitude": 34.98816,
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "morfou",
-    "name": "Mórfou",
+    "name": "MÃ³rfou",
     "slug": "morfou",
     "country": "Cyprus",
     "latitude": 35.19869,
@@ -1918,7 +1918,7 @@
   },
   {
     "id": "kato-polemidia",
-    "name": "Káto Polemídia",
+    "name": "KÃ¡to PolemÃ­dia",
     "slug": "kato-polemidia",
     "country": "Cyprus",
     "latitude": 34.69721,
@@ -1927,7 +1927,7 @@
   },
   {
     "id": "aradippou",
-    "name": "Aradíppou",
+    "name": "AradÃ­ppou",
     "slug": "aradippou",
     "country": "Cyprus",
     "latitude": 34.94779,
@@ -1936,7 +1936,7 @@
   },
   {
     "id": "aglantzia",
-    "name": "Aglantziá",
+    "name": "AglantziÃ¡",
     "slug": "aglantzia",
     "country": "Cyprus",
     "latitude": 35.15422,
@@ -1945,7 +1945,7 @@
   },
   {
     "id": "egkomi",
-    "name": "Égkomi",
+    "name": "Ã‰gkomi",
     "slug": "egkomi",
     "country": "Cyprus",
     "latitude": 35.16272,
@@ -1963,7 +1963,7 @@
   },
   {
     "id": "germasogeia",
-    "name": "Germasógeia",
+    "name": "GermasÃ³geia",
     "slug": "germasogeia",
     "country": "Cyprus",
     "latitude": 34.72073,
@@ -1972,7 +1972,7 @@
   },
   {
     "id": "agios-dometios",
-    "name": "Ágios Dométios",
+    "name": "Ãgios DomÃ©tios",
     "slug": "agios-dometios",
     "country": "Cyprus",
     "latitude": 35.17346,
@@ -2035,7 +2035,7 @@
   },
   {
     "id": "ceske-budejovice",
-    "name": "České Budějovice",
+    "name": "ÄŒeskÃ© BudÄ›jovice",
     "slug": "ceske-budejovice",
     "country": "Czechia",
     "latitude": 48.97447,
@@ -2044,7 +2044,7 @@
   },
   {
     "id": "hradec-kralove",
-    "name": "Hradec Králové",
+    "name": "Hradec KrÃ¡lovÃ©",
     "slug": "hradec-kralove",
     "country": "Czechia",
     "latitude": 50.20923,
@@ -2053,7 +2053,7 @@
   },
   {
     "id": "usti-nad-labem",
-    "name": "Ústí nad Labem",
+    "name": "ÃšstÃ­ nad Labem",
     "slug": "usti-nad-labem",
     "country": "Czechia",
     "latitude": 50.6607,
@@ -2071,7 +2071,7 @@
   },
   {
     "id": "zlin",
-    "name": "Zlín",
+    "name": "ZlÃ­n",
     "slug": "zlin",
     "country": "Czechia",
     "latitude": 49.22645,
@@ -2098,7 +2098,7 @@
   },
   {
     "id": "karvina",
-    "name": "Karviná",
+    "name": "KarvinÃ¡",
     "slug": "karvina",
     "country": "Czechia",
     "latitude": 49.854,
@@ -2116,7 +2116,7 @@
   },
   {
     "id": "breclav",
-    "name": "Břeclav",
+    "name": "BÅ™eclav",
     "slug": "breclav",
     "country": "Czechia",
     "latitude": 48.75897,
@@ -2125,7 +2125,7 @@
   },
   {
     "id": "havirov",
-    "name": "Havířov",
+    "name": "HavÃ­Å™ov",
     "slug": "havirov",
     "country": "Czechia",
     "latitude": 49.77984,
@@ -2134,7 +2134,7 @@
   },
   {
     "id": "cesky-tesin",
-    "name": "Český Těšín",
+    "name": "ÄŒeskÃ½ TÄ›Å¡Ã­n",
     "slug": "cesky-tesin",
     "country": "Czechia",
     "latitude": 49.74613,
@@ -2143,7 +2143,7 @@
   },
   {
     "id": "slapanice",
-    "name": "Šlapanice",
+    "name": "Å lapanice",
     "slug": "slapanice",
     "country": "Czechia",
     "latitude": 49.16863,
@@ -2197,7 +2197,7 @@
   },
   {
     "id": "hiller-d",
-    "name": "Hillerød",
+    "name": "HillerÃ¸d",
     "slug": "hiller-d",
     "country": "Denmark",
     "latitude": 55.92791,
@@ -2206,7 +2206,7 @@
   },
   {
     "id": "sor",
-    "name": "Sorø",
+    "name": "SorÃ¸",
     "slug": "sor",
     "country": "Denmark",
     "latitude": 55.43184,
@@ -2215,7 +2215,7 @@
   },
   {
     "id": "arhus",
-    "name": "Århus",
+    "name": "Ã…rhus",
     "slug": "arhus",
     "country": "Denmark",
     "latitude": 56.15674,
@@ -2314,7 +2314,7 @@
   },
   {
     "id": "h-rsholm",
-    "name": "Hørsholm",
+    "name": "HÃ¸rsholm",
     "slug": "h-rsholm",
     "country": "Denmark",
     "latitude": 55.88098,
@@ -2359,7 +2359,7 @@
   },
   {
     "id": "parnu",
-    "name": "Pärnu",
+    "name": "PÃ¤rnu",
     "slug": "parnu",
     "country": "Estonia",
     "latitude": 58.38588,
@@ -2395,7 +2395,7 @@
   },
   {
     "id": "voru",
-    "name": "Võru",
+    "name": "VÃµru",
     "slug": "voru",
     "country": "Estonia",
     "latitude": 57.83389,
@@ -2422,7 +2422,7 @@
   },
   {
     "id": "johvi",
-    "name": "Jõhvi",
+    "name": "JÃµhvi",
     "slug": "johvi",
     "country": "Estonia",
     "latitude": 59.35917,
@@ -2440,7 +2440,7 @@
   },
   {
     "id": "jogeva",
-    "name": "Jõgeva",
+    "name": "JÃµgeva",
     "slug": "jogeva",
     "country": "Estonia",
     "latitude": 58.74667,
@@ -2458,7 +2458,7 @@
   },
   {
     "id": "polva",
-    "name": "Põlva",
+    "name": "PÃµlva",
     "slug": "polva",
     "country": "Estonia",
     "latitude": 58.06028,
@@ -2467,7 +2467,7 @@
   },
   {
     "id": "kardla",
-    "name": "Kärdla",
+    "name": "KÃ¤rdla",
     "slug": "kardla",
     "country": "Estonia",
     "latitude": 58.99778,
@@ -2494,7 +2494,7 @@
   },
   {
     "id": "sillamae",
-    "name": "Sillamäe",
+    "name": "SillamÃ¤e",
     "slug": "sillamae",
     "country": "Estonia",
     "latitude": 59.39697,
@@ -2557,7 +2557,7 @@
   },
   {
     "id": "jyvaskyla",
-    "name": "Jyväskylä",
+    "name": "JyvÃ¤skylÃ¤",
     "slug": "jyvaskyla",
     "country": "Finland",
     "latitude": 62.24147,
@@ -2629,7 +2629,7 @@
   },
   {
     "id": "hameenlinna",
-    "name": "Hämeenlinna",
+    "name": "HÃ¤meenlinna",
     "slug": "hameenlinna",
     "country": "Finland",
     "latitude": 60.99596,
@@ -2638,7 +2638,7 @@
   },
   {
     "id": "seinajoki",
-    "name": "Seinäjoki",
+    "name": "SeinÃ¤joki",
     "slug": "seinajoki",
     "country": "Finland",
     "latitude": 62.79446,
@@ -2683,7 +2683,7 @@
   },
   {
     "id": "pyhajarvi",
-    "name": "Pyhäjärvi",
+    "name": "PyhÃ¤jÃ¤rvi",
     "slug": "pyhajarvi",
     "country": "Finland",
     "latitude": 63.68125,
@@ -2791,7 +2791,7 @@
   },
   {
     "id": "orleans",
-    "name": "Orléans",
+    "name": "OrlÃ©ans",
     "slug": "orleans",
     "country": "France",
     "latitude": 47.90248,
@@ -2836,7 +2836,7 @@
   },
   {
     "id": "saint-etienne",
-    "name": "Saint-Étienne",
+    "name": "Saint-Ã‰tienne",
     "slug": "saint-etienne",
     "country": "France",
     "latitude": 45.43389,
@@ -2872,7 +2872,7 @@
   },
   {
     "id": "nimes",
-    "name": "Nîmes",
+    "name": "NÃ®mes",
     "slug": "nimes",
     "country": "France",
     "latitude": 43.83665,
@@ -3097,7 +3097,7 @@
   },
   {
     "id": "dusseldorf",
-    "name": "Düsseldorf",
+    "name": "DÃ¼sseldorf",
     "slug": "dusseldorf",
     "country": "Germany",
     "latitude": 51.22172,
@@ -3187,7 +3187,7 @@
   },
   {
     "id": "saarbrucken",
-    "name": "Saarbrücken",
+    "name": "SaarbrÃ¼cken",
     "slug": "saarbrucken",
     "country": "Germany",
     "latitude": 49.23262,
@@ -3205,7 +3205,7 @@
   },
   {
     "id": "koln",
-    "name": "Köln",
+    "name": "KÃ¶ln",
     "slug": "koln",
     "country": "Germany",
     "latitude": 50.93333,
@@ -3223,7 +3223,7 @@
   },
   {
     "id": "munster",
-    "name": "Münster",
+    "name": "MÃ¼nster",
     "slug": "munster",
     "country": "Germany",
     "latitude": 51.96236,
@@ -3250,7 +3250,7 @@
   },
   {
     "id": "thessaloniki",
-    "name": "Thessaloníki",
+    "name": "ThessalonÃ­ki",
     "slug": "thessaloniki",
     "country": "Greece",
     "latitude": 40.64072,
@@ -3259,7 +3259,7 @@
   },
   {
     "id": "patra",
-    "name": "Pátra",
+    "name": "PÃ¡tra",
     "slug": "patra",
     "country": "Greece",
     "latitude": 38.2462,
@@ -3268,7 +3268,7 @@
   },
   {
     "id": "larisa",
-    "name": "Lárisa",
+    "name": "LÃ¡risa",
     "slug": "larisa",
     "country": "Greece",
     "latitude": 39.62847,
@@ -3277,7 +3277,7 @@
   },
   {
     "id": "irakleion",
-    "name": "Irákleion",
+    "name": "IrÃ¡kleion",
     "slug": "irakleion",
     "country": "Greece",
     "latitude": 35.32787,
@@ -3286,7 +3286,7 @@
   },
   {
     "id": "ioannina",
-    "name": "Ioánnina",
+    "name": "IoÃ¡nnina",
     "slug": "ioannina",
     "country": "Greece",
     "latitude": 39.66341,
@@ -3295,7 +3295,7 @@
   },
   {
     "id": "lamia",
-    "name": "Lamía",
+    "name": "LamÃ­a",
     "slug": "lamia",
     "country": "Greece",
     "latitude": 38.89947,
@@ -3304,7 +3304,7 @@
   },
   {
     "id": "komotini",
-    "name": "Komotiní",
+    "name": "KomotinÃ­",
     "slug": "komotini",
     "country": "Greece",
     "latitude": 41.11758,
@@ -3322,7 +3322,7 @@
   },
   {
     "id": "kozani",
-    "name": "Kozáni",
+    "name": "KozÃ¡ni",
     "slug": "kozani",
     "country": "Greece",
     "latitude": 40.29931,
@@ -3340,7 +3340,7 @@
   },
   {
     "id": "tripoli",
-    "name": "Trípoli",
+    "name": "TrÃ­poli",
     "slug": "tripoli",
     "country": "Greece",
     "latitude": 37.50959,
@@ -3349,7 +3349,7 @@
   },
   {
     "id": "ermoupolis",
-    "name": "Ermoúpolis",
+    "name": "ErmoÃºpolis",
     "slug": "ermoupolis",
     "country": "Greece",
     "latitude": 37.44466,
@@ -3376,7 +3376,7 @@
   },
   {
     "id": "zografos",
-    "name": "Zográfos",
+    "name": "ZogrÃ¡fos",
     "slug": "zografos",
     "country": "Greece",
     "latitude": 37.97574,
@@ -3385,7 +3385,7 @@
   },
   {
     "id": "trikala",
-    "name": "Tríkala",
+    "name": "TrÃ­kala",
     "slug": "trikala",
     "country": "Greece",
     "latitude": 39.55493,
@@ -3394,7 +3394,7 @@
   },
   {
     "id": "chalkida",
-    "name": "Chalkída",
+    "name": "ChalkÃ­da",
     "slug": "chalkida",
     "country": "Greece",
     "latitude": 38.46354,
@@ -3403,7 +3403,7 @@
   },
   {
     "id": "serres",
-    "name": "Sérres",
+    "name": "SÃ©rres",
     "slug": "serres",
     "country": "Greece",
     "latitude": 41.08499,
@@ -3412,7 +3412,7 @@
   },
   {
     "id": "rodos",
-    "name": "Ródos",
+    "name": "RÃ³dos",
     "slug": "rodos",
     "country": "Greece",
     "latitude": 36.43556,
@@ -3457,7 +3457,7 @@
   },
   {
     "id": "pecs",
-    "name": "Pécs",
+    "name": "PÃ©cs",
     "slug": "pecs",
     "country": "Hungary",
     "latitude": 46.07617,
@@ -3466,7 +3466,7 @@
   },
   {
     "id": "gyor",
-    "name": "Győr",
+    "name": "GyÅ‘r",
     "slug": "gyor",
     "country": "Hungary",
     "latitude": 47.68333,
@@ -3475,7 +3475,7 @@
   },
   {
     "id": "nyiregyhaza",
-    "name": "Nyíregyháza",
+    "name": "NyÃ­regyhÃ¡za",
     "slug": "nyiregyhaza",
     "country": "Hungary",
     "latitude": 47.95539,
@@ -3484,7 +3484,7 @@
   },
   {
     "id": "kecskemet",
-    "name": "Kecskemét",
+    "name": "KecskemÃ©t",
     "slug": "kecskemet",
     "country": "Hungary",
     "latitude": 46.90618,
@@ -3493,7 +3493,7 @@
   },
   {
     "id": "szekesfehervar",
-    "name": "Székesfehérvár",
+    "name": "SzÃ©kesfehÃ©rvÃ¡r",
     "slug": "szekesfehervar",
     "country": "Hungary",
     "latitude": 47.18995,
@@ -3520,7 +3520,7 @@
   },
   {
     "id": "tatabanya",
-    "name": "Tatabánya",
+    "name": "TatabÃ¡nya",
     "slug": "tatabanya",
     "country": "Hungary",
     "latitude": 47.59247,
@@ -3529,7 +3529,7 @@
   },
   {
     "id": "kaposvar",
-    "name": "Kaposvár",
+    "name": "KaposvÃ¡r",
     "slug": "kaposvar",
     "country": "Hungary",
     "latitude": 46.36667,
@@ -3547,7 +3547,7 @@
   },
   {
     "id": "bekescsaba",
-    "name": "Békéscsaba",
+    "name": "BÃ©kÃ©scsaba",
     "slug": "bekescsaba",
     "country": "Hungary",
     "latitude": 46.68333,
@@ -3556,7 +3556,7 @@
   },
   {
     "id": "veszprem",
-    "name": "Veszprém",
+    "name": "VeszprÃ©m",
     "slug": "veszprem",
     "country": "Hungary",
     "latitude": 47.09327,
@@ -3574,7 +3574,7 @@
   },
   {
     "id": "salgotarjan",
-    "name": "Salgótarján",
+    "name": "SalgÃ³tarjÃ¡n",
     "slug": "salgotarjan",
     "country": "Hungary",
     "latitude": 48.09872,
@@ -3583,7 +3583,7 @@
   },
   {
     "id": "szekszard",
-    "name": "Szekszárd",
+    "name": "SzekszÃ¡rd",
     "slug": "szekszard",
     "country": "Hungary",
     "latitude": 46.34723,
@@ -3592,7 +3592,7 @@
   },
   {
     "id": "erd",
-    "name": "Érd",
+    "name": "Ã‰rd",
     "slug": "erd",
     "country": "Hungary",
     "latitude": 47.39489,
@@ -3601,7 +3601,7 @@
   },
   {
     "id": "reykjavik",
-    "name": "Reykjavík",
+    "name": "ReykjavÃ­k",
     "slug": "reykjavik",
     "country": "Iceland",
     "latitude": 64.13548,
@@ -3619,7 +3619,7 @@
   },
   {
     "id": "keflavik",
-    "name": "Keflavík",
+    "name": "KeflavÃ­k",
     "slug": "keflavik",
     "country": "Iceland",
     "latitude": 64.00492,
@@ -3637,7 +3637,7 @@
   },
   {
     "id": "isafjor-ur",
-    "name": "Ísafjörður",
+    "name": "ÃsafjÃ¶rÃ°ur",
     "slug": "isafjor-ur",
     "country": "Iceland",
     "latitude": 66.07475,
@@ -3646,7 +3646,7 @@
   },
   {
     "id": "sau-arkrokur",
-    "name": "Sauðárkrókur",
+    "name": "SauÃ°Ã¡rkrÃ³kur",
     "slug": "sau-arkrokur",
     "country": "Iceland",
     "latitude": 65.74611,
@@ -3655,7 +3655,7 @@
   },
   {
     "id": "egilssta-ir",
-    "name": "Egilsstaðir",
+    "name": "EgilsstaÃ°ir",
     "slug": "egilssta-ir",
     "country": "Iceland",
     "latitude": 65.26687,
@@ -3682,7 +3682,7 @@
   },
   {
     "id": "kopavogur",
-    "name": "Kópavogur",
+    "name": "KÃ³pavogur",
     "slug": "kopavogur",
     "country": "Iceland",
     "latitude": 64.11234,
@@ -3691,7 +3691,7 @@
   },
   {
     "id": "hafnarfjor-ur",
-    "name": "Hafnarfjörður",
+    "name": "HafnarfjÃ¶rÃ°ur",
     "slug": "hafnarfjor-ur",
     "country": "Iceland",
     "latitude": 64.0671,
@@ -3700,7 +3700,7 @@
   },
   {
     "id": "reykjanesb-r",
-    "name": "Reykjanesbær",
+    "name": "ReykjanesbÃ¦r",
     "slug": "reykjanesb-r",
     "country": "Iceland",
     "latitude": 63.99813,
@@ -3709,7 +3709,7 @@
   },
   {
     "id": "mosfellsb-r",
-    "name": "Mosfellsbær",
+    "name": "MosfellsbÃ¦r",
     "slug": "mosfellsb-r",
     "country": "Iceland",
     "latitude": 64.16667,
@@ -3718,7 +3718,7 @@
   },
   {
     "id": "gar-ab-r",
-    "name": "Garðabær",
+    "name": "GarÃ°abÃ¦r",
     "slug": "gar-ab-r",
     "country": "Iceland",
     "latitude": 64.08865,
@@ -3745,7 +3745,7 @@
   },
   {
     "id": "grindavik",
-    "name": "Grindavík",
+    "name": "GrindavÃ­k",
     "slug": "grindavik",
     "country": "Iceland",
     "latitude": 63.83849,
@@ -3754,7 +3754,7 @@
   },
   {
     "id": "alftanes",
-    "name": "Álftanes",
+    "name": "Ãlftanes",
     "slug": "alftanes",
     "country": "Iceland",
     "latitude": 64.1,
@@ -3763,7 +3763,7 @@
   },
   {
     "id": "hverager-i",
-    "name": "Hveragerði",
+    "name": "HveragerÃ°i",
     "slug": "hverager-i",
     "country": "Iceland",
     "latitude": 64.00039,
@@ -3772,7 +3772,7 @@
   },
   {
     "id": "nor-ur-ing",
-    "name": "Norðurþing",
+    "name": "NorÃ°urÃ¾ing",
     "slug": "nor-ur-ing",
     "country": "Iceland",
     "latitude": 66.04148,
@@ -4159,7 +4159,7 @@
   },
   {
     "id": "mitrovice",
-    "name": "Mitrovicë",
+    "name": "MitrovicÃ«",
     "slug": "mitrovice",
     "country": "Kosovo",
     "latitude": 42.88333,
@@ -4168,7 +4168,7 @@
   },
   {
     "id": "gjakove",
-    "name": "Gjakovë",
+    "name": "GjakovÃ«",
     "slug": "gjakove",
     "country": "Kosovo",
     "latitude": 42.38028,
@@ -4195,7 +4195,7 @@
   },
   {
     "id": "peje",
-    "name": "Pejë",
+    "name": "PejÃ«",
     "slug": "peje",
     "country": "Kosovo",
     "latitude": 42.65913,
@@ -4222,7 +4222,7 @@
   },
   {
     "id": "decan",
-    "name": "Deçan",
+    "name": "DeÃ§an",
     "slug": "decan",
     "country": "Kosovo",
     "latitude": 42.54018,
@@ -4303,7 +4303,7 @@
   },
   {
     "id": "zvecan",
-    "name": "Zvečan",
+    "name": "ZveÄan",
     "slug": "zvecan",
     "country": "Kosovo",
     "latitude": 42.9075,
@@ -4339,7 +4339,7 @@
   },
   {
     "id": "liepaja",
-    "name": "Liepāja",
+    "name": "LiepÄja",
     "slug": "liepaja",
     "country": "Latvia",
     "latitude": 56.50474,
@@ -4357,7 +4357,7 @@
   },
   {
     "id": "jurmala",
-    "name": "Jūrmala",
+    "name": "JÅ«rmala",
     "slug": "jurmala",
     "country": "Latvia",
     "latitude": 56.968,
@@ -4375,7 +4375,7 @@
   },
   {
     "id": "rezekne",
-    "name": "Rēzekne",
+    "name": "RÄ“zekne",
     "slug": "rezekne",
     "country": "Latvia",
     "latitude": 56.51028,
@@ -4402,7 +4402,7 @@
   },
   {
     "id": "jekabpils",
-    "name": "Jēkabpils",
+    "name": "JÄ“kabpils",
     "slug": "jekabpils",
     "country": "Latvia",
     "latitude": 56.49903,
@@ -4411,7 +4411,7 @@
   },
   {
     "id": "marupe",
-    "name": "Mārupe",
+    "name": "MÄrupe",
     "slug": "marupe",
     "country": "Latvia",
     "latitude": 56.90544,
@@ -4438,7 +4438,7 @@
   },
   {
     "id": "cesis",
-    "name": "Cēsis",
+    "name": "CÄ“sis",
     "slug": "cesis",
     "country": "Latvia",
     "latitude": 57.31188,
@@ -4456,7 +4456,7 @@
   },
   {
     "id": "kuldiga",
-    "name": "Kuldīga",
+    "name": "KuldÄ«ga",
     "slug": "kuldiga",
     "country": "Latvia",
     "latitude": 56.97399,
@@ -4483,7 +4483,7 @@
   },
   {
     "id": "preili",
-    "name": "Preiļi",
+    "name": "PreiÄ¼i",
     "slug": "preili",
     "country": "Latvia",
     "latitude": 56.29444,
@@ -4519,7 +4519,7 @@
   },
   {
     "id": "klaipeda",
-    "name": "Klaipėda",
+    "name": "KlaipÄ—da",
     "slug": "klaipeda",
     "country": "Lithuania",
     "latitude": 55.7068,
@@ -4528,7 +4528,7 @@
   },
   {
     "id": "siauliai",
-    "name": "Šiauliai",
+    "name": "Å iauliai",
     "slug": "siauliai",
     "country": "Lithuania",
     "latitude": 55.93333,
@@ -4537,7 +4537,7 @@
   },
   {
     "id": "panevezys",
-    "name": "Panevėžys",
+    "name": "PanevÄ—Å¾ys",
     "slug": "panevezys",
     "country": "Lithuania",
     "latitude": 55.73186,
@@ -4555,7 +4555,7 @@
   },
   {
     "id": "marijampole",
-    "name": "Marijampolė",
+    "name": "MarijampolÄ—",
     "slug": "marijampole",
     "country": "Lithuania",
     "latitude": 54.55787,
@@ -4600,7 +4600,7 @@
   },
   {
     "id": "kedainiai",
-    "name": "Kėdainiai",
+    "name": "KÄ—dainiai",
     "slug": "kedainiai",
     "country": "Lithuania",
     "latitude": 55.28782,
@@ -4636,7 +4636,7 @@
   },
   {
     "id": "rokiskis",
-    "name": "Rokiškis",
+    "name": "RokiÅ¡kis",
     "slug": "rokiskis",
     "country": "Lithuania",
     "latitude": 55.95867,
@@ -4645,7 +4645,7 @@
   },
   {
     "id": "joniskis",
-    "name": "Joniškis",
+    "name": "JoniÅ¡kis",
     "slug": "joniskis",
     "country": "Lithuania",
     "latitude": 56.23939,
@@ -4663,7 +4663,7 @@
   },
   {
     "id": "kaisiadorys",
-    "name": "Kaišiadorys",
+    "name": "KaiÅ¡iadorys",
     "slug": "kaisiadorys",
     "country": "Lithuania",
     "latitude": 54.86528,
@@ -4825,7 +4825,7 @@
   },
   {
     "id": "petange",
-    "name": "Pétange",
+    "name": "PÃ©tange",
     "slug": "petange",
     "country": "Luxembourg",
     "latitude": 49.55833,
@@ -4870,7 +4870,7 @@
   },
   {
     "id": "san-pawl-il-ba-ar",
-    "name": "San Pawl il-Baħar",
+    "name": "San Pawl il-BaÄ§ar",
     "slug": "san-pawl-il-ba-ar",
     "country": "Malta",
     "latitude": 35.95064,
@@ -4915,7 +4915,7 @@
   },
   {
     "id": "zabbar",
-    "name": "Żabbar",
+    "name": "Å»abbar",
     "slug": "zabbar",
     "country": "Malta",
     "latitude": 35.87687,
@@ -4933,7 +4933,7 @@
   },
   {
     "id": "san-gwann",
-    "name": "San Ġwann",
+    "name": "San Ä wann",
     "slug": "san-gwann",
     "country": "Malta",
     "latitude": 35.90556,
@@ -4951,7 +4951,7 @@
   },
   {
     "id": "san-giljan",
-    "name": "San Ġiljan",
+    "name": "San Ä iljan",
     "slug": "san-giljan",
     "country": "Malta",
     "latitude": 35.91839,
@@ -4969,7 +4969,7 @@
   },
   {
     "id": "birzebbuga",
-    "name": "Birżebbuġa",
+    "name": "BirÅ¼ebbuÄ¡a",
     "slug": "birzebbuga",
     "country": "Malta",
     "latitude": 35.82546,
@@ -4978,7 +4978,7 @@
   },
   {
     "id": "gzira",
-    "name": "Gżira",
+    "name": "GÅ¼ira",
     "slug": "gzira",
     "country": "Malta",
     "latitude": 35.90583,
@@ -4987,7 +4987,7 @@
   },
   {
     "id": "zejtun",
-    "name": "Żejtun",
+    "name": "Å»ejtun",
     "slug": "zejtun",
     "country": "Malta",
     "latitude": 35.85547,
@@ -4996,7 +4996,7 @@
   },
   {
     "id": "mellie-a",
-    "name": "Mellieħa",
+    "name": "MellieÄ§a",
     "slug": "mellie-a",
     "country": "Malta",
     "latitude": 35.95663,
@@ -5023,7 +5023,7 @@
   },
   {
     "id": "zurrieq",
-    "name": "Żurrieq",
+    "name": "Å»urrieq",
     "slug": "zurrieq",
     "country": "Malta",
     "latitude": 35.8296,
@@ -5059,7 +5059,7 @@
   },
   {
     "id": "balti",
-    "name": "Bălţi",
+    "name": "BÄƒlÅ£i",
     "slug": "balti",
     "country": "Moldova",
     "latitude": 47.76291,
@@ -5122,7 +5122,7 @@
   },
   {
     "id": "edinet",
-    "name": "Edineţ",
+    "name": "EdineÅ£",
     "slug": "edinet",
     "country": "Moldova",
     "latitude": 48.17319,
@@ -5131,7 +5131,7 @@
   },
   {
     "id": "causeni",
-    "name": "Căuşeni",
+    "name": "CÄƒuÅŸeni",
     "slug": "causeni",
     "country": "Moldova",
     "latitude": 46.63738,
@@ -5140,7 +5140,7 @@
   },
   {
     "id": "straseni",
-    "name": "Strășeni",
+    "name": "StrÄƒÈ™eni",
     "slug": "straseni",
     "country": "Moldova",
     "latitude": 47.14216,
@@ -5149,7 +5149,7 @@
   },
   {
     "id": "hincesti",
-    "name": "Hînceşti",
+    "name": "HÃ®nceÅŸti",
     "slug": "hincesti",
     "country": "Moldova",
     "latitude": 46.83089,
@@ -5158,7 +5158,7 @@
   },
   {
     "id": "floresti",
-    "name": "Floreşti",
+    "name": "FloreÅŸti",
     "slug": "floresti",
     "country": "Moldova",
     "latitude": 47.89168,
@@ -5185,7 +5185,7 @@
   },
   {
     "id": "singerei",
-    "name": "Sîngerei",
+    "name": "SÃ®ngerei",
     "slug": "singerei",
     "country": "Moldova",
     "latitude": 47.63694,
@@ -5194,7 +5194,7 @@
   },
   {
     "id": "falesti",
-    "name": "Fălești",
+    "name": "FÄƒleÈ™ti",
     "slug": "falesti",
     "country": "Moldova",
     "latitude": 47.57667,
@@ -5212,7 +5212,7 @@
   },
   {
     "id": "calarasi",
-    "name": "Călăraşi",
+    "name": "CÄƒlÄƒraÅŸi",
     "slug": "calarasi",
     "country": "Moldova",
     "latitude": 47.25548,
@@ -5230,7 +5230,7 @@
   },
   {
     "id": "niksic",
-    "name": "Nikšić",
+    "name": "NikÅ¡iÄ‡",
     "slug": "niksic",
     "country": "Montenegro",
     "latitude": 42.7731,
@@ -5311,7 +5311,7 @@
   },
   {
     "id": "rozaje",
-    "name": "Rožaje",
+    "name": "RoÅ¾aje",
     "slug": "rozaje",
     "country": "Montenegro",
     "latitude": 42.83299,
@@ -5383,7 +5383,7 @@
   },
   {
     "id": "kolasin",
-    "name": "Kolašin",
+    "name": "KolaÅ¡in",
     "slug": "kolasin",
     "country": "Montenegro",
     "latitude": 42.82229,
@@ -5392,7 +5392,7 @@
   },
   {
     "id": "zabljak",
-    "name": "Žabljak",
+    "name": "Å½abljak",
     "slug": "zabljak",
     "country": "Montenegro",
     "latitude": 43.15423,
@@ -5473,7 +5473,7 @@
   },
   {
     "id": "centar-zupa",
-    "name": "Centar Župa",
+    "name": "Centar Å½upa",
     "slug": "centar-zupa",
     "country": "North Macedonia",
     "latitude": 41.47849,
@@ -5527,7 +5527,7 @@
   },
   {
     "id": "kicevo",
-    "name": "Kičevo",
+    "name": "KiÄevo",
     "slug": "kicevo",
     "country": "North Macedonia",
     "latitude": 41.51274,
@@ -5635,7 +5635,7 @@
   },
   {
     "id": "t-nsberg",
-    "name": "Tønsberg",
+    "name": "TÃ¸nsberg",
     "slug": "t-nsberg",
     "country": "Norway",
     "latitude": 59.26754,
@@ -5653,7 +5653,7 @@
   },
   {
     "id": "troms",
-    "name": "Tromsø",
+    "name": "TromsÃ¸",
     "slug": "troms",
     "country": "Norway",
     "latitude": 69.6489,
@@ -5662,7 +5662,7 @@
   },
   {
     "id": "bod",
-    "name": "Bodø",
+    "name": "BodÃ¸",
     "slug": "bod",
     "country": "Norway",
     "latitude": 67.28267,
@@ -5716,7 +5716,7 @@
   },
   {
     "id": "vads",
-    "name": "Vadsø",
+    "name": "VadsÃ¸",
     "slug": "vads",
     "country": "Norway",
     "latitude": 70.07348,
@@ -5734,7 +5734,7 @@
   },
   {
     "id": "lillestr-m",
-    "name": "Lillestrøm",
+    "name": "LillestrÃ¸m",
     "slug": "lillestr-m",
     "country": "Norway",
     "latitude": 59.95597,
@@ -5770,7 +5770,7 @@
   },
   {
     "id": "krakow",
-    "name": "Kraków",
+    "name": "KrakÃ³w",
     "slug": "krakow",
     "country": "Poland",
     "latitude": 50.06143,
@@ -5779,8 +5779,8 @@
   },
   {
     "id": "wroc-aw",
-    "name": "Wrocław",
-    "slug": "wroc-aw",
+    "name": "WrocÅ‚aw",
+    "slug": "wroclaw",
     "country": "Poland",
     "latitude": 51.10286,
     "longitude": 17.03006,
@@ -5788,8 +5788,8 @@
   },
   {
     "id": "odz",
-    "name": "Łódź",
-    "slug": "odz",
+    "name": "ÅÃ³dÅº",
+    "slug": "lodz",
     "country": "Poland",
     "latitude": 51.77058,
     "longitude": 19.47395,
@@ -5797,7 +5797,7 @@
   },
   {
     "id": "poznan",
-    "name": "Poznań",
+    "name": "PoznaÅ„",
     "slug": "poznan",
     "country": "Poland",
     "latitude": 52.40692,
@@ -5806,7 +5806,7 @@
   },
   {
     "id": "gdansk",
-    "name": "Gdańsk",
+    "name": "GdaÅ„sk",
     "slug": "gdansk",
     "country": "Poland",
     "latitude": 54.35227,
@@ -5842,8 +5842,8 @@
   },
   {
     "id": "bia-ystok",
-    "name": "Białystok",
-    "slug": "bia-ystok",
+    "name": "BiaÅ‚ystok",
+    "slug": "bialystok",
     "country": "Poland",
     "latitude": 53.13333,
     "longitude": 23.16433,
@@ -5860,7 +5860,7 @@
   },
   {
     "id": "rzeszow",
-    "name": "Rzeszów",
+    "name": "RzeszÃ³w",
     "slug": "rzeszow",
     "country": "Poland",
     "latitude": 50.04132,
@@ -5896,7 +5896,7 @@
   },
   {
     "id": "zielona-gora",
-    "name": "Zielona Góra",
+    "name": "Zielona GÃ³ra",
     "slug": "zielona-gora",
     "country": "Poland",
     "latitude": 51.93548,
@@ -5905,7 +5905,7 @@
   },
   {
     "id": "gorzow-wielkopolski",
-    "name": "Gorzów Wielkopolski",
+    "name": "GorzÃ³w Wielkopolski",
     "slug": "gorzow-wielkopolski",
     "country": "Poland",
     "latitude": 52.73371,
@@ -5986,7 +5986,7 @@
   },
   {
     "id": "setubal",
-    "name": "Setúbal",
+    "name": "SetÃºbal",
     "slug": "setubal",
     "country": "Portugal",
     "latitude": 38.5244,
@@ -6031,7 +6031,7 @@
   },
   {
     "id": "evora",
-    "name": "Évora",
+    "name": "Ã‰vora",
     "slug": "evora",
     "country": "Portugal",
     "latitude": 38.56587,
@@ -6058,7 +6058,7 @@
   },
   {
     "id": "braganca",
-    "name": "Bragança",
+    "name": "BraganÃ§a",
     "slug": "braganca",
     "country": "Portugal",
     "latitude": 41.80716,
@@ -6085,7 +6085,7 @@
   },
   {
     "id": "santarem",
-    "name": "Santarém",
+    "name": "SantarÃ©m",
     "slug": "santarem",
     "country": "Portugal",
     "latitude": 39.23379,
@@ -6130,7 +6130,7 @@
   },
   {
     "id": "iasi",
-    "name": "Iaşi",
+    "name": "IaÅŸi",
     "slug": "iasi",
     "country": "Romania",
     "latitude": 47.16667,
@@ -6139,7 +6139,7 @@
   },
   {
     "id": "constanta",
-    "name": "Constanţa",
+    "name": "ConstanÅ£a",
     "slug": "constanta",
     "country": "Romania",
     "latitude": 44.18073,
@@ -6157,7 +6157,7 @@
   },
   {
     "id": "brasov",
-    "name": "Braşov",
+    "name": "BraÅŸov",
     "slug": "brasov",
     "country": "Romania",
     "latitude": 45.64861,
@@ -6166,7 +6166,7 @@
   },
   {
     "id": "timisoara",
-    "name": "Timişoara",
+    "name": "TimiÅŸoara",
     "slug": "timisoara",
     "country": "Romania",
     "latitude": 45.75372,
@@ -6184,7 +6184,7 @@
   },
   {
     "id": "galati",
-    "name": "Galaţi",
+    "name": "GalaÅ£i",
     "slug": "galati",
     "country": "Romania",
     "latitude": 45.43687,
@@ -6193,7 +6193,7 @@
   },
   {
     "id": "targu-mures",
-    "name": "Târgu Mureş",
+    "name": "TÃ¢rgu MureÅŸ",
     "slug": "targu-mures",
     "country": "Romania",
     "latitude": 46.54245,
@@ -6211,7 +6211,7 @@
   },
   {
     "id": "ploiesti",
-    "name": "Ploieşti",
+    "name": "PloieÅŸti",
     "slug": "ploiesti",
     "country": "Romania",
     "latitude": 44.95,
@@ -6229,7 +6229,7 @@
   },
   {
     "id": "braila",
-    "name": "Brăila",
+    "name": "BrÄƒila",
     "slug": "braila",
     "country": "Romania",
     "latitude": 45.27152,
@@ -6238,7 +6238,7 @@
   },
   {
     "id": "pitesti",
-    "name": "Piteşti",
+    "name": "PiteÅŸti",
     "slug": "pitesti",
     "country": "Romania",
     "latitude": 44.85,
@@ -6247,7 +6247,7 @@
   },
   {
     "id": "bacau",
-    "name": "Bacău",
+    "name": "BacÄƒu",
     "slug": "bacau",
     "country": "Romania",
     "latitude": 46.56718,
@@ -6283,7 +6283,7 @@
   },
   {
     "id": "buzau",
-    "name": "Buzău",
+    "name": "BuzÄƒu",
     "slug": "buzau",
     "country": "Romania",
     "latitude": 45.15,
@@ -6292,7 +6292,7 @@
   },
   {
     "id": "piatra-neamt",
-    "name": "Piatra Neamţ",
+    "name": "Piatra NeamÅ£",
     "slug": "piatra-neamt",
     "country": "Romania",
     "latitude": 46.91667,
@@ -6499,7 +6499,7 @@
   },
   {
     "id": "nis",
-    "name": "Niš",
+    "name": "NiÅ¡",
     "slug": "nis",
     "country": "Serbia",
     "latitude": 43.32472,
@@ -6517,7 +6517,7 @@
   },
   {
     "id": "cacak",
-    "name": "Čačak",
+    "name": "ÄŒaÄak",
     "slug": "cacak",
     "country": "Serbia",
     "latitude": 43.89139,
@@ -6562,7 +6562,7 @@
   },
   {
     "id": "pancevo",
-    "name": "Pančevo",
+    "name": "PanÄevo",
     "slug": "pancevo",
     "country": "Serbia",
     "latitude": 44.87177,
@@ -6571,7 +6571,7 @@
   },
   {
     "id": "krusevac",
-    "name": "Kruševac",
+    "name": "KruÅ¡evac",
     "slug": "krusevac",
     "country": "Serbia",
     "latitude": 43.58,
@@ -6580,7 +6580,7 @@
   },
   {
     "id": "uzice",
-    "name": "Užice",
+    "name": "UÅ¾ice",
     "slug": "uzice",
     "country": "Serbia",
     "latitude": 43.85861,
@@ -6616,7 +6616,7 @@
   },
   {
     "id": "sabac",
-    "name": "Šabac",
+    "name": "Å abac",
     "slug": "sabac",
     "country": "Serbia",
     "latitude": 44.74667,
@@ -6625,7 +6625,7 @@
   },
   {
     "id": "zajecar",
-    "name": "Zaječar",
+    "name": "ZajeÄar",
     "slug": "zajecar",
     "country": "Serbia",
     "latitude": 43.90358,
@@ -6652,7 +6652,7 @@
   },
   {
     "id": "pozarevac",
-    "name": "Požarevac",
+    "name": "PoÅ¾arevac",
     "slug": "pozarevac",
     "country": "Serbia",
     "latitude": 44.62133,
@@ -6670,7 +6670,7 @@
   },
   {
     "id": "kosice",
-    "name": "Košice",
+    "name": "KoÅ¡ice",
     "slug": "kosice",
     "country": "Slovakia",
     "latitude": 48.71441,
@@ -6688,7 +6688,7 @@
   },
   {
     "id": "presov",
-    "name": "Prešov",
+    "name": "PreÅ¡ov",
     "slug": "presov",
     "country": "Slovakia",
     "latitude": 48.99923,
@@ -6697,7 +6697,7 @@
   },
   {
     "id": "zilina",
-    "name": "Žilina",
+    "name": "Å½ilina",
     "slug": "zilina",
     "country": "Slovakia",
     "latitude": 49.22315,
@@ -6706,7 +6706,7 @@
   },
   {
     "id": "banska-bystrica",
-    "name": "Banská Bystrica",
+    "name": "BanskÃ¡ Bystrica",
     "slug": "banska-bystrica",
     "country": "Slovakia",
     "latitude": 48.73947,
@@ -6724,7 +6724,7 @@
   },
   {
     "id": "trencin",
-    "name": "Trenčín",
+    "name": "TrenÄÃ­n",
     "slug": "trencin",
     "country": "Slovakia",
     "latitude": 48.89452,
@@ -6760,7 +6760,7 @@
   },
   {
     "id": "povazska-bystrica",
-    "name": "Považská Bystrica",
+    "name": "PovaÅ¾skÃ¡ Bystrica",
     "slug": "povazska-bystrica",
     "country": "Slovakia",
     "latitude": 49.12153,
@@ -6778,7 +6778,7 @@
   },
   {
     "id": "spisska-nova-ves",
-    "name": "Spišská Nová Ves",
+    "name": "SpiÅ¡skÃ¡ NovÃ¡ Ves",
     "slug": "spisska-nova-ves",
     "country": "Slovakia",
     "latitude": 48.94464,
@@ -6787,7 +6787,7 @@
   },
   {
     "id": "komarno",
-    "name": "Komárno",
+    "name": "KomÃ¡rno",
     "slug": "komarno",
     "country": "Slovakia",
     "latitude": 48.11667,
@@ -6805,7 +6805,7 @@
   },
   {
     "id": "humenne",
-    "name": "Humenné",
+    "name": "HumennÃ©",
     "slug": "humenne",
     "country": "Slovakia",
     "latitude": 48.93707,
@@ -6823,7 +6823,7 @@
   },
   {
     "id": "piestany",
-    "name": "Piešťany",
+    "name": "PieÅ¡Å¥any",
     "slug": "piestany",
     "country": "Slovakia",
     "latitude": 48.59479,
@@ -6832,7 +6832,7 @@
   },
   {
     "id": "ruzomberok",
-    "name": "Ružomberok",
+    "name": "RuÅ¾omberok",
     "slug": "ruzomberok",
     "country": "Slovakia",
     "latitude": 49.0748,
@@ -6940,7 +6940,7 @@
   },
   {
     "id": "domzale",
-    "name": "Domžale",
+    "name": "DomÅ¾ale",
     "slug": "domzale",
     "country": "Slovenia",
     "latitude": 46.13774,
@@ -6958,7 +6958,7 @@
   },
   {
     "id": "skofja-loka",
-    "name": "Škofja Loka",
+    "name": "Å kofja Loka",
     "slug": "skofja-loka",
     "country": "Slovenia",
     "latitude": 46.16551,
@@ -7003,7 +7003,7 @@
   },
   {
     "id": "sentilj-v-slov-goricah",
-    "name": "Šentilj v Slov. Goricah",
+    "name": "Å entilj v Slov. Goricah",
     "slug": "sentilj-v-slov-goricah",
     "country": "Slovenia",
     "latitude": 46.68167,
@@ -7147,7 +7147,7 @@
   },
   {
     "id": "logrono",
-    "name": "Logroño",
+    "name": "LogroÃ±o",
     "slug": "logrono",
     "country": "Spain",
     "latitude": 42.46615,
@@ -7192,7 +7192,7 @@
   },
   {
     "id": "merida",
-    "name": "Mérida",
+    "name": "MÃ©rida",
     "slug": "merida",
     "country": "Spain",
     "latitude": 38.91802,
@@ -7210,7 +7210,7 @@
   },
   {
     "id": "goteborg",
-    "name": "Göteborg",
+    "name": "GÃ¶teborg",
     "slug": "goteborg",
     "country": "Sweden",
     "latitude": 57.70716,
@@ -7219,7 +7219,7 @@
   },
   {
     "id": "malmo",
-    "name": "Malmö",
+    "name": "MalmÃ¶",
     "slug": "malmo",
     "country": "Sweden",
     "latitude": 55.60587,
@@ -7237,7 +7237,7 @@
   },
   {
     "id": "linkoping",
-    "name": "Linköping",
+    "name": "LinkÃ¶ping",
     "slug": "linkoping",
     "country": "Sweden",
     "latitude": 58.41086,
@@ -7246,7 +7246,7 @@
   },
   {
     "id": "orebro",
-    "name": "Örebro",
+    "name": "Ã–rebro",
     "slug": "orebro",
     "country": "Sweden",
     "latitude": 59.27412,
@@ -7255,7 +7255,7 @@
   },
   {
     "id": "umea",
-    "name": "Umeå",
+    "name": "UmeÃ¥",
     "slug": "umea",
     "country": "Sweden",
     "latitude": 63.82842,
@@ -7264,7 +7264,7 @@
   },
   {
     "id": "vasteras",
-    "name": "Västerås",
+    "name": "VÃ¤sterÃ¥s",
     "slug": "vasteras",
     "country": "Sweden",
     "latitude": 59.61617,
@@ -7273,7 +7273,7 @@
   },
   {
     "id": "jonkoping",
-    "name": "Jönköping",
+    "name": "JÃ¶nkÃ¶ping",
     "slug": "jonkoping",
     "country": "Sweden",
     "latitude": 57.78145,
@@ -7282,7 +7282,7 @@
   },
   {
     "id": "lulea",
-    "name": "Luleå",
+    "name": "LuleÃ¥",
     "slug": "lulea",
     "country": "Sweden",
     "latitude": 65.58415,
@@ -7291,7 +7291,7 @@
   },
   {
     "id": "gavle",
-    "name": "Gävle",
+    "name": "GÃ¤vle",
     "slug": "gavle",
     "country": "Sweden",
     "latitude": 60.67452,
@@ -7300,7 +7300,7 @@
   },
   {
     "id": "vaxjo",
-    "name": "Växjö",
+    "name": "VÃ¤xjÃ¶",
     "slug": "vaxjo",
     "country": "Sweden",
     "latitude": 56.87767,
@@ -7336,7 +7336,7 @@
   },
   {
     "id": "ostersund",
-    "name": "Östersund",
+    "name": "Ã–stersund",
     "slug": "ostersund",
     "country": "Sweden",
     "latitude": 63.1792,
@@ -7345,7 +7345,7 @@
   },
   {
     "id": "nykoping",
-    "name": "Nyköping",
+    "name": "NykÃ¶ping",
     "slug": "nykoping",
     "country": "Sweden",
     "latitude": 58.753,
@@ -7372,7 +7372,7 @@
   },
   {
     "id": "harnosand",
-    "name": "Härnösand",
+    "name": "HÃ¤rnÃ¶sand",
     "slug": "harnosand",
     "country": "Sweden",
     "latitude": 62.63228,
@@ -7390,7 +7390,7 @@
   },
   {
     "id": "zurich",
-    "name": "Zürich",
+    "name": "ZÃ¼rich",
     "slug": "zurich",
     "country": "Switzerland",
     "latitude": 47.36667,
@@ -7399,7 +7399,7 @@
   },
   {
     "id": "geneve",
-    "name": "Genève",
+    "name": "GenÃ¨ve",
     "slug": "geneve",
     "country": "Switzerland",
     "latitude": 46.20222,
@@ -7489,7 +7489,7 @@
   },
   {
     "id": "neuchatel",
-    "name": "Neuchâtel",
+    "name": "NeuchÃ¢tel",
     "slug": "neuchatel",
     "country": "Switzerland",
     "latitude": 46.99179,
@@ -7768,7 +7768,7 @@
   },
   {
     "id": "izmir",
-    "name": "İzmir",
+    "name": "Ä°zmir",
     "slug": "izmir",
     "country": "Turkey",
     "latitude": 38.41273,
@@ -7786,7 +7786,7 @@
   },
   {
     "id": "diyarbak-r",
-    "name": "Diyarbakır",
+    "name": "DiyarbakÄ±r",
     "slug": "diyarbak-r",
     "country": "Turkey",
     "latitude": 37.91363,
@@ -7831,7 +7831,7 @@
   },
   {
     "id": "eskisehir",
-    "name": "Eskişehir",
+    "name": "EskiÅŸehir",
     "slug": "eskisehir",
     "country": "Turkey",
     "latitude": 39.77667,
@@ -7885,7 +7885,7 @@
   },
   {
     "id": "sanl-urfa",
-    "name": "Şanlıurfa",
+    "name": "ÅžanlÄ±urfa",
     "slug": "sanl-urfa",
     "country": "Turkey",
     "latitude": 37.16708,
@@ -7894,7 +7894,7 @@
   },
   {
     "id": "elaz-g",
-    "name": "Elazığ",
+    "name": "ElazÄ±ÄŸ",
     "slug": "elaz-g",
     "country": "Turkey",
     "latitude": 38.67431,

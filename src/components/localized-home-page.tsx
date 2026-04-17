@@ -29,6 +29,7 @@ import {
   buildLocalizedPagePath,
   getLocalizedDisplayCityName,
 } from "@/lib/page-routing";
+import { getCanonicalCitySlug } from "@/lib/slug-utils";
 
 const homeCopy: Record<
   LocaleCode,
@@ -379,7 +380,7 @@ function buildHomeSearchCities(locale: LocaleCode): HomeSearchCity[] {
       return {
         bestScore: Math.max(...months.map((month) => month.score)),
         cityName: getLocalizedDisplayCityName(samplePage, locale),
-        citySlug: samplePage.citySlug,
+        citySlug: getCanonicalCitySlug(samplePage.citySlug, samplePage.cityName),
         country: samplePage.country,
         countryLabel: formatCountryName(samplePage.country, locale),
         months,

@@ -10,6 +10,7 @@ import {
   getLocalSeedData,
   monthNameByNumber,
 } from "./lib/travel-engine.mjs";
+import { buildCanonicalPageSlug, getCanonicalCitySlug } from "./lib/slug-utils.mjs";
 import {
   allLocales,
   buildDefaultLocalePublicationState,
@@ -23,6 +24,37 @@ const disableLocalData = isTruthyEnv(process.env.DISABLE_LOCAL_DATA);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const outputDir = path.resolve(__dirname, "../src/data/generated");
+
+function canonicalizeLinkEntries(entries = []) {
+  return entries.map((entry) => {
+    const slugMatch = entry.slug?.match(/^(.*)-in-([a-z]+)$/u);
+
+    if (!slugMatch) {
+      return entry;
+    }
+
+    return {
+      ...entry,
+      slug: buildCanonicalPageSlug(slugMatch[1], slugMatch[2]),
+    };
+  });
+}
+
+function canonicalizePagePayload(page) {
+  const canonicalCitySlug = getCanonicalCitySlug(page.citySlug, page.cityName);
+
+  return {
+    ...page,
+    slug: buildCanonicalPageSlug(page.citySlug, page.month, page.cityName),
+    citySlug: canonicalCitySlug,
+    internalLinks: page.internalLinks
+      ? {
+          sameCity: canonicalizeLinkEntries(page.internalLinks.sameCity),
+          similarCities: canonicalizeLinkEntries(page.internalLinks.similarCities),
+        }
+      : page.internalLinks,
+  };
+}
 
 async function writeGeneratedFiles(
   monthlyScores,
@@ -191,7 +223,7 @@ async function readGeneratedFromNeon() {
       cityId: row.city_id,
       cityName: row.city_name,
       country: row.country,
-      citySlug: row.city_slug,
+      citySlug: getCanonicalCitySlug(row.city_slug, row.city_name),
       month: monthNameByNumber[row.month],
       score: row.score,
       crowdLevel: row.crowd_level,
@@ -199,7 +231,7 @@ async function readGeneratedFromNeon() {
     }));
 
     const basePages = pageResult.rows.map((row) => ({
-      ...row.payload_json,
+      ...canonicalizePagePayload(row.payload_json),
       generatedAt:
         row.payload_json.generatedAt ??
         row.generated_at?.toISOString?.() ??

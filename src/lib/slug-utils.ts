@@ -1,6 +1,14 @@
-const CITY_SLUG_FIXES = {
-  "wroc-aw": "wroclaw",
+const CANONICAL_CITY_SLUG_ALIASES = {
+  bialystok: ["bia-ystok"],
+  lodz: ["odz"],
+  wroclaw: ["wroc-aw"],
 } as const;
+
+const LEGACY_CITY_SLUG_TO_CANONICAL = Object.fromEntries(
+  Object.entries(CANONICAL_CITY_SLUG_ALIASES).flatMap(([canonicalSlug, aliases]) =>
+    aliases.map((alias) => [alias, canonicalSlug]),
+  ),
+) as Record<string, keyof typeof CANONICAL_CITY_SLUG_ALIASES>;
 
 function transliterateSpecialSlugCharacters(value: string) {
   return value
@@ -34,17 +42,22 @@ export function normalizeTextForComparison(value: string) {
 
 export function getCanonicalCitySlug(citySlug: string, cityName?: string) {
   const normalizedSlug = normalizeTravelSlug(citySlug);
-  const fixedSlug = CITY_SLUG_FIXES[normalizedSlug as keyof typeof CITY_SLUG_FIXES];
+  const normalizedName = cityName ? normalizeTravelSlug(cityName) : "";
+  const fixedSlug = LEGACY_CITY_SLUG_TO_CANONICAL[normalizedSlug];
 
   if (fixedSlug) {
     return fixedSlug;
+  }
+
+  if (normalizedName in CANONICAL_CITY_SLUG_ALIASES) {
+    return normalizedName;
   }
 
   if (normalizedSlug) {
     return normalizedSlug;
   }
 
-  return cityName ? normalizeTravelSlug(cityName) : normalizedSlug;
+  return normalizedName;
 }
 
 export function buildCitySlugAliases(
@@ -52,8 +65,13 @@ export function buildCitySlugAliases(
   cityName: string,
   extraAliases: string[] = [],
 ) {
+  const canonicalSlug = getCanonicalCitySlug(citySlug, cityName);
+  const legacyAliases = CANONICAL_CITY_SLUG_ALIASES[
+    canonicalSlug as keyof typeof CANONICAL_CITY_SLUG_ALIASES
+  ] ?? [];
+
   return new Set(
-    [citySlug, cityName, ...extraAliases, getCanonicalCitySlug(citySlug, cityName)]
+    [citySlug, cityName, canonicalSlug, ...legacyAliases, ...extraAliases]
       .map((candidate) => normalizeTravelSlug(candidate))
       .filter(Boolean),
   );
