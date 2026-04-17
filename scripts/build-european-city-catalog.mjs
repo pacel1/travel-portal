@@ -265,6 +265,8 @@ function featurePriority(featureCode) {
 
 function slugify(value) {
   return value
+    .replace(/\u0141/g, "L")
+    .replace(/\u0142/g, "l")
     .normalize("NFKD")
     .replace(/[\u0300-\u036f]/g, "")
     .toLowerCase()

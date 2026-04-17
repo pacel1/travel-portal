@@ -9,6 +9,12 @@ import {
   publishedLocales,
   type LocaleCode,
 } from "./i18n";
+import {
+  buildCitySlugAliases,
+  getCanonicalCitySlug,
+  normalizeTextForComparison,
+  normalizeTravelSlug,
+} from "./slug-utils";
 
 type CitySlugOverride = Partial<
   Record<
@@ -207,24 +213,21 @@ function getUnderlyingPageBySlug(baseSlug: string) {
 }
 
 function normalizeDisplayNameForComparison(value: string) {
-  return value
-    .normalize("NFD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .toLowerCase();
+  return normalizeTextForComparison(value);
 }
 
 function getLocalizedCitySlug(page: PagePayload, locale: LocaleCode) {
   const override = cityOverrideMap[page.cityId]?.[locale];
 
   if (override?.canonical) {
-    return normalizeSlug(override.canonical);
+    return normalizeTravelSlug(override.canonical);
   }
 
   if (locale === "de") {
-    return normalizeSlug(germanizeSlug(page.cityName));
+    return normalizeTravelSlug(germanizeSlug(page.cityName));
   }
 
-  return normalizeSlug(page.citySlug);
+  return getCanonicalCitySlug(page.citySlug, page.cityName);
 }
 
 function getAliasPageSlugs(page: PagePayload, locale: LocaleCode) {
@@ -250,10 +253,8 @@ function getAliasPageSlugs(page: PagePayload, locale: LocaleCode) {
 
 function getLocalizedCitySlugAliases(page: PagePayload, locale: LocaleCode) {
   const override = cityOverrideMap[page.cityId]?.[locale];
-  const aliases = new Set<string>([
-    normalizeSlug(page.citySlug),
-    normalizeSlug(page.cityName),
-    normalizeSlug(germanizeSlug(page.cityName)),
+  const aliases = buildCitySlugAliases(page.citySlug, page.cityName, [
+    germanizeSlug(page.cityName),
     getLocalizedCitySlug(page, locale),
   ]);
 
@@ -294,20 +295,7 @@ function getSeparatorAliases(locale: LocaleCode) {
 }
 
 function normalizeSlug(value: string) {
-  return value
-    .normalize("NFKD")
-    .replace(/[\u0300-\u036f]/g, "")
-    .replace(/\u00E4/g, "ae")
-    .replace(/\u00F6/g, "oe")
-    .replace(/\u00FC/g, "ue")
-    .replace(/\u00DF/g, "ss")
-    .replace(/\u00C4/g, "ae")
-    .replace(/\u00D6/g, "oe")
-    .replace(/\u00DC/g, "ue")
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/^-+|-+$/g, "")
-    .replace(/-{2,}/g, "-");
+  return normalizeTravelSlug(value);
 }
 
 function germanizeSlug(value: string) {

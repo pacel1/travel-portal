@@ -48,6 +48,10 @@ import {
   getPublishedLanguageAlternatesForPage,
   resolvePageRoute,
 } from "@/lib/page-routing";
+import {
+  buildCityMonthSeoDescription,
+  buildCityMonthSeoTitle,
+} from "@/lib/seo-snippets";
 import type { PagePayload, PointOfInterest } from "@/types/travel";
 import {
   getScoreTicketToneClass,
@@ -877,7 +881,7 @@ function buildSeoTitle(
       ? `${cityName} in ${formatMonthLabel(page.month, locale)}`
       : formatCityMonthLabel(cityName, page.month, locale);
 
-  return `${pageLabel}: ${getSeoTitleAngle(page, locale)}`;
+  return buildCityMonthSeoTitle(pageLabel, locale === "pl" ? "pl" : "en");
 }
 
 function buildSeoDescription(
@@ -889,21 +893,18 @@ function buildSeoDescription(
     locale === "en"
       ? `${cityName} in ${formatMonthLabel(page.month, locale)}`
       : formatCityMonthLabel(cityName, page.month, locale);
-  const avgTemp = formatTemperature(page.climate.avgTempDay);
-  const description =
-    locale === "pl"
-      ? `${pageLabel}: oko\u0142o ${avgTemp} w dzie\u0144, ${getSeoCrowdPhrase(
-          page,
-          locale,
-        )} i ${getSeoAttractionPhrase(page, locale)}. ${getSeoDecisionHint(page, locale)}`
-      : `${pageLabel}: about ${avgTemp} by day, ${getSeoCrowdPhrase(
-          page,
-          locale,
-        )}, and ${getSeoAttractionPhrase(page, locale)}. ${getSeoDecisionHint(page, locale)}`;
-
-  return trimSeoDescription(description);
+  return buildCityMonthSeoDescription({
+    avgTempDay: page.climate.avgTempDay,
+    crowdLevel: page.travelSignals.crowdLevel,
+    locale: locale === "pl" ? "pl" : "en",
+    pageLabel,
+    priceLevel: page.travelSignals.priceLevel,
+    rainyDays: page.climate.rainyDays,
+    sunshineHours: page.climate.sunshineHours,
+  });
 }
 
+/* eslint-disable @typescript-eslint/no-unused-vars */
 function getSeoTitleAngle(page: TravelPagePayload, locale: LocaleCode) {
   const profile = getPageIntentProfile(page);
 
@@ -1100,6 +1101,7 @@ function trimSeoDescription(description: string, maxLength = 158) {
   return `${(lastSpace > 90 ? truncated.slice(0, lastSpace) : truncated).trim()}…`;
 }
 
+/* eslint-enable @typescript-eslint/no-unused-vars */
 function buildAbsoluteUrl(pathname: string) {
   const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
 

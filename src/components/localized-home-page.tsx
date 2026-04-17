@@ -55,9 +55,9 @@ const homeCopy: Record<
 > = {
   en: {
     badge: "Trip timing by city and month",
-    title: "Find the right month for your next city trip.",
+    title: "Best Month to Visit Cities in Europe",
     description:
-      "Choose a country, city, and month. TripTimi turns weather, crowds, prices, and attractions into a clear travel score.",
+      "Compare weather, crowds, and prices by city and month to find the best time for your next European city break.",
     searchTitle: "Start with a trip window",
     searchDescription: "Pick a destination and jump straight into the matching one-page guide.",
     country: "Country",
@@ -76,9 +76,9 @@ const homeCopy: Record<
   },
   pl: {
     badge: "Timing wyjazdu wedlug miasta i miesiaca",
-    title: "Znajdz dobry miesiac na kolejny city break.",
+    title: "Kiedy jechac do miast w Europie",
     description:
-      "Wybierz panstwo, miasto i miesiac. TripTimi laczy pogode, ruch, ceny i atrakcje w jedna czytelna ocene wyjazdu.",
+      "Porownaj pogode, tlumy i ceny wedlug miasta i miesiaca, zeby wybrac najlepszy termin na kolejny city break w Europie.",
     searchTitle: "Zacznij od okna wyjazdu",
     searchDescription: "Wybierz kierunek i przejdz od razu do pasujacego onepagera.",
     country: "Panstwo",
@@ -185,7 +185,6 @@ function buildAbsoluteLanguageAlternates(pathname: string) {
 
 export function buildHomeMetadata(locale: LocaleCode): Metadata {
   const copy = homeCopy[locale];
-  const pathname = buildHomePath(locale);
   const canonicalUrl = buildAbsoluteUrl(getLocalizedCanonicalUrl(locale, "/"));
 
   return {
