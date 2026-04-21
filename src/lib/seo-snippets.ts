@@ -8,6 +8,7 @@ type CityMonthSeoInput = {
   locale: SupportedSeoLocale;
   pageLabel: string;
   priceLevel: PriceLevel;
+  rainfallMm: number;
   rainyDays: number;
   sunshineHours: number;
 };
@@ -30,32 +31,9 @@ function trimSeoDescription(description: string, maxLength = 158) {
   return `${(lastSpace > 90 ? truncated.slice(0, lastSpace) : truncated).trim()}...`;
 }
 
-function getWeatherPhrase({
-  locale,
-  rainyDays,
-  sunshineHours,
-}: Pick<CityMonthSeoInput, "locale" | "rainyDays" | "sunshineHours">) {
-  if (locale === "pl") {
-    if (rainyDays >= 10) {
-      return "czeste opady";
-    }
-
-    if (sunshineHours >= 9) {
-      return "duzo slonca";
-    }
-
-    return "zmienna pogoda";
-  }
-
-  if (rainyDays >= 10) {
-    return "frequent rain";
-  }
-
-  if (sunshineHours >= 9) {
-    return "plenty of sun";
-  }
-
-  return "changeable weather";
+function formatSeoRainfall(rainfallMm: number) {
+  const rounded = Number.isInteger(rainfallMm) ? rainfallMm.toFixed(0) : rainfallMm.toFixed(1);
+  return `${rounded} mm`;
 }
 
 function getCrowdPhrase(locale: SupportedSeoLocale, crowdLevel: CrowdLevel) {
@@ -111,20 +89,20 @@ export function buildCityMonthSeoTitle(
   locale: SupportedSeoLocale,
 ) {
   return locale === "pl"
-    ? `${pageLabel}: pogoda, ceny i czy warto`
-    : `${pageLabel}: weather, crowds & tips`;
+    ? `${pageLabel}: pogoda, temperatura i opady`
+    : `${pageLabel} weather: temperature & rainfall`;
 }
 
 export function buildCityMonthSeoDescription(input: CityMonthSeoInput) {
   const temperature = formatSeoTemperature(input.avgTempDay);
+  const rainfall = formatSeoRainfall(input.rainfallMm);
   const crowdPhrase = getCrowdPhrase(input.locale, input.crowdLevel);
   const pricePhrase = getPricePhrase(input.locale, input.priceLevel);
-  const weatherPhrase = getWeatherPhrase(input);
 
   const description =
     input.locale === "pl"
-      ? `${input.pageLabel}: w dzien ok. ${temperature}, ${crowdPhrase}, ${pricePhrase} i ${weatherPhrase}. Sprawdz, czy to dobry termin na city break i spokojne zwiedzanie miasta.`
-      : `${input.pageLabel}: around ${temperature} by day, ${crowdPhrase}, ${pricePhrase}, and ${weatherPhrase}. See if it's a good time to book this city break now.`;
+      ? `${input.pageLabel}: pogoda, temperatura i opady. W dzien ok. ${temperature}, opady ok. ${rainfall}, ${crowdPhrase} i ${pricePhrase}. Sprawdz, czy warto jechac i czy to dobry termin.`
+      : `${input.pageLabel} weather guide: temperature around ${temperature}, rainfall about ${rainfall}, ${crowdPhrase}, and ${pricePhrase}. See if it is the best time to visit.`;
 
   return trimSeoDescription(description);
 }

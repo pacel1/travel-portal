@@ -237,6 +237,7 @@ export function renderTravelMonthPage(
   const monthRead = page.editorial?.monthRead || getMonthRead(page, locale);
   const bookingRead = page.editorial?.bookingRead || getBookingRead(page, locale);
   const tiqetsCityId = getTiqetsCityId(page.cityId, page.cityName);
+  const heroSeoIntro = getHeroSeoIntro(page, cityName, locale);
   const heroHighlights = [
     {
       label: copy.crowds,
@@ -290,7 +291,9 @@ export function renderTravelMonthPage(
     <main className="pb-20 pt-4 sm:pb-28 sm:pt-6">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(structuredData) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
+        }}
       />
       <div className="shell space-y-7 sm:space-y-8">
         <nav className="mx-auto flex max-w-5xl flex-wrap items-center gap-2 text-xs font-medium uppercase tracking-[0.12em] text-[var(--muted)] sm:text-sm sm:normal-case sm:tracking-normal">
@@ -334,7 +337,7 @@ export function renderTravelMonthPage(
                   </span>
                 </h1>
                 <p className="mx-auto mt-3 max-w-2xl text-[0.96rem] leading-6 text-[var(--muted)] sm:text-[1.02rem] sm:leading-7 lg:mx-0 lg:max-w-xl">
-                  {page.summary}
+                  {page.summary} {heroSeoIntro}
                 </p>
               </div>
 
@@ -907,6 +910,7 @@ function buildSeoDescription(
     locale: locale === "pl" ? "pl" : "en",
     pageLabel,
     priceLevel: page.travelSignals.priceLevel,
+    rainfallMm: page.climate.rainfallMm,
     rainyDays: page.climate.rainyDays,
     sunshineHours: page.climate.sunshineHours,
   });
@@ -1186,35 +1190,6 @@ function buildTravelMonthStructuredData(
         ],
       },
       {
-        "@type": "Dataset",
-        name: `${pageLabel} travel dataset`,
-        description,
-        variableMeasured: [
-          {
-            "@type": "PropertyValue",
-            name: "temperature",
-            value: page.climate.avgTempDay,
-            unitText: "C",
-          },
-          {
-            "@type": "PropertyValue",
-            name: "rainfall",
-            value: page.climate.rainfallMm,
-            unitText: "mm",
-          },
-          {
-            "@type": "PropertyValue",
-            name: "crowd_level",
-            value: page.travelSignals.crowdLevel,
-          },
-          {
-            "@type": "PropertyValue",
-            name: "price_level",
-            value: page.travelSignals.priceLevel,
-          },
-        ],
-      },
-      {
         "@type": "FAQPage",
         mainEntity: faqItems.map((item) => ({
           "@type": "Question",
@@ -1236,6 +1211,7 @@ function buildMiniFaqItems(
 ) {
   const cityMonth = formatCityMonthLabel(cityName, page.month, locale);
   const weatherSummary = getWeatherSummary(page, locale);
+  const temperatureSummary = getTemperatureSummary(page, locale);
   const packAdvice = getPackingAdvice(page, locale);
   const monthLabel = formatMonthLabel(page.month, locale, "afterPreposition");
   const profile = getPageIntentProfile(page);
@@ -1255,6 +1231,10 @@ function buildMiniFaqItems(
       {
         question: `Jaka jest pogoda w ${cityName} ${getPolishMonthPreposition(monthLabel)} ${monthLabel}?`,
         answer: weatherSummary,
+      },
+      {
+        question: `Jaka jest temperatura w ${cityName} ${getPolishMonthPreposition(monthLabel)} ${monthLabel}?`,
+        answer: temperatureSummary,
       },
       {
         question: "Co spakowa\u0107?",
@@ -1279,6 +1259,10 @@ function buildMiniFaqItems(
       answer: weatherSummary,
     },
     {
+      question: `What is the temperature in ${cityName} in ${formatMonthLabel(page.month, locale)}?`,
+      answer: temperatureSummary,
+    },
+    {
       question: "What should I pack?",
       answer: packAdvice,
     },
@@ -1292,6 +1276,26 @@ function getWeatherSummary(page: TravelPagePayload, locale: LocaleCode) {
   }
 
   return `Expect around ${formatTemperature(page.climate.avgTempDay)} by day and ${formatTemperature(page.climate.avgTempNight)} at night, with ${page.climate.rainfallMm} mm of rain across roughly ${page.climate.rainyDays} rainy days.`;
+}
+
+function getTemperatureSummary(page: TravelPagePayload, locale: LocaleCode) {
+  if (locale === "pl") {
+    return `Temperatura w dzie\u0144 to zwykle oko\u0142o ${formatTemperature(page.climate.avgTempDay)}, a noc\u0105 oko\u0142o ${formatTemperature(page.climate.avgTempNight)}.`;
+  }
+
+  return `Average daytime temperature is around ${formatTemperature(page.climate.avgTempDay)}, dropping to about ${formatTemperature(page.climate.avgTempNight)} at night.`;
+}
+
+function getHeroSeoIntro(
+  page: TravelPagePayload,
+  cityName: string,
+  locale: LocaleCode,
+) {
+  if (locale === "pl") {
+    return `Sprawd\u017a pogod\u0119, temperatur\u0119 i opady, \u017ceby oceni\u0107, czy ${formatCityMonthLabel(cityName, page.month, locale)} to dobry termin na wyjazd.`;
+  }
+
+  return `Check the weather, temperature, and rainfall to see if ${cityName} in ${formatMonthLabel(page.month, locale)} is a good time to visit.`;
 }
 
 function getPackingAdvice(page: TravelPagePayload, locale: LocaleCode) {
