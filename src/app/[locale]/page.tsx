@@ -643,12 +643,6 @@ export function renderTravelMonthPage(
                   {monthComparisonTitle}
                 </h2>
               </div>
-              <Link
-                href={`/api/page-cache/${page.slug}`}
-                className="text-sm font-semibold text-[var(--accent)]"
-              >
-                {copy.viewJsonPayload}
-              </Link>
             </div>
 
             <div className="mt-6 grid gap-3 md:grid-cols-2">
