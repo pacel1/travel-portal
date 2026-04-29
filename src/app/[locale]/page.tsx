@@ -279,6 +279,12 @@ export function renderTravelMonthPage(
   const tradeoffsTitle = getTradeoffsBlockTitle(page, locale);
   const monthComparisonTitle = getMonthComparisonTitle(page, cityName, locale);
   const similarCitiesTitle = getSimilarCitiesTitle(page, locale);
+  const monthIntelligence = buildMonthIntelligence(
+    page,
+    allMonthsForCity,
+    cityName,
+    locale,
+  );
   const structuredData = buildTravelMonthStructuredData(
     page,
     cityName,
@@ -465,6 +471,52 @@ export function renderTravelMonthPage(
           </div>
         </section>
 
+        <section className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
+          <div className="grid gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">
+            <div>
+              <p className="eyebrow text-[var(--accent)]">
+                {monthIntelligence.eyebrow}
+              </p>
+              <h2 className="mt-3 text-[2rem] font-semibold tracking-tight sm:text-[2.6rem]">
+                {monthIntelligence.title}
+              </h2>
+              <p className="mt-4 max-w-xl text-sm leading-6 text-[var(--muted)]">
+                {monthIntelligence.summary}
+              </p>
+            </div>
+
+            <div className="grid gap-3 sm:grid-cols-3">
+              {monthIntelligence.metrics.map((metric) => (
+                <div
+                  key={metric.label}
+                  className="apple-soft-card rounded-[1.35rem] px-4 py-4"
+                >
+                  <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--muted)]">
+                    {metric.label}
+                  </p>
+                  <p className="mt-2 text-2xl font-semibold tracking-tight">
+                    {metric.value}
+                  </p>
+                  <p className="mt-2 text-xs leading-5 text-[var(--muted)]">
+                    {metric.note}
+                  </p>
+                </div>
+              ))}
+            </div>
+          </div>
+
+          <div className="mt-6 grid gap-3 lg:grid-cols-3">
+            {monthIntelligence.comparisons.map((comparison) => (
+              <MonthIntelligenceCard
+                key={comparison.label}
+                label={comparison.label}
+                value={comparison.value}
+                detail={comparison.detail}
+              />
+            ))}
+          </div>
+        </section>
+
         <FlightSearchWidget destination={cityName} locale={locale} />
 
         <section className="grid gap-5 xl:grid-cols-[1.2fr_0.8fr] xl:items-start">
@@ -643,12 +695,6 @@ export function renderTravelMonthPage(
                   {monthComparisonTitle}
                 </h2>
               </div>
-              <Link
-                href={`/api/page-cache/${page.slug}`}
-                className="text-sm font-semibold text-[var(--accent)]"
-              >
-                {copy.viewJsonPayload}
-              </Link>
             </div>
 
             <div className="mt-6 grid gap-3 md:grid-cols-2">
@@ -752,6 +798,321 @@ function applyClimateSanityGuard(page: TravelPagePayload): TravelPagePayload {
   }
 
   return page;
+}
+
+function buildMonthIntelligence(
+  page: TravelPagePayload,
+  allMonthsForCity: TravelPagePayload[],
+  cityName: string,
+  locale: LocaleCode,
+) {
+  const cityMonths = allMonthsForCity.length ? allMonthsForCity : [page];
+  const sortedMonths = [...cityMonths].sort((left, right) => right.score - left.score);
+  const rank = Math.max(
+    1,
+    sortedMonths.findIndex((monthPage) => monthPage.slug === page.slug) + 1,
+  );
+  const bestMonth = sortedMonths[0] ?? page;
+  const benchmarkMonth =
+    bestMonth.slug === page.slug ? sortedMonths[1] ?? bestMonth : bestMonth;
+  const averages = buildCityMonthAverages(cityMonths);
+  const tempDelta = roundToOne(page.climate.avgTempDay - averages.avgTempDay);
+  const rainfallDelta = roundToOne(page.climate.rainfallMm - averages.rainfallMm);
+  const rainyDaysDelta = roundToOne(page.climate.rainyDays - averages.rainyDays);
+  const sunshineDelta = roundToOne(page.climate.sunshineHours - averages.sunshineHours);
+  const scoreGap = benchmarkMonth.score - page.score;
+  const currentLabel = formatCityMonthLabel(cityName, page.month, locale);
+  const benchmarkMonthLabel = formatMonthLabel(benchmarkMonth.month, locale);
+  const rankValue = locale === "pl" ? `#${rank} z ${cityMonths.length}` : `#${rank} of ${cityMonths.length}`;
+  const scoreValue =
+    scoreGap === 0
+      ? locale === "pl"
+        ? "remis"
+        : "level"
+      : `${scoreGap > 0 ? "-" : "+"}${Math.abs(scoreGap)} pts`;
+
+  return {
+    eyebrow: locale === "pl" ? "Analiza miesiaca" : "Month intelligence",
+    title:
+      locale === "pl"
+        ? `Jak ${formatMonthLabel(page.month, locale)} wypada na tle roku`
+        : `How ${formatMonthLabel(page.month, locale)} compares with the year`,
+    summary: getMonthIntelligenceSummary({
+      benchmarkMonth,
+      benchmarkMonthLabel,
+      cityName,
+      count: cityMonths.length,
+      currentLabel,
+      locale,
+      page,
+      rainfallDelta,
+      rank,
+      scoreGap,
+      sunshineDelta,
+      tempDelta,
+    }),
+    metrics: [
+      {
+        label: locale === "pl" ? "Ranking w miescie" : "City rank",
+        value: rankValue,
+        note:
+          locale === "pl"
+            ? "po wyniku TripTimi wsrod wszystkich miesiecy"
+            : "by TripTimi score across all months",
+      },
+      {
+        label:
+          rank === 1
+            ? locale === "pl"
+              ? "Przewaga"
+              : "Score edge"
+            : locale === "pl"
+              ? "Do lidera"
+              : "Vs best month",
+        value: scoreValue,
+        note:
+          rank === 1
+            ? locale === "pl"
+              ? `wzgledem ${benchmarkMonthLabel}`
+              : `against ${benchmarkMonthLabel}`
+            : locale === "pl"
+              ? `wzgledem ${benchmarkMonthLabel}`
+              : `against ${benchmarkMonthLabel}`,
+      },
+      {
+        label: locale === "pl" ? "Srednia miasta" : "City baseline",
+        value: formatSignedDelta(tempDelta, "C", locale),
+        note:
+          locale === "pl"
+            ? "roznica temperatury dziennej"
+            : "daytime temperature difference",
+      },
+    ],
+    comparisons: [
+      {
+        label: locale === "pl" ? "Temperatura" : "Temperature",
+        value: formatSignedDelta(tempDelta, "C", locale),
+        detail: getDeltaDetail(
+          tempDelta,
+          locale === "pl" ? "cieplej niz srednia dla miasta" : "warmer than the city average",
+          locale === "pl" ? "chlodniej niz srednia dla miasta" : "cooler than the city average",
+          locale === "pl" ? "bardzo blisko sredniej dla miasta" : "very close to the city average",
+          locale,
+        ),
+      },
+      {
+        label: locale === "pl" ? "Deszcz" : "Rain pattern",
+        value: `${formatSignedDelta(rainfallDelta, " mm", locale)} / ${formatSignedDelta(
+          rainyDaysDelta,
+          locale === "pl" ? " dni" : " days",
+          locale,
+        )}`,
+        detail: getDeltaDetail(
+          rainfallDelta + rainyDaysDelta * 4,
+          locale === "pl" ? "bardziej mokro niz zwykle" : "wetter than the usual city month",
+          locale === "pl" ? "suchszy uklad niz zwykle" : "drier than the usual city month",
+          locale === "pl" ? "opady sa blisko sredniej" : "rain is close to the city baseline",
+          locale,
+        ),
+      },
+      {
+        label: locale === "pl" ? "Slonce" : "Sunshine",
+        value: formatSignedDelta(sunshineDelta, " h", locale),
+        detail: getDeltaDetail(
+          sunshineDelta,
+          locale === "pl" ? "wiecej jasnych godzin na plan dnia" : "more bright hours for the day plan",
+          locale === "pl" ? "mniej jasnych godzin niz zwykle" : "fewer bright hours than usual",
+          locale === "pl" ? "podobna ilosc slonca do sredniej" : "sunshine sits near the city average",
+          locale,
+        ),
+      },
+    ],
+  };
+}
+
+function buildCityMonthAverages(months: TravelPagePayload[]) {
+  const count = Math.max(1, months.length);
+
+  return {
+    avgTempDay: average(months.map((month) => month.climate.avgTempDay), count),
+    rainfallMm: average(months.map((month) => month.climate.rainfallMm), count),
+    rainyDays: average(months.map((month) => month.climate.rainyDays), count),
+    sunshineHours: average(months.map((month) => month.climate.sunshineHours), count),
+  };
+}
+
+function average(values: number[], count: number) {
+  return values.reduce((total, value) => total + value, 0) / count;
+}
+
+function getMonthIntelligenceSummary({
+  benchmarkMonth,
+  benchmarkMonthLabel,
+  cityName,
+  count,
+  currentLabel,
+  locale,
+  page,
+  rainfallDelta,
+  rank,
+  scoreGap,
+  sunshineDelta,
+  tempDelta,
+}: {
+  benchmarkMonth: TravelPagePayload;
+  benchmarkMonthLabel: string;
+  cityName: string;
+  count: number;
+  currentLabel: string;
+  locale: LocaleCode;
+  page: TravelPagePayload;
+  rainfallDelta: number;
+  rank: number;
+  scoreGap: number;
+  sunshineDelta: number;
+  tempDelta: number;
+}) {
+  const temperatureRead = getDeltaRead(
+    tempDelta,
+    locale === "pl" ? "cieplejszy" : "warmer",
+    locale === "pl" ? "chlodniejszy" : "cooler",
+    locale === "pl" ? "bliski sredniej temperaturowej" : "close to the normal temperature range",
+  );
+  const rainRead = getDeltaRead(
+    rainfallDelta,
+    locale === "pl" ? "bardziej deszczowy" : "wetter",
+    locale === "pl" ? "suchszy" : "drier",
+    locale === "pl" ? "bliski typowym opadom" : "close to the usual rain pattern",
+  );
+  const sunshineRead = getDeltaRead(
+    sunshineDelta,
+    locale === "pl" ? "bardziej sloneczny" : "brighter",
+    locale === "pl" ? "mniej sloneczny" : "less sunny",
+    locale === "pl" ? "podobny pod wzgledem slonca" : "similar for sunshine",
+  );
+  const mainSwing = getMainMonthSwing(page, benchmarkMonth, locale);
+
+  if (locale === "pl") {
+    if (rank === 1) {
+      return `${currentLabel} to najwyzej oceniany miesiac w ${cityName}: #1 z ${count} wedlug TripTimi. Na tle typowego miesiaca jest ${temperatureRead}, ${rainRead} i ${sunshineRead}. Najblizszy punkt odniesienia to ${benchmarkMonthLabel}; przewaga wynika glownie z tego, ze ${mainSwing}.`;
+    }
+
+    return `${currentLabel} zajmuje #${rank} z ${count} miesiecy w ${cityName} wedlug TripTimi. Na tle typowego miesiaca jest ${temperatureRead}, ${rainRead} i ${sunshineRead}. Najmocniejszy benchmark to ${benchmarkMonthLabel}, ktory jest wyzej o ${Math.abs(scoreGap)} pkt; roznica wynika glownie z tego, ze ${mainSwing}.`;
+  }
+
+  if (rank === 1) {
+    return `${currentLabel} is ${cityName}'s top-ranked month: #1 of ${count} by TripTimi score. Against the city's own monthly baseline, it is ${temperatureRead}, ${rainRead}, and ${sunshineRead}. The nearest benchmark is ${benchmarkMonthLabel}; its edge mostly comes from the fact that ${mainSwing}.`;
+  }
+
+  return `${currentLabel} ranks #${rank} of ${count} ${cityName} months by TripTimi score. Against the city's own monthly baseline, it is ${temperatureRead}, ${rainRead}, and ${sunshineRead}. The strongest benchmark is ${benchmarkMonthLabel}, which sits ${Math.abs(scoreGap)} points higher mostly because ${mainSwing}.`;
+}
+
+function getMainMonthSwing(
+  page: TravelPagePayload,
+  benchmarkMonth: TravelPagePayload,
+  locale: LocaleCode,
+) {
+  const rainfallGap = page.climate.rainfallMm - benchmarkMonth.climate.rainfallMm;
+  const sunshineGap = benchmarkMonth.climate.sunshineHours - page.climate.sunshineHours;
+  const tempComfortGap =
+    Math.abs(page.climate.avgTempDay - 22) - Math.abs(benchmarkMonth.climate.avgTempDay - 22);
+
+  if (rainfallGap >= 15) {
+    return locale === "pl"
+      ? "alternatywny miesiac ma wyraznie mniej deszczu"
+      : "the alternative month has meaningfully less rain";
+  }
+
+  if (rainfallGap <= -15) {
+    return locale === "pl"
+      ? "ten miesiac ma wyraznie spokojniejszy uklad opadow"
+      : "this month has a clearly easier rain pattern";
+  }
+
+  if (sunshineGap >= 1.5) {
+    return locale === "pl"
+      ? "alternatywny miesiac daje wiecej jasnych godzin"
+      : "the alternative month gives you more bright hours";
+  }
+
+  if (sunshineGap <= -1.5) {
+    return locale === "pl"
+      ? "ten miesiac daje wiecej jasnych godzin"
+      : "this month gives you more bright hours";
+  }
+
+  if (tempComfortGap >= 3) {
+    return locale === "pl"
+      ? "temperatura w alternatywnym miesiacu jest blizej komfortu spacerowego"
+      : "the alternative month is closer to comfortable walking weather";
+  }
+
+  if (page.travelSignals.priceLevel === "high" && benchmarkMonth.travelSignals.priceLevel !== "high") {
+    return locale === "pl"
+      ? "koszty sa tam latwiejsze do opanowania"
+      : "costs are easier to manage there";
+  }
+
+  if (page.travelSignals.crowdLevel === "high" && benchmarkMonth.travelSignals.crowdLevel !== "high") {
+    return locale === "pl"
+      ? "ruch turystyczny jest tam mniej intensywny"
+      : "crowds are less intense there";
+  }
+
+  return locale === "pl"
+    ? "bilans pogody, cen i tempa wypada tam troche rowniej"
+    : "the weather, cost, and pace balance is a little cleaner there";
+}
+
+function getDeltaRead(value: number, positive: string, negative: string, even: string) {
+  if (value >= 0.8) {
+    return positive;
+  }
+
+  if (value <= -0.8) {
+    return negative;
+  }
+
+  return even;
+}
+
+function getDeltaDetail(
+  value: number,
+  positive: string,
+  negative: string,
+  even: string,
+  locale: LocaleCode,
+) {
+  const threshold = locale === "pl" ? 0.5 : 0.5;
+
+  if (value > threshold) {
+    return positive;
+  }
+
+  if (value < -threshold) {
+    return negative;
+  }
+
+  return even;
+}
+
+function formatSignedDelta(value: number, unit: string, locale: LocaleCode) {
+  const rounded = roundToOne(value);
+
+  if (Math.abs(rounded) < 0.05) {
+    return `0${unit}`;
+  }
+
+  const formatted = new Intl.NumberFormat(locale, {
+    maximumFractionDigits: 1,
+    minimumFractionDigits: Number.isInteger(rounded) ? 0 : 1,
+  }).format(Math.abs(rounded));
+
+  return `${rounded > 0 ? "+" : "-"}${formatted}${unit}`;
+}
+
+function roundToOne(value: number) {
+  return Math.round(value * 10) / 10;
 }
 
 function getPageIntentProfile(page: TravelPagePayload): PageIntentProfile {
@@ -1678,6 +2039,26 @@ function AttractionPanel({
           </div>
         ))}
       </div>
+    </div>
+  );
+}
+
+function MonthIntelligenceCard({
+  label,
+  value,
+  detail,
+}: {
+  label: string;
+  value: string;
+  detail: string;
+}) {
+  return (
+    <div className="rounded-[1.35rem] border border-[var(--border)] bg-white px-4 py-4">
+      <p className="text-[11px] font-semibold uppercase tracking-[0.16em] text-[var(--muted)]">
+        {label}
+      </p>
+      <p className="mt-2 font-mono text-sm font-semibold">{value}</p>
+      <p className="mt-2 text-sm leading-6 text-[var(--muted)]">{detail}</p>
     </div>
   );
 }
