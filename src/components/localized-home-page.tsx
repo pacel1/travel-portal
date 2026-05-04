@@ -254,7 +254,7 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
       <div className="shell-tight space-y-6">
         <section className="home-hero">
           <nav className="home-nav">
-            <Link href={buildHomePath(locale)} aria-label="TripTimi">
+            <Link href={buildHomePath(locale)} prefetch={false} aria-label="TripTimi">
               <Image
                 src="/logotriptimi.png"
                 alt="TripTimi"
@@ -266,13 +266,13 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
               />
             </Link>
             <div className="home-locale-links" aria-label="Languages">
-              <Link href={buildDestinationsPath(locale)}>
+              <Link href={buildDestinationsPath(locale)} prefetch={false}>
                 {copy.destinations}
               </Link>
-              <Link href="/" className={locale === "en" ? "is-active" : ""}>
+              <Link href="/" prefetch={false} className={locale === "en" ? "is-active" : ""}>
                 EN
               </Link>
-              <Link href="/pl" className={locale === "pl" ? "is-active" : ""}>
+              <Link href="/pl" prefetch={false} className={locale === "pl" ? "is-active" : ""}>
                 PL
               </Link>
             </div>

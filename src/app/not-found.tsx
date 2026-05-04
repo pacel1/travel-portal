@@ -11,6 +11,7 @@ export default function NotFound() {
         </p>
         <Link
           href="/"
+          prefetch={false}
           className="mt-6 inline-flex rounded-full bg-[var(--accent)] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[var(--accent-strong)]"
         >
           Back to portal

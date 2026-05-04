@@ -303,7 +303,7 @@ export function renderTravelMonthPage(
       />
       <div className="shell space-y-7 sm:space-y-8">
         <nav className="mx-auto flex max-w-5xl flex-wrap items-center gap-2 text-xs font-medium uppercase tracking-[0.12em] text-[var(--muted)] sm:text-sm sm:normal-case sm:tracking-normal">
-          <Link href={buildHomePath(locale)} className="hover:text-[var(--foreground)]">
+          <Link href={buildHomePath(locale)} prefetch={false} className="hover:text-[var(--foreground)]">
             <Image
               src="/logotriptimi.png"
               alt={dictionary.site.name}
@@ -359,6 +359,7 @@ export function renderTravelMonthPage(
                 {previousMonthPage ? (
                   <Link
                     href={buildLocalizedPagePath(previousMonthPage, locale)}
+                    prefetch={false}
                     className="hero-action hero-action-secondary"
                     aria-label={`${copy.earlierMonthCta} ${formatMonthLabel(previousMonthPage.month, locale)}`}
                   >
@@ -371,6 +372,7 @@ export function renderTravelMonthPage(
                 {nextMonthPage ? (
                   <Link
                     href={buildLocalizedPagePath(nextMonthPage, locale)}
+                    prefetch={false}
                     className="hero-action hero-action-secondary"
                     aria-label={`${copy.laterMonthCta} ${formatMonthLabel(nextMonthPage.month, locale)}`}
                   >
@@ -702,6 +704,7 @@ export function renderTravelMonthPage(
                 <Link
                   key={monthPage.slug}
                   href={buildLocalizedPagePath(monthPage, locale)}
+                  prefetch={false}
                   className={`month-pick-card lift ${getScoreTicketToneClass(monthPage.score)} ${
                     monthPage.slug === page.slug
                       ? "month-pick-card-active"
@@ -737,6 +740,7 @@ export function renderTravelMonthPage(
                 <Link
                   key={link.slug}
                   href={link.href}
+                  prefetch={false}
                   className="apple-soft-card lift rounded-[1.45rem] px-4 py-4"
                 >
                   <div className="flex items-center justify-between gap-4">

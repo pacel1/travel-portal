@@ -57,7 +57,7 @@ export function HomeFeaturedRotator({
       className={`home-featured-rotator${compact ? " home-featured-rotator-compact" : ""}`}
       aria-live="polite"
     >
-      <Link href={activeItem.href} className="home-featured-rotator-link lift">
+      <Link href={activeItem.href} prefetch={false} className="home-featured-rotator-link lift">
         <div className="home-featured-rotator-copy">
           <p className="home-featured-rotator-kicker">
             <span className="home-featured-rotator-live">{labels.live}</span>

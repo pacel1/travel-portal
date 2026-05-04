@@ -158,7 +158,7 @@ export function DestinationsIndex({ locale }: { locale: LocaleCode }) {
       <div className="shell-tight space-y-6">
         <section className="home-hero">
           <nav className="home-nav">
-            <Link href={buildHomePath(locale)} aria-label="TripTimi">
+            <Link href={buildHomePath(locale)} prefetch={false} aria-label="TripTimi">
               <Image
                 src="/logotriptimi.png"
                 alt="TripTimi"
@@ -170,10 +170,10 @@ export function DestinationsIndex({ locale }: { locale: LocaleCode }) {
               />
             </Link>
             <div className="home-locale-links" aria-label="Languages">
-              <Link href="/destinations" className={locale === "en" ? "is-active" : ""}>
+              <Link href="/destinations" prefetch={false} className={locale === "en" ? "is-active" : ""}>
                 EN
               </Link>
-              <Link href="/pl/kierunki" className={locale === "pl" ? "is-active" : ""}>
+              <Link href="/pl/kierunki" prefetch={false} className={locale === "pl" ? "is-active" : ""}>
                 PL
               </Link>
             </div>
@@ -217,14 +217,14 @@ export function DestinationsIndex({ locale }: { locale: LocaleCode }) {
                   </div>
                   <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
                     {copy.best}:{" "}
-                    <Link className="font-bold text-[var(--foreground)]" href={city.bestMonth.href}>
+                    <Link className="font-bold text-[var(--foreground)]" href={city.bestMonth.href} prefetch={false}>
                       {formatCityMonthLabel(city.cityName, city.bestMonth.month, locale)}
                     </Link>{" "}
                     ({formatScoreLabel(city.bestMonth.score, locale)}).
                   </p>
                   <div className="home-month-list" aria-label={copy.monthGuide}>
                     {city.months.map((month) => (
-                      <Link className="home-month-link" href={month.href} key={month.month}>
+                      <Link className="home-month-link" href={month.href} key={month.month} prefetch={false}>
                         <span className="home-month-copy">
                           <span className="home-month-label">{month.label}</span>
                         </span>

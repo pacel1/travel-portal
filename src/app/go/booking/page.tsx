@@ -58,6 +58,7 @@ export default async function BookingPlaceholderPage({
           <div className="mt-6">
             <Link
               href="/"
+              prefetch={false}
               className="inline-flex rounded-full bg-[var(--foreground)] px-5 py-3 text-sm font-semibold text-white transition hover:bg-[var(--accent-strong)]"
             >
               Return to homepage
