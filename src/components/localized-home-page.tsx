@@ -20,6 +20,7 @@ import {
   formatScoreLabel,
 } from "@/lib/formatting";
 import {
+  buildDestinationsPath,
   buildHomePath,
   getLocalizedCanonicalUrl,
   getPublishedLanguageAlternates,
@@ -51,6 +52,7 @@ const homeCopy: Record<
     score: string;
     pages: string;
     cities: string;
+    destinations: string;
     open: string;
   }
 > = {
@@ -73,6 +75,7 @@ const homeCopy: Record<
     score: "Score",
     pages: "guides",
     cities: "cities",
+    destinations: "Destinations",
     open: "Open guide",
   },
   pl: {
@@ -94,6 +97,7 @@ const homeCopy: Record<
     score: "Ocena",
     pages: "przewodnikow",
     cities: "miast",
+    destinations: "Kierunki",
     open: "Otworz przewodnik",
   },
   de: {
@@ -115,6 +119,7 @@ const homeCopy: Record<
     score: "Score",
     pages: "Guides",
     cities: "Stadte",
+    destinations: "Ziele",
     open: "Guide offnen",
   },
   es: {
@@ -136,6 +141,7 @@ const homeCopy: Record<
     score: "Score",
     pages: "guias",
     cities: "ciudades",
+    destinations: "Destinos",
     open: "Abrir guia",
   },
   fr: {
@@ -157,6 +163,7 @@ const homeCopy: Record<
     score: "Score",
     pages: "guides",
     cities: "villes",
+    destinations: "Destinations",
     open: "Ouvrir le guide",
   },
 };
@@ -259,6 +266,9 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
               />
             </Link>
             <div className="home-locale-links" aria-label="Languages">
+              <Link href={buildDestinationsPath(locale)}>
+                {copy.destinations}
+              </Link>
               <Link href="/" className={locale === "en" ? "is-active" : ""}>
                 EN
               </Link>

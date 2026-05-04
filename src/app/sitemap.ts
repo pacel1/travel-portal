@@ -1,7 +1,7 @@
 import type { MetadataRoute } from "next";
 
 import { pagePayloads } from "@/lib/catalog";
-import { publishedLocales } from "@/lib/i18n";
+import { buildDestinationsPath, publishedLocales } from "@/lib/i18n";
 import {
   buildLocalizedPagePath,
   getPublishedLanguageAlternatesForPage,
@@ -15,6 +15,16 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: baseUrl,
       priority: 1,
     },
+    ...publishedLocales.map((locale) => ({
+      url: `${baseUrl}${buildDestinationsPath(locale)}`,
+      priority: 0.9,
+      alternates: {
+        languages: {
+          en: `${baseUrl}${buildDestinationsPath("en")}`,
+          pl: `${baseUrl}${buildDestinationsPath("pl")}`,
+        },
+      },
+    })),
     ...pagePayloads.flatMap((page) =>
       publishedLocales.map((locale) => ({
         url: `${baseUrl}${buildLocalizedPagePath(page, locale)}`,

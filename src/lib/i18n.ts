@@ -50,6 +50,10 @@ export function buildHomePath(locale: LocaleCode) {
   return buildLocalizedPath(locale, "/");
 }
 
+export function buildDestinationsPath(locale: LocaleCode) {
+  return locale === "pl" ? "/pl/kierunki" : "/destinations";
+}
+
 export function getCanonicalUrl(pathname: string) {
   return buildLocalizedPath(defaultLocale, pathname);
 }
