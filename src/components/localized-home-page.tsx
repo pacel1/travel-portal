@@ -27,6 +27,12 @@ import {
   type LocaleCode,
 } from "@/lib/i18n";
 import {
+  addXDefaultLanguageAlternate,
+  buildAbsoluteUrl,
+  buildSocialMetadata,
+  serializeJsonLd,
+} from "@/lib/seo";
+import {
   buildLocalizedPagePath,
   getLocalizedDisplayCityName,
 } from "@/lib/page-routing";
@@ -168,27 +174,15 @@ const homeCopy: Record<
   },
 };
 
-function buildAbsoluteUrl(pathname: string) {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-
-  if (!siteUrl) {
-    return pathname;
-  }
-
-  try {
-    return new URL(pathname, siteUrl).toString();
-  } catch {
-    return pathname;
-  }
-}
-
 function buildAbsoluteLanguageAlternates(pathname: string) {
-  return Object.fromEntries(
+  const languages = Object.fromEntries(
     Object.entries(getPublishedLanguageAlternates(pathname)).map(([locale, href]) => [
       locale,
       buildAbsoluteUrl(href),
     ]),
   );
+
+  return addXDefaultLanguageAlternate(languages, pathname);
 }
 
 export function buildHomeMetadata(locale: LocaleCode): Metadata {
@@ -203,12 +197,11 @@ export function buildHomeMetadata(locale: LocaleCode): Metadata {
       canonical: canonicalUrl,
       languages: buildAbsoluteLanguageAlternates("/"),
     },
-    openGraph: {
+    ...buildSocialMetadata({
+      canonicalPath: getLocalizedCanonicalUrl(locale, "/"),
       title: copy.title,
       description: copy.description,
-      type: "website",
-      url: canonicalUrl,
-    },
+    }),
   };
 }
 
@@ -249,7 +242,7 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
     <main className="home-page pb-16 pt-3 sm:pb-24 sm:pt-5">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(schemaData) }}
       />
       <div className="shell-tight space-y-6">
         <section className="home-hero">
@@ -257,7 +250,7 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
             <Link href={buildHomePath(locale)} prefetch={false} aria-label="TripTimi">
               <Image
                 src="/logotriptimi.png"
-                alt="TripTimi"
+                alt="TripTimi travel planning homepage"
                 width={957}
                 height={356}
                 priority
@@ -283,14 +276,14 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
               <p className="eyebrow text-[var(--accent)]">{copy.badge}</p>
               <h1 className="home-title">{copy.title}</h1>
               <p className="home-lede">{copy.description}</p>
-              <div className="home-stat-row">
-                <span>
+              <ul className="home-stat-row list-none">
+                <li>
                   <strong>{pagePayloads.length}</strong> {copy.pages}
-                </span>
-                <span>
+                </li>
+                <li>
                   <strong>{searchCities.length}</strong> {copy.cities}
-                </span>
-              </div>
+                </li>
+              </ul>
             </div>
 
             <div className="home-search-panel">

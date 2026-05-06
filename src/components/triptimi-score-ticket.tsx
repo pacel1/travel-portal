@@ -22,7 +22,7 @@ export function TripTimiScoreTicket({
         <div className="score-ticket-brand">
           <Image
             src="/logotriptimi.png"
-            alt="TripTimi.com"
+            alt="TripTimi travel score logo"
             width={957}
             height={356}
             className="score-ticket-logo"
@@ -33,7 +33,7 @@ export function TripTimiScoreTicket({
       <div className="score-ticket-rule" />
       <div className="score-ticket-body">
         <div className="score-ticket-score-group">
-          <span className="score-ticket-value">{score}</span>
+          <strong className="score-ticket-value">{score}</strong>
         </div>
         <span className="score-ticket-label">{label}</span>
       </div>
@@ -64,7 +64,7 @@ export function MiniTripTimiScoreTicket({
         {getScoreSideLabel(locale)}
       </span>
       <div className="score-ticket-body">
-        <span className="score-ticket-value">{score}</span>
+        <strong className="score-ticket-value">{score}</strong>
         <span className="score-ticket-label">{label}</span>
       </div>
     </div>
@@ -82,7 +82,7 @@ export function TripTimiScoreBadge({
 }) {
   return (
     <span className={joinClasses("score-badge", getScoreTicketToneClass(score), className)}>
-      <span className="score-badge-value">{score}</span>
+      <strong className="score-badge-value">{score}</strong>
       <span className="score-badge-label">{label}</span>
     </span>
   );

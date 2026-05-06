@@ -22,3 +22,18 @@ test("next config redirects www traffic to apex host", async () => {
     },
   ]);
 });
+
+test("next config applies baseline security headers to all pages", async () => {
+  assert.equal(typeof nextConfig.headers, "function");
+
+  const headers = await nextConfig.headers?.();
+  const globalHeaders = headers?.find((entry) => entry.source === "/:path*")?.headers ?? [];
+  const headerMap = new Map(globalHeaders.map((header) => [header.key, header.value]));
+
+  assert.match(headerMap.get("Content-Security-Policy") ?? "", /frame-ancestors 'self'/);
+  assert.match(headerMap.get("Content-Security-Policy") ?? "", /object-src 'none'/);
+  assert.equal(headerMap.get("X-Frame-Options"), "SAMEORIGIN");
+  assert.equal(headerMap.get("X-Content-Type-Options"), "nosniff");
+  assert.equal(headerMap.get("Referrer-Policy"), "strict-origin-when-cross-origin");
+  assert.match(headerMap.get("Permissions-Policy") ?? "", /camera=\(\)/);
+});

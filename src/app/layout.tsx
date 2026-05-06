@@ -1,6 +1,9 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { headers } from "next/headers";
 import Script from "next/script";
+import { getLocaleFromPathname } from "@/lib/i18n";
+import { buildSocialMetadata, getSiteUrl } from "@/lib/seo";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -14,16 +17,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://triptimi.com"
-  ),
+  metadataBase: new URL(getSiteUrl()),
   applicationName: "TripTimi",
   title: {
     default: "TripTimi",
     template: "%s | TripTimi",
   },
   description:
-    "Data-first travel pages for every city and month, built for scalable programmatic SEO without thin content.",
+    "Weather, crowds, prices, and practical tips for choosing the best month for your next city trip.",
   icons: {
     icon: [
       {
@@ -41,34 +42,26 @@ export const metadata: Metadata = {
       },
     ],
   },
-  openGraph: {
+  ...buildSocialMetadata({
+    canonicalPath: "/",
     title: "TripTimi",
     description:
       "Weather stats, travel scores, and practical tips for city + month travel planning.",
-    type: "website",
-    images: [
-      {
-        url: "/triptimiscore.png",
-        width: 633,
-        height: 593,
-        alt: "TripTimi travel score",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary",
-    images: ["/triptimiscore.png"],
-  },
+  }),
 };
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const requestHeaders = await headers();
+  const pathname = requestHeaders.get("x-triptimi-pathname") || "/";
+  const locale = getLocaleFromPathname(pathname);
+
   return (
     <html
-      lang="en"
+      lang={locale}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <head>

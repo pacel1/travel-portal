@@ -35,6 +35,7 @@ import {
   formatScoreLabel,
 } from "@/lib/formatting";
 import {
+  buildDestinationsPath,
   buildHomePath,
   defaultLocale,
   isPublishedLocale,
@@ -52,6 +53,12 @@ import {
   buildCityMonthSeoDescription,
   buildCityMonthSeoTitle,
 } from "@/lib/seo-snippets";
+import {
+  addXDefaultLanguageAlternate,
+  buildAbsoluteUrl,
+  buildSocialMetadata,
+  serializeJsonLd,
+} from "@/lib/seo";
 import { getCanonicalCitySlug } from "@/lib/slug-utils";
 import { getTiqetsCityId } from "@/lib/tiqets";
 import type { PagePayload, PointOfInterest } from "@/types/travel";
@@ -156,34 +163,21 @@ export function buildTravelMonthMetadata(
   const title = buildSeoTitle(localizedPage, cityName, locale);
   const description = buildSeoDescription(localizedPage, cityName, locale);
   const canonicalPath = buildLocalizedPagePath(localizedPage, locale);
+  const defaultCanonicalPath = buildLocalizedPagePath(localizedPage, defaultLocale);
 
   return {
     title,
     description,
     robots: "index, follow",
-    openGraph: {
+    ...buildSocialMetadata({
+      canonicalPath,
       title,
       description,
-      type: "website",
-      url: buildAbsoluteUrl(canonicalPath),
-      images: [
-        {
-          url: "/triptimiscore.png",
-          width: 633,
-          height: 593,
-          alt: "TripTimi travel score",
-        },
-      ],
-    },
-    twitter: {
-      title,
-      description,
-      card: "summary",
-      images: ["/triptimiscore.png"],
-    },
+      imageAlt: `${cityName} ${formatMonthLabel(localizedPage.month, locale)} TripTimi travel score`,
+    }),
     alternates: {
       canonical: buildAbsoluteUrl(canonicalPath),
-      languages: buildAbsoluteLanguageAlternates(localizedPage),
+      languages: buildAbsoluteLanguageAlternates(localizedPage, defaultCanonicalPath),
     },
   };
 }
@@ -298,15 +292,16 @@ export function renderTravelMonthPage(
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
+          __html: serializeJsonLd(structuredData),
         }}
       />
+      <span id="webpage" hidden aria-hidden="true" />
       <div className="shell space-y-7 sm:space-y-8">
         <nav className="mx-auto flex max-w-5xl flex-wrap items-center gap-2 text-xs font-medium uppercase tracking-[0.12em] text-[var(--muted)] sm:text-sm sm:normal-case sm:tracking-normal">
           <Link href={buildHomePath(locale)} prefetch={false} className="hover:text-[var(--foreground)]">
             <Image
               src="/logotriptimi.png"
-              alt={dictionary.site.name}
+              alt={`${dictionary.site.name} travel planning homepage`}
               width={957}
               height={356}
               className="h-6 w-auto"
@@ -337,10 +332,8 @@ export function renderTravelMonthPage(
               <div className="mt-5 text-center lg:mt-6 lg:text-left">
                 <p className="eyebrow text-[var(--accent)]">{copy.eyebrow}</p>
                 <h1 className="mx-auto mt-3 max-w-4xl text-[2.15rem] font-semibold tracking-[-0.045em] text-[var(--foreground)] sm:text-[3.4rem] sm:leading-[0.96] lg:mx-0 lg:max-w-3xl lg:text-[4.1rem]">
-                  {cityName}
-                  <span className="mt-1 block text-[var(--accent-deep)]">
-                    {getMonthLeadIn(locale)} {formatMonthLabel(page.month, locale, locale === "pl" ? "afterPreposition" : "standalone")}
-                  </span>
+                  {cityName} {getMonthLeadIn(locale)}{" "}
+                  {formatMonthLabel(page.month, locale, locale === "pl" ? "afterPreposition" : "standalone")}
                 </h1>
                 <p className="mx-auto mt-3 max-w-2xl text-[0.96rem] leading-6 text-[var(--muted)] sm:text-[1.02rem] sm:leading-7 lg:mx-0 lg:max-w-xl">
                   {page.summary} {heroSeoIntro}
@@ -450,7 +443,7 @@ export function renderTravelMonthPage(
                             heroFeaturedAttraction.image.thumbUrl ||
                             heroFeaturedAttraction.image.imageUrl
                           }
-                          alt={heroFeaturedAttraction.name}
+                          alt={buildAttractionImageAlt(heroFeaturedAttraction, locale, cityName)}
                           width={heroFeaturedAttraction.image.width || 640}
                           height={heroFeaturedAttraction.image.height || 480}
                           className="h-20 w-full object-cover"
@@ -633,9 +626,11 @@ export function renderTravelMonthPage(
           </article>
         </section>
 
+        <span id="plan" className="block scroll-mt-24" aria-hidden="true" />
+
         {tiqetsCityId ? (
           <section>
-            <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7" id="plan">
+            <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
               <p className="eyebrow text-[var(--accent)]">{copy.whatToDoEyebrow}</p>
               <h2 className="mt-3 text-[2rem] font-semibold tracking-tight sm:text-[2.6rem]">
                 {copy.whatToDoTitle}
@@ -1479,27 +1474,15 @@ function trimSeoDescription(description: string, maxLength = 158) {
 }
 
 /* eslint-enable @typescript-eslint/no-unused-vars */
-function buildAbsoluteUrl(pathname: string) {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-
-  if (!siteUrl) {
-    return pathname;
-  }
-
-  try {
-    return new URL(pathname, siteUrl).toString();
-  } catch {
-    return pathname;
-  }
-}
-
-function buildAbsoluteLanguageAlternates(page: TravelPagePayload) {
-  return Object.fromEntries(
+function buildAbsoluteLanguageAlternates(page: TravelPagePayload, defaultCanonicalPath: string) {
+  const languages = Object.fromEntries(
     Object.entries(getPublishedLanguageAlternatesForPage(page)).map(([locale, href]) => [
       locale,
       buildAbsoluteUrl(href),
     ]),
   );
+
+  return addXDefaultLanguageAlternate(languages, defaultCanonicalPath);
 }
 
 function buildTravelMonthStructuredData(
@@ -1523,6 +1506,7 @@ function buildTravelMonthStructuredData(
         url: canonicalUrl,
         name: buildSeoTitle(page, cityName, locale),
         description,
+        inLanguage: locale,
         isPartOf: {
           "@type": "WebSite",
           name: siteName,
@@ -1541,10 +1525,8 @@ function buildTravelMonthStructuredData(
           {
             "@type": "ListItem",
             position: 2,
-            name: cityName,
-            item: buildAbsoluteUrl(
-              `${buildHomePath(locale)}#${getCanonicalCitySlug(page.citySlug, page.cityName)}`,
-            ),
+            name: locale === "pl" ? "Kierunki" : "Destinations",
+            item: buildAbsoluteUrl(buildDestinationsPath(locale)),
           },
           {
             "@type": "ListItem",
@@ -1934,13 +1916,13 @@ function VerdictBlock({
   return (
     <div className={`rounded-[1.45rem] border p-4 ${toneClass}`}>
       <h3 className="text-sm font-semibold">{title}</h3>
-      <div className="mt-3 space-y-2.5">
+      <ul className="mt-3 space-y-2.5">
         {items.map((item) => (
-          <div key={item} className="rounded-[0.95rem] bg-white/55 px-4 py-3 text-sm leading-6">
+          <li key={item} className="rounded-[0.95rem] bg-white/55 px-4 py-3 text-sm leading-6">
             {item}
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 }
@@ -1993,7 +1975,7 @@ function AttractionPanel({
                 <div className="overflow-hidden rounded-[0.95rem] border border-[var(--border)] bg-[var(--surface)]">
                   <Image
                     src={item.image.thumbUrl || item.image.imageUrl}
-                    alt={item.name}
+                    alt={buildAttractionImageAlt(item, locale)}
                     width={item.image.width || 640}
                     height={item.image.height || 480}
                     className="h-28 w-full object-cover sm:h-24"
@@ -2045,6 +2027,24 @@ function AttractionPanel({
       </div>
     </div>
   );
+}
+
+function buildAttractionImageAlt(
+  item: PointOfInterest,
+  locale: LocaleCode,
+  cityName?: string,
+) {
+  const category = formatPoiCategory(item.category, locale);
+
+  if (locale === "pl") {
+    return cityName
+      ? `${item.name}, atrakcja ${category} w miescie ${cityName}`
+      : `${item.name}, atrakcja ${category} pokazana w przewodniku TripTimi`;
+  }
+
+  return cityName
+    ? `${item.name}, ${category} attraction in ${cityName}`
+    : `${item.name}, ${category} attraction shown in the TripTimi guide`;
 }
 
 function MonthIntelligenceCard({

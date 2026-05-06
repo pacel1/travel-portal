@@ -31,6 +31,18 @@ function trimSeoDescription(description: string, maxLength = 158) {
   return `${(lastSpace > 90 ? truncated.slice(0, lastSpace) : truncated).trim()}...`;
 }
 
+function trimSeoTitle(title: string, compactTitle: string, maxLength = 49) {
+  const candidate = title.length <= maxLength ? title : compactTitle;
+
+  if (candidate.length <= maxLength) {
+    return candidate;
+  }
+
+  const truncated = candidate.slice(0, maxLength);
+  const lastSpace = truncated.lastIndexOf(" ");
+  return (lastSpace > 28 ? truncated.slice(0, lastSpace) : truncated).trim();
+}
+
 function formatSeoRainfall(rainfallMm: number) {
   const rounded = Number.isInteger(rainfallMm) ? rainfallMm.toFixed(0) : rainfallMm.toFixed(1);
   return `${rounded} mm`;
@@ -89,8 +101,14 @@ export function buildCityMonthSeoTitle(
   locale: SupportedSeoLocale,
 ) {
   return locale === "pl"
-    ? `${pageLabel}: pogoda, temperatura i opady`
-    : `${pageLabel} weather: temperature & rainfall`;
+    ? trimSeoTitle(
+        `${pageLabel}: pogoda, temperatura i opady`,
+        `${pageLabel}: pogoda`,
+      )
+    : trimSeoTitle(
+        `${pageLabel} weather: temperature/rainfall`,
+        `${pageLabel}: weather & rain`,
+      );
 }
 
 export function buildCityMonthSeoDescription(input: CityMonthSeoInput) {
