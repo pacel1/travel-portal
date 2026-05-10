@@ -12,6 +12,7 @@ import {
 import {
   buildDestinationsPath,
   buildHomePath,
+  publishedLocales,
   type LocaleCode,
 } from "@/lib/i18n";
 import {
@@ -108,6 +109,15 @@ function buildAbsoluteUrl(pathname: string) {
   }
 }
 
+function buildAbsoluteDestinationLanguageAlternates() {
+  return Object.fromEntries(
+    publishedLocales.map((locale) => [
+      locale,
+      buildAbsoluteUrl(buildDestinationsPath(locale)),
+    ]),
+  );
+}
+
 export function buildDestinationsMetadata(locale: LocaleCode): Metadata {
   const copy = destinationsCopy[locale];
   const canonicalPath = buildDestinationsPath(locale);
@@ -118,10 +128,7 @@ export function buildDestinationsMetadata(locale: LocaleCode): Metadata {
     robots: "index, follow",
     alternates: {
       canonical: buildAbsoluteUrl(canonicalPath),
-      languages: {
-        en: buildAbsoluteUrl(buildDestinationsPath("en")),
-        pl: buildAbsoluteUrl(buildDestinationsPath("pl")),
-      },
+      languages: buildAbsoluteDestinationLanguageAlternates(),
     },
     openGraph: {
       title: copy.title,
