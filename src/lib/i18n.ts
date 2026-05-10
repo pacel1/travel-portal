@@ -67,3 +67,9 @@ export function getPublishedLanguageAlternates(pathname: string) {
     publishedLocales.map((locale) => [locale, buildLocalizedPath(locale, pathname)]),
   );
 }
+
+export function getPublishedLanguageAlternatesForDestinations() {
+  return Object.fromEntries(
+    publishedLocales.map((locale) => [locale, buildDestinationsPath(locale)]),
+  );
+}
