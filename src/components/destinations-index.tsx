@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
+import { DestinationsCatalog } from "@/components/destinations-catalog";
+
 import { getPagePayload, monthOrder, pagePayloads } from "@/lib/catalog";
 import {
   formatCityMonthLabel,
@@ -222,56 +224,28 @@ export function DestinationsIndex({ locale }: { locale: LocaleCode }) {
           </ul>
         </section>
 
-        {countries.map((country) => (
-          <section className="home-section" key={country.country}>
-            <div className="home-section-heading">
-              <p className="eyebrow text-[var(--accent)]">{country.countryLabel}</p>
-              <h2>{country.countryLabel}</h2>
-              <p className="mt-2 max-w-2xl text-sm leading-6 text-[var(--muted)]">
-                {getCountryCalendarDescription(country, locale)}
-              </p>
-            </div>
-            <div className="home-city-grid">
-              {country.cities.map((city) => (
-                <article className="home-city-card" key={city.citySlug}>
-                  <div className="home-city-card-head">
-                    <div>
-                      <p>{country.countryLabel}</p>
-                      <h3>{city.cityName}</h3>
-                    </div>
-                    <span>
-                      {copy.score} {city.bestMonth.score}
-                    </span>
-                  </div>
-                  <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-                    {copy.best}:{" "}
-                    <Link className="font-bold text-[var(--foreground)]" href={city.bestMonth.href} prefetch={false}>
-                      {formatCityMonthLabel(city.cityName, city.bestMonth.month, locale)}
-                    </Link>{" "}
-                    ({formatScoreLabel(city.bestMonth.score, locale)}).
-                  </p>
-                  <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
-                    {getCityCalendarDescription(city, locale)}
-                  </p>
-                  <ul className="home-month-list list-none" aria-label={copy.monthGuide}>
-                    {city.months.map((month) => (
-                      <li key={month.month}>
-                        <Link className="home-month-link" href={month.href} prefetch={false}>
-                          <span className="home-month-copy">
-                            <span className="home-month-label">{month.label}</span>
-                          </span>
-                          <span className="score-badge home-score-badge-inline">
-                            <strong className="score-badge-value">{month.score}</strong>
-                          </span>
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
-                </article>
-              ))}
-            </div>
-          </section>
-        ))}
+        <DestinationsCatalog
+          countries={countries.map((country) => ({
+            ...country,
+            description: getCountryCalendarDescription(country, locale),
+            cities: country.cities.map((city) => ({
+              ...city,
+              bestLabel: copy.best,
+              scoreLabel: copy.score,
+              cityDescription: getCityCalendarDescription(city, locale),
+              formattedBestMonth: formatCityMonthLabel(city.cityName, city.bestMonth.month, locale),
+              formattedBestScore: formatScoreLabel(city.bestMonth.score, locale),
+              monthGuideLabel: copy.monthGuide,
+            })),
+          }))}
+          locale={locale}
+          filterLabels={{
+            all: locale === "pl" ? "Wszystkie" : "All",
+            summer: locale === "pl" ? "Lato" : "Summer",
+            winter: locale === "pl" ? "Zima" : "Winter",
+            topScore: locale === "pl" ? "Ocena 80+" : "Score 80+",
+          }}
+        />
       </div>
     </main>
   );

@@ -2,6 +2,14 @@ import Image from "next/image";
 
 import type { LocaleCode } from "@/lib/i18n";
 
+const scoreTooltipText: Record<LocaleCode, string> = {
+  en: "Score 0–100: weather 60%, crowds 10%, prices 10%, sunshine 20%. Based on Open-Meteo climate data.",
+  pl: "Ocena 0–100: pogoda 60%, tłumy 10%, ceny 10%, słońce 20%. Na podstawie danych klimatycznych Open-Meteo.",
+  de: "Wert 0–100: Wetter 60%, Andrang 10%, Preise 10%, Sonnenstunden 20%. Basierend auf Open-Meteo-Klimadaten.",
+  es: "Nota 0–100: tiempo 60%, afluencia 10%, precios 10%, sol 20%. Basado en datos climáticos de Open-Meteo.",
+  fr: "Note 0–100: météo 60%, affluence 10%, prix 10%, soleil 20%. Basé sur les données climatiques Open-Meteo.",
+};
+
 export function TripTimiScoreTicket({
   label,
   locale,
@@ -14,7 +22,10 @@ export function TripTimiScoreTicket({
   className?: string;
 }) {
   return (
-    <div className={joinClasses("score-ticket", getScoreTicketToneClass(score), className)}>
+    <div
+      className={joinClasses("score-ticket", getScoreTicketToneClass(score), className)}
+      title={scoreTooltipText[locale]}
+    >
       <span className="score-ticket-side-label" aria-hidden="true">
         {getScoreSideLabel(locale)}
       </span>

@@ -90,6 +90,14 @@ export function getFeaturedPages(locale: LocaleCode = defaultLocale) {
     .map((page) => localizePagePayload(page, locale));
 }
 
+function cleanPoiName(name: string): string {
+  return name
+    .replace(/[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿؀-ۿ]+/gu, "")
+    .replace(/\n/g, " ")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 function localizePagePayload(page: PagePayload, locale: LocaleCode) {
   const localizedPageCopy = pageCopyByLocale[locale]?.[page.slug];
   const localizedPoiNames = poiLocalizationsByLocale[locale] ?? {};
@@ -98,11 +106,11 @@ function localizePagePayload(page: PagePayload, locale: LocaleCode) {
     attractions: {
       outdoor: page.attractions.outdoor.map((item) => ({
         ...item,
-        name: localizedPoiNames[item.id] ?? item.name,
+        name: cleanPoiName(localizedPoiNames[item.id] ?? item.name),
       })),
       indoor: page.attractions.indoor.map((item) => ({
         ...item,
-        name: localizedPoiNames[item.id] ?? item.name,
+        name: cleanPoiName(localizedPoiNames[item.id] ?? item.name),
       })),
     },
   };
