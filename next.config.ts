@@ -2,23 +2,6 @@ import type { NextConfig } from "next";
 
 const securityHeaders = [
   {
-    key: "Content-Security-Policy",
-    value: [
-      "default-src 'self'",
-      "base-uri 'self'",
-      "frame-ancestors 'self'",
-      "form-action 'self' https://tpwidg.com https://emrldtp.com",
-      "script-src 'self' 'unsafe-inline' 'unsafe-eval' https://www.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://tpwidg.com https://emrldtp.com https://*.tpwidg.com https://*.emrldtp.com",
-      "style-src 'self' 'unsafe-inline' https://tpwidg.com https://emrldtp.com",
-      "img-src 'self' data: blob: https://upload.wikimedia.org https://www.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://tpwidg.com https://emrldtp.com https://*.tpwidg.com https://*.emrldtp.com https://www.apistp.com https://*.apistp.com",
-      "font-src 'self' data: https://tpwidg.com https://emrldtp.com",
-      "connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://analytics.google.com https://stats.g.doubleclick.net https://tpwidg.com https://emrldtp.com https://*.tpwidg.com https://*.emrldtp.com https://www.apistp.com https://*.apistp.com https://tpo.gg https://*.tpo.gg",
-      "frame-src 'self' https://tpwidg.com https://emrldtp.com https://*.tpwidg.com https://*.emrldtp.com",
-      "object-src 'none'",
-      "upgrade-insecure-requests",
-    ].join("; "),
-  },
-  {
     key: "X-Frame-Options",
     value: "SAMEORIGIN",
   },
