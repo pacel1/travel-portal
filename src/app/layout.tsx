@@ -1,29 +1,41 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Inter, Source_Serif_4, JetBrains_Mono } from "next/font/google";
+import { headers } from "next/headers";
 import Script from "next/script";
+import { getLocaleFromPathname } from "@/lib/i18n";
+import { buildSocialMetadata, getSiteUrl, serializeJsonLd } from "@/lib/seo";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
+const inter = Inter({
+  variable: "--font-inter",
   subsets: ["latin"],
+  display: "swap",
 });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+const sourceSerif = Source_Serif_4({
+  variable: "--font-source-serif",
   subsets: ["latin"],
+  weight: ["400", "500"],
+  style: ["normal", "italic"],
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  variable: "--font-jetbrains-mono",
+  subsets: ["latin"],
+  weight: ["400", "500"],
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(
-    process.env.NEXT_PUBLIC_SITE_URL || "https://triptimi.com"
-  ),
+  metadataBase: new URL(getSiteUrl()),
   applicationName: "TripTimi",
   title: {
     default: "TripTimi",
     template: "%s | TripTimi",
   },
   description:
-    "Data-first travel pages for every city and month, built for scalable programmatic SEO without thin content.",
+    "Weather, crowds, prices, and practical tips for choosing the best month for your next city trip.",
   icons: {
     icon: [
       {
@@ -41,37 +53,54 @@ export const metadata: Metadata = {
       },
     ],
   },
-  openGraph: {
+  ...buildSocialMetadata({
+    canonicalPath: "/",
     title: "TripTimi",
     description:
       "Weather stats, travel scores, and practical tips for city + month travel planning.",
-    type: "website",
-    images: [
-      {
-        url: "/triptimiscore.png",
-        width: 633,
-        height: 593,
-        alt: "TripTimi travel score",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary",
-    images: ["/triptimiscore.png"],
-  },
+  }),
 };
 
-export default function RootLayout({
+const organizationSchema = {
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  name: "TripTimi",
+  url: getSiteUrl(),
+  logo: `${getSiteUrl()}/logotriptimi.png`,
+  description:
+    "Travel timing guides based on climate data, crowd signals, and price levels — helping you pick the best month for any city trip.",
+  founder: {
+    "@type": "Person",
+    name: "Paweł Celeński",
+    email: "contact@triptimi.com",
+  },
+  contactPoint: {
+    "@type": "ContactPoint",
+    email: "contact@triptimi.com",
+    contactType: "customer support",
+  },
+  sameAs: [],
+};
+
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const requestHeaders = await headers();
+  const pathname = requestHeaders.get("x-triptimi-pathname") || "/";
+  const locale = getLocaleFromPathname(pathname);
+
   return (
     <html
-      lang="en"
-      className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
+      lang={locale}
+      className={`${inter.variable} ${sourceSerif.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
       <head>
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: serializeJsonLd(organizationSchema) }}
+        />
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-W1MY7EMT8D"
           strategy="afterInteractive"
@@ -104,7 +133,20 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {children}
+        <footer className="mt-auto border-t border-[var(--border)] py-8">
+          <div className="shell flex flex-wrap items-center justify-between gap-4 font-mono text-xs text-[var(--muted)]">
+            <span>© {new Date().getFullYear()} TripTimi · Paweł Celeński</span>
+            <nav className="flex flex-wrap gap-5" aria-label="Footer navigation">
+              <a href="/about" className="hover:text-[var(--foreground)] transition-colors">About</a>
+              <a href="/methodology" className="hover:text-[var(--foreground)] transition-colors">Methodology</a>
+              <a href="/contact" className="hover:text-[var(--foreground)] transition-colors">Contact</a>
+              <a href="/privacy" className="hover:text-[var(--foreground)] transition-colors">Privacy</a>
+            </nav>
+          </div>
+        </footer>
+      </body>
     </html>
   );
 }

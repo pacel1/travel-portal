@@ -35,6 +35,7 @@ import {
   formatScoreLabel,
 } from "@/lib/formatting";
 import {
+  buildDestinationsPath,
   buildHomePath,
   defaultLocale,
   isPublishedLocale,
@@ -52,6 +53,12 @@ import {
   buildCityMonthSeoDescription,
   buildCityMonthSeoTitle,
 } from "@/lib/seo-snippets";
+import {
+  addXDefaultLanguageAlternate,
+  buildAbsoluteUrl,
+  buildSocialMetadata,
+  serializeJsonLd,
+} from "@/lib/seo";
 import { getCanonicalCitySlug } from "@/lib/slug-utils";
 import { getTiqetsCityId } from "@/lib/tiqets";
 import type { PagePayload, PointOfInterest } from "@/types/travel";
@@ -63,6 +70,7 @@ import {
 import { EsimWidget } from "@/components/esim-widget";
 import { FlightSearchWidget } from "@/components/flight-search-widget";
 import { ToursActivitiesWidget } from "@/components/tours-activities-widget";
+import { PageNav } from "@/components/page-nav";
 
 type TravelPagePayload = PagePayload;
 type PageIntentTier = "strong" | "balanced" | "selective";
@@ -156,34 +164,21 @@ export function buildTravelMonthMetadata(
   const title = buildSeoTitle(localizedPage, cityName, locale);
   const description = buildSeoDescription(localizedPage, cityName, locale);
   const canonicalPath = buildLocalizedPagePath(localizedPage, locale);
+  const defaultCanonicalPath = buildLocalizedPagePath(localizedPage, defaultLocale);
 
   return {
     title,
     description,
     robots: "index, follow",
-    openGraph: {
+    ...buildSocialMetadata({
+      canonicalPath,
       title,
       description,
-      type: "website",
-      url: buildAbsoluteUrl(canonicalPath),
-      images: [
-        {
-          url: "/triptimiscore.png",
-          width: 633,
-          height: 593,
-          alt: "TripTimi travel score",
-        },
-      ],
-    },
-    twitter: {
-      title,
-      description,
-      card: "summary",
-      images: ["/triptimiscore.png"],
-    },
+      imageAlt: `${cityName} ${formatMonthLabel(localizedPage.month, locale)} TripTimi travel score`,
+    }),
     alternates: {
       canonical: buildAbsoluteUrl(canonicalPath),
-      languages: buildAbsoluteLanguageAlternates(localizedPage),
+      languages: buildAbsoluteLanguageAlternates(localizedPage, defaultCanonicalPath),
     },
   };
 }
@@ -233,7 +228,9 @@ export function renderTravelMonthPage(
   const reasonsToConsider = page.verdict.cons?.length
     ? page.verdict.cons
     : getReasonsToConsider(page, locale);
-  const practicalTips = getPracticalTips(page, locale);
+  const practicalTips = page.tips?.length
+    ? page.tips
+    : getPracticalTips(page, locale);
   const monthRead = page.editorial?.monthRead || getMonthRead(page, locale);
   const bookingRead = page.editorial?.bookingRead || getBookingRead(page, locale);
   const tiqetsCityId = getTiqetsCityId(page.cityId, page.cityName);
@@ -298,15 +295,26 @@ export function renderTravelMonthPage(
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(structuredData).replace(/</g, "\\u003c"),
+          __html: serializeJsonLd(structuredData),
         }}
+      />
+      <span id="webpage" hidden aria-hidden="true" />
+      <PageNav
+        className="fixed right-4 top-1/2 z-40 -translate-y-1/2 2xl:right-6"
+        items={[
+          { id: "overview", label: locale === "pl" ? "Analiza" : "Overview" },
+          { id: "pulse", label: locale === "pl" ? "Warunki" : "Pulse" },
+          { id: "weather", label: locale === "pl" ? "Pogoda" : "Weather" },
+          { id: "plan", label: locale === "pl" ? "Plan" : "Plan" },
+          { id: "months", label: locale === "pl" ? "Miesiące" : "Months" },
+        ]}
       />
       <div className="shell space-y-7 sm:space-y-8">
         <nav className="mx-auto flex max-w-5xl flex-wrap items-center gap-2 text-xs font-medium uppercase tracking-[0.12em] text-[var(--muted)] sm:text-sm sm:normal-case sm:tracking-normal">
           <Link href={buildHomePath(locale)} prefetch={false} className="hover:text-[var(--foreground)]">
             <Image
               src="/logotriptimi.png"
-              alt={dictionary.site.name}
+              alt={`${dictionary.site.name} travel planning homepage`}
               width={957}
               height={356}
               className="h-6 w-auto"
@@ -319,153 +327,74 @@ export function renderTravelMonthPage(
           </span>
         </nav>
 
-        <section className="showcase-hero rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7 lg:min-h-[calc(100vh-8.5rem)] lg:px-8 lg:py-6">
-          <div className="mx-auto max-w-[76rem] lg:grid lg:h-full lg:grid-cols-[minmax(0,1.08fr)_minmax(22rem,0.92fr)] lg:gap-6 lg:items-center">
-            <div className="lg:flex lg:h-full lg:flex-col lg:justify-center">
-              <div className="flex flex-wrap justify-center gap-2 lg:justify-start">
-                <span className="showcase-pill rounded-full px-3.5 py-2 text-sm font-semibold">
-                  {formatCountryName(page.country, locale)}
-                </span>
-                <span className="showcase-pill rounded-full px-3.5 py-2 text-sm font-semibold">
-                  {copy.travelScore} {page.score}
-                </span>
-                <span className="showcase-pill rounded-full px-3.5 py-2 text-sm font-semibold">
-                  {formatScoreLabel(page.score, locale)}
-                </span>
+        {/* ── EDITORIAL GUIDE HEADER ───────────────────────────── */}
+        <section className="border-b border-[var(--border)] pb-8 pt-2">
+          <div className="grid gap-6 lg:grid-cols-[1fr_auto] lg:items-start">
+            {/* Left: city name + month */}
+            <div>
+              <div className="mb-3 inline-flex items-center gap-1.5 font-mono text-xs text-[var(--muted)]">
+                <span>{formatCountryName(page.country, locale)}</span>
+                <span>·</span>
+                <span>{formatMonthLabel(page.month, locale)}</span>
               </div>
-
-              <div className="mt-5 text-center lg:mt-6 lg:text-left">
-                <p className="eyebrow text-[var(--accent)]">{copy.eyebrow}</p>
-                <h1 className="mx-auto mt-3 max-w-4xl text-[2.15rem] font-semibold tracking-[-0.045em] text-[var(--foreground)] sm:text-[3.4rem] sm:leading-[0.96] lg:mx-0 lg:max-w-3xl lg:text-[4.1rem]">
-                  {cityName}
-                  <span className="mt-1 block text-[var(--accent-deep)]">
-                    {getMonthLeadIn(locale)} {formatMonthLabel(page.month, locale, locale === "pl" ? "afterPreposition" : "standalone")}
-                  </span>
-                </h1>
-                <p className="mx-auto mt-3 max-w-2xl text-[0.96rem] leading-6 text-[var(--muted)] sm:text-[1.02rem] sm:leading-7 lg:mx-0 lg:max-w-xl">
-                  {page.summary} {heroSeoIntro}
-                </p>
+              <h1 className="font-serif text-[3rem] font-medium leading-[1.02] tracking-[-0.01em] text-[var(--foreground)] sm:text-[4rem] lg:text-[5rem]">
+                {cityName}
+              </h1>
+              <div className="mt-1 font-serif text-[1.5rem] italic text-[var(--muted)] sm:text-[2rem]">
+                {getMonthLeadIn(locale)}{" "}
+                {formatMonthLabel(page.month, locale, locale === "pl" ? "afterPreposition" : "standalone")}
               </div>
+              <p className="mt-4 max-w-2xl text-[0.96rem] leading-[1.7] text-[var(--muted)]">
+                {page.summary}
+              </p>
 
-              <div className="hero-action-row mt-5 justify-center lg:justify-start">
-                <a
-                  href="#plan"
-                  className="hero-action hero-action-primary"
-                  aria-label={copy.buildTripCta}
-                >
-                  <span className="hero-action-label !text-white/72">{getActionChipLabel("start", locale)}</span>
-                  <span className="hero-action-value !text-white">{copy.buildTripCta}</span>
+              {/* Month navigation */}
+              <div className="hero-action-row mt-5">
+                <a href="#plan" className="hero-action hero-action-primary" aria-label={copy.buildTripCta}>
+                  <span className="hero-action-label">{getActionChipLabel("start", locale)}</span>
+                  <span className="hero-action-value">{copy.buildTripCta}</span>
                 </a>
                 {previousMonthPage ? (
-                  <Link
-                    href={buildLocalizedPagePath(previousMonthPage, locale)}
-                    prefetch={false}
-                    className="hero-action hero-action-secondary"
-                    aria-label={`${copy.earlierMonthCta} ${formatMonthLabel(previousMonthPage.month, locale)}`}
-                  >
+                  <Link href={buildLocalizedPagePath(previousMonthPage, locale)} prefetch={false}
+                    className="hero-action hero-action-secondary">
                     <span className="hero-action-label">{getActionChipLabel("earlier", locale)}</span>
-                    <span className="hero-action-value">
-                      {formatMonthLabel(previousMonthPage.month, locale)}
-                    </span>
+                    <span className="hero-action-value">{formatMonthLabel(previousMonthPage.month, locale)}</span>
                   </Link>
                 ) : null}
                 {nextMonthPage ? (
-                  <Link
-                    href={buildLocalizedPagePath(nextMonthPage, locale)}
-                    prefetch={false}
-                    className="hero-action hero-action-secondary"
-                    aria-label={`${copy.laterMonthCta} ${formatMonthLabel(nextMonthPage.month, locale)}`}
-                  >
+                  <Link href={buildLocalizedPagePath(nextMonthPage, locale)} prefetch={false}
+                    className="hero-action hero-action-secondary">
                     <span className="hero-action-label">{getActionChipLabel("later", locale)}</span>
-                    <span className="hero-action-value">
-                      {formatMonthLabel(nextMonthPage.month, locale)}
-                    </span>
+                    <span className="hero-action-value">{formatMonthLabel(nextMonthPage.month, locale)}</span>
                   </Link>
                 ) : null}
               </div>
-
-              <div className="hero-highlight-row mt-5">
-                {heroHighlights.map((item) => (
-                  <div
-                    key={item.label}
-                    className="showcase-stat rounded-[1.3rem] px-4 py-3 text-center lg:text-left"
-                  >
-                    <div className="metric-title-row justify-center lg:justify-start">
-                      <MetricIcon icon={item.icon} />
-                      <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                        {item.label}
-                      </p>
-                    </div>
-                    <div className="mt-2 flex justify-center lg:justify-start">
-                      <span className={`rounded-full px-3 py-1.5 text-sm font-semibold ${item.tone}`}>
-                        {item.value}
-                      </span>
-                    </div>
-                  </div>
-                ))}
-              </div>
-
             </div>
 
-            <div className="mt-5 grid gap-3 lg:mt-0 lg:grid-rows-[auto_auto] lg:self-center">
-              <div className="showcase-score score-spotlight rounded-[1.5rem] p-4 sm:p-5">
-                <div className="score-spotlight-grid">
-                  <div className="score-spotlight-ticket">
-                    <TripTimiScoreTicket
-                      label={formatScoreLabel(page.score, locale)}
-                      locale={locale}
-                      score={page.score}
-                    />
-                  </div>
-
-                  <div className="score-verdict-panel">
-                    <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--accent)]">
-                      {locale === "pl" ? "Werdykt" : "Month read"}
-                    </p>
-                    <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
-                      {getVerdictIntro(page, locale, cityName)}
-                    </p>
-                  </div>
-                </div>
-              </div>
-
+            {/* Right: score block */}
+            <div className="flex flex-row items-start gap-4 lg:flex-col lg:items-end">
+              <TripTimiScoreTicket
+                label={formatScoreLabel(page.score, locale)}
+                locale={locale}
+                score={page.score}
+              />
               {heroFeaturedAttraction ? (
-                <div className="showcase-attraction rounded-[1.35rem] px-4 py-3.5">
-                  <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
-                    {heroFeaturedAttraction.indoor
-                      ? copy.attractionPanels.indoorTitle
-                      : copy.attractionPanels.outdoorTitle}
-                  </p>
-                  <div
-                    className={`mt-3 grid gap-3 ${
-                      heroFeaturedAttraction.image
-                        ? "sm:grid-cols-[7rem_minmax(0,1fr)] sm:items-center"
-                        : ""
-                    }`}
-                  >
-                    {heroFeaturedAttraction.image ? (
-                      <div className="overflow-hidden rounded-[0.95rem] border border-[var(--border)] bg-[var(--surface)]">
-                        <Image
-                          src={
-                            heroFeaturedAttraction.image.thumbUrl ||
-                            heroFeaturedAttraction.image.imageUrl
-                          }
-                          alt={heroFeaturedAttraction.name}
-                          width={heroFeaturedAttraction.image.width || 640}
-                          height={heroFeaturedAttraction.image.height || 480}
-                          className="h-20 w-full object-cover"
-                          sizes="(min-width: 640px) 112px, 100vw"
-                        />
-                      </div>
-                    ) : null}
-                    <div className="min-w-0">
-                      <p className="text-sm font-semibold text-[var(--foreground)] sm:text-[1rem]">
-                        {heroFeaturedAttraction.name}
-                      </p>
-                      <p className="mt-1 text-xs uppercase tracking-[0.16em] text-[var(--muted)]">
-                        {formatPoiCategory(heroFeaturedAttraction.category, locale)}
-                      </p>
+                <div className="ed-surface flex min-w-0 flex-1 items-center gap-3 p-3 lg:w-48 lg:flex-none">
+                  {heroFeaturedAttraction.image ? (
+                    <div className="h-12 w-12 shrink-0 overflow-hidden rounded-md border border-[var(--border)]">
+                      <Image
+                        src={heroFeaturedAttraction.image.thumbUrl || heroFeaturedAttraction.image.imageUrl}
+                        alt={buildAttractionImageAlt(heroFeaturedAttraction, locale, cityName)}
+                        width={48} height={48}
+                        className="h-full w-full object-cover"
+                      />
                     </div>
+                  ) : null}
+                  <div className="min-w-0">
+                    <p className="truncate text-sm font-medium text-[var(--foreground)]">{heroFeaturedAttraction.name}</p>
+                    <p className="font-mono text-[10px] uppercase tracking-widest text-[var(--muted)]">
+                      {formatPoiCategory(heroFeaturedAttraction.category, locale)}
+                    </p>
                   </div>
                 </div>
               ) : null}
@@ -473,13 +402,65 @@ export function renderTravelMonthPage(
           </div>
         </section>
 
-        <section className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
+        {/* ── METRIC BLOCKS 2×2 ───────────────────────────────── */}
+        <section className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+          {[
+            {
+              icon: ThermometerSun,
+              label: copy.weatherTable.avgDay,
+              value: `${page.climate.avgTempDay}°C`,
+              sub: `${page.climate.sunshineHours}h ${copy.weatherTable.sunshine}`,
+              fill: Math.min(100, Math.max(0, ((page.climate.avgTempDay + 5) / 40) * 100)),
+              fillColor: "var(--accent)",
+            },
+            {
+              icon: UsersRound,
+              label: copy.crowds,
+              value: formatCrowdLevel(page.travelSignals.crowdLevel, locale),
+              sub: formatCrowdLevel(page.travelSignals.crowdLevel, locale),
+              fill: page.travelSignals.crowdLevel === "high" ? 82 : page.travelSignals.crowdLevel === "medium" ? 55 : 28,
+              fillColor: page.travelSignals.crowdLevel === "high" ? "var(--accent-warm)" : "var(--accent)",
+            },
+            {
+              icon: CloudRain,
+              label: copy.weatherTable.rainfall,
+              value: `${page.climate.rainfallMm} mm`,
+              sub: `${page.climate.rainyDays} ${formatDaysLabel(page.climate.rainyDays, locale)}`,
+              fill: Math.min(100, (page.climate.rainfallMm / 200) * 100),
+              fillColor: "#5DA3D6",
+            },
+            {
+              icon: WalletCards,
+              label: copy.priceLevel,
+              value: formatPriceLevel(page.travelSignals.priceLevel, locale),
+              sub: formatPriceLevel(page.travelSignals.priceLevel, locale),
+              fill: page.travelSignals.priceLevel === "high" ? 82 : page.travelSignals.priceLevel === "medium" ? 52 : 28,
+              fillColor: "var(--accent-warm)",
+            },
+          ].map((m) => (
+            <div key={m.label} className="ed-metric-block">
+              <div className="ed-metric-label">
+                <m.icon size={15} className="text-[var(--muted)]" />
+                <span>{m.label}</span>
+              </div>
+              <div>
+                <div className="ed-metric-value">{m.value}</div>
+                <div className="ed-metric-sub mt-1">{m.sub}</div>
+              </div>
+              <div className="ed-fill-bar">
+                <div className="ed-fill-bar-inner" style={{ width: `${m.fill}%`, background: m.fillColor }} />
+              </div>
+            </div>
+          ))}
+        </section>
+
+        <section id="overview" className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7 scroll-mt-6">
           <div className="grid gap-6 lg:grid-cols-[0.82fr_1.18fr] lg:items-start">
             <div>
               <p className="eyebrow text-[var(--accent)]">
                 {monthIntelligence.eyebrow}
               </p>
-              <h2 className="mt-3 text-[2rem] font-semibold tracking-tight sm:text-[2.6rem]">
+              <h2 className="mt-3 font-serif text-[2rem] font-medium tracking-[-0.01em] sm:text-[2.4rem]">
                 {monthIntelligence.title}
               </h2>
               <p className="mt-4 max-w-xl text-sm leading-6 text-[var(--muted)]">
@@ -521,123 +502,154 @@ export function renderTravelMonthPage(
 
         <FlightSearchWidget destination={cityName} locale={locale} />
 
-        <section className="grid gap-5 xl:grid-cols-[1.2fr_0.8fr] xl:items-start">
-          <div className="grid gap-5">
-            <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
-              <div className="min-h-[4.8rem]">
-                <p className="eyebrow text-[var(--accent)]">{copy.bestForEyebrow}</p>
-                <h2 className="mt-3 max-w-[18rem] text-[1.8rem] font-semibold tracking-tight sm:text-[2.15rem]">
-                  {bestForTitle}
-                </h2>
-              </div>
-              <div className="mt-6 grid gap-3 sm:grid-cols-2">
-                {travelerFit.map((item) => (
-                  <div
-                    key={item}
-                    className="apple-soft-card rounded-[1.45rem] px-4 py-4"
-                  >
-                    <p className="text-sm leading-6 text-[var(--muted)]">{item}</p>
-                  </div>
-                ))}
-              </div>
-            </article>
-
-            <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
-              <div className="min-h-[4.8rem]">
-                <p className="eyebrow text-[var(--accent)]">{copy.travelPulse}</p>
-                <h2 className="mt-3 max-w-[18rem] text-[1.8rem] font-semibold tracking-tight sm:text-[2.15rem]">
-                  {decisionSectionTitle}
-                </h2>
-              </div>
-              <div className="mt-6 grid gap-3">
-                <SignalRow
-                  label={copy.crowds}
-                  value={formatCrowdLevel(page.travelSignals.crowdLevel, locale)}
-                  className={signalTone[page.travelSignals.crowdLevel]}
-                  icon={UsersRound}
-                />
-                <SignalRow
-                  label={copy.priceLevel}
-                  value={formatPriceLevel(page.travelSignals.priceLevel, locale)}
-                  className={priceTone[page.travelSignals.priceLevel]}
-                  icon={WalletCards}
-                />
-                <SignalRow
-                  label={copy.nightTemp}
-                  value={`${page.climate.avgTempNight}C`}
-                  className="bg-slate-100 text-slate-800"
-                  icon={Moon}
-                />
-              </div>
-
-              <div className="mt-6 grid gap-3 sm:grid-cols-2">
-                <VerdictBlock title={strengthsTitle} tone="good" items={reasonsToGo} />
-                <VerdictBlock
-                  title={tradeoffsTitle}
-                  tone="mixed"
-                  items={reasonsToConsider}
-                />
-              </div>
-            </article>
+        <a
+          href={`https://www.booking.com/searchresults.html?ss=${encodeURIComponent(cityName)}&lang=${locale === "pl" ? "pl" : locale === "de" ? "de" : locale === "es" ? "es" : locale === "fr" ? "fr" : "en-gb"}`}
+          target="_blank"
+          rel="noopener noreferrer sponsored"
+          className="affiliate-card flex items-center justify-between gap-4 rounded-[1.8rem] px-5 py-4 sm:px-7 sm:py-5"
+        >
+          <div>
+            <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-[var(--muted)]">
+              {locale === "pl" ? "Noclegi" : locale === "de" ? "Unterkünfte" : locale === "es" ? "Alojamiento" : locale === "fr" ? "Hébergement" : "Accommodation"}
+            </p>
+            <p className="mt-1 text-base font-semibold text-[var(--foreground)]">
+              {locale === "pl"
+                ? `Znajdź hotele w ${cityName}`
+                : locale === "de"
+                  ? `Hotels in ${cityName} finden`
+                  : locale === "es"
+                    ? `Encontrar hoteles en ${cityName}`
+                    : locale === "fr"
+                      ? `Trouver des hôtels à ${cityName}`
+                      : `Find hotels in ${cityName}`}
+            </p>
           </div>
+          <span className="shrink-0 rounded-full bg-[var(--foreground)] px-4 py-2 text-sm font-semibold text-white">
+            {locale === "pl" ? "Sprawdź" : locale === "de" ? "Ansehen" : locale === "es" ? "Ver" : locale === "fr" ? "Voir" : "Search"}
+          </span>
+        </a>
 
-          <article className="apple-panel h-full rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
+        <section id="pulse" className="grid gap-5 xl:grid-cols-2 xl:items-start scroll-mt-6">
+          <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
             <div className="min-h-[4.8rem]">
-              <p className="eyebrow text-[var(--accent)]">{copy.snapshotEyebrow}</p>
-              <h2 className="mt-3 max-w-[18rem] text-[1.8rem] font-semibold tracking-tight sm:text-[2.15rem]">
-                {copy.snapshotTitle}
+              <p className="eyebrow text-[var(--accent)]">{copy.bestForEyebrow}</p>
+              <h2 className="mt-3 max-w-[18rem] font-serif text-[1.75rem] font-medium tracking-[-0.01em] sm:text-[2rem]">
+                {bestForTitle}
               </h2>
             </div>
+            <div className="mt-6 grid gap-3 sm:grid-cols-2">
+              {travelerFit.map((item) => (
+                <div
+                  key={item}
+                  className="apple-soft-card rounded-[1.45rem] px-4 py-4"
+                >
+                  <p className="text-sm leading-6 text-[var(--muted)]">{item}</p>
+                </div>
+              ))}
+            </div>
+          </article>
 
-            <div className="mt-6 overflow-hidden rounded-[1.5rem] border border-[var(--border)] bg-white">
-              <table className="compact-table w-full text-left text-sm">
-                <tbody>
-                  <WeatherRow
-                    label={copy.weatherTable.avgDay}
-                    value={`${page.climate.avgTempDay}C`}
-                    icon={ThermometerSun}
-                  />
-                  <WeatherRow
-                    label={copy.weatherTable.avgNight}
-                    value={`${page.climate.avgTempNight}C`}
-                    icon={ThermometerSnowflake}
-                  />
-                  <WeatherRow
-                    label={copy.weatherTable.rainfall}
-                    value={`${page.climate.rainfallMm} mm`}
-                    icon={CloudRain}
-                  />
-                  <WeatherRow
-                    label={copy.weatherTable.rainyDays}
-                    value={`${page.climate.rainyDays} ${formatDaysLabel(page.climate.rainyDays, locale)}`}
-                    icon={CalendarDays}
-                  />
-                  <WeatherRow
-                    label={copy.weatherTable.humidity}
-                    value={`${page.climate.humidity}%`}
-                    icon={Droplets}
-                  />
-                  <WeatherRow
-                    label={copy.weatherTable.sunshine}
-                    value={`${page.climate.sunshineHours} h`}
-                    icon={CloudSun}
-                  />
-                </tbody>
-              </table>
+          <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
+            <div className="min-h-[4.8rem]">
+              <p className="eyebrow text-[var(--accent)]">{copy.travelPulse}</p>
+              <h2 className="mt-3 max-w-[18rem] font-serif text-[1.75rem] font-medium tracking-[-0.01em] sm:text-[2rem]">
+                {decisionSectionTitle}
+              </h2>
+            </div>
+            <div className="mt-6 grid gap-3">
+              <SignalRow
+                label={copy.crowds}
+                value={formatCrowdLevel(page.travelSignals.crowdLevel, locale)}
+                className={signalTone[page.travelSignals.crowdLevel]}
+                icon={UsersRound}
+              />
+              <SignalRow
+                label={copy.priceLevel}
+                value={formatPriceLevel(page.travelSignals.priceLevel, locale)}
+                className={priceTone[page.travelSignals.priceLevel]}
+                icon={WalletCards}
+              />
+              <SignalRow
+                label={copy.nightTemp}
+                value={`${page.climate.avgTempNight}C`}
+                className="bg-slate-100 text-slate-800"
+                icon={Moon}
+              />
             </div>
 
-            <div className="mt-5 grid gap-3">
+            <div className="mt-6 grid gap-3 sm:grid-cols-2">
+              <VerdictBlock title={strengthsTitle} tone="good" items={reasonsToGo} />
+              <VerdictBlock
+                title={tradeoffsTitle}
+                tone="mixed"
+                items={reasonsToConsider}
+              />
+            </div>
+          </article>
+        </section>
+
+        <section id="weather" className="scroll-mt-6">
+          <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7 xl:grid xl:grid-cols-[1fr_1.1fr] xl:gap-8 xl:items-start">
+            <div>
+              <div className="min-h-[4.8rem]">
+                <p className="eyebrow text-[var(--accent)]">{copy.snapshotEyebrow}</p>
+                <h2 className="mt-3 max-w-[18rem] font-serif text-[1.75rem] font-medium tracking-[-0.01em] sm:text-[2rem]">
+                  {copy.snapshotTitle}
+                </h2>
+              </div>
+
+              <div className="mt-6 overflow-hidden rounded-[1.5rem] border border-[var(--border)] bg-white">
+                <table className="compact-table w-full text-left text-sm">
+                  <tbody>
+                    <WeatherRow
+                      label={copy.weatherTable.avgDay}
+                      value={`${page.climate.avgTempDay}C`}
+                      icon={ThermometerSun}
+                    />
+                    <WeatherRow
+                      label={copy.weatherTable.avgNight}
+                      value={`${page.climate.avgTempNight}C`}
+                      icon={ThermometerSnowflake}
+                    />
+                    <WeatherRow
+                      label={copy.weatherTable.rainfall}
+                      value={`${page.climate.rainfallMm} mm`}
+                      icon={CloudRain}
+                    />
+                    <WeatherRow
+                      label={copy.weatherTable.rainyDays}
+                      value={`${page.climate.rainyDays} ${formatDaysLabel(page.climate.rainyDays, locale)}`}
+                      icon={CalendarDays}
+                    />
+                    <WeatherRow
+                      label={copy.weatherTable.humidity}
+                      value={`${page.climate.humidity}%`}
+                      icon={Droplets}
+                    />
+                    <WeatherRow
+                      label={copy.weatherTable.sunshine}
+                      value={`${page.climate.sunshineHours} h`}
+                      icon={CloudSun}
+                    />
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+            <div className="mt-6 grid gap-3 xl:mt-0">
               <InfoMiniCard title={copy.monthFeelsTitle} description={monthRead} />
               <InfoMiniCard title={copy.bookingReadTitle} description={bookingRead} />
             </div>
           </article>
         </section>
 
+        <span id="plan" className="block scroll-mt-24" aria-hidden="true" />
+
         {tiqetsCityId ? (
           <section>
-            <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7" id="plan">
+            <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
               <p className="eyebrow text-[var(--accent)]">{copy.whatToDoEyebrow}</p>
-              <h2 className="mt-3 text-[2rem] font-semibold tracking-tight sm:text-[2.6rem]">
+              <h2 className="mt-3 font-serif text-[2rem] font-medium tracking-[-0.01em] sm:text-[2.4rem]">
                 {copy.whatToDoTitle}
               </h2>
 
@@ -651,7 +663,7 @@ export function renderTravelMonthPage(
         <section className="grid gap-5 lg:grid-cols-[1.02fr_0.98fr]">
           <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
             <p className="eyebrow text-[var(--accent)]">{copy.howToDoEyebrow}</p>
-            <h2 className="mt-3 text-[2rem] font-semibold tracking-tight sm:text-[2.6rem]">
+            <h2 className="mt-3 font-serif text-[2rem] font-medium tracking-[-0.01em] sm:text-[2.4rem]">
               {copy.howToDoTitle}
             </h2>
 
@@ -689,11 +701,11 @@ export function renderTravelMonthPage(
             </div>
           </article>
 
-          <article className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
+          <article id="months" className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7 scroll-mt-6">
             <div className="flex flex-wrap items-end justify-between gap-4">
               <div>
                 <p className="eyebrow text-[var(--accent)]">{copy.keepExploringEyebrow}</p>
-                <h2 className="mt-3 text-[2rem] font-semibold tracking-tight sm:text-[2.6rem]">
+                <h2 className="mt-3 font-serif text-[2rem] font-medium tracking-[-0.01em] sm:text-[2.4rem]">
                   {monthComparisonTitle}
                 </h2>
               </div>
@@ -727,7 +739,7 @@ export function renderTravelMonthPage(
           <div className="grid gap-6 lg:grid-cols-[0.78fr_1.22fr] lg:items-start">
             <div>
               <p className="eyebrow text-[var(--accent)]">{copy.broadenSessionEyebrow}</p>
-              <h2 className="mt-3 text-[2rem] font-semibold tracking-tight sm:text-[2.6rem]">
+              <h2 className="mt-3 font-serif text-[2rem] font-medium tracking-[-0.01em] sm:text-[2.4rem]">
                 {similarCitiesTitle}
               </h2>
               <p className="mt-4 max-w-md text-sm leading-6 text-[var(--muted)]">
@@ -764,7 +776,7 @@ export function renderTravelMonthPage(
 
         <section className="apple-panel rounded-[2rem] px-5 py-6 sm:px-7 sm:py-7">
           <p className="eyebrow text-[var(--accent)]">{getFaqEyebrow(locale)}</p>
-          <h2 className="mt-3 text-[2rem] font-semibold tracking-tight sm:text-[2.6rem]">
+          <h2 className="mt-3 font-serif text-[2rem] font-medium tracking-[-0.01em] sm:text-[2.4rem]">
             {getFaqTitle(cityName, locale)}
           </h2>
           <div className="mt-6 grid gap-3 md:grid-cols-3">
@@ -785,6 +797,12 @@ export function renderTravelMonthPage(
         </section>
 
         <EsimWidget country={page.country} locale={locale} />
+
+        <p className="mx-auto max-w-2xl text-center text-xs leading-6 text-[var(--muted)]">
+          {locale === "pl"
+            ? `Dane klimatyczne: historyczne średnie Open-Meteo. Sygnały tłumów i cen: sezonowy model popytu oparty na danych populacji i wzorcach turystycznych. Wynik TripTimi jest wskaźnikiem orientacyjnym, nie rekomendacją podróży.`
+            : `Climate data: Open-Meteo historical averages. Crowd and price signals: seasonal demand model based on population data and tourism patterns. TripTimi score is an indicative index, not a travel recommendation.`}
+        </p>
       </div>
     </main>
   );
@@ -1479,27 +1497,15 @@ function trimSeoDescription(description: string, maxLength = 158) {
 }
 
 /* eslint-enable @typescript-eslint/no-unused-vars */
-function buildAbsoluteUrl(pathname: string) {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-
-  if (!siteUrl) {
-    return pathname;
-  }
-
-  try {
-    return new URL(pathname, siteUrl).toString();
-  } catch {
-    return pathname;
-  }
-}
-
-function buildAbsoluteLanguageAlternates(page: TravelPagePayload) {
-  return Object.fromEntries(
+function buildAbsoluteLanguageAlternates(page: TravelPagePayload, defaultCanonicalPath: string) {
+  const languages = Object.fromEntries(
     Object.entries(getPublishedLanguageAlternatesForPage(page)).map(([locale, href]) => [
       locale,
       buildAbsoluteUrl(href),
     ]),
   );
+
+  return addXDefaultLanguageAlternate(languages, defaultCanonicalPath);
 }
 
 function buildTravelMonthStructuredData(
@@ -1523,6 +1529,7 @@ function buildTravelMonthStructuredData(
         url: canonicalUrl,
         name: buildSeoTitle(page, cityName, locale),
         description,
+        inLanguage: locale,
         isPartOf: {
           "@type": "WebSite",
           name: siteName,
@@ -1541,10 +1548,8 @@ function buildTravelMonthStructuredData(
           {
             "@type": "ListItem",
             position: 2,
-            name: cityName,
-            item: buildAbsoluteUrl(
-              `${buildHomePath(locale)}#${getCanonicalCitySlug(page.citySlug, page.cityName)}`,
-            ),
+            name: locale === "pl" ? "Kierunki" : "Destinations",
+            item: buildAbsoluteUrl(buildDestinationsPath(locale)),
           },
           {
             "@type": "ListItem",
@@ -1934,13 +1939,13 @@ function VerdictBlock({
   return (
     <div className={`rounded-[1.45rem] border p-4 ${toneClass}`}>
       <h3 className="text-sm font-semibold">{title}</h3>
-      <div className="mt-3 space-y-2.5">
+      <ul className="mt-3 space-y-2.5">
         {items.map((item) => (
-          <div key={item} className="rounded-[0.95rem] bg-white/55 px-4 py-3 text-sm leading-6">
+          <li key={item} className="rounded-[0.95rem] bg-white/55 px-4 py-3 text-sm leading-6">
             {item}
-          </div>
+          </li>
         ))}
-      </div>
+      </ul>
     </div>
   );
 }
@@ -1993,7 +1998,7 @@ function AttractionPanel({
                 <div className="overflow-hidden rounded-[0.95rem] border border-[var(--border)] bg-[var(--surface)]">
                   <Image
                     src={item.image.thumbUrl || item.image.imageUrl}
-                    alt={item.name}
+                    alt={buildAttractionImageAlt(item, locale)}
                     width={item.image.width || 640}
                     height={item.image.height || 480}
                     className="h-28 w-full object-cover sm:h-24"
@@ -2045,6 +2050,24 @@ function AttractionPanel({
       </div>
     </div>
   );
+}
+
+function buildAttractionImageAlt(
+  item: PointOfInterest,
+  locale: LocaleCode,
+  cityName?: string,
+) {
+  const category = formatPoiCategory(item.category, locale);
+
+  if (locale === "pl") {
+    return cityName
+      ? `${item.name}, atrakcja ${category} w miescie ${cityName}`
+      : `${item.name}, atrakcja ${category} pokazana w przewodniku TripTimi`;
+  }
+
+  return cityName
+    ? `${item.name}, ${category} attraction in ${cityName}`
+    : `${item.name}, ${category} attraction shown in the TripTimi guide`;
 }
 
 function MonthIntelligenceCard({

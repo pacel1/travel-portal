@@ -56,6 +56,23 @@ function canonicalizePagePayload(page) {
   };
 }
 
+function stripNonLatinScripts(value) {
+  if (typeof value === "string") {
+    return value
+      .replace(/[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]+/gu, "")
+      .replace(/\n/g, " ")
+      .replace(/\s{2,}/g, " ")
+      .trim();
+  }
+  if (Array.isArray(value)) return value.map(stripNonLatinScripts);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(
+      Object.entries(value).map(([k, v]) => [k, stripNonLatinScripts(v)]),
+    );
+  }
+  return value;
+}
+
 async function writeGeneratedFiles(
   monthlyScores,
   pages,
@@ -83,7 +100,7 @@ async function writeGeneratedFiles(
   );
   await writeFile(
     path.join(outputDir, "page-copy.json"),
-    `${JSON.stringify(pageCopyByLocale, null, 2)}\n`,
+    `${JSON.stringify(stripNonLatinScripts(pageCopyByLocale), null, 2)}\n`,
   );
   await writeFile(
     path.join(outputDir, "poi-localizations.json"),
@@ -307,10 +324,19 @@ function applyPageLocalization(
   };
 }
 
+function cleanPoiName(name) {
+  if (typeof name !== "string") return name;
+  return name
+    .replace(/[؀-ۿݐ-ݿﭐ-﷿ﹰ-﻿]+/gu, "")
+    .replace(/\n/g, " ")
+    .replace(/\s{2,}/g, " ")
+    .trim();
+}
+
 function localizePoiItems(items = [], localizedPoiNames = {}, poiImages) {
   return items.map((item) => ({
     ...item,
-    name: localizedPoiNames[item.id] ?? item.name,
+    name: cleanPoiName(localizedPoiNames[item.id] ?? item.name),
     image: poiImages.get(item.id) ?? item.image,
   }));
 }

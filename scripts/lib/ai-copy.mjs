@@ -2,8 +2,10 @@ import OpenAI from "openai";
 
 import { defaultLocale } from "./locales.mjs";
 import { buildPageCopyKey } from "./page-copy-sync.mjs";
+import { monthOrder, monthNumberByName } from "./travel-engine.mjs";
+import seasonalEvents from "../../src/data/raw/seasonal-events.json" with { type: "json" };
 
-const AI_COPY_PROMPT_VERSION = "travel-copy-v8";
+const AI_COPY_PROMPT_VERSION = "travel-copy-v10b";
 const DEFAULT_SOURCE_MODEL = "gpt-5.4-mini";
 const DEFAULT_TRANSLATION_MODEL = "gpt-5.4-nano";
 const DEFAULT_SOURCE_CONCURRENCY = 4;
@@ -87,6 +89,8 @@ const SOURCE_SYSTEM_PROMPT = [
   "Use only the provided facts and never invent neighborhoods, events, weather, prices, or seasonal claims.",
   "Keep the tone helpful, specific, and human.",
   "Avoid template phrases and generic filler.",
+  "Every page must include at least one insight specific to this city and month that could not apply verbatim to any other destination.",
+  "Reference the actual city name and at least one named attraction when describing what the month offers.",
   "Every sentence must land cleanly and read as finished editorial copy, never as a clipped fragment.",
   "Return valid JSON matching the provided schema.",
 ].join(" ");
@@ -162,7 +166,7 @@ function getCopySchema() {
         items: {
           type: "string",
           minLength: 18,
-          maxLength: 140,
+          maxLength: 200,
         },
       },
       cons: {
@@ -172,7 +176,7 @@ function getCopySchema() {
         items: {
           type: "string",
           minLength: 18,
-          maxLength: 140,
+          maxLength: 200,
         },
       },
       recommendations: {
@@ -271,8 +275,8 @@ function buildContentStrategy(page) {
     primaryAngle = "indoor";
     readerIntent = "museum-led or indoor-heavy city break";
   } else if (tier === "strong") {
-    primaryAngle = "easy_yes";
-    readerIntent = "broadly easy month to recommend";
+    primaryAngle = "recommended";
+    readerIntent = "month with genuine weather, crowd, and value strengths worth explaining specifically";
   } else if (budgetMonth) {
     primaryAngle = "value";
     readerIntent = "balanced trip with decent value";
@@ -296,13 +300,27 @@ function buildContentStrategy(page) {
   };
 }
 
+function getSeasonalEventsForPage(citySlug, month) {
+  const monthNum = String(monthNumberByName[month] ?? "");
+  const cityEvents = seasonalEvents[citySlug];
+  if (!cityEvents) return [];
+  return cityEvents[monthNum] ?? [];
+}
+
 function makePromptFacts(page) {
   const totalAttractions = page.attractions.outdoor.length + page.attractions.indoor.length;
+  const monthIdx = monthOrder.indexOf(page.month);
+  const prevMonth = monthIdx >= 0 ? monthOrder[(monthIdx + 11) % 12] : null;
+  const nextMonth = monthIdx >= 0 ? monthOrder[(monthIdx + 1) % 12] : null;
+  const localEvents = getSeasonalEventsForPage(page.citySlug, page.month);
 
   return {
     city: page.cityName,
     country: page.country,
     month: page.month,
+    prevMonth,
+    nextMonth,
+    localEvents: localEvents.length > 0 ? localEvents : undefined,
     score: page.score,
     scoreLabel: page.scoreLabel,
     climate: {
@@ -357,37 +375,62 @@ function buildSystemPrompt(locale, mode) {
 
 function buildSourceUserPrompt(facts) {
   const strategy = facts.contentStrategy ?? {};
+  const prevMonth = facts.prevMonth ?? null;
+  const nextMonth = facts.nextMonth ?? null;
+  const neighborClause =
+    prevMonth && nextMonth
+      ? `Seasonality context: this is ${facts.month} — explain what makes it specifically different from ${prevMonth} (before) and ${nextMonth} (after) for this city.`
+      : "";
+
+  const poiNames = [
+    ...(facts.outdoorHighlights ?? []).map((p) => p.name),
+    ...(facts.indoorHighlights ?? []).map((p) => p.name),
+  ].filter(Boolean);
+
+  const poiClause = poiNames.length
+    ? `Named attractions for this city this month: ${poiNames.join(", ")}. Use at least 2 of these by name across the full output — specifically in recommendations, tips, and bestFor.`
+    : "";
+
+  const eventsClause =
+    facts.localEvents?.length
+      ? `Confirmed local events for ${facts.month} in ${facts.city}: ${facts.localEvents.join("; ")}. Weave at least one into the copy by name.`
+      : "";
 
   return [
-    "Task: generate fresh travel copy from the facts JSON below.",
-    "Requirements:",
-    "- summary: exactly 2 complete sentences and under 220 characters",
-    "- verdictHeading: exactly 2 complete sentences and under 220 characters total",
-    "- pros, cons, recommendations, tips, bestFor: 2 to 3 items each",
-    "- monthRead and bookingRead: exactly 2 complete sentences each and under 225 characters",
-    "- Keep every field specific to this city and month",
-    "- Lead with traveler-relevant conditions, not internal scoring language",
-    '- Do not mention "verdict", "score label", or quoted internal labels',
-    "- Avoid formulaic openings like 'City in Month scores...' or 'is rated...'",
-    "- Mention crowds and prices only when they materially shape the trip",
-    "- Mention weather and attraction strength in the verdict",
-    "- Avoid hype and reusable travel-template phrasing",
-    "- Every sentence must feel complete; never end on a clipped noun, adjective, or dangling phrase",
-    "- Match the traveler intent in contentStrategy instead of forcing every page into a generic 'best time' frame",
+    `Task: generate hyper-specific travel copy for ${facts.city} in ${facts.month}.`,
+    "",
+    "QUALITY TEST — before writing each sentence, ask: 'Could this exact sentence appear on a page for a different city?' If yes, rewrite it with a specific place name, number, or event.",
+    "",
+    "Field-by-field rules:",
+    "- summary (2 sentences, max 220 chars): name the city AND one specific attraction or event that defines this month.",
+    "- verdictHeading (2 sentences, max 220 chars): state the concrete trade-off or opportunity — include a specific place name or data point.",
+    "- pros (2–3 items): each must name a SPECIFIC PLACE or measurable condition. NOT 'fewer crowds at major sights' — YES 'Wawel Castle ticket lines are under 10 minutes on weekday mornings'.",
+    "- cons (2–3 items): each must be concrete and city-specific. NOT 'cold weather limits outdoor time' — YES '−2°C average nights cut Kazimierz evening walks short after 8 pm'.",
+    "- recommendations (2–3 items): these are ACTIONABLE BOOKING STEPS. 'Book timed entry to [specific attraction] at least 5 days ahead', 'Stay in [specific neighbourhood] to walk to [specific sight] in under 10 minutes', 'Visit [attraction] before 9 am to beat tour groups'.",
+    "- tips (2–3 items): PRACTICAL and CITY-SPECIFIC. 'With an average of [N] rainy days, pack a compact umbrella — not a rain jacket — for Old Town walks', '[Museum] offers free Sunday entry; the first slot at 10 am fills fastest in summer'. NO generic packing lists.",
+    "- bestFor (2–3 items): name a SPECIFIC TRAVELER TYPE with a concrete, city-specific reason. 'First-time visitors who want the [specific landmark] without queues: [month] weekday mornings see a third of July crowds'. NOT 'budget travelers'.",
+    "- monthRead (2 sentences, max 225 chars): sensory description of the city's rhythm this specific month — mention a neighbourhood, market, or event by name.",
+    "- bookingRead (2 sentences, max 225 chars): what to reserve and what to leave flexible — name actual things to book vs. leave open.",
+    "",
+    "HARD BANS — never use these phrases or close paraphrases:",
+    "'easy month', 'easy yes', 'low crowds', 'mild days', 'little rain', 'limited rain risk', 'manageable rainfall', 'works best when', 'quiet conditions', 'low prices', 'comfortable sightseeing', 'good balance', 'budget-friendly', 'flexible plan', 'value trip'.",
+    "Replace every ban with the actual number, specific attraction, or concrete condition from the facts.",
+    "",
+    ...(poiClause ? [poiClause, ""] : []),
+    ...(eventsClause ? [eventsClause, ""] : []),
+    ...(neighborClause ? [neighborClause, ""] : []),
     ...(strategy.tier === "selective"
       ? [
-          "- Treat this as a selective opportunity page, not a failed peak-season page",
-          "- Make it clear who this month still suits and what compensating upside makes it worth considering",
-          "- Lean into budget, quieter sightseeing, indoor strengths, or flexibility when the facts support it",
-          "- Be honest about tradeoffs and mention stronger alternatives when useful",
+          "Intent: selective-opportunity page. Identify EXACTLY who benefits this month and WHY — name the specific upside (event, uncrowded sight, price drop). Be honest about the stronger alternative months.",
+          "",
         ]
       : []),
     ...(strategy.tier === "strong"
       ? [
-          "- Explain why the month is easy to say yes to without sounding like generic peak-season hype",
+          "Intent: strong-month page. Explain the specific combination of weather, access, and events that makes this month worth choosing — name the actual temperature range, which sights peak, which events fire.",
+          "",
         ]
       : []),
-    "",
     "Content strategy JSON:",
     JSON.stringify(strategy),
     "",
@@ -698,7 +741,6 @@ const SUSPICIOUS_TAIL_PATTERNS_BY_LOCALE = {
   es: [/\bMuseo\.$/i, /\bcub\.$/i, /\b(inter|exter)\.$/i],
   fr: [/\bMusee\.$/i, /\bmusee\.$/i, /\baccep[\p{L}\p{M}\u00ad]*\.$/iu],
   pl: [
-    /\bbez\.$/i,
     /\bzbud\.$/i,
     /\bNarod\.$/i,
     /\bkomplet\.$/i,
@@ -707,7 +749,6 @@ const SUSPICIOUS_TAIL_PATTERNS_BY_LOCALE = {
     /\bmaksymalnym\.$/i,
     /\bzewną\.$/i,
     /\bpres\.$/i,
-    /\bz\.$/i,
   ],
 };
 
@@ -750,7 +791,7 @@ function hasSuspiciousFinalToken(text, locale) {
   }
 
   if (locale === "pl") {
-    return /^(musz|zewną|pres|narod|komplet|bez|zbud|sredn|średn|maksymalnym|na|c)$/i.test(
+    return /^(musz|zewną|pres|narod|komplet|zbud|sredn|średn|maksymalnym)$/i.test(
       token,
     );
   }
@@ -792,6 +833,14 @@ function getCopyQualityIssues(payload, locale, facts = null) {
 
   if (/^.+\bin\b.+\b(scores|is rated)\b/i.test(payload.summary ?? "")) {
     issues.push("summary uses a score-first opening");
+  }
+
+  if (
+    /\b(easy month|easy yes|mild days|low crowds|little rain|limited rain risk|manageable rainfall|quiet conditions|works best when|low prices)\b/i.test(
+      combinedText,
+    )
+  ) {
+    issues.push("copy uses banned template phrases");
   }
 
   if (
@@ -1755,7 +1804,7 @@ function getRequestParams(page, locale, options = {}) {
           schema: getCopySchema(),
         },
       },
-      max_output_tokens: mode === "translation" ? 1200 : 900,
+      max_output_tokens: mode === "translation" ? 1400 : 1500,
     },
   };
 }

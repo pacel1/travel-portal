@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
 
+import { DestinationsCatalog } from "@/components/destinations-catalog";
+
 import { getPagePayload, monthOrder, pagePayloads } from "@/lib/catalog";
 import {
   formatCityMonthLabel,
@@ -14,6 +16,12 @@ import {
   buildHomePath,
   type LocaleCode,
 } from "@/lib/i18n";
+import {
+  addXDefaultLanguageAlternate,
+  buildAbsoluteUrl,
+  buildSocialMetadata,
+  serializeJsonLd,
+} from "@/lib/seo";
 import {
   buildLocalizedPagePath,
   getLocalizedDisplayCityName,
@@ -94,20 +102,6 @@ const destinationsCopy: Record<
   },
 };
 
-function buildAbsoluteUrl(pathname: string) {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-
-  if (!siteUrl) {
-    return pathname;
-  }
-
-  try {
-    return new URL(pathname, siteUrl).toString();
-  } catch {
-    return pathname;
-  }
-}
-
 export function buildDestinationsMetadata(locale: LocaleCode): Metadata {
   const copy = destinationsCopy[locale];
   const canonicalPath = buildDestinationsPath(locale);
@@ -118,17 +112,19 @@ export function buildDestinationsMetadata(locale: LocaleCode): Metadata {
     robots: "index, follow",
     alternates: {
       canonical: buildAbsoluteUrl(canonicalPath),
-      languages: {
-        en: buildAbsoluteUrl(buildDestinationsPath("en")),
-        pl: buildAbsoluteUrl(buildDestinationsPath("pl")),
-      },
+      languages: addXDefaultLanguageAlternate(
+        {
+          en: buildAbsoluteUrl(buildDestinationsPath("en")),
+          pl: buildAbsoluteUrl(buildDestinationsPath("pl")),
+        },
+        buildDestinationsPath("en"),
+      ),
     },
-    openGraph: {
+    ...buildSocialMetadata({
+      canonicalPath,
       title: copy.title,
       description: copy.description,
-      type: "website",
-      url: buildAbsoluteUrl(canonicalPath),
-    },
+    }),
   };
 }
 
@@ -152,7 +148,7 @@ export function DestinationsIndex({ locale }: { locale: LocaleCode }) {
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{
-          __html: JSON.stringify(schemaData).replace(/</g, "\\u003c"),
+          __html: serializeJsonLd(schemaData),
         }}
       />
       <div className="shell-tight space-y-6">
@@ -161,7 +157,7 @@ export function DestinationsIndex({ locale }: { locale: LocaleCode }) {
             <Link href={buildHomePath(locale)} prefetch={false} aria-label="TripTimi">
               <Image
                 src="/logotriptimi.png"
-                alt="TripTimi"
+                alt="TripTimi travel planning homepage"
                 width={957}
                 height={356}
                 priority
@@ -184,64 +180,142 @@ export function DestinationsIndex({ locale }: { locale: LocaleCode }) {
               <p className="eyebrow text-[var(--accent)]">{copy.eyebrow}</p>
               <h1 className="home-title">{copy.title}</h1>
               <p className="home-lede">{copy.description}</p>
-              <div className="home-stat-row">
-                <span>
+              <ul className="home-stat-row list-none">
+                <li>
                   <strong>{cityCount}</strong> {locale === "pl" ? "miast" : "cities"}
-                </span>
-                <span>
+                </li>
+                <li>
                   <strong>{pagePayloads.length}</strong>{" "}
                   {locale === "pl" ? "przewodnikow" : "guides"}
-                </span>
-              </div>
+                </li>
+              </ul>
+              <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--muted)]">
+                {locale === "pl"
+                  ? "Zacznij od kraju, porownaj dostepne miasta, a potem wybierz miesiac z najlepszym balansem pogody, cen i liczby odwiedzajacych."
+                  : "Start with a country, compare the available cities, then choose the month with the best balance of weather, prices, and visitor pressure."}
+              </p>
             </div>
           </div>
         </section>
 
-        {countries.map((country) => (
-          <section className="home-section" key={country.country}>
-            <div className="home-section-heading">
-              <p className="eyebrow text-[var(--accent)]">{country.countryLabel}</p>
-              <h2>{country.countryLabel}</h2>
-            </div>
-            <div className="home-city-grid">
-              {country.cities.map((city) => (
-                <article className="home-city-card" key={city.citySlug}>
-                  <div className="home-city-card-head">
-                    <div>
-                      <p>{country.countryLabel}</p>
-                      <h3>{city.cityName}</h3>
-                    </div>
-                    <span>
-                      {copy.score} {city.bestMonth.score}
-                    </span>
-                  </div>
-                  <p className="mt-3 text-sm leading-6 text-[var(--muted)]">
-                    {copy.best}:{" "}
-                    <Link className="font-bold text-[var(--foreground)]" href={city.bestMonth.href} prefetch={false}>
-                      {formatCityMonthLabel(city.cityName, city.bestMonth.month, locale)}
-                    </Link>{" "}
-                    ({formatScoreLabel(city.bestMonth.score, locale)}).
-                  </p>
-                  <div className="home-month-list" aria-label={copy.monthGuide}>
-                    {city.months.map((month) => (
-                      <Link className="home-month-link" href={month.href} key={month.month} prefetch={false}>
-                        <span className="home-month-copy">
-                          <span className="home-month-label">{month.label}</span>
-                        </span>
-                        <span className="score-badge home-score-badge-inline">
-                          <span className="score-badge-value">{month.score}</span>
-                        </span>
-                      </Link>
-                    ))}
-                  </div>
-                </article>
-              ))}
-            </div>
-          </section>
-        ))}
+        <section className="home-section">
+          <div className="home-section-heading">
+            <p className="eyebrow text-[var(--accent)]">
+              {locale === "pl" ? "Timing wyjazdu" : "Trip timing notes"}
+            </p>
+            <h2>
+              {locale === "pl"
+                ? "Co sprawdzac przed wyborem miesiaca"
+                : "What to compare before choosing a month"}
+            </h2>
+            <p className="mt-2 max-w-2xl text-sm leading-6 text-[var(--muted)]">
+              {locale === "pl"
+                ? "Katalog prowadzi od kraju do miasta i dalej do konkretnego miesiaca, zeby decyzja opierala sie na porownywalnych danych zamiast na jednej ogolnej rekomendacji."
+                : "The catalogue moves from country to city and then into a specific month, so the decision is based on comparable signals instead of one generic recommendation."}
+            </p>
+          </div>
+          <ul className="grid gap-3 md:grid-cols-3">
+            {getCatalogGuideItems(locale).map((item) => (
+              <li className="home-city-card" key={item.title}>
+                <h3>{item.title}</h3>
+                <p className="mt-2 text-sm leading-6 text-[var(--muted)]">{item.description}</p>
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <DestinationsCatalog
+          countries={countries.map((country) => ({
+            ...country,
+            description: getCountryCalendarDescription(country, locale),
+            cities: country.cities.map((city) => ({
+              ...city,
+              bestLabel: copy.best,
+              scoreLabel: copy.score,
+              cityDescription: getCityCalendarDescription(city, locale),
+              formattedBestMonth: formatCityMonthLabel(city.cityName, city.bestMonth.month, locale),
+              formattedBestScore: formatScoreLabel(city.bestMonth.score, locale),
+              monthGuideLabel: copy.monthGuide,
+            })),
+          }))}
+          locale={locale}
+          filterLabels={{
+            all: locale === "pl" ? "Wszystkie" : "All",
+            summer: locale === "pl" ? "Lato" : "Summer",
+            winter: locale === "pl" ? "Zima" : "Winter",
+            topScore: locale === "pl" ? "Ocena 80+" : "Score 80+",
+          }}
+        />
       </div>
     </main>
   );
+}
+
+function getCatalogGuideItems(locale: LocaleCode) {
+  if (locale === "pl") {
+    return [
+      {
+        title: "Pogoda i dlugosc dnia",
+        description:
+          "Sprawdzaj nie tylko srednia temperature, ale tez deszcz, slonce i to, czy plan zwiedzania bedzie wygodny rano, w poludnie oraz wieczorem.",
+      },
+      {
+        title: "Ruch i ceny",
+        description:
+          "Miesiac z dobrym klimatem moze byc drozszy lub bardziej zatloczony, dlatego TripTimi zestawia pogode z ruchem turystycznym i poziomem cen.",
+      },
+      {
+        title: "Najlepszy nastepny krok",
+        description:
+          "Po wyborze miasta przejdz do konkretnego miesiaca, zeby zobaczyc werdykt, atuty, kompromisy, praktyczne wskazowki i porownanie z innymi terminami.",
+      },
+    ];
+  }
+
+  return [
+    {
+      title: "Weather and daylight",
+      description:
+        "Look beyond average temperature: rain, sunshine, and the shape of the day can decide whether a city works best for outdoor walks, museums, or mixed plans.",
+    },
+    {
+      title: "Crowds and prices",
+      description:
+        "A month with great weather can still be expensive or busy, so TripTimi weighs travel comfort together with crowd pressure and typical price level.",
+    },
+    {
+      title: "Best next step",
+      description:
+        "After choosing a city, open a specific month guide to see the verdict, strengths, trade-offs, practical tips, and comparisons with nearby dates, then shortlist the dates that best match your pace.",
+    },
+  ];
+}
+
+function getCityCalendarDescription(city: DestinationCity, locale: LocaleCode) {
+  const scores = city.months.map((month) => month.score);
+  const scoreRange = `${Math.min(...scores)}-${Math.max(...scores)}`;
+
+  if (locale === "pl") {
+    return `Porownaj wszystkie miesiace dla ${city.cityName}: oceny TripTimi w tym kalendarzu ida od ${scoreRange}, wiec latwiej wybrac termin pod pogode, ruch i budzet.`;
+  }
+
+  return `Compare every month for ${city.cityName}: TripTimi scores in this calendar run from ${scoreRange}, making it easier to choose by weather, crowds, and budget.`;
+}
+
+function getCountryCalendarDescription(
+  country: { countryLabel: string; cities: DestinationCity[] },
+  locale: LocaleCode,
+) {
+  const cityNames = country.cities
+    .slice(0, 3)
+    .map((city) => city.cityName)
+    .join(", ");
+
+  if (locale === "pl") {
+    return `${country.countryLabel}: porownaj ${country.cities.length} miast, w tym ${cityNames}, i wejdz w miesieczne przewodniki z pogoda, ruchem, cenami oraz ocena TripTimi. Ten katalog pomaga szybko odroznic miesiace mocne od terminow bardziej kompromisowych, zanim przejdziesz do konkretnego planu city breaku.`;
+  }
+
+  return `${country.countryLabel}: compare ${country.cities.length} cities, including ${cityNames}, then open monthly guides with weather, crowds, prices, and the TripTimi score. This catalogue helps separate strong months from more compromise-heavy dates before you move into a specific city-break plan, especially when you are choosing between nearby cities with very different seasonal patterns.`;
 }
 
 function buildDestinationCountries(locale: LocaleCode) {

@@ -3,16 +3,14 @@ import Image from "next/image";
 import Link from "next/link";
 
 import { HomeSearch, type HomeSearchCity } from "@/components/home-search";
-import {
-  HomeFeaturedRotator,
-  type HomeFeaturedRotatorItem,
-} from "@/components/home-featured-rotator";
+import { type HomeFeaturedRotatorItem } from "@/components/home-featured-rotator";
 import {
   getFeaturedPages,
   getPagePayload,
   monthOrder,
   pagePayloads,
 } from "@/lib/catalog";
+import { getScoreTicketToneClass } from "@/components/triptimi-score-ticket";
 import {
   formatCityMonthLabel,
   formatCountryName,
@@ -26,6 +24,12 @@ import {
   getPublishedLanguageAlternates,
   type LocaleCode,
 } from "@/lib/i18n";
+import {
+  addXDefaultLanguageAlternate,
+  buildAbsoluteUrl,
+  buildSocialMetadata,
+  serializeJsonLd,
+} from "@/lib/seo";
 import {
   buildLocalizedPagePath,
   getLocalizedDisplayCityName,
@@ -168,27 +172,15 @@ const homeCopy: Record<
   },
 };
 
-function buildAbsoluteUrl(pathname: string) {
-  const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
-
-  if (!siteUrl) {
-    return pathname;
-  }
-
-  try {
-    return new URL(pathname, siteUrl).toString();
-  } catch {
-    return pathname;
-  }
-}
-
 function buildAbsoluteLanguageAlternates(pathname: string) {
-  return Object.fromEntries(
+  const languages = Object.fromEntries(
     Object.entries(getPublishedLanguageAlternates(pathname)).map(([locale, href]) => [
       locale,
       buildAbsoluteUrl(href),
     ]),
   );
+
+  return addXDefaultLanguageAlternate(languages, pathname);
 }
 
 export function buildHomeMetadata(locale: LocaleCode): Metadata {
@@ -203,29 +195,23 @@ export function buildHomeMetadata(locale: LocaleCode): Metadata {
       canonical: canonicalUrl,
       languages: buildAbsoluteLanguageAlternates("/"),
     },
-    openGraph: {
+    ...buildSocialMetadata({
+      canonicalPath: getLocalizedCanonicalUrl(locale, "/"),
       title: copy.title,
       description: copy.description,
-      type: "website",
-      url: canonicalUrl,
-    },
+    }),
   };
 }
 
 export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
   const copy = homeCopy[locale];
   const featuredPages = getFeaturedPages(locale).slice(0, 6);
-  const rotatorGroups = buildFeaturedRotatorGroups(
-    buildFeaturedRotatorItems(featuredPages, locale),
-    3,
-  );
+  const featuredCards = buildFeaturedRotatorItems(featuredPages, locale);
   const searchCities = buildHomeSearchCities(locale);
   const upcomingMonth = getUpcomingMonth();
   const upcomingMonthLabel = formatMonthLabel(upcomingMonth, locale);
-  const upcomingRotatorGroups = buildFeaturedRotatorGroups(
-    buildUpcomingRotatorItems(searchCities, upcomingMonth, locale).slice(0, 8),
-    3,
-  );
+  const upcomingCards = buildUpcomingRotatorItems(searchCities, upcomingMonth, locale).slice(0, 6);
+  const countryCount = new Set(searchCities.map((c) => c.country)).size;
 
   const canonicalUrl = buildAbsoluteUrl(getLocalizedCanonicalUrl(locale, "/"));
   const schemaData = {
@@ -249,21 +235,17 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
     <main className="home-page pb-16 pt-3 sm:pb-24 sm:pt-5">
       <script
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(schemaData) }}
+        dangerouslySetInnerHTML={{ __html: serializeJsonLd(schemaData) }}
       />
-      <div className="shell-tight space-y-6">
+      <div className="shell-tight space-y-5">
+
+        {/* ── HERO ─────────────────────────────────────────────── */}
         <section className="home-hero">
           <nav className="home-nav">
-            <Link href={buildHomePath(locale)} prefetch={false} aria-label="TripTimi">
-              <Image
-                src="/logotriptimi.png"
-                alt="TripTimi"
-                width={957}
-                height={356}
-                priority
-                className="h-8 w-auto"
-                sizes="132px"
-              />
+            <Link href={buildHomePath(locale)} prefetch={false} aria-label="TripTimi"
+              className="inline-flex items-baseline gap-1.5 font-serif text-xl font-medium text-[var(--foreground)]">
+              <span className="inline-block w-2.5 h-2.5 rounded-sm bg-[var(--accent)] -translate-y-px" />
+              TripTimi
             </Link>
             <div className="home-locale-links" aria-label="Languages">
               <Link href={buildDestinationsPath(locale)} prefetch={false}>
@@ -280,22 +262,32 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
 
           <div className="home-hero-grid">
             <div>
-              <p className="eyebrow text-[var(--accent)]">{copy.badge}</p>
+              <p className="eyebrow text-[var(--muted)] mb-3">{copy.badge}</p>
               <h1 className="home-title">{copy.title}</h1>
               <p className="home-lede">{copy.description}</p>
-              <div className="home-stat-row">
-                <span>
-                  <strong>{pagePayloads.length}</strong> {copy.pages}
-                </span>
-                <span>
-                  <strong>{searchCities.length}</strong> {copy.cities}
-                </span>
-              </div>
+              <ul className="home-stat-row list-none p-0 m-0">
+                <li>
+                  <strong>{pagePayloads.length}</strong>
+                  <span>{copy.pages}</span>
+                </li>
+                <li>
+                  <strong>{searchCities.length}</strong>
+                  <span>{copy.cities}</span>
+                </li>
+                <li>
+                  <strong>12</strong>
+                  <span>{locale === "pl" ? "miesięcy" : locale === "de" ? "Monate" : locale === "es" ? "meses" : locale === "fr" ? "mois" : "months"}</span>
+                </li>
+                <li>
+                  <strong>{countryCount}</strong>
+                  <span>{locale === "pl" ? "krajów" : locale === "de" ? "Länder" : locale === "es" ? "países" : locale === "fr" ? "pays" : "countries"}</span>
+                </li>
+              </ul>
             </div>
 
             <div className="home-search-panel">
-              <p className="eyebrow text-[var(--accent)]">{copy.searchTitle}</p>
-              <p className="mt-2 text-sm leading-6 text-[var(--muted)]">
+              <p className="eyebrow text-[var(--accent)] mb-2">{copy.searchTitle}</p>
+              <p className="text-sm leading-relaxed text-[var(--muted)] mb-1">
                 {copy.searchDescription}
               </p>
               <HomeSearch
@@ -311,49 +303,60 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
           </div>
         </section>
 
+        {/* ── FEATURED PICKS ───────────────────────────────────── */}
         <section className="home-section">
           <div className="home-section-heading">
             <p className="eyebrow text-[var(--accent)]">{copy.featuredEyebrow}</p>
             <h2>{copy.featuredTitle}</h2>
           </div>
-          <div className="home-featured-rotator-grid">
-            {rotatorGroups.map((items, index) => (
-              <HomeFeaturedRotator
-                key={`featured-rotator-${index}`}
-                items={items}
-                compact
-                labels={{
-                  live: copy.live,
-                  open: copy.open,
-                }}
-              />
+          <div className="home-card-grid">
+            {featuredCards.map((card) => (
+              <HomeEditorialCard key={card.href} card={card} />
             ))}
           </div>
         </section>
 
+        {/* ── UPCOMING MONTH ───────────────────────────────────── */}
         <section className="home-section">
           <div className="home-section-heading">
             <p className="eyebrow text-[var(--accent)]">{copy.upcomingEyebrow}</p>
-            <h2>
-              {copy.upcomingTitlePrefix} {upcomingMonthLabel}
-            </h2>
+            <h2>{copy.upcomingTitlePrefix} {upcomingMonthLabel}</h2>
           </div>
-          <div className="home-featured-rotator-grid">
-            {upcomingRotatorGroups.map((items, index) => (
-              <HomeFeaturedRotator
-                key={`upcoming-rotator-${index}`}
-                items={items}
-                compact
-                labels={{
-                  live: copy.live,
-                  open: copy.open,
-                }}
-              />
+          <div className="home-card-grid">
+            {upcomingCards.map((card) => (
+              <HomeEditorialCard key={card.href} card={card} />
             ))}
           </div>
         </section>
+
       </div>
     </main>
+  );
+}
+
+function HomeEditorialCard({ card }: { card: HomeFeaturedRotatorItem }) {
+  return (
+    <Link
+      href={card.href}
+      prefetch={false}
+      className={`home-trip-card lift flex flex-col justify-between gap-3 p-6 no-underline`}
+    >
+      <div>
+        <p className="eyebrow text-[var(--muted)] mb-2">{card.countryLabel}</p>
+        <h3 className="text-xl font-serif font-medium leading-tight text-[var(--foreground)]">
+          {card.title}
+        </h3>
+      </div>
+      <div className="flex items-center justify-between gap-2 pt-2 border-t border-[var(--border)]">
+        <span
+          className={`score-badge ${getScoreTicketToneClass(card.score)} inline-flex items-baseline gap-1.5 px-3 py-1 rounded-full text-sm`}
+        >
+          <strong className="font-serif font-medium">{card.score}</strong>
+          <span className="text-xs opacity-85">{card.scoreLabel}</span>
+        </span>
+        <span className="text-xs text-[var(--muted)] font-mono">{card.score >= 80 ? "→" : card.score >= 68 ? "→" : "→"}</span>
+      </div>
+    </Link>
   );
 }
 

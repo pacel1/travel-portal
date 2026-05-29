@@ -23,6 +23,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "seo:audit": "node scripts/seo-audit.mjs",
     "test": "node --test --experimental-strip-types --test-isolation=none tests/*.test.ts"
   },
   "dependencies": {

@@ -345,10 +345,34 @@ function buildSummary(city, month, climate, score, signal) {
   return `${city.name} in ${monthLabel(month)} is a ${scoreLabel(score).toLowerCase()} pick, with ${temperatureLine}, ${rainLine}, and ${signal.crowd_level} crowds. Expect ${climate.sunshine_hours.toFixed(1)} daily sunshine hours on average, which keeps the month useful for practical trip planning without relying on generic filler content.`;
 }
 
+function getSeasonalPoiWeight(poi, climate) {
+  const cold = climate.avg_temp_day < 10;
+  const wet = climate.rainy_days >= 10 || climate.rainfall_mm >= 100;
+  const hot = climate.avg_temp_day >= 28;
+
+  if (poi.indoor) {
+    // Indoor POIs become more relevant in cold or wet months
+    if (cold || wet) return 1.35;
+    if (hot) return 1.1;
+    return 1.0;
+  } else {
+    // Outdoor POIs are penalised when it's cold, wet, or scorching hot
+    if (cold && wet) return 0.55;
+    if (cold) return 0.70;
+    if (wet) return 0.75;
+    if (hot) return 0.85;
+    return 1.0;
+  }
+}
+
 function pickAttractions(cityId, climate, poiSource) {
   const cityPois = poiSource
     .filter((poi) => poi.city_id === cityId)
-    .sort((left, right) => right.popularity_score - left.popularity_score);
+    .map((poi) => ({
+      ...poi,
+      seasonalScore: poi.popularity_score * getSeasonalPoiWeight(poi, climate),
+    }))
+    .sort((left, right) => right.seasonalScore - left.seasonalScore);
 
   const outdoor = cityPois
     .filter((poi) => !poi.indoor)
@@ -357,27 +381,20 @@ function pickAttractions(cityId, climate, poiSource) {
     .filter((poi) => poi.indoor)
     .slice(0, climate.rainy_days >= 9 ? 3 : 2);
 
+  const mapPoi = (poi) => ({
+    id: poi.id,
+    cityId: poi.city_id,
+    name: poi.name,
+    category: poi.category,
+    indoor: poi.indoor,
+    popularityScore: poi.popularity_score,
+    lat: poi.lat,
+    lon: poi.lon,
+  });
+
   return {
-    outdoor: outdoor.map((poi) => ({
-      id: poi.id,
-      cityId: poi.city_id,
-      name: poi.name,
-      category: poi.category,
-      indoor: poi.indoor,
-      popularityScore: poi.popularity_score,
-      lat: poi.lat,
-      lon: poi.lon,
-    })),
-    indoor: indoor.map((poi) => ({
-      id: poi.id,
-      cityId: poi.city_id,
-      name: poi.name,
-      category: poi.category,
-      indoor: poi.indoor,
-      popularityScore: poi.popularity_score,
-      lat: poi.lat,
-      lon: poi.lon,
-    })),
+    outdoor: outdoor.map(mapPoi),
+    indoor: indoor.map(mapPoi),
   };
 }
 

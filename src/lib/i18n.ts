@@ -67,3 +67,13 @@ export function getPublishedLanguageAlternates(pathname: string) {
     publishedLocales.map((locale) => [locale, buildLocalizedPath(locale, pathname)]),
   );
 }
+
+export function getLocaleFromPathname(pathname: string) {
+  const firstSegment = pathname.split("/").filter(Boolean)[0];
+
+  if (firstSegment && isPublishedLocale(firstSegment)) {
+    return firstSegment;
+  }
+
+  return defaultLocale;
+}
