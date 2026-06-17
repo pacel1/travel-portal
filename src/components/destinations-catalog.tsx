@@ -11,6 +11,7 @@ type CatalogMonth = { href: string; label: string; month: string; score: number 
 type CatalogCity = {
   cityName: string;
   citySlug: string;
+  cityHref: string;
   country: string;
   countryLabel: string;
   bestMonth: CatalogMonth;
@@ -72,7 +73,7 @@ function DestCard({ city, locale }: { city: CatalogCity; locale: string }) {
 
   return (
     <Link
-      href={city.bestMonth.href}
+      href={city.cityHref}
       prefetch={false}
       className="ed-surface flex flex-col gap-4 p-5 lift no-underline hover:border-[var(--border-strong)]"
       style={{ borderRadius: "0.75rem", minHeight: "11rem" }}

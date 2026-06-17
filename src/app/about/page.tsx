@@ -51,7 +51,7 @@ export default function AboutPage() {
             TripTimi was created by <strong className="text-[var(--foreground)]">Paweł Celeński</strong>, a
             developer and traveller based in Poland. The project started as a personal tool for
             comparing travel windows across European cities and grew into a full guide covering
-            71 cities and 852 city-month combinations.
+            71 cities, each with a single month-by-month guide that scores all 12 months.
           </p>
           <p className="leading-relaxed text-[var(--muted)]">
             The goal is to give travellers comparable, data-grounded answers instead of generic
@@ -114,8 +114,7 @@ export default function AboutPage() {
               ["Climate data", "Open-Meteo historical climate averages (temperature, rainfall, sunshine hours, humidity) — 10+ year monthly averages per city."],
               ["Crowd signals", "Seasonal demand model built from population data, European tourism seasonality patterns, and city-scale multipliers."],
               ["Price signals", "Relative seasonal index — not absolute prices, but whether a given month is above or below a city's annual average."],
-              ["Points of interest", "OpenStreetMap — popularity scores derived from edit frequency and map usage data."],
-              ["Editorial descriptions", "AI-assisted copy generated with OpenAI models, reviewed against factual constraints from the data layer. Every description must reference specific attractions and real climate numbers from the facts."],
+              ["Points of interest", "OpenStreetMap — popularity scores derived from edit frequency and map usage data. Photos are from Wikimedia Commons under their respective licences."],
             ].map(([label, desc]) => (
               <li key={label} className="flex gap-3">
                 <span className="mt-1 inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-[var(--accent)]" />
@@ -130,17 +129,21 @@ export default function AboutPage() {
         <section className="space-y-4">
           <h2 className="font-serif text-2xl font-medium text-[var(--foreground)]">Editorial standards</h2>
           <p className="leading-relaxed text-[var(--muted)]">
-            Destination descriptions on TripTimi are generated with the help of AI language models
-            using structured prompts that enforce specificity: every summary, tip, and recommendation
-            must reference named attractions and real data points from the climate and crowd
-            datasets. Generic phrases and template filler are flagged automatically and trigger
-            regeneration.
+            TripTimi pages are <strong className="text-[var(--foreground)]">data-first</strong>. Each
+            city guide is built directly from the underlying datasets — the climate chart, the
+            month-by-month comparison table, and the TripTimi Score — rather than from long-form
+            written articles. The data is the content, and every figure traces back to a named
+            source.
           </p>
           <p className="leading-relaxed text-[var(--muted)]">
             The TripTimi Score is an <strong className="text-[var(--foreground)]">indicative index</strong>,
             not a travel recommendation. It reflects typical seasonal conditions based on
             historical averages — actual weather, prices, and crowd levels in any given year
-            will vary. Always check current conditions before booking.
+            will vary. Always check current conditions before booking. See the{" "}
+            <Link href="/disclaimer" className="text-[var(--accent)] underline underline-offset-2">
+              disclaimer
+            </Link>{" "}
+            for our affiliate disclosure.
           </p>
         </section>
 

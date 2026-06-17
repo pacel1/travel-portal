@@ -5,15 +5,15 @@ import {
   publishedPrefixedLocales,
   type LocaleCode,
 } from "@/lib/i18n";
-import { getLocalizedStaticSlugs } from "@/lib/page-routing";
+import { getCityPageStaticSlugs } from "@/lib/page-routing";
 import {
-  buildTravelMonthMetadata,
-  renderTravelMonthPage,
-} from "@/app/[locale]/page";
+  buildCitySegmentMetadata,
+  renderCitySegment,
+} from "@/app/[locale]/city-guide";
 
 export function generateStaticParams() {
   return publishedPrefixedLocales.flatMap((locale) =>
-    getLocalizedStaticSlugs(locale).map((slug) => ({
+    getCityPageStaticSlugs(locale).map((slug) => ({
       locale,
       slug,
     })),
@@ -33,10 +33,10 @@ export async function generateMetadata({
     };
   }
 
-  return buildTravelMonthMetadata(slug, locale as LocaleCode);
+  return buildCitySegmentMetadata(slug, locale as LocaleCode);
 }
 
-export default async function LocalizedTravelMonthPage({
+export default async function LocalizedCityPage({
   params,
 }: {
   params: Promise<{ locale: string; slug: string }>;
@@ -47,5 +47,5 @@ export default async function LocalizedTravelMonthPage({
     notFound();
   }
 
-  return renderTravelMonthPage(slug, locale);
+  return renderCitySegment(slug, locale as LocaleCode);
 }

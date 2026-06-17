@@ -208,6 +208,95 @@ export function getLocalizedStaticSlugs(locale: LocaleCode = defaultLocale) {
   return pagePayloads.map((page) => getCanonicalPageSlug(page, locale));
 }
 
+// ── City guide pages (consolidated, one URL per city) ────────────────────────
+
+const cityPagePrefixByLocale: Record<LocaleCode, string> = {
+  en: "best-time-to-visit",
+  pl: "najlepszy-czas-na-wyjazd",
+  de: "beste-reisezeit",
+  es: "mejor-epoca-para-viajar",
+  fr: "meilleure-periode-pour-visiter",
+};
+
+const representativeCityPages = (() => {
+  const byCity = new Map<string, PagePayload>();
+
+  for (const page of pagePayloads) {
+    if (!byCity.has(page.cityId)) {
+      byCity.set(page.cityId, page);
+    }
+  }
+
+  return Array.from(byCity.values());
+})();
+
+export function getCanonicalCityPageSlug(
+  page: PagePayload,
+  locale: LocaleCode = defaultLocale,
+) {
+  return `${cityPagePrefixByLocale[locale]}-${getLocalizedCitySlug(page, locale)}`;
+}
+
+export function buildCityPagePath(
+  page: PagePayload,
+  locale: LocaleCode = defaultLocale,
+) {
+  return buildLocalizedPath(locale, `/${getCanonicalCityPageSlug(page, locale)}`);
+}
+
+export function buildCityMonthAnchorPath(
+  page: PagePayload,
+  locale: LocaleCode = defaultLocale,
+) {
+  return `${buildCityPagePath(page, locale)}#${page.month}`;
+}
+
+const cityRouteIndexByLocale = Object.fromEntries(
+  allLocales.map((locale) => [locale, buildCityRouteIndex(locale)]),
+) as Record<LocaleCode, Map<string, PagePayload>>;
+
+function buildCityRouteIndex(locale: LocaleCode) {
+  const index = new Map<string, PagePayload>();
+
+  for (const page of representativeCityPages) {
+    index.set(normalizeSlug(getCanonicalCityPageSlug(page, locale)), page);
+
+    // Accept the default-locale (English) prefix as an alias so links that fall
+    // back to the canonical English slug still resolve under localized routes.
+    if (locale !== defaultLocale) {
+      index.set(
+        normalizeSlug(
+          `${cityPagePrefixByLocale[defaultLocale]}-${getLocalizedCitySlug(page, locale)}`,
+        ),
+        page,
+      );
+    }
+  }
+
+  return index;
+}
+
+export function resolveCityPageRoute(
+  routeSlug: string,
+  locale: LocaleCode = defaultLocale,
+): PagePayload | null {
+  return cityRouteIndexByLocale[locale].get(normalizeSlug(routeSlug)) ?? null;
+}
+
+export function getCityPageStaticSlugs(locale: LocaleCode = defaultLocale) {
+  return representativeCityPages.map((page) => getCanonicalCityPageSlug(page, locale));
+}
+
+export function getRepresentativeCityPages() {
+  return representativeCityPages;
+}
+
+export function getPublishedLanguageAlternatesForCity(page: PagePayload) {
+  return Object.fromEntries(
+    publishedLocales.map((locale) => [locale, buildCityPagePath(page, locale)]),
+  );
+}
+
 function getUnderlyingPageBySlug(baseSlug: string) {
   return pagePayloads.find((page) => page.slug === baseSlug) ?? null;
 }

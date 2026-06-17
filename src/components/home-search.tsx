@@ -16,6 +16,7 @@ export type HomeSearchCity = {
   bestScore: number;
   cityName: string;
   citySlug: string;
+  cityHref: string;
   country: string;
   countryLabel: string;
   months: HomeSearchMonth[];
@@ -24,7 +25,6 @@ export type HomeSearchCity = {
 export type HomeSearchLabels = {
   country: string;
   city: string;
-  month: string;
   submit: string;
 };
 
@@ -62,9 +62,6 @@ export function HomeSearch({
   );
   const [citySlug, setCitySlug] = useState(visibleCities[0]?.citySlug ?? cities[0]?.citySlug ?? "");
   const selectedCity = visibleCities.find((city) => city.citySlug === citySlug) ?? visibleCities[0] ?? cities[0];
-  const [month, setMonth] = useState(selectedCity?.months[0]?.month ?? "");
-  const selectedMonth =
-    selectedCity?.months.find((entry) => entry.month === month) ?? selectedCity?.months[0];
 
   function handleCountryChange(nextCountry: string) {
     const nextCities = cities.filter((city) => city.country === nextCountry);
@@ -72,21 +69,17 @@ export function HomeSearch({
 
     setCountry(nextCountry);
     setCitySlug(nextCity?.citySlug ?? "");
-    setMonth(nextCity?.months[0]?.month ?? "");
   }
 
   function handleCityChange(nextCitySlug: string) {
-    const nextCity = visibleCities.find((city) => city.citySlug === nextCitySlug);
-
     setCitySlug(nextCitySlug);
-    setMonth(nextCity?.months[0]?.month ?? "");
   }
 
   function handleSubmit(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
 
-    if (selectedMonth) {
-      router.push(selectedMonth.href);
+    if (selectedCity) {
+      router.push(selectedCity.cityHref);
     }
   }
 
@@ -109,25 +102,14 @@ export function HomeSearch({
           <select value={selectedCity?.citySlug ?? ""} onChange={(event) => handleCityChange(event.target.value)}>
             {visibleCities.map((city) => (
               <option key={city.citySlug} value={city.citySlug}>
-                {city.cityName}
-              </option>
-            ))}
-          </select>
-        </label>
-
-        <label className="home-search-field">
-          <span>{labels.month}</span>
-          <select value={selectedMonth?.month ?? ""} onChange={(event) => setMonth(event.target.value)}>
-            {selectedCity?.months.map((entry) => (
-              <option key={entry.month} value={entry.month}>
-                {entry.label} · {entry.score}
+                {city.cityName} · {city.bestScore}
               </option>
             ))}
           </select>
         </label>
       </div>
 
-      <button className="home-search-submit" type="submit" disabled={!selectedMonth}>
+      <button className="home-search-submit" type="submit" disabled={!selectedCity}>
         <Search aria-hidden="true" size={18} strokeWidth={2.4} />
         {labels.submit}
       </button>

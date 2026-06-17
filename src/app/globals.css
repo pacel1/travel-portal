@@ -693,6 +693,91 @@ a { color: inherit; text-decoration: none; }
   padding: 1rem;
 }
 
+/* Summer hero treatment */
+.home-hero-summer {
+  position: relative;
+  overflow: hidden;
+  background:
+    radial-gradient(135% 150% at 92% -25%, rgba(239, 159, 39, 0.20), transparent 55%),
+    radial-gradient(120% 120% at 4% 0%, rgba(29, 158, 117, 0.10), transparent 52%),
+    var(--surface);
+}
+
+.home-sun-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.7rem 0.3rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(239, 159, 39, 0.14);
+  color: #9a5a00;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.home-sun-badge svg {
+  color: var(--accent-warm);
+}
+
+/* Compact city chips */
+.city-chip-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem;
+}
+
+.city-chip {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  border: 0.5px solid var(--border);
+  border-radius: 0.7rem;
+  background: var(--surface);
+  padding: 0.55rem 0.65rem;
+  transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.city-chip:hover {
+  border-color: var(--accent-warm);
+  box-shadow: 0 6px 18px -12px rgba(239, 159, 39, 0.55);
+}
+
+.city-chip-name {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.15;
+  color: var(--foreground);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.city-chip-country {
+  display: block;
+  margin-top: 0.1rem;
+  font-family: "JetBrains Mono", ui-monospace, monospace;
+  font-size: 0.6rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+@media (min-width: 640px) {
+  .city-chip-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (min-width: 1024px) {
+  .city-chip-grid { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+}
+
 .home-nav {
   display: flex;
   align-items: center;

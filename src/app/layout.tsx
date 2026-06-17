@@ -135,15 +135,33 @@ export default async function RootLayout({
       </head>
       <body className="min-h-full flex flex-col">
         {children}
-        <footer className="mt-auto border-t border-[var(--border)] py-8">
-          <div className="shell flex flex-wrap items-center justify-between gap-4 font-mono text-xs text-[var(--muted)]">
-            <span>© {new Date().getFullYear()} TripTimi · Paweł Celeński</span>
-            <nav className="flex flex-wrap gap-5" aria-label="Footer navigation">
-              <a href="/about" className="hover:text-[var(--foreground)] transition-colors">About</a>
-              <a href="/methodology" className="hover:text-[var(--foreground)] transition-colors">Methodology</a>
-              <a href="/contact" className="hover:text-[var(--foreground)] transition-colors">Contact</a>
-              <a href="/privacy" className="hover:text-[var(--foreground)] transition-colors">Privacy</a>
-            </nav>
+        <footer className="mt-auto border-t border-[var(--border)] py-10">
+          <div className="shell space-y-6">
+            <div className="flex flex-wrap items-start justify-between gap-6">
+              <div className="max-w-sm">
+                <p className="font-serif text-lg font-medium text-[var(--foreground)]">TripTimi</p>
+                <p className="mt-1 text-sm leading-6 text-[var(--muted)]">
+                  Free travel-timing guides for 71 European cities — the best month to visit,
+                  from real historical climate data.
+                </p>
+              </div>
+              <nav
+                className="flex flex-wrap gap-x-6 gap-y-2 font-mono text-xs text-[var(--muted)]"
+                aria-label="Footer navigation"
+              >
+                <a href="/about" className="hover:text-[var(--foreground)] transition-colors">About</a>
+                <a href="/methodology" className="hover:text-[var(--foreground)] transition-colors">Methodology</a>
+                <a href="/destinations" className="hover:text-[var(--foreground)] transition-colors">Destinations</a>
+                <a href="/contact" className="hover:text-[var(--foreground)] transition-colors">Contact</a>
+                <a href="/privacy" className="hover:text-[var(--foreground)] transition-colors">Privacy</a>
+                <a href="/terms" className="hover:text-[var(--foreground)] transition-colors">Terms</a>
+                <a href="/disclaimer" className="hover:text-[var(--foreground)] transition-colors">Disclaimer</a>
+              </nav>
+            </div>
+            <div className="flex flex-wrap items-center justify-between gap-3 border-t border-[var(--border)] pt-5 font-mono text-[11px] text-[var(--muted)]">
+              <span>© {new Date().getFullYear()} TripTimi · Built by Paweł Celeński</span>
+              <span>Data: Open-Meteo · OpenStreetMap · Wikimedia Commons</span>
+            </div>
           </div>
         </footer>
       </body>

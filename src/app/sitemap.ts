@@ -1,10 +1,10 @@
 import type { MetadataRoute } from "next";
 
-import { pagePayloads } from "@/lib/catalog";
 import { buildDestinationsPath, defaultLocale, publishedLocales } from "@/lib/i18n";
 import {
-  buildLocalizedPagePath,
-  getPublishedLanguageAlternatesForPage,
+  buildCityPagePath,
+  getPublishedLanguageAlternatesForCity,
+  getRepresentativeCityPages,
 } from "@/lib/page-routing";
 import { addXDefaultLanguageAlternate, getSiteUrl } from "@/lib/seo";
 
@@ -40,19 +40,24 @@ export default function sitemap(): MetadataRoute.Sitemap {
         ),
       },
     })),
-    ...pagePayloads.flatMap((page) =>
+    ...["/about", "/methodology", "/disclaimer", "/terms", "/privacy", "/contact"].map(
+      (path) => ({
+        url: `${baseUrl}${path}`,
+        priority: 0.4,
+      }),
+    ),
+    ...getRepresentativeCityPages().flatMap((page) =>
       publishedLocales.map((locale) => ({
-        url: `${baseUrl}${buildLocalizedPagePath(page, locale)}`,
-        priority: locale === "en" ? 0.8 : 0.7,
+        url: `${baseUrl}${buildCityPagePath(page, locale)}`,
+        priority: locale === defaultLocale ? 0.9 : 0.8,
         alternates: {
           languages: addXDefaultLanguageAlternate(
             Object.fromEntries(
-              Object.entries(getPublishedLanguageAlternatesForPage(page)).map(([language, path]) => [
-                language,
-                `${baseUrl}${path}`,
-              ]),
+              Object.entries(getPublishedLanguageAlternatesForCity(page)).map(
+                ([language, path]) => [language, `${baseUrl}${path}`],
+              ),
             ),
-            buildLocalizedPagePath(page, defaultLocale),
+            buildCityPagePath(page, defaultLocale),
           ),
         },
       })),

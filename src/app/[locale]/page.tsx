@@ -44,11 +44,15 @@ import {
 } from "@/lib/i18n";
 import {
   buildLocalizedPagePath,
+  getCityPageStaticSlugs,
   getLocalizedDisplayCityName,
-  getLocalizedStaticSlugs,
   getPublishedLanguageAlternatesForPage,
   resolvePageRoute,
 } from "@/lib/page-routing";
+import {
+  buildCitySegmentMetadata,
+  renderCitySegment,
+} from "@/app/[locale]/city-guide";
 import {
   buildCityMonthSeoDescription,
   buildCityMonthSeoTitle,
@@ -112,9 +116,9 @@ const monthSequence = [
 ] as const;
 
 export function generateStaticParams() {
-  const englishSlugs = getLocalizedStaticSlugs(defaultLocale).map((slug) => ({ locale: slug }));
+  const englishCitySlugs = getCityPageStaticSlugs(defaultLocale).map((slug) => ({ locale: slug }));
   const publishedLocaleSlugs = publishedPrefixedLocales.map((locale) => ({ locale }));
-  return [...englishSlugs, ...publishedLocaleSlugs];
+  return [...englishCitySlugs, ...publishedLocaleSlugs];
 }
 
 export async function generateMetadata({
@@ -128,7 +132,7 @@ export async function generateMetadata({
     return buildHomeMetadata(primarySegment);
   }
 
-  return buildTravelMonthMetadata(primarySegment, defaultLocale);
+  return buildCitySegmentMetadata(primarySegment, defaultLocale);
 }
 
 export default async function TravelMonthPage({
@@ -143,7 +147,7 @@ export default async function TravelMonthPage({
     return <LocalizedHomePage locale={primarySegment} />;
   }
 
-  return renderTravelMonthPage(primarySegment, defaultLocale);
+  return renderCitySegment(primarySegment, defaultLocale);
 }
 
 export function buildTravelMonthMetadata(

@@ -1,18 +1,17 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import { Sun } from "lucide-react";
 
 import { HomeSearch, type HomeSearchCity } from "@/components/home-search";
 import { type HomeFeaturedRotatorItem } from "@/components/home-featured-rotator";
 import {
-  getFeaturedPages,
   getPagePayload,
   monthOrder,
   pagePayloads,
 } from "@/lib/catalog";
 import { getScoreTicketToneClass } from "@/components/triptimi-score-ticket";
 import {
-  formatCityMonthLabel,
   formatCountryName,
   formatMonthLabel,
   formatScoreLabel,
@@ -31,7 +30,8 @@ import {
   serializeJsonLd,
 } from "@/lib/seo";
 import {
-  buildLocalizedPagePath,
+  buildCityMonthAnchorPath,
+  buildCityPagePath,
   getLocalizedDisplayCityName,
 } from "@/lib/page-routing";
 import { getCanonicalCitySlug } from "@/lib/slug-utils";
@@ -61,21 +61,21 @@ const homeCopy: Record<
   }
 > = {
   en: {
-    badge: "Trip timing by city and month",
-    title: "Best Month to Visit Cities in Europe",
+    badge: "Best time to visit, city by city",
+    title: "Find the Best Time to Visit Any European City",
     description:
-      "Compare weather, crowds, and prices by city and month to find the best time for your next European city break.",
-    searchTitle: "Start with a trip window",
-    searchDescription: "Pick a destination and jump straight into the matching one-page guide.",
+      "Compare weather, crowds, and prices across all 12 months to choose the right time for your next European city break.",
+    searchTitle: "Pick a destination",
+    searchDescription: "Choose a city and open its full month-by-month guide.",
     country: "Country",
     city: "City",
     month: "Month",
-    submit: "Show guide",
-    live: "Now rotating",
-    featuredEyebrow: "Good starting points",
-    featuredTitle: "Strong city-month ideas",
-    upcomingEyebrow: "Upcoming month",
-    upcomingTitlePrefix: "Best city scores for",
+    submit: "Open city guide",
+    live: "Top pick",
+    featuredEyebrow: "Top destinations",
+    featuredTitle: "Highest-rated cities right now",
+    upcomingEyebrow: "Where to go next",
+    upcomingTitlePrefix: "Best places to visit in",
     score: "Score",
     pages: "guides",
     cities: "cities",
@@ -83,26 +83,26 @@ const homeCopy: Record<
     open: "Open guide",
   },
   pl: {
-    badge: "Timing wyjazdu wedlug miasta i miesiaca",
-    title: "Kiedy jechac do miast w Europie",
+    badge: "Najlepszy czas na wyjazd, miasto po mieście",
+    title: "Znajdź najlepszy czas na wyjazd do miast w Europie",
     description:
-      "Porownaj pogode, tlumy i ceny wedlug miasta i miesiaca, zeby wybrac najlepszy termin na kolejny city break w Europie.",
-    searchTitle: "Zacznij od okna wyjazdu",
-    searchDescription: "Wybierz kierunek i przejdz od razu do pasujacego onepagera.",
-    country: "Panstwo",
+      "Porównaj pogodę, tłumy i ceny dla wszystkich 12 miesięcy, aby wybrać najlepszy termin na kolejny city break w Europie.",
+    searchTitle: "Wybierz kierunek",
+    searchDescription: "Wybierz miasto i otwórz pełny przewodnik miesiąc po miesiącu.",
+    country: "Państwo",
     city: "Miasto",
-    month: "Miesiac",
-    submit: "Pokaz przewodnik",
-    live: "Teraz na tapecie",
-    featuredEyebrow: "Dobre punkty startu",
-    featuredTitle: "Mocne pomysly city + month",
-    upcomingEyebrow: "Nadchodzacy miesiac",
-    upcomingTitlePrefix: "Najlepsze oceny na",
+    month: "Miesiąc",
+    submit: "Otwórz przewodnik",
+    live: "Top wybór",
+    featuredEyebrow: "Najlepsze kierunki",
+    featuredTitle: "Najwyżej oceniane miasta",
+    upcomingEyebrow: "Dokąd dalej",
+    upcomingTitlePrefix: "Najlepsze miasta na",
     score: "Ocena",
-    pages: "przewodnikow",
+    pages: "przewodników",
     cities: "miast",
     destinations: "Kierunki",
-    open: "Otworz przewodnik",
+    open: "Otwórz przewodnik",
   },
   de: {
     badge: "Reisezeit nach Stadt und Monat",
@@ -116,10 +116,10 @@ const homeCopy: Record<
     month: "Monat",
     submit: "Guide anzeigen",
     live: "Gerade im Fokus",
-    featuredEyebrow: "Gute Startpunkte",
-    featuredTitle: "Starke Stadt-Monat-Ideen",
-    upcomingEyebrow: "Nachster Monat",
-    upcomingTitlePrefix: "Beste Stadt-Scores fur",
+    featuredEyebrow: "Top-Ziele",
+    featuredTitle: "Bestbewertete Stadte",
+    upcomingEyebrow: "Wohin als Nachstes",
+    upcomingTitlePrefix: "Beste Reiseziele im",
     score: "Score",
     pages: "Guides",
     cities: "Stadte",
@@ -138,10 +138,10 @@ const homeCopy: Record<
     month: "Mes",
     submit: "Ver guia",
     live: "Ahora en rotacion",
-    featuredEyebrow: "Buenos puntos de partida",
-    featuredTitle: "Ideas fuertes ciudad + mes",
-    upcomingEyebrow: "Proximo mes",
-    upcomingTitlePrefix: "Mejores puntuaciones para",
+    featuredEyebrow: "Mejores destinos",
+    featuredTitle: "Ciudades mejor valoradas",
+    upcomingEyebrow: "A donde ir despues",
+    upcomingTitlePrefix: "Mejores destinos en",
     score: "Score",
     pages: "guias",
     cities: "ciudades",
@@ -160,10 +160,10 @@ const homeCopy: Record<
     month: "Mois",
     submit: "Voir le guide",
     live: "En rotation",
-    featuredEyebrow: "Bons points de depart",
-    featuredTitle: "Idees fortes ville + mois",
-    upcomingEyebrow: "Mois a venir",
-    upcomingTitlePrefix: "Meilleurs scores pour",
+    featuredEyebrow: "Meilleures destinations",
+    featuredTitle: "Villes les mieux notees",
+    upcomingEyebrow: "Ou aller ensuite",
+    upcomingTitlePrefix: "Meilleures destinations en",
     score: "Score",
     pages: "guides",
     cities: "villes",
@@ -205,12 +205,11 @@ export function buildHomeMetadata(locale: LocaleCode): Metadata {
 
 export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
   const copy = homeCopy[locale];
-  const featuredPages = getFeaturedPages(locale).slice(0, 6);
-  const featuredCards = buildFeaturedRotatorItems(featuredPages, locale);
+  const featuredCards = buildFeaturedCityCards(locale);
   const searchCities = buildHomeSearchCities(locale);
   const upcomingMonth = getUpcomingMonth();
   const upcomingMonthLabel = formatMonthLabel(upcomingMonth, locale);
-  const upcomingCards = buildUpcomingRotatorItems(searchCities, upcomingMonth, locale).slice(0, 6);
+  const upcomingCards = buildUpcomingRotatorItems(searchCities, upcomingMonth, locale).slice(0, 8);
   const countryCount = new Set(searchCities.map((c) => c.country)).size;
 
   const canonicalUrl = buildAbsoluteUrl(getLocalizedCanonicalUrl(locale, "/"));
@@ -240,7 +239,7 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
       <div className="shell-tight space-y-5">
 
         {/* ── HERO ─────────────────────────────────────────────── */}
-        <section className="home-hero">
+        <section className="home-hero home-hero-summer">
           <nav className="home-nav">
             <Link href={buildHomePath(locale)} prefetch={false} aria-label="TripTimi"
               className="inline-flex items-baseline gap-1.5 font-serif text-xl font-medium text-[var(--foreground)]">
@@ -262,14 +261,13 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
 
           <div className="home-hero-grid">
             <div>
-              <p className="eyebrow text-[var(--muted)] mb-3">{copy.badge}</p>
+              <p className="home-sun-badge mb-3">
+                <Sun size={14} strokeWidth={2.4} aria-hidden="true" />
+                <span>{copy.badge}</span>
+              </p>
               <h1 className="home-title">{copy.title}</h1>
               <p className="home-lede">{copy.description}</p>
               <ul className="home-stat-row list-none p-0 m-0">
-                <li>
-                  <strong>{pagePayloads.length}</strong>
-                  <span>{copy.pages}</span>
-                </li>
                 <li>
                   <strong>{searchCities.length}</strong>
                   <span>{copy.cities}</span>
@@ -295,7 +293,6 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
                 labels={{
                   country: copy.country,
                   city: copy.city,
-                  month: copy.month,
                   submit: copy.submit,
                 }}
               />
@@ -309,9 +306,9 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
             <p className="eyebrow text-[var(--accent)]">{copy.featuredEyebrow}</p>
             <h2>{copy.featuredTitle}</h2>
           </div>
-          <div className="home-card-grid">
+          <div className="city-chip-grid">
             {featuredCards.map((card) => (
-              <HomeEditorialCard key={card.href} card={card} />
+              <CityChip key={card.href} card={card} />
             ))}
           </div>
         </section>
@@ -319,12 +316,12 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
         {/* ── UPCOMING MONTH ───────────────────────────────────── */}
         <section className="home-section">
           <div className="home-section-heading">
-            <p className="eyebrow text-[var(--accent)]">{copy.upcomingEyebrow}</p>
+            <p className="eyebrow text-[var(--accent-warm)]">{copy.upcomingEyebrow}</p>
             <h2>{copy.upcomingTitlePrefix} {upcomingMonthLabel}</h2>
           </div>
-          <div className="home-card-grid">
+          <div className="city-chip-grid">
             {upcomingCards.map((card) => (
-              <HomeEditorialCard key={card.href} card={card} />
+              <CityChip key={card.href} card={card} />
             ))}
           </div>
         </section>
@@ -334,28 +331,18 @@ export function LocalizedHomePage({ locale }: { locale: LocaleCode }) {
   );
 }
 
-function HomeEditorialCard({ card }: { card: HomeFeaturedRotatorItem }) {
+function CityChip({ card }: { card: HomeFeaturedRotatorItem }) {
   return (
-    <Link
-      href={card.href}
-      prefetch={false}
-      className={`home-trip-card lift flex flex-col justify-between gap-3 p-6 no-underline`}
-    >
-      <div>
-        <p className="eyebrow text-[var(--muted)] mb-2">{card.countryLabel}</p>
-        <h3 className="text-xl font-serif font-medium leading-tight text-[var(--foreground)]">
-          {card.title}
-        </h3>
-      </div>
-      <div className="flex items-center justify-between gap-2 pt-2 border-t border-[var(--border)]">
-        <span
-          className={`score-badge ${getScoreTicketToneClass(card.score)} inline-flex items-baseline gap-1.5 px-3 py-1 rounded-full text-sm`}
-        >
-          <strong className="font-serif font-medium">{card.score}</strong>
-          <span className="text-xs opacity-85">{card.scoreLabel}</span>
-        </span>
-        <span className="text-xs text-[var(--muted)] font-mono">{card.score >= 80 ? "→" : card.score >= 68 ? "→" : "→"}</span>
-      </div>
+    <Link href={card.href} prefetch={false} className="city-chip lift no-underline">
+      <span className="min-w-0">
+        <span className="city-chip-name">{card.title}</span>
+        <span className="city-chip-country">{card.countryLabel}</span>
+      </span>
+      <span
+        className={`score-badge ${getScoreTicketToneClass(card.score)} inline-flex shrink-0 items-baseline rounded-full px-2.5 py-1 text-sm font-serif font-medium`}
+      >
+        {card.score}
+      </span>
     </Link>
   );
 }
@@ -384,7 +371,7 @@ function buildHomeSearchCities(locale: LocaleCode): HomeSearchCity[] {
       );
       const samplePage = sortedPages[0];
       const months = sortedPages.map((page) => ({
-        href: buildLocalizedPagePath(page, locale),
+        href: buildCityMonthAnchorPath(page, locale),
         label: formatMonthLabel(page.month, locale),
         month: page.month,
         score: page.score,
@@ -394,6 +381,7 @@ function buildHomeSearchCities(locale: LocaleCode): HomeSearchCity[] {
         bestScore: Math.max(...months.map((month) => month.score)),
         cityName: getLocalizedDisplayCityName(samplePage, locale),
         citySlug: getCanonicalCitySlug(samplePage.citySlug, samplePage.cityName),
+        cityHref: buildCityPagePath(samplePage, locale),
         country: samplePage.country,
         countryLabel: formatCountryName(samplePage.country, locale),
         months,
@@ -423,7 +411,7 @@ function buildUpcomingRotatorItems(
       return {
         href: month.href,
         countryLabel: `${city.countryLabel} · ${month.label}`,
-        title: formatCityMonthLabel(city.cityName, month.month, locale),
+        title: city.cityName,
         score: month.score,
         scoreLabel: formatScoreLabel(month.score, locale),
       };
@@ -432,17 +420,36 @@ function buildUpcomingRotatorItems(
     .sort((left, right) => right.score - left.score);
 }
 
-function buildFeaturedRotatorItems(
-  pages: ReturnType<typeof getFeaturedPages>,
-  locale: LocaleCode,
-): HomeFeaturedRotatorItem[] {
-  return pages.map((page) => ({
-    href: buildLocalizedPagePath(page, locale),
-    countryLabel: formatCountryName(page.country, locale),
-    title: formatCityMonthLabel(getLocalizedDisplayCityName(page, locale), page.month, locale),
-    score: page.score,
-    scoreLabel: formatScoreLabel(page.score, locale),
-  }));
+function buildFeaturedCityCards(locale: LocaleCode): HomeFeaturedRotatorItem[] {
+  const bestByCity = new Map<
+    string,
+    NonNullable<ReturnType<typeof getPagePayload>>
+  >();
+
+  for (const page of pagePayloads) {
+    const localizedPage = getPagePayload(page.slug, locale);
+
+    if (!localizedPage) {
+      continue;
+    }
+
+    const existing = bestByCity.get(localizedPage.cityId);
+
+    if (!existing || localizedPage.score > existing.score) {
+      bestByCity.set(localizedPage.cityId, localizedPage);
+    }
+  }
+
+  return Array.from(bestByCity.values())
+    .sort((left, right) => right.score - left.score)
+    .slice(0, 8)
+    .map((page) => ({
+      href: buildCityPagePath(page, locale),
+      countryLabel: formatCountryName(page.country, locale),
+      title: getLocalizedDisplayCityName(page, locale),
+      score: page.score,
+      scoreLabel: formatScoreLabel(page.score, locale),
+    }));
 }
 
 function buildFeaturedRotatorGroups(items: HomeFeaturedRotatorItem[], groupCount: number) {

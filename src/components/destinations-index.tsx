@@ -23,6 +23,7 @@ import {
   serializeJsonLd,
 } from "@/lib/seo";
 import {
+  buildCityPagePath,
   buildLocalizedPagePath,
   getLocalizedDisplayCityName,
 } from "@/lib/page-routing";
@@ -39,6 +40,7 @@ type DestinationCity = {
   bestMonth: DestinationMonth;
   cityName: string;
   citySlug: string;
+  cityHref: string;
   country: string;
   countryLabel: string;
   months: DestinationMonth[];
@@ -185,8 +187,8 @@ export function DestinationsIndex({ locale }: { locale: LocaleCode }) {
                   <strong>{cityCount}</strong> {locale === "pl" ? "miast" : "cities"}
                 </li>
                 <li>
-                  <strong>{pagePayloads.length}</strong>{" "}
-                  {locale === "pl" ? "przewodnikow" : "guides"}
+                  <strong>{cityCount * 12}</strong>{" "}
+                  {locale === "pl" ? "miesięcy" : "months"}
                 </li>
               </ul>
               <p className="mt-3 max-w-2xl text-sm leading-6 text-[var(--muted)]">
@@ -371,6 +373,7 @@ function buildDestinationCities(locale: LocaleCode): DestinationCity[] {
         bestMonth,
         cityName: getLocalizedDisplayCityName(samplePage, locale),
         citySlug: getCanonicalCitySlug(samplePage.citySlug, samplePage.cityName),
+        cityHref: buildCityPagePath(samplePage, locale),
         country: samplePage.country,
         countryLabel: formatCountryName(samplePage.country, locale),
         months,
