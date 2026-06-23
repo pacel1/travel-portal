@@ -118,6 +118,12 @@ export default async function RootLayout({
           }}
         />
         <Script
+          id="umami-analytics"
+          src="https://umami-analytics-kohl-eta.vercel.app/script.js"
+          strategy="afterInteractive"
+          data-website-id="8c9c4333-729a-412d-83b9-155717797109"
+        />
+        <Script
           id="affiliate-program"
           strategy="beforeInteractive"
           nonce={undefined}
